@@ -29,11 +29,18 @@ def main():
 
     all_insights = []
 
+    import datetime
+
     for site in sites_config.get('sites', []):
         site_name = site.get('name')
         site_type = site.get('type', 'page')
-        start_url = site.get('url')
+        raw_url = site.get('url')
         max_urls = site.get('max_urls', 50)
+        
+        # Handle dynamic date formatting
+        # Support %Y, %m, %d placeholders
+        now = datetime.datetime.utcnow()
+        start_url = now.strftime(raw_url)
         
         target_urls = []
         
