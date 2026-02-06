@@ -32,6 +32,7 @@ jobs:
             --stack-name stock-data-analysis-prod \
             --capabilities CAPABILITY_IAM \
             --region us-east-1 \
+            --resolve-s3 \
             --parameter-overrides \
               ParameterKey=EmailSender,ParameterValue=${{ secrets.EMAIL_SENDER }} \
               ParameterKey=EmailPassword,ParameterValue=${{ secrets.EMAIL_PASSWORD }} \

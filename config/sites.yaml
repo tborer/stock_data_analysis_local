@@ -2,7 +2,7 @@ sites:
   - name: "BusinessWire"
     url: "https://www.businesswire.com/smaps/smaps-bw/smap-bw.xml"
     type: "sitemap"
-    max_urls: 400
+    max_urls: 10
     content_selector: "div.bw-release-story" # Guessed selector, user example was just URL.
     # User's example page: div.bw-release-story or similar is common on BusinessWire.
     # We can refine this selector later or scrape whole body.
