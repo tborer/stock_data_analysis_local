@@ -1,0 +1,41 @@
+# Check for python command
+$PythonCmd = "python"
+if (Get-Command py -ErrorAction SilentlyContinue) {
+    $PythonCmd = "py"
+} elseif (Get-Command python3 -ErrorAction SilentlyContinue) {
+    $PythonCmd = "python3"
+} elseif (!(Get-Command python -ErrorAction SilentlyContinue)) {
+    Write-Host "Python is not installed or not in PATH." -ForegroundColor Red
+    exit 1
+}
+
+Write-Host "Using Python command: $PythonCmd"
+
+# Check/Create venv
+$VenvDir = ".venv"
+if (!(Test-Path $VenvDir)) {
+    Write-Host "Creating virtual environment..."
+    & $PythonCmd -m venv $VenvDir
+}
+
+# Activate venv
+$VenvActivate = "$VenvDir\Scripts\Activate.ps1"
+if (Test-Path $VenvActivate) {
+    . $VenvActivate
+} else {
+    Write-Host "Could not find activation script at $VenvActivate" -ForegroundColor Red
+    exit 1
+}
+
+# Install requirements
+if (Test-Path "requirements.txt") {
+    Write-Host "Installing requirements..."
+    pip install -r requirements.txt | Out-Null
+}
+
+# Run Main Script
+Write-Host "Running Stock Data Aanalysis..."
+python main.py
+
+# Deactivate
+deactivate
