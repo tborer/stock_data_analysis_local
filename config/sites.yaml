@@ -1,0 +1,4 @@
+sites:
+  - name: "Example Test Site"
+    url: "https://example.com"
+    content_selector: "div"
