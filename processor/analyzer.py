@@ -41,7 +41,72 @@ class Analyzer:
 
     def _calculate_score(self, text):
         import math
+        import re
         
+        # 0. Clean Text
+        # Strip leading "++" or "+ " often found in scraped snippets
+        text = re.sub(r'^\++\s*', '', text)
+        
+        # 1. Metadata Extraction
+        ticker = None
+        exchange = None
+        company = None
+        
+        # Define patterns for ticker extraction
+        # Heuristic: Priority to explicit exchanges, then generic parens
+        exchange_patterns = [
+            (r'(?:NYSE|New York Stock Exchange)\s*:\s*([A-Z]+)', 'NYSE'),
+            (r'(?:NASDAQ|Nasdaq)\s*:\s*([A-Z]+)', 'NASDAQ'),
+            (r'(?:TSX|Toronto Stock Exchange)\s*:\s*([A-Z]+)', 'TSX'),
+            (r'(?:LSE|London Stock Exchange|LN)\s*:\s*([A-Z]+)', 'LN'),
+            (r'(?:SIX)\s*:\s*([A-Z]+)', 'SIX'), # Added from user example "SIX: RO"
+            (r'\(([A-Z]{3,5})\)', 'NA') # Generic Fallback
+        ]
+        
+        for pattern_str, ex_name in exchange_patterns:
+            pattern = re.compile(pattern_str)
+            match = pattern.search(text)
+            if match:
+                ticker = match.group(1).strip()
+                exchange = ex_name
+                
+                # Attempt to extract Company Name
+                # Look at the text immediately preceding the match start
+                # We want consecutive capitalized words.
+                match_start = match.start()
+                preceding_text = text[:match_start].strip()
+                
+                # Split by non-word chars (keeping spaces) to analyze words
+                # Working backwards:
+                words = preceding_text.split()
+                company_words = []
+                for w in reversed(words):
+                    # Clean punctuation first
+                    clean_w = w.strip("(),.")
+                    
+                    if not clean_w:
+                        continue
+
+                    # Check if word starts with uppercase (and isn't just a tiny stop word if we want to be strict, but mainly check Case)
+                    if clean_w[0].isupper():
+                        # If we have existing words and this is a Capitalized word, add it
+                        company_words.insert(0, clean_w)
+                    elif clean_w.lower() in ['inc', 'ltd', 'corp', 'group', 'holdings'] and not company_words:
+                         # Allow these suffix words even if lowercase in some sloppy text, but usually they are Cap.
+                         pass 
+                    else:
+                        # Stop if we hit a lowercase word (likely "announced", "that", "the")
+                        # Exception: "of" in "Bank of America"
+                        if clean_w.lower() == 'of' and company_words:
+                            company_words.insert(0, w) # keep original w for "of"
+                            continue
+                        break
+                
+                if company_words:
+                    company = " ".join(company_words)
+                
+                break
+
         # 1. VaderSentiment analysis (General Tone)
         sentiment_scores = self.sia.polarity_scores(text)
         vader_score = sentiment_scores['compound']  # -1.0 to 1.0
@@ -122,6 +187,17 @@ class Analyzer:
         
         logging.info(f"Raw Keyword: {raw_keyword_score}, Norm Keyword: {keyword_norm}, Combined: {combined_score}, Final: {final_score}")
 
+        # Prepare info string
+        info_str = ""
+        if ticker:
+            info_str = f" [{exchange}: {ticker}]"
+            if company:
+                info_str = f" [{company} ({exchange}: {ticker})]"
+        
+        snippet = text[:200] + "..." if len(text) > 200 else text
+        if info_str:
+            snippet += info_str
+
         return {
             'likelihood_score': round(final_score, 2),
             'sentiment_score': round(vader_score, 2),
@@ -129,8 +205,11 @@ class Analyzer:
             'negative_matches': len(neg_matches),
             'match_details': f"Pos: {pos_matches}, Neg: {neg_matches}",
             'company_text': text,
-            'full_text': f"Score: {final_score:.1f} - {text}",
-            'snippet': text[:200] + "..." if len(text) > 200 else text
+            'full_text': f"Score: {final_score:.1f} - {text}{info_str}",
+            'snippet': snippet,
+            'ticker': ticker,
+            'exchange': exchange,
+            'company': company
         }
 
     def analyze(self, texts):
