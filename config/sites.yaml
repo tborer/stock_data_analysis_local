@@ -2,7 +2,7 @@ sites:
   - name: "BusinessWire"
     url: "https://bw-prod-sitemap.s3.us-east-1.amazonaws.com/webdmz1.vaprod.businesswire.com/home/%Y-%m-%d.xml.gz"
     type: "sitemap"
-    max_urls: 100
+    max_urls: 25
     max_chars: 3500
     include_filters:
       - "/en/"
@@ -11,7 +11,7 @@ sites:
   - name: "StockWatch"
     url: "https://www.stockwatch.com/News/Search?hours=24&region=U"
     type: "page"
-    max_urls: 100
+    max_urls: 25
     max_chars: 3500
     include_filters:
       - "/News/Item/U-"
@@ -20,7 +20,7 @@ sites:
   - name: "SeekingAlpha"
     url: "https://seekingalpha.com/market-news"
     type: "page"
-    max_urls: 100
+    max_urls: 5
     max_chars: 5000
     include_filters:
       - "/news/"
