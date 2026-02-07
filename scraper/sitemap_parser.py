@@ -72,10 +72,16 @@ class SitemapParser:
             
         return urls
 
-    def get_article_urls(self, start_url, max_urls=400):
+    def get_article_urls(self, start_url, max_urls=400, include_filters=None):
         """
         Recursively finds article URLs starting from a sitemap index.
         Breadth-first search to find content quickly.
+        
+        Args:
+            start_url (str): The URL of the sitemap to start with.
+            max_urls (int): Maximum number of article URLs to return.
+            include_filters (list): List of strings. If provided, only URLs containing
+                                    at least one of these strings will be included.
         """
         article_urls = []
         to_visit = [start_url]
@@ -103,6 +109,12 @@ class SitemapParser:
                     if item['url'] not in visited:
                         to_visit.append(item['url'])
                 else:
+                    # Apply filters if any
+                    if include_filters:
+                        # Check if URL contains any of the required substrings
+                        if not any(f in item['url'] for f in include_filters):
+                            continue
+                            
                     article_urls.append(item['url'])
         
         return article_urls[:max_urls]

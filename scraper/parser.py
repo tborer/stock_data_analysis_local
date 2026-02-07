@@ -21,3 +21,33 @@ class Parser:
     def extract_links(self, soup, base_url):
         # Placeholder for sitemap or link extraction logic
         pass
+
+    def format_for_analysis(self, text, url, max_chars=3000):
+        if not text:
+            return None
+            
+        cleaned_text = ' '.join(text.split())
+        encapsulated_text = f"++{{{url}}} {cleaned_text}++,"
+        
+        # Truncate text if it exceeds max chars
+        if len(encapsulated_text) > max_chars:
+            encapsulated_text = encapsulated_text[:max_chars]
+        
+        # Ensure text ends with "++,"
+        if not encapsulated_text.endswith("++,"):
+            encapsulated_text += "++,"
+        
+        # Remove extra "++,)" if doubled - legacy code check
+        if encapsulated_text.endswith("++,++,"):
+            encapsulated_text = encapsulated_text[:-4]   
+        
+        # Strip unwanted special characters at the end of the text
+        special_chars = ['\n']
+        while encapsulated_text[-1] in special_chars:
+            encapsulated_text = encapsulated_text[:-1]
+        
+        # Append ending characters if missing
+        if not encapsulated_text.endswith("++,"):
+            encapsulated_text += "++,"
+            
+        return encapsulated_text

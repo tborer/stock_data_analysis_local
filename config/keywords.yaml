@@ -1,0 +1,299 @@
+positive_keywords:
+  - name: "Growth"
+    weight: 0.8
+  - name: "Increase in revenue"
+    weight: 0.9
+  - name: "Expansion into new markets"
+    weight: 0.9
+  - name: "Strong demand"
+    weight: 0.7
+  - name: "Positive outlook"
+    weight: 0.6
+  - name: "Increased guidance"
+    weight: 0.8
+  - name: "Beats expectations"
+    weight: 0.9
+  - name: "Exceeds forecasts"
+    weight: 0.9
+  - name: "Strong leadership"
+    weight: 0.7
+  - name: "Innovation"
+    weight: 0.8
+  - name: "Progress"
+    weight: 0.6
+  - name: "Achievement"
+    weight: 0.7
+  - name: "Outperform"
+    weight: 0.8
+  - name: "Upswing"
+    weight: 0.7
+  - name: "Recovery"
+    weight: 0.6
+  - name: "Strength"
+    weight: 0.7
+  - name: "Momentum"
+    weight: 0.8
+  - name: "Optimistic"
+    weight: 0.6
+  - name: "Confidence"
+    weight: 0.7
+  - name: "Success"
+    weight: 0.8
+  - name: "Record high"
+    weight: 0.9
+  - name: "All-time high"
+    weight: 0.9
+  - name: "Surge in sales"
+    weight: 0.9
+  - name: "Jump in profits"
+    weight: 0.9
+  - name: "Increase in earnings"
+    weight: 0.8
+  - name: "Strong financials"
+    weight: 0.8
+  - name: "Robust growth"
+    weight: 0.9
+  - name: "Favorable trends"
+    weight: 0.7
+  - name: "Bullish sentiment"
+    weight: 0.8
+  - name: "New Product"
+    weight: 0.7
+  - name: "Product Launch"
+    weight: 0.8
+  - name: "Higher than expected"
+    weight: 0.7
+  - name: "Revenue growth acceleration"
+    weight: 0.9
+  - name: "Expanding customer base"
+    weight: 0.8
+  - name: "Increasing market share"
+    weight: 0.8
+  - name: "Backlog of orders"
+    weight: 0.7
+  - name: "Growing demand"
+    weight: 0.7
+  - name: "Positive earnings surprise"
+    weight: 0.9
+  - name: "Upward revision in guidance"
+    weight: 0.8
+  - name: "Beating analyst estimates"
+    weight: 0.9
+  - name: "Exceeding industry expectations"
+    weight: 0.9
+  - name: "Leadership team expansion"
+    weight: 0.7
+  - name: "Strategic partnerships"
+    weight: 0.8
+  - name: "Innovative products"
+    weight: 0.8
+  - name: "Patent approval"
+    weight: 0.7
+  - name: "Regulatory approval"
+    weight: 0.7
+  - name: "Product upgrades"
+    weight: 0.6
+  - name: "Service expansions"
+    weight: 0.7
+  - name: "Geographic expansion"
+    weight: 0.8
+  - name: "Entry into new industries"
+    weight: 0.8
+  - name: "Diversification of revenue streams"
+    weight: 0.8
+  - name: "Cost savings initiatives"
+    weight: 0.6
+  - name: "Operational efficiency improvements"
+    weight: 0.6
+  - name: "Margin expansion"
+    weight: 0.7
+  - name: "Return on investment (ROI) growth"
+    weight: 0.8
+  - name: "Cash flow growth"
+    weight: 0.8
+  - name: "Debt reduction"
+    weight: 0.7
+  - name: "Share buybacks"
+    weight: 0.6
+  - name: "Dividend increases"
+    weight: 0.7
+  - name: "Analyst upgrades"
+    weight: 0.8
+  - name: "Price target increases"
+    weight: 0.8
+  - name: "Institutional investment"
+    weight: 0.8
+  - name: "Insider buying"
+    weight: 0.7
+  - name: "Short squeeze"
+    weight: 0.6
+  - name: "Trend reversal"
+    weight: 0.7
+  - name: "Relative strength index (RSI) improvement"
+    weight: 0.7
+  - name: "Moving average convergence divergence (MACD) crossover"
+    weight: 0.7
+  - name: "Bullish chart patterns"
+    weight: 0.7
+  - name: "Sector outperformance"
+    weight: 0.8
+  - name: "Industry recognition"
+    weight: 0.7
+  - name: "Awards and accolades"
+    weight: 0.6
+  - name: "Thought leadership"
+    weight: 0.7
+  - name: "Partnership announcements"
+    weight: 0.7
+  - name: "Joint ventures"
+    weight: 0.7
+  - name: "Licensing agreements"
+    weight: 0.6
+  - name: "Distribution deals"
+    weight: 0.6
+
+negative_keywords:
+  - name: "Decline"
+    weight: 0.8
+  - name: "Loss"
+    weight: 0.9
+  - name: "Weakness"
+    weight: 0.8
+  - name: "Decrease in revenue"
+    weight: 0.8
+  - name: "Downsize"
+    weight: 0.7
+  - name: "Layoffs"
+    weight: 0.8
+  - name: "Negative outlook"
+    weight: 0.7
+  - name: "Decreased guidance"
+    weight: 0.8
+  - name: "Misses expectations"
+    weight: 0.9
+  - name: "Disappoints forecasts"
+    weight: 0.9
+  - name: "Poor leadership"
+    weight: 0.7
+  - name: "Setback"
+    weight: 0.6
+  - name: "Pullback"
+    weight: 0.6
+  - name: "Correction"
+    weight: 0.6
+  - name: "Downgrade"
+    weight: 0.7
+  - name: "Selloff"
+    weight: 0.8
+  - name: "Plummet"
+    weight: 0.9
+  - name: "Collapse"
+    weight: 0.9
+  - name: "Bankruptcy"
+    weight: 0.9
+  - name: "Record low"
+    weight: 0.9
+  - name: "All-time low"
+    weight: 0.9
+  - name: "Slump in sales"
+    weight: 0.9
+  - name: "Dip in profits"
+    weight: 0.8
+  - name: "Decrease in earnings"
+    weight: 0.8
+  - name: "Weak financials"
+    weight: 0.8
+  - name: "Slow growth"
+    weight: 0.6
+  - name: "Unfavorable trends"
+    weight: 0.7
+  - name: "Bearish sentiment"
+    weight: 0.8
+  - name: "Market downturn"
+    weight: 0.8
+  - name: "Revenue decline acceleration"
+    weight: 0.9
+  - name: "Contracting customer base"
+    weight: 0.8
+  - name: "Loss of market share"
+    weight: 0.8
+  - name: "Weak order book"
+    weight: 0.7
+  - name: "Cancellation of orders"
+    weight: 0.8
+  - name: "Decreasing demand"
+    weight: 0.7
+  - name: "Negative earnings surprise"
+    weight: 0.9
+  - name: "Downward revision in guidance"
+    weight: 0.8
+  - name: "Missing analyst estimates"
+    weight: 0.9
+  - name: "Falling short of industry expectations"
+    weight: 0.9
+  - name: "Leadership team departures"
+    weight: 0.7
+  - name: "Strategic partnership terminations"
+    weight: 0.8
+  - name: "Product recalls"
+    weight: 0.8
+  - name: "Regulatory issues"
+    weight: 0.8
+  - name: "Litigation risks"
+    weight: 0.8
+  - name: "Compliance concerns"
+    weight: 0.7
+  - name: "Operational inefficiencies"
+    weight: 0.6
+  - name: "Margin compression"
+    weight: 0.7
+  - name: "Return on investment (ROI) decline"
+    weight: 0.8
+  - name: "Cash flow decrease"
+    weight: 0.8
+  - name: "Debt increase"
+    weight: 0.7
+  - name: "Share dilution"
+    weight: 0.6
+  - name: "Dividend cuts"
+    weight: 0.7
+  - name: "Analyst downgrades"
+    weight: 0.8
+  - name: "Price target decreases"
+    weight: 0.8
+  - name: "Institutional selling"
+    weight: 0.8
+  - name: "Insider selling"
+    weight: 0.7
+  - name: "Short interest increase"
+    weight: 0.6
+  - name: "Trend reversal to the downside"
+    weight: 0.8
+  - name: "Relative strength index (RSI) deterioration"
+    weight: 0.7
+  - name: "Moving average convergence divergence (MACD) crossover to the downside"
+    weight: 0.7
+  - name: "Bearish chart patterns"
+    weight: 0.7
+  - name: "Sector underperformance"
+    weight: 0.8
+  - name: "Industry decline"
+    weight: 0.7
+  - name: "Reputation damage"
+    weight: 0.8
+  - name: "Public relations crisis"
+    weight: 0.8
+  - name: "Executive scandals"
+    weight: 0.8
+  - name: "Workforce reductions"
+    weight: 0.7
+  - name: "Facility closures"
+    weight: 0.7
+  - name: "Discontinued operations"
+    weight: 0.7
+  - name: "Impairment charges"
+    weight: 0.7
+  - name: "Restructuring costs"
+    weight: 0.6
+  - name: "Asset write-downs"
+    weight: 0.7

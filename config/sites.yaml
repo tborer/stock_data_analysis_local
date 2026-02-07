@@ -3,6 +3,9 @@ sites:
     url: "https://bw-prod-sitemap.s3.us-east-1.amazonaws.com/webdmz1.vaprod.businesswire.com/home/%Y-%m-%d.xml.gz"
     type: "sitemap"
     max_urls: 10
+    max_chars: 3000
+    include_filters:
+      - "/en/"
     content_selector: "div.bw-release-story" # Guessed selector, user example was just URL.
     # User's example page: div.bw-release-story or similar is common on BusinessWire.
     # We can refine this selector later or scrape whole body.

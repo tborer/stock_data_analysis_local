@@ -23,7 +23,11 @@ class Fetcher:
 
     def fetch(self, url):
         try:
-            response = self.session.get(url, headers=self.headers, timeout=10)
+            # Encode URL to handle special characters as per legacy code
+            import urllib.parse
+            encoded_url = urllib.parse.quote(url, safe=':/?=&')
+            
+            response = self.session.get(encoded_url, headers=self.headers, timeout=10)
             response.raise_for_status()
             return response.text
         except requests.RequestException as e:

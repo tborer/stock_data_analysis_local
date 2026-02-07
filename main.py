@@ -46,7 +46,8 @@ def main():
         
         if site_type == 'sitemap':
             print(f"Fetching URLs from sitemap: {start_url}")
-            target_urls = sitemap_parser.get_article_urls(start_url, max_urls=max_urls)
+            include_filters = site.get('include_filters', [])
+            target_urls = sitemap_parser.get_article_urls(start_url, max_urls=max_urls, include_filters=include_filters)
         else:
             target_urls = [start_url]
             
@@ -66,8 +67,10 @@ def main():
                 selector = site.get('content_selector') or 'p' 
                 text = parser.extract_text(soup, selector)
                 
-                # Split large text or just pass whole
-                texts_to_analyze = [t.strip() for t in text.split('\n') if len(t.strip()) > 50]
+                # Format text using legacy encapsulation
+                max_chars = site.get('max_chars', 3000)
+                formatted_text = parser.format_for_analysis(text, url, max_chars=max_chars)
+                texts_to_analyze = [formatted_text] if formatted_text else []
                 
                 if texts_to_analyze:
                     insights = analyzer.analyze(texts_to_analyze)
