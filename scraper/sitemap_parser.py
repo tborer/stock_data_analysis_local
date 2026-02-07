@@ -30,6 +30,12 @@ class SitemapParser:
                     return response.content
             
             return response.content
+        except requests.exceptions.HTTPError as e:
+            if e.response.status_code in [403, 404]:
+                logging.warning(f"Sitemap not found or accessible ({e.response.status_code}): {url}")
+            else:
+                logging.error(f"HTTP Error fetching sitemap {url}: {e}")
+            return None
         except Exception as e:
             logging.error(f"Error fetching sitemap {url}: {e}")
             return None

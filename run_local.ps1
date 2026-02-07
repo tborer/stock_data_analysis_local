@@ -14,7 +14,21 @@ elseif (!(Get-Command python -ErrorAction SilentlyContinue)) {
 Write-Host "Using Python command: $PythonCmd"
 
 # Check/Create venv
+# Check/Create venv
 $VenvDir = ".venv"
+
+if (Test-Path $VenvDir) {
+    # Check if we have Windows structure
+    if (!(Test-Path "$VenvDir\Scripts\activate") -and !(Test-Path "$VenvDir/bin/activate")) {
+        # This one is trickier cross platform as path separators differ
+        # But for Windows execution, if Scripts is missing but bin exists, it's likely Linux venv
+        if (Test-Path "$VenvDir/bin/activate") {
+            Write-Host "Detected incompatible virtual environment (likely from Linux). Recreating..."
+            Remove-Item -Recurse -Force $VenvDir
+        }
+    }
+}
+
 if (!(Test-Path $VenvDir)) {
     Write-Host "Creating virtual environment..."
     & $PythonCmd -m venv $VenvDir

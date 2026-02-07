@@ -14,6 +14,12 @@ echo "Using Python command: $PYTHON_CMD"
 
 # Check/Create venv
 VENV_DIR=".venv"
+
+if [ -d "$VENV_DIR" ] && [ ! -f "$VENV_DIR/bin/activate" ]; then
+    echo "Detected incompatible virtual environment (likely from Windows). Recreating..."
+    rm -rf "$VENV_DIR"
+fi
+
 if [ ! -d "$VENV_DIR" ]; then
     echo "Creating virtual environment..."
     $PYTHON_CMD -m venv "$VENV_DIR"
