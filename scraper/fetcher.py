@@ -1,18 +1,31 @@
-import requests
 import time
 import random
-from requests.adapters import HTTPAdapter
-from urllib3.util.retry import Retry
 import urllib.parse
+
+try:
+    from curl_cffi import requests as curl_requests
+    HAS_CURL_CFFI = True
+except ImportError:
+    import requests
+    from requests.adapters import HTTPAdapter
+    from urllib3.util.retry import Retry
+    HAS_CURL_CFFI = False
 
 class Fetcher:
     def __init__(self):
-        self.session = requests.Session()
-        retries = Retry(total=3, backoff_factor=1, status_forcelist=[500, 502, 503, 504])
-        self.session.mount('http://', HTTPAdapter(max_retries=retries))
-        self.session.mount('https://', HTTPAdapter(max_retries=retries))
+        if HAS_CURL_CFFI:
+            # curl_cffi impersonates a real Chrome TLS fingerprint,
+            # bypassing WAF bot detection that blocks Python requests.
+            self.session = curl_requests.Session(impersonate="chrome")
+        else:
+            print("Warning: curl_cffi not installed. Using requests (may get 403 from protected sites).")
+            print("Install with: pip install curl_cffi")
+            self.session = requests.Session()
+            retries = Retry(total=3, backoff_factor=1, status_forcelist=[500, 502, 503, 504])
+            self.session.mount('http://', HTTPAdapter(max_retries=retries))
+            self.session.mount('https://', HTTPAdapter(max_retries=retries))
+
         self.headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
             'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
             'Accept-Language': 'en-US,en;q=0.9',
             'Accept-Encoding': 'gzip, deflate, br',
@@ -22,9 +35,6 @@ class Fetcher:
             'Sec-Fetch-Mode': 'navigate',
             'Sec-Fetch-Site': 'none',
             'Sec-Fetch-User': '?1',
-            'Sec-Ch-Ua': '"Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"',
-            'Sec-Ch-Ua-Mobile': '?0',
-            'Sec-Ch-Ua-Platform': '"Windows"',
             'Cache-Control': 'max-age=0'
         }
         self._primed_domains = set()
@@ -45,7 +55,7 @@ class Fetcher:
             return root_url
 
         try:
-            self.session.get(root_url, headers=self.headers, timeout=10)
+            self.session.get(root_url, headers=self.headers, timeout=15)
             self._primed_domains.add(root_url)
             print(f"Primed session for: {root_url}")
         except Exception as e:
@@ -58,7 +68,18 @@ class Fetcher:
         delay = random.uniform(1.0, 3.0)
         time.sleep(delay)
 
+    def fetch_raw(self, url, timeout=15):
+        """Fetch URL and return the raw response object (for sitemap binary content)."""
+        try:
+            response = self.session.get(url, headers=self.headers, timeout=timeout)
+            response.raise_for_status()
+            return response
+        except Exception as e:
+            print(f"Error fetching raw {url}: {e}")
+            return None
+
     def fetch(self, url):
+        """Fetch URL and return response text, with HTTPS upgrade, session priming, and 403 retry."""
         try:
             url = self._ensure_https(url)
             encoded_url = urllib.parse.quote(url, safe=':/?=&')
@@ -91,6 +112,6 @@ class Fetcher:
             response.raise_for_status()
             self._add_delay()
             return response.text
-        except requests.RequestException as e:
+        except Exception as e:
             print(f"Error fetching {url}: {e}")
             return None
