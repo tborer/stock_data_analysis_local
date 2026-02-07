@@ -24,8 +24,11 @@ class Emailer:
 
             msg.attach(MIMEText(body, 'html'))
 
-            server = smtplib.SMTP(self.smtp_server, self.smtp_port)
-            server.starttls()
+            if int(self.smtp_port) == 465:
+                server = smtplib.SMTP_SSL(self.smtp_server, self.smtp_port)
+            else:
+                server = smtplib.SMTP(self.smtp_server, self.smtp_port)
+                server.starttls()
             server.login(self.sender, self.password)
             text = msg.as_string()
             server.sendmail(self.sender, self.recipient, text)

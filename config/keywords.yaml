@@ -152,6 +152,37 @@ positive_keywords:
   - name: "Distribution deals"
     weight: 0.6
 
+  - name: "Restructuring complete"
+    weight: 0.8
+  - name: "Acquisition"
+    weight: 0.8
+  - name: "Merger"
+    weight: 0.8
+  - name: "Takeover"
+    weight: 0.8
+  - name: "Spin-off"
+    weight: 0.7
+  - name: "Buyout offer"
+    weight: 0.9
+  - name: "FDA approval"
+    weight: 1.0
+  - name: "Phase 3 success"
+    weight: 0.9
+  - name: "Clinical trial positive"
+    weight: 0.8
+  - name: "Fast track designation"
+    weight: 0.8
+  - name: "Settlement reached"
+    weight: 0.7
+  - name: "Lawsuit dismissed"
+    weight: 0.8
+  - name: "Special dividend"
+    weight: 0.9
+  - name: "Contract win"
+    weight: 0.8
+  - name: "Awarded contract"
+    weight: 0.8
+
 negative_keywords:
   - name: "Decline"
     weight: 0.8
@@ -188,9 +219,9 @@ negative_keywords:
   - name: "Plummet"
     weight: 0.9
   - name: "Collapse"
-    weight: 0.9
+    weight: 1.0
   - name: "Bankruptcy"
-    weight: 0.9
+    weight: 1.0
   - name: "Record low"
     weight: 0.9
   - name: "All-time low"
@@ -296,4 +327,38 @@ negative_keywords:
   - name: "Restructuring costs"
     weight: 0.6
   - name: "Asset write-downs"
+    weight: 0.7
+  - name: "SEC investigation"
+    weight: 1.0
+  - name: "Fraud allegation"
+    weight: 1.0
+  - name: "Subpoena"
+    weight: 0.9
+  - name: "Auditor resignation"
+    weight: 1.0
+  - name: "Material weakness"
+    weight: 0.9
+  - name: "Regulatory fine"
+    weight: 0.8
+  - name: "Patent infringement lawsuit"
+    weight: 0.8
+  - name: "Accounting irregularities"
+    weight: 1.0
+  - name: "Default on debt"
+    weight: 1.0
+  - name: "Insolvency"
+    weight: 1.0
+  - name: "Going concern warning"
+    weight: 0.9
+  - name: "Missed payment"
+    weight: 0.9
+  - name: "Credit rating downgrade"
+    weight: 0.8
+  - name: "Hostile takeover"
+    weight: 0.6
+  - name: "Delisting notice"
+    weight: 1.0
+  - name: "Reverse split"
+    weight: 0.7
+  - name: "Offering of common stock"
     weight: 0.7

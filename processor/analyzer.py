@@ -40,41 +40,96 @@ class Analyzer:
             logging.error(f"Error loading keywords config: {e}")
 
     def _calculate_score(self, text):
-        # VaderSentiment analysis
+        import math
+        
+        # 1. VaderSentiment analysis (General Tone)
         sentiment_scores = self.sia.polarity_scores(text)
-        sentiment_score = sentiment_scores['compound']
-        logging.info(f"Sentiment score: {sentiment_score}")
+        vader_score = sentiment_scores['compound']  # -1.0 to 1.0
+        logging.info(f"VADER Score: {vader_score}")
         
-        # Weighted keyword matching
-        positive_matches = sum(text.count(keyword) * self.positive_weights.get(keyword, 0) for keyword in self.positive_keywords)
-        logging.info(f"Positive matches: {positive_matches}")
+        # 2. Keyword Matching with enhancements
+        text_lower = text.lower()
+        headline_limit = 150 # First 150 chars treated as headline
+        headline_text = text_lower[:headline_limit]
+        body_text = text_lower[headline_limit:]
         
-        negative_matches = sum(text.count(keyword) * self.negative_weights.get(keyword, 0) for keyword in self.negative_keywords)
-        logging.info(f"Negative matches: {negative_matches}")
+        negation_words = {"not", "no", "never", "unlikely", "refuse", "deny", "denied", "reject", "rejected"}
         
-        # Combine sentiment score and keyword matching
-        denominator = positive_matches + negative_matches + 1
-        logging.info(f"Denominator: {denominator}")
-        
-        likelihood_score = 0
-        if denominator != 0:
-            # Formula: (sentiment_score + (positive_matches - negative_matches) / denominator) / 2 * 100
-            likelihood_score = (sentiment_score + (positive_matches - negative_matches) / denominator) / 2 * 100
-        else:
-            logging.warning("Denominator is zero!")
+        def calculate_keyword_impact(keywords, weights, is_positive):
+            total_impact = 0.0
+            found_matches = []
             
-        logging.info(f"Likelihood score: {likelihood_score}")
+            for keyword in keywords:
+                keyword_lower = keyword.lower()
+                # Simple check first for performance
+                if keyword_lower not in text_lower:
+                    continue
+                    
+                # Find all occurrences to check context
+                start = 0
+                while True:
+                    idx = text_lower.find(keyword_lower, start)
+                    if idx == -1:
+                        break
+                        
+                    # Context Check: Look at 3-5 words before the keyword for negation
+                    # Extract preceding text snippet (up to 30 chars approx)
+                    context_start = max(0, idx - 30)
+                    preceding_text = text_lower[context_start:idx]
+                    preceding_words = set(preceding_text.split()[-3:]) # Last 3 words
+                    
+                    is_negated = bool(preceding_words & negation_words)
+                    
+                    weight = weights.get(keyword, 0)
+                    
+                    # Headline Multiplier
+                    if idx < headline_limit:
+                        weight *= 2.0
+                        
+                    # Negation Logic
+                    if is_negated:
+                        # Flip impact: Postive -> Negative, Negative -> Positive
+                        # Reduce weight slightly as negated sentiment is often softer
+                        weight *= -0.8 
+                    
+                    total_impact += weight
+                    found_matches.append(f"{keyword}{'(H)' if idx < headline_limit else ''}{'(NEG)' if is_negated else ''}")
+                    
+                    start = idx + len(keyword_lower)
+            
+            return total_impact, found_matches
+
+        pos_impact, pos_matches = calculate_keyword_impact(self.positive_keywords, self.positive_weights, True)
+        neg_impact, neg_matches = calculate_keyword_impact(self.negative_keywords, self.negative_weights, False)
         
-        if likelihood_score == 0:
-            logging.info("Likelihood score is zero!")
+        logging.info(f"Positive Matches: {pos_matches}, Impact: {pos_impact}")
+        logging.info(f"Negative Matches: {neg_matches}, Impact: {neg_impact}")
         
+        # Net Keyword Score
+        raw_keyword_score = pos_impact - neg_impact
+        
+        # Normalize Keyword Score using tanh to squeeze into -1.0 to 1.0
+        # Scaling factor: assuming ~5.0 is a "strong" score (e.g., 5 keywords w/ weight 1.0)
+        keyword_norm = math.tanh(raw_keyword_score / 3.0) 
+        
+        # 3. Final Combined Score
+        # Formula: 30% VADER, 70% Keywords
+        combined_score = (0.3 * vader_score) + (0.7 * keyword_norm)
+        
+        # Map -1.0..1.0 to 0..100
+        # -1 -> 0 (Bearish), 0 -> 50 (Neutral), 1 -> 100 (Bullish)
+        final_score = (combined_score + 1) * 50
+        
+        logging.info(f"Raw Keyword: {raw_keyword_score}, Norm Keyword: {keyword_norm}, Combined: {combined_score}, Final: {final_score}")
+
         return {
-            'likelihood_score': likelihood_score,
-            'positive_matches': positive_matches,
-            'negative_matches': negative_matches,
-            'sentiment_score': sentiment_score,
+            'likelihood_score': round(final_score, 2),
+            'sentiment_score': round(vader_score, 2),
+            'positive_matches': len(pos_matches),
+            'negative_matches': len(neg_matches),
+            'match_details': f"Pos: {pos_matches}, Neg: {neg_matches}",
             'company_text': text,
-            'full_text': f"Score: {likelihood_score} - {text}",
+            'full_text': f"Score: {final_score:.1f} - {text}",
             'snippet': text[:200] + "..." if len(text) > 200 else text
         }
 
