@@ -1,41 +1,26 @@
-import requests
 import gzip
-import io
 import xml.etree.ElementTree as ET
-from urllib.parse import urlparse
 import logging
 
 class SitemapParser:
     def __init__(self, fetcher):
         self.fetcher = fetcher
         self.max_depth = 3 # Avoid infinite loops
-    
+
     def fetch_content(self, url):
-        """Fetches URL content, handling GZIP decompression automatically if needed."""
+        """Fetches URL content via the shared Fetcher session, handling GZIP decompression."""
         try:
-            # fetcher.fetch returns text, but for GZIP we might need raw bytes.
-            # Let's use requests directly here or modify fetcher to return response object.
-            # For simplicity, using requests directly for XML/GZIP fetching as fetcher.fetch returns response.text
-            # which might already decode GZIP if Content-Encoding header is set.
-            # However, sitemaps often end in .gz and might not have correct headers from some providers.
-            
-            response = requests.get(url, headers=self.fetcher.headers, timeout=10)
-            response.raise_for_status()
-            
+            response = self.fetcher.fetch_raw(url)
+            if response is None:
+                return None
+
             if url.endswith('.gz'):
                 try:
                     return gzip.decompress(response.content)
                 except OSError:
-                    # Maybe it wasn't actually gzipped or auto-decoded
                     return response.content
-            
+
             return response.content
-        except requests.exceptions.HTTPError as e:
-            if e.response.status_code in [403, 404]:
-                logging.warning(f"Sitemap not found or accessible ({e.response.status_code}): {url}")
-            else:
-                logging.error(f"HTTP Error fetching sitemap {url}: {e}")
-            return None
         except Exception as e:
             logging.error(f"Error fetching sitemap {url}: {e}")
             return None
