@@ -43,23 +43,38 @@ class Analyzer:
         # VaderSentiment analysis
         sentiment_scores = self.sia.polarity_scores(text)
         sentiment_score = sentiment_scores['compound']
+        logging.info(f"Sentiment score: {sentiment_score}")
         
         # Weighted keyword matching
         positive_matches = sum(text.count(keyword) * self.positive_weights.get(keyword, 0) for keyword in self.positive_keywords)
+        logging.info(f"Positive matches: {positive_matches}")
         
         negative_matches = sum(text.count(keyword) * self.negative_weights.get(keyword, 0) for keyword in self.negative_keywords)
+        logging.info(f"Negative matches: {negative_matches}")
         
         # Combine sentiment score and keyword matching
         denominator = positive_matches + negative_matches + 1
+        logging.info(f"Denominator: {denominator}")
         
-        # Formula: (sentiment_score + (positive_matches - negative_matches) / denominator) / 2 * 100
-        likelihood_score = (sentiment_score + (positive_matches - negative_matches) / denominator) / 2 * 100
+        likelihood_score = 0
+        if denominator != 0:
+            # Formula: (sentiment_score + (positive_matches - negative_matches) / denominator) / 2 * 100
+            likelihood_score = (sentiment_score + (positive_matches - negative_matches) / denominator) / 2 * 100
+        else:
+            logging.warning("Denominator is zero!")
+            
+        logging.info(f"Likelihood score: {likelihood_score}")
+        
+        if likelihood_score == 0:
+            logging.info("Likelihood score is zero!")
         
         return {
             'likelihood_score': likelihood_score,
             'positive_matches': positive_matches,
             'negative_matches': negative_matches,
             'sentiment_score': sentiment_score,
+            'company_text': text,
+            'full_text': f"Score: {likelihood_score} - {text}",
             'snippet': text[:200] + "..." if len(text) > 200 else text
         }
 

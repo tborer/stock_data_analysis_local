@@ -28,6 +28,30 @@ class Fetcher:
             encoded_url = urllib.parse.quote(url, safe=':/?=&')
             
             response = self.session.get(encoded_url, headers=self.headers, timeout=10)
+            
+            # Check for 403 and try to prime session
+            if response.status_code == 403:
+                print(f"Received 403 for {url}. Attempting to prime session...")
+                
+                # Extract root domain
+                parsed_url = urllib.parse.urlparse(url)
+                root_url = f"{parsed_url.scheme}://{parsed_url.netloc}"
+                
+                # Visit root domain to get cookies
+                try:
+                    self.session.get(root_url, headers=self.headers, timeout=10)
+                    print(f"Visited root URL: {root_url}")
+                    
+                    # Update headers with Referer
+                    retry_headers = self.headers.copy()
+                    retry_headers['Referer'] = root_url
+                    
+                    # Retry original request
+                    response = self.session.get(encoded_url, headers=retry_headers, timeout=10)
+                except Exception as e:
+                    print(f"Error during session priming: {e}")
+                    # Fall through to return the original 403 response or None
+            
             response.raise_for_status()
             return response.text
         except requests.RequestException as e:
