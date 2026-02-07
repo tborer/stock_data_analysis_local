@@ -78,12 +78,22 @@ class Fetcher:
             print(f"Error fetching raw {url}: {e}")
             return None
 
+    @staticmethod
+    def _clean_url(url):
+        """Strip fragment (#...) and fix any pre-encoded characters to avoid double-encoding."""
+        # Remove fragment - it's browser-only and should never be sent to the server
+        url = url.split('#')[0]
+        # Decode any existing percent-encoding first, then let the HTTP library handle encoding
+        # This prevents double-encoding (e.g. %3A -> %253A)
+        url = urllib.parse.unquote(url)
+        return url
+
     def fetch(self, url):
         """Fetch URL and return response text, with HTTPS upgrade, session priming, and 403 retry."""
         try:
             url = self._ensure_https(url)
-            encoded_url = urllib.parse.quote(url, safe=':/?=&')
-            print(f"Encoded URL: {encoded_url}")
+            url = self._clean_url(url)
+            print(f"Fetching URL: {url}")
 
             # Prime session before first request to establish cookies
             parsed = urllib.parse.urlparse(url)
@@ -92,7 +102,7 @@ class Fetcher:
                 self._prime_session(url)
                 self._add_delay()
 
-            response = self.session.get(encoded_url, headers=self.headers, timeout=15)
+            response = self.session.get(url, headers=self.headers, timeout=15)
 
             # Retry on 403 with exponential backoff and referer header
             if response.status_code == 403:
@@ -105,7 +115,7 @@ class Fetcher:
                     print(f"Received 403 for {url}. Retry {attempt}/3 after {backoff:.1f}s...")
                     time.sleep(backoff)
 
-                    response = self.session.get(encoded_url, headers=retry_headers, timeout=15)
+                    response = self.session.get(url, headers=retry_headers, timeout=15)
                     if response.status_code != 403:
                         break
 
