@@ -44,29 +44,35 @@ class SitemapParser:
         """Parses XML and returns a list of URLs and whether they are sitemaps."""
         urls = []
         try:
+            # Register namespaces as per user's legacy code structure
+            namespaces = {'ns': 'http://www.sitemaps.org/schemas/sitemap/0.9'}
+            
+            # ElementTree does not support a global namespace register easily in all versions, 
+            # but we can use the dictionary in find/findall.
+            
             root = ET.fromstring(xml_content)
             
-            # Namespaces are annoying in XML parsing. Strip them or handle them.
-            # Simple approach: iterate all elements and look for 'loc'
+            # Look for normal url entries
+            for url_tag in root.findall('ns:url', namespaces):
+                loc = url_tag.find('ns:loc', namespaces)
+                if loc is not None and loc.text:
+                    urls.append({'url': loc.text.strip(), 'is_sitemap': False})
+
+            # Look for sitemap entries (sitemapindex)
+            for sitemap_tag in root.findall('ns:sitemap', namespaces):
+                loc = sitemap_tag.find('ns:loc', namespaces)
+                if loc is not None and loc.text:
+                    urls.append({'url': loc.text.strip(), 'is_sitemap': True})
             
-            for elem in root.iter():
-                if 'loc' in elem.tag:
-                    url = elem.text.strip()
-                    # Check if it looks like a sitemap (often in <sitemap> tag or ends in .xml/.gz)
-                    # But simpler to just check parent tag
-                    parent = None 
-                    # ElementTree doesn't support getparent easily without iterparse or lxml
-                    # Let's rely on basic suffix logic or tag name if possible?
-                    # or better, iterate specific tags if strict.
-                    # Standard sitemaps: <urlset><url><loc>...</loc>...</url></urlset> -> Page
-                    # Sitemap index: <sitemapindex><sitemap><loc>...</loc>...</sitemap></sitemapindex> -> Sitemap
-                    
-                    is_sitemap = False
-                    if 'sitemapindex' in root.tag or url.endswith('.xml') or url.endswith('.gz'):
-                        is_sitemap = True
+            # Fallback: if no namespaced items found (e.g. different schema or no namespace), 
+            # try the iterative approach
+            if not urls:
+                for elem in root.iter():
+                    if 'loc' in elem.tag:
+                        url = elem.text.strip()
+                        is_sitemap = 'sitemap' in root.tag or url.endswith('.xml') or url.endswith('.gz')
+                        urls.append({'url': url, 'is_sitemap': is_sitemap})
                         
-                    urls.append({'url': url, 'is_sitemap': is_sitemap})
-                    
         except ET.ParseError as e:
             logging.error(f"Error parsing XML: {e}")
             

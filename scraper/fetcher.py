@@ -26,6 +26,7 @@ class Fetcher:
             # Encode URL to handle special characters as per legacy code
             import urllib.parse
             encoded_url = urllib.parse.quote(url, safe=':/?=&')
+            print(f"Encoded URL: {encoded_url}")
             
             response = self.session.get(encoded_url, headers=self.headers, timeout=10)
             
@@ -42,10 +43,12 @@ class Fetcher:
                     self.session.get(root_url, headers=self.headers, timeout=10)
                     print(f"Visited root URL: {root_url}")
                     
-                    # Update headers with Referer
+                    # Update headers with Referer and Sec-Fetch-Site
                     retry_headers = self.headers.copy()
                     retry_headers['Referer'] = root_url
+                    retry_headers['Sec-Fetch-Site'] = 'same-origin'
                     
+                    print(f"Retrying with Referer: {root_url}")
                     # Retry original request
                     response = self.session.get(encoded_url, headers=retry_headers, timeout=10)
                 except Exception as e:

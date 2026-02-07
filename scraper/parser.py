@@ -10,13 +10,21 @@ class Parser:
         if not soup:
             return ""
         
-        if selector:
-            elements = soup.select(selector)
-            return " ".join([e.get_text(strip=True) for e in elements])
-        
-        # Default: extract all paragraphs if no selector
-        paragraphs = soup.find_all('p')
-        return " ".join([p.get_text(strip=True) for p in paragraphs])
+        # Default to legacy behavior: find all 'p' if selector is 'p' or None
+        if not selector or selector == 'p':
+            paragraphs = soup.find_all('p')
+            if not paragraphs:
+                return ""
+                
+            webpage_text = ""
+            for paragraph in paragraphs:
+                # Legacy code used get_text() + " "
+                webpage_text += paragraph.get_text() + " "
+            return webpage_text
+            
+        # Support for other selectors if configured
+        elements = soup.select(selector)
+        return " ".join([e.get_text(strip=True) for e in elements])
 
     def extract_links(self, soup, base_url):
         # Placeholder for sitemap or link extraction logic
