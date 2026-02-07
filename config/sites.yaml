@@ -17,11 +17,11 @@ sites:
       - "/News/Item/U-"
     content_selector: "#MainContent_NewsText"
 
-  - name: "SeekingAlpha"
-    url: "https://seekingalpha.com/market-news"
+  - name: "Investing.com"
+    url: "https://www.investing.com/news/latest-news"
     type: "page"
-    max_urls: 1
-    max_chars: 5000
-    include_filters:
-      - "/news/"
-    content_selector: '[data-test-id="content-container"]'
+    max_urls: 20
+    max_chars: 10000
+    # No content_selector needed as parser.py uses JSON extraction
+    
+
