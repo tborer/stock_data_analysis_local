@@ -2,9 +2,11 @@
 $PythonCmd = "python"
 if (Get-Command py -ErrorAction SilentlyContinue) {
     $PythonCmd = "py"
-} elseif (Get-Command python3 -ErrorAction SilentlyContinue) {
+}
+elseif (Get-Command python3 -ErrorAction SilentlyContinue) {
     $PythonCmd = "python3"
-} elseif (!(Get-Command python -ErrorAction SilentlyContinue)) {
+}
+elseif (!(Get-Command python -ErrorAction SilentlyContinue)) {
     Write-Host "Python is not installed or not in PATH." -ForegroundColor Red
     exit 1
 }
@@ -19,10 +21,17 @@ if (!(Test-Path $VenvDir)) {
 }
 
 # Activate venv
-$VenvActivate = "$VenvDir\Scripts\Activate.ps1"
+if ($IsLinux) {
+    $VenvActivate = "$VenvDir/bin/Activate.ps1"
+}
+else {
+    $VenvActivate = "$VenvDir\Scripts\Activate.ps1"
+}
+
 if (Test-Path $VenvActivate) {
     . $VenvActivate
-} else {
+}
+else {
     Write-Host "Could not find activation script at $VenvActivate" -ForegroundColor Red
     exit 1
 }
