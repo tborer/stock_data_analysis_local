@@ -16,3 +16,12 @@ sites:
     include_filters:
       - "/News/Item/U-"
     content_selector: "#MainContent_NewsText"
+
+  - name: "SeekingAlpha"
+    url: "https://seekingalpha.com/market-news"
+    type: "page"
+    max_urls: 100
+    max_chars: 5000
+    include_filters:
+      - "/news/"
+    content_selector: '[data-test-id="content-container"]'
