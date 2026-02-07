@@ -18,14 +18,18 @@ class Fetcher:
             # bypassing WAF bot detection that blocks Python requests.
             self.session = curl_requests.Session(impersonate="chrome")
         else:
-            print("Warning: curl_cffi not installed. Using requests (may get 403 from protected sites).")
+            print("=" * 70)
+            print("WARNING: curl_cffi is NOT installed!")
+            print("Sites with WAF protection (e.g. SeekingAlpha) WILL return 403 errors.")
             print("Install with: pip install curl_cffi")
+            print("=" * 70)
             self.session = requests.Session()
             retries = Retry(total=3, backoff_factor=1, status_forcelist=[500, 502, 503, 504])
             self.session.mount('http://', HTTPAdapter(max_retries=retries))
             self.session.mount('https://', HTTPAdapter(max_retries=retries))
 
         self.headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
             'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
             'Accept-Language': 'en-US,en;q=0.9',
             'Accept-Encoding': 'gzip, deflate, br',
@@ -35,7 +39,10 @@ class Fetcher:
             'Sec-Fetch-Mode': 'navigate',
             'Sec-Fetch-Site': 'none',
             'Sec-Fetch-User': '?1',
-            'Cache-Control': 'max-age=0'
+            'Cache-Control': 'max-age=0',
+            'Sec-Ch-Ua': '"Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"',
+            'Sec-Ch-Ua-Mobile': '?0',
+            'Sec-Ch-Ua-Platform': '"Windows"'
         }
         self._primed_domains = set()
 
@@ -55,9 +62,21 @@ class Fetcher:
             return root_url
 
         try:
-            self.session.get(root_url, headers=self.headers, timeout=15)
+            prime_headers = self.headers.copy()
+            prime_headers['Sec-Fetch-Site'] = 'none'
+            response = self.session.get(root_url, headers=prime_headers, timeout=15)
             self._primed_domains.add(root_url)
-            print(f"Primed session for: {root_url}")
+            print(f"Primed session for: {root_url} (status: {response.status_code})")
+
+            # For SeekingAlpha and similar sites, also visit a common intermediate
+            # page to build up a realistic cookie/session state
+            if 'seekingalpha.com' in parsed_url.netloc:
+                self._add_delay()
+                nav_headers = self.headers.copy()
+                nav_headers['Referer'] = root_url + '/'
+                nav_headers['Sec-Fetch-Site'] = 'same-origin'
+                self.session.get(root_url + '/market-news', headers=nav_headers, timeout=15)
+                print(f"  Navigated to market-news page to build session state")
         except Exception as e:
             print(f"Error priming session for {root_url}: {e}")
 
@@ -106,14 +125,24 @@ class Fetcher:
 
             # Retry on 403 with exponential backoff and referer header
             if response.status_code == 403:
+                if not HAS_CURL_CFFI:
+                    print(f"  NOTE: curl_cffi not installed - 403 is likely due to TLS fingerprint detection.")
+                    print(f"  Install curl_cffi to fix: pip install curl_cffi")
+
                 retry_headers = self.headers.copy()
                 retry_headers['Referer'] = root_url + '/'
                 retry_headers['Sec-Fetch-Site'] = 'same-origin'
 
                 for attempt in range(1, 4):
-                    backoff = 2 ** attempt + random.uniform(0, 1)
+                    backoff = 2 ** attempt + random.uniform(0, 2)
                     print(f"Received 403 for {url}. Retry {attempt}/3 after {backoff:.1f}s...")
                     time.sleep(backoff)
+
+                    # Re-prime session on second retry to get fresh cookies
+                    if attempt == 2:
+                        self._primed_domains.discard(root_url)
+                        self._prime_session(url)
+                        self._add_delay()
 
                     response = self.session.get(url, headers=retry_headers, timeout=15)
                     if response.status_code != 403:
