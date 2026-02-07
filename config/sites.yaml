@@ -9,3 +9,11 @@ sites:
     content_selector: "div.bw-release-story" # Guessed selector, user example was just URL.
     # User's example page: div.bw-release-story or similar is common on BusinessWire.
     # We can refine this selector later or scrape whole body.
+
+  - name: "StockWatch"
+    url: "https://www.stockwatch.com/News/Search?hours=24&region=U"
+    type: "page"
+    max_urls: 20
+    max_chars: 3000
+    include_filters:
+      - "/News/Item/U-"

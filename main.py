@@ -48,6 +48,25 @@ def main():
             print(f"Fetching URLs from sitemap: {start_url}")
             include_filters = site.get('include_filters', [])
             target_urls = sitemap_parser.get_article_urls(start_url, max_urls=max_urls, include_filters=include_filters)
+        elif site_type == 'page':
+            print(f"Fetching URLs from page: {start_url}")
+            html = fetcher.fetch(start_url)
+            if html:
+                soup = parser.parse(html)
+                all_links = parser.extract_links(soup, start_url)
+                
+                include_filters = site.get('include_filters', [])
+                target_urls = []
+                for link in all_links:
+                    if len(target_urls) >= max_urls:
+                        break
+                    
+                    # Apply filters
+                    if include_filters:
+                        if any(f in link for f in include_filters):
+                            target_urls.append(link)
+                    else:
+                        target_urls.append(link)
         else:
             target_urls = [start_url]
             

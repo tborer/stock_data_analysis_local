@@ -1,4 +1,5 @@
 from bs4 import BeautifulSoup
+from urllib.parse import urljoin
 
 class Parser:
     def parse(self, html_content):
@@ -27,8 +28,17 @@ class Parser:
         return " ".join([e.get_text(strip=True) for e in elements])
 
     def extract_links(self, soup, base_url):
-        # Placeholder for sitemap or link extraction logic
-        pass
+        """Extracts all links from the soup, resolving relative URLs."""
+        links = []
+        if not soup:
+            return links
+            
+        for a_tag in soup.find_all('a', href=True):
+            href = a_tag['href']
+            full_url = urljoin(base_url, href)
+            links.append(full_url)
+            
+        return list(set(links)) # Return unique links
 
     def format_for_analysis(self, text, url, max_chars=3000):
         if not text:
