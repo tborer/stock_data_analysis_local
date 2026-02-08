@@ -153,13 +153,13 @@ positive_keywords:
     weight: 0.6
 
   - name: "Restructuring complete"
-    weight: 0.8
+    weight: 0.5
   - name: "Acquisition"
-    weight: 0.8
+    weight: 0.4
   - name: "Merger"
-    weight: 0.8
+    weight: 0.4
   - name: "Takeover"
-    weight: 0.8
+    weight: 0.4
   - name: "Spin-off"
     weight: 0.7
   - name: "Buyout offer"
@@ -389,11 +389,11 @@ negative_keywords:
   - name: "Credit rating downgrade"
     weight: 0.8
   - name: "Hostile takeover"
-    weight: 0.6
+    weight: 0.3
   - name: "Delisting notice"
     weight: 1.0
   - name: "Reverse split"
-    weight: 0.7
+    weight: 0.9
   - name: "Offering of common stock"
     weight: 0.7
   - name: "Profit warning"
