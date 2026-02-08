@@ -1,6 +1,6 @@
 positive_keywords:
   - name: "Growth"
-    weight: 0.8
+    weight: 0.4
   - name: "Increase in revenue"
     weight: 0.9
   - name: "Expansion into new markets"
@@ -18,11 +18,11 @@ positive_keywords:
   - name: "Strong leadership"
     weight: 0.7
   - name: "Innovation"
-    weight: 0.8
+    weight: 0.4
   - name: "Progress"
-    weight: 0.6
+    weight: 0.3
   - name: "Achievement"
-    weight: 0.7
+    weight: 0.3
   - name: "Outperform"
     weight: 0.8
   - name: "Upswing"
@@ -30,15 +30,15 @@ positive_keywords:
   - name: "Recovery"
     weight: 0.6
   - name: "Strength"
-    weight: 0.7
+    weight: 0.3
   - name: "Momentum"
     weight: 0.8
   - name: "Optimistic"
-    weight: 0.6
+    weight: 0.3
   - name: "Confidence"
-    weight: 0.7
+    weight: 0.3
   - name: "Success"
-    weight: 0.8
+    weight: 0.4
   - name: "Record high"
     weight: 0.9
   - name: "All-time high"
@@ -153,13 +153,13 @@ positive_keywords:
     weight: 0.6
 
   - name: "Restructuring complete"
-    weight: 0.8
+    weight: 0.5
   - name: "Acquisition"
-    weight: 0.8
+    weight: 0.4
   - name: "Merger"
-    weight: 0.8
+    weight: 0.4
   - name: "Takeover"
-    weight: 0.8
+    weight: 0.4
   - name: "Spin-off"
     weight: 0.7
   - name: "Buyout offer"
@@ -182,14 +182,48 @@ positive_keywords:
     weight: 0.8
   - name: "Awarded contract"
     weight: 0.8
+  - name: "Stock split"
+    weight: 0.8
+  - name: "Forward split"
+    weight: 0.8
+  - name: "Raised dividend"
+    weight: 0.8
+  - name: "Guidance raised"
+    weight: 0.8
+  - name: "Raised guidance"
+    weight: 0.8
+  - name: "Beat consensus"
+    weight: 0.9
+  - name: "Topped estimates"
+    weight: 0.9
+  - name: "CEO appointed"
+    weight: 0.7
+  - name: "New CEO"
+    weight: 0.7
+  - name: "Debt refinancing"
+    weight: 0.6
+  - name: "Upgraded to buy"
+    weight: 0.8
+  - name: "Upgraded to outperform"
+    weight: 0.8
+  - name: "Breakthrough therapy"
+    weight: 0.9
+  - name: "Blockbuster drug"
+    weight: 0.8
+  - name: "52-week high"
+    weight: 0.7
+  - name: "Golden cross"
+    weight: 0.7
+  - name: "Broke through resistance"
+    weight: 0.6
 
 negative_keywords:
   - name: "Decline"
-    weight: 0.8
+    weight: 0.4
   - name: "Loss"
-    weight: 0.9
+    weight: 0.4
   - name: "Weakness"
-    weight: 0.8
+    weight: 0.4
   - name: "Decrease in revenue"
     weight: 0.8
   - name: "Downsize"
@@ -355,10 +389,56 @@ negative_keywords:
   - name: "Credit rating downgrade"
     weight: 0.8
   - name: "Hostile takeover"
-    weight: 0.6
+    weight: 0.3
   - name: "Delisting notice"
     weight: 1.0
   - name: "Reverse split"
-    weight: 0.7
+    weight: 0.9
   - name: "Offering of common stock"
     weight: 0.7
+  - name: "Profit warning"
+    weight: 1.0
+  - name: "Earnings warning"
+    weight: 0.9
+  - name: "Guidance cut"
+    weight: 0.8
+  - name: "Lowered guidance"
+    weight: 0.8
+  - name: "Supply chain disruption"
+    weight: 0.7
+  - name: "Cybersecurity breach"
+    weight: 0.8
+  - name: "Data breach"
+    weight: 0.8
+  - name: "CFO departure"
+    weight: 0.9
+  - name: "CFO resignation"
+    weight: 0.9
+  - name: "Class action lawsuit"
+    weight: 0.9
+  - name: "Class action"
+    weight: 0.9
+  - name: "Restatement"
+    weight: 1.0
+  - name: "Restating financials"
+    weight: 1.0
+  - name: "Trading halt"
+    weight: 0.9
+  - name: "Halted trading"
+    weight: 0.9
+  - name: "Margin call"
+    weight: 0.9
+  - name: "Covenant violation"
+    weight: 0.9
+  - name: "Covenant breach"
+    weight: 0.9
+  - name: "Tariff"
+    weight: 0.7
+  - name: "Sanctions"
+    weight: 0.7
+  - name: "52-week low"
+    weight: 0.7
+  - name: "Death cross"
+    weight: 0.7
+  - name: "Hit support level"
+    weight: 0.6
