@@ -120,48 +120,49 @@ class Analyzer:
         
         negation_words = {"not", "no", "never", "unlikely", "refuse", "deny", "denied", "reject", "rejected"}
         
+        # Pre-compile word-boundary patterns for each keyword
+        def _build_keyword_pattern(keyword_lower):
+            """Build a regex pattern with word boundaries for a keyword."""
+            escaped = re.escape(keyword_lower)
+            return re.compile(r'\b' + escaped + r'\b', re.IGNORECASE)
+
+        keyword_patterns = {}
+        for kw in self.positive_keywords + self.negative_keywords:
+            keyword_patterns[kw] = _build_keyword_pattern(kw.lower())
+
         def calculate_keyword_impact(keywords, weights, is_positive):
             total_impact = 0.0
             found_matches = []
-            
+
             for keyword in keywords:
-                keyword_lower = keyword.lower()
-                # Simple check first for performance
-                if keyword_lower not in text_lower:
-                    continue
-                    
-                # Find all occurrences to check context
-                start = 0
-                while True:
-                    idx = text_lower.find(keyword_lower, start)
-                    if idx == -1:
-                        break
-                        
+                pattern = keyword_patterns[keyword]
+
+                for match in pattern.finditer(text_lower):
+                    idx = match.start()
+
                     # Context Check: Look at 3-5 words before the keyword for negation
                     # Extract preceding text snippet (up to 30 chars approx)
                     context_start = max(0, idx - 30)
                     preceding_text = text_lower[context_start:idx]
                     preceding_words = set(preceding_text.split()[-3:]) # Last 3 words
-                    
+
                     is_negated = bool(preceding_words & negation_words)
-                    
+
                     weight = weights.get(keyword, 0)
-                    
+
                     # Headline Multiplier
                     if idx < headline_limit:
                         weight *= 2.0
-                        
+
                     # Negation Logic
                     if is_negated:
-                        # Flip impact: Postive -> Negative, Negative -> Positive
+                        # Flip impact: Positive -> Negative, Negative -> Positive
                         # Reduce weight slightly as negated sentiment is often softer
-                        weight *= -0.8 
-                    
+                        weight *= -0.8
+
                     total_impact += weight
                     found_matches.append(f"{keyword}{'(H)' if idx < headline_limit else ''}{'(NEG)' if is_negated else ''}")
-                    
-                    start = idx + len(keyword_lower)
-            
+
             return total_impact, found_matches
 
         pos_impact, pos_matches = calculate_keyword_impact(self.positive_keywords, self.positive_weights, True)
