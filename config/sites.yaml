@@ -23,7 +23,7 @@ sites:
     url: "https://www.investing.com/news/latest-news"
     type: "page"
     max_urls: 200
-    max_chars: 10000
+    max_chars: 5000
     # No content_selector needed as parser.py uses JSON extraction
     
 
