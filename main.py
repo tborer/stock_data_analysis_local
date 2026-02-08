@@ -108,15 +108,29 @@ def main():
                 state_manager.mark_processed(url)
 
     if all_insights:
+        # Get threshold from config (default 75)
+        min_score = sites_config.get('email_min_score', 75)
+        # Normalize: if > 1, assume percentage (e.g. 75 -> 0.75)
+        if min_score > 1:
+            min_score /= 100.0
+            
+        print(f"Filtering insights with minimum score: {min_score}")
+        
+        # Filter insights
+        filtered_insights = [i for i in all_insights if abs(i['likelihood_score']) >= min_score]
+        
         # Sort all findings by magnitude of score
-        all_insights.sort(key=lambda x: abs(x['likelihood_score']), reverse=True)
-        top_insights = all_insights[:50] # Limit email size
+        filtered_insights.sort(key=lambda x: abs(x['likelihood_score']), reverse=True)
+        top_insights = filtered_insights[:50] # Limit email size
         
-        print(f"Sending email with {len(top_insights)} top insights...")
-        
-        # Format explicitly for better readability with metadata
-        body = emailer.format_results(top_insights) 
-        emailer.send_email(f"Stock Analysis Report - {len(top_insights)} Items", body)
+        if not top_insights:
+            print(f"No insights met the minimum score threshold of {min_score}")
+        else:
+            print(f"Sending email with {len(top_insights)} top insights...")
+            
+            # Format explicitly for better readability with metadata
+            body = emailer.format_results(top_insights) 
+            emailer.send_email(f"Stock Analysis Report - {len(top_insights)} Items", body)
     else:
         print("No significant insights found during this run.")
 
