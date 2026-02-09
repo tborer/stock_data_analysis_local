@@ -119,9 +119,6 @@ def main():
     if all_insights:
         # Get threshold from config (default 75)
         min_score = sites_config.get('email_min_score', 75)
-        # Normalize: if > 1, assume percentage (e.g. 75 -> 0.75)
-        if min_score > 1:
-            min_score /= 100.0
             
         print(f"Filtering insights with minimum score: {min_score}")
         
