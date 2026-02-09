@@ -41,10 +41,12 @@ class Parser:
                     pass
 
                 if article and 'body' in article:
-                    # Clean up HTML entities often found in JSON text
+                    # Clean up HTML entities and strip tags
                     import html
-                    text = html.unescape(article['body'])
-                    return text
+                    raw_html = html.unescape(article['body'])
+                    # Use BeautifulSoup to strip tags
+                    clean_text = BeautifulSoup(raw_html, 'html.parser').get_text(separator=' ', strip=True)
+                    return clean_text
             except Exception as e:
                 print(f"Error extracting text from Next.js data: {e}")
 

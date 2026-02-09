@@ -51,7 +51,9 @@ class Emailer:
             html += f"<tr>"
             html += f"<td style='color:{color};'><b>{score:.1f}</b></td>"
             html += f"<td>{insight.get('sentiment_score', 0):.2f}</td>"
-            html += f"<td>{insight.get('snippet', '')}</td>"
+            snippet = insight.get('snippet', '')
+            source_url = insight.get('source_url', '#')
+            html += f"<td>{snippet}<br><br><a href='{source_url}'>Check it out</a></td>"
             html += "</tr>"
         
         html += "</table>"

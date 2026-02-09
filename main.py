@@ -28,6 +28,7 @@ def main():
         sites_config = yaml.safe_load(f)
 
     all_insights = []
+    seen_snippets = set()
 
     import datetime
 
@@ -96,13 +97,21 @@ def main():
                     significant_insights = [i for i in insights if abs(i['likelihood_score']) > 0]
                     
                     if significant_insights:
-                       print(f"  -> Found {len(significant_insights)} insights")
-                       # Attach metadata
-                       for i in significant_insights:
-                           i['source_url'] = url
-                           i['site_name'] = site_name
-                           
-                       all_insights.extend(significant_insights)
+                        print(f"  -> Found {len(significant_insights)} insights")
+                        # Attach metadata and de-duplicate
+                        for i in significant_insights:
+                            i['source_url'] = url
+                            i['site_name'] = site_name
+                            
+                            # De-duplication: Check if snippet is already seen
+                            # Using a simple hash of the snippet text to identify duplicates
+                            snippet_hash = hash(i.get('snippet', ''))
+                            if snippet_hash not in seen_snippets:
+                                seen_snippets.add(snippet_hash)
+                                all_insights.append(i)
+                            else:
+                                # print(f"    Duplicate insight skipped.") # Verbose
+                                pass
 
                 # Mark as processed
                 state_manager.mark_processed(url)
