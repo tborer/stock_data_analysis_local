@@ -40,7 +40,7 @@ def main():
         
         # Handle dynamic date formatting
         # Support %Y, %m, %d placeholders
-        now = datetime.datetime.utcnow()
+        now = datetime.datetime.now()
         start_url = now.strftime(raw_url)
         
         target_urls = []
