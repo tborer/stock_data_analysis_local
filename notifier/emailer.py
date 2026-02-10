@@ -17,12 +17,34 @@ class Emailer:
             return
 
         try:
-            msg = MIMEMultipart()
-            msg['From'] = self.sender
-            msg['To'] = self.recipient
-            msg['Subject'] = subject
+            from email.utils import formatdate, make_msgid
+            from bs4 import BeautifulSoup
 
-            msg.attach(MIMEText(body, 'html'))
+            # Create message container - the correct MIME type is multipart/alternative.
+            msg = MIMEMultipart('alternative')
+            msg['Subject'] = subject
+            msg['From'] = f"Stock Analyzer <{self.sender}>"
+            msg['To'] = self.recipient
+            msg['Date'] = formatdate(localtime=True)
+            msg['Message-ID'] = make_msgid()
+
+            # Generate plain text from HTML for fallback
+            text_body = "Stock Analysis Report\n\n"
+            try:
+                soup = BeautifulSoup(body, "html.parser")
+                text_body += soup.get_text(separator="\n", strip=True)
+            except Exception as e:
+                text_body += f"Error generating plain text: {e}\n\nPlease view HTML version."
+
+            # Record the MIME types of both parts - text/plain and text/html.
+            part1 = MIMEText(text_body, 'plain')
+            part2 = MIMEText(body, 'html')
+
+            # Attach parts into message container.
+            # According to RFC 2046, the last part of a multipart message, in this case
+            # the HTML message, is best and preferred.
+            msg.attach(part1)
+            msg.attach(part2)
 
             if int(self.smtp_port) == 465:
                 server = smtplib.SMTP_SSL(self.smtp_server, self.smtp_port)
@@ -41,7 +63,8 @@ class Emailer:
         if not insights:
             return "No high-value insights found."
         
-        html = "<h2>Stock Analysis Insights</h2>"
+        greeting = "<p>Hello financial trader,<br>Are you ready to make some $$$ tday?</p>"
+        html = greeting + "<h2>Stock Analysis Insights</h2>"
         html += "<table border='1' cellspacing='0' cellpadding='5'>"
         html += "<tr><th>Score</th><th>Sentiment</th><th>Snippet</th></tr>"
         

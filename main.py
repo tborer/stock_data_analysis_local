@@ -136,7 +136,11 @@ def main():
             
             # Format explicitly for better readability with metadata
             body = emailer.format_results(top_insights) 
-            emailer.send_email(f"Stock Analysis Report - {len(top_insights)} Items", body)
+            
+            # Subject with Date
+            date_str = datetime.datetime.now().strftime("%B %d, %Y")
+            subject = f"Stock Analysis Report for {date_str} - {len(top_insights)} Items"
+            emailer.send_email(subject, body)
     else:
         print("No significant insights found during this run.")
 
