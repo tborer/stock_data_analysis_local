@@ -29,6 +29,7 @@ def main():
 
     all_insights = []
     seen_snippets = set()
+    seen_titles = set()
 
     import datetime
 
@@ -87,12 +88,31 @@ def main():
                 selector = site.get('content_selector') or 'p' 
                 text = parser.extract_text(soup, selector)
                 
+                # Extract Title
+                title_selector = site.get('title_selector')
+                title = parser.extract_title(soup, title_selector)
+                
+                # Title De-duplication
+                if title:
+                    norm_title = " ".join(title.lower().split())
+                    if norm_title in seen_titles:
+                        print(f"    Skipping duplicate title: {title[:50]}...")
+                        state_manager.mark_processed(url)
+                        continue
+                    seen_titles.add(norm_title)
+                    
+                print(f"    Title: {title[:50]}..." if title else "    No title found")
+                
                 # Format text using legacy encapsulation
+                # Prepend title to the text for analysis context
+                full_text = f"{title}\n\n{text}" if title else text
+                
                 max_chars = site.get('max_chars', 3000)
-                formatted_text = parser.format_for_analysis(text, url, max_chars=max_chars)
+                formatted_text = parser.format_for_analysis(full_text, url, max_chars=max_chars)
                 texts_to_analyze = [formatted_text] if formatted_text else []
                 
                 if texts_to_analyze:
+                    # Pass the title in metadata if needed, but analyzer works on text list
                     insights = analyzer.analyze(texts_to_analyze)
                     significant_insights = [i for i in insights if abs(i['likelihood_score']) > 0]
                     

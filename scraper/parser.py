@@ -50,7 +50,6 @@ class Parser:
             except Exception as e:
                 print(f"Error extracting text from Next.js data: {e}")
 
-        
         # Default to legacy behavior: find all 'p' if selector is 'p' or None
         if not selector or selector == 'p':
             paragraphs = soup.find_all('p')
@@ -66,6 +65,40 @@ class Parser:
         # Support for other selectors if configured
         elements = soup.select(selector)
         return " ".join([e.get_text(strip=True) for e in elements])
+
+    def extract_title(self, soup, selector=None):
+        """Extracts the title from the soup using the selector or defaults."""
+        if not soup:
+            return ""
+
+        title = ""
+        
+        # Check for Next.js data first (likely for Investing.com)
+        nextjs_data = self.extract_nextjs_data(soup)
+        if nextjs_data:
+            try:
+                # Try to find headline in newsStore or articleStore
+                news_store = nextjs_data.get('props', {}).get('pageProps', {}).get('state', {}).get('newsStore', {})
+                article = news_store.get('_article')
+                if article and 'headline' in article:
+                     return article['headline']
+            except Exception:
+                pass
+
+        if selector:
+            element = soup.select_one(selector)
+            if element:
+                title = element.get_text(strip=True)
+        
+        # Fallback to standard <title> or <h1>
+        if not title:
+            h1 = soup.find('h1')
+            if h1:
+                title = h1.get_text(strip=True)
+            elif soup.title:
+                title = soup.title.get_text(strip=True)
+                
+        return title
 
     def extract_links(self, soup, base_url):
         """Extracts all links from the soup, resolving relative URLs."""
