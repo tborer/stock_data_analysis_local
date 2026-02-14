@@ -10,7 +10,7 @@ sites:
       - "/en/"
     content_selector: "#bw-release-story"
     title_selector: "h1"
-    date_regex: "/(\d{8})\d+/"
+    date_regex: '/(\d{8})\d+/'
     date_format: "%Y%m%d"
 
   - name: "StockWatch"
@@ -22,7 +22,7 @@ sites:
       - "/News/Item/U-"
     content_selector: "#MainContent_NewsText"
     title_selector: "h3"
-    date_regex: "(\d{4}-\d{2}-\d{2} \d{2}:\d{2}) ET"
+    date_regex: '(\d{4}-\d{2}-\d{2} \d{2}:\d{2}) ET'
     date_format: "%Y-%m-%d %H:%M"
 
   - name: "Investing.com"
@@ -32,5 +32,5 @@ sites:
     max_chars: 5000
     # No content_selector needed as parser.py uses JSON extraction
     title_selector: "h1"
-    date_regex: "Published (\d{2}/\d{2}/\d{4}, \d{2}:\d{2} [AP]M)"
+    date_regex: 'Published (\d{2}/\d{2}/\d{4}, \d{2}:\d{2} [AP]M)'
     date_format: "%m/%d/%Y, %I:%M %p"
