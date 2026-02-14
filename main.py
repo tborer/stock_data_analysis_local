@@ -92,6 +92,42 @@ def main():
                 title_selector = site.get('title_selector')
                 title = parser.extract_title(soup, title_selector)
                 
+                # Extract and Filter by Date
+                date_regex = site.get('date_regex')
+                date_format = site.get('date_format')
+                article_date = parser.extract_date(soup, date_regex, date_format, url)
+                
+                if article_date:
+                    import datetime
+                    from dateutil import tz
+                    
+                    # Determine current time
+                    now = datetime.datetime.now()
+                    
+                    # Handle timezone awareness
+                    if article_date.tzinfo:
+                        # If article date is aware, make now aware (assume local/system time if not specified, 
+                        # but ideally compare in UTC)
+                        # dateutil parser often returns aware datetimes if TZ abbr is found.
+                        # datetime.now() returns naive local time.
+                        # conversion:
+                        now = datetime.datetime.now(tz=tz.tzlocal())
+                        
+                    # Calculate difference
+                    time_diff = now - article_date
+                    
+                    # Filter: Skip if older than 1 hour (3600 seconds)
+                    # Use total_seconds() to handle timedelta
+                    if time_diff.total_seconds() > 3600:
+                        print(f"    Skipping old article ({time_diff.total_seconds()/3600:.1f}h old): {article_date}")
+                        state_manager.mark_processed(url)
+                        continue
+                    else:
+                        print(f"    Article is fresh ({time_diff.total_seconds()/60:.1f}m ago): {article_date}")
+                else:
+                    if date_regex:
+                        print("    Warning: Date extraction failed despite configuration.")
+
                 # Title De-duplication
                 if title:
                     norm_title = " ".join(title.lower().split())

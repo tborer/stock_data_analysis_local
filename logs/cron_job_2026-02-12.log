@@ -1,0 +1,865 @@
+Starting job at Thu Feb 12 05:00:01 PM CST 2026
+Starting Stock Data Analysis Job...
+StateManager using local file.
+Fetching URLs from sitemap: https://bw-prod-sitemap.s3.us-east-1.amazonaws.com/webdmz1.vaprod.businesswire.com/home/2026-02-12.xml.gz
+Parsing sitemap: https://bw-prod-sitemap.s3.us-east-1.amazonaws.com/webdmz1.vaprod.businesswire.com/home/2026-02-12.xml.gz
+Found 100 URLs to process for BusinessWire
+Processing: http://www.businesswire.com/news/home/20260212783164/en/Neptune-Insurance-Holdings-to-Announce-Fourth-Quarter-2025-Financial-Results
+Fetching URL: https://www.businesswire.com/news/home/20260212783164/en/Neptune-Insurance-Holdings-to-Announce-Fourth-Quarter-2025-Financial-Results
+Primed session for: https://www.businesswire.com (status: 200)
+    Title: Neptune Insurance Holdings to Announce Fourth Quar...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212547642/en/Express-Introduces-%E2%80%9CThe-Expressionists%E2%80%9D
+Fetching URL: https://www.businesswire.com/news/home/20260212547642/en/Express-Introduces-“The-Expressionists”
+    No title found
+Processing: http://www.businesswire.com/news/home/20260212249397/en/KBRA-Assigns-AA-Rating-to-the-Metropolitan-Government-of-Nashville-and-Davidson-County-TN-General-Obligation-Improvement-Bonds-Outlook-Stable
+Fetching URL: https://www.businesswire.com/news/home/20260212249397/en/KBRA-Assigns-AA-Rating-to-the-Metropolitan-Government-of-Nashville-and-Davidson-County-TN-General-Obligation-Improvement-Bonds-Outlook-Stable
+    Title: KBRA Assigns AA+ Rating to the Metropolitan Govern...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212195126/en/Securities-Fraud-Investigation-Into-ICON-Public-Limited-Company-ICLR-Announced-%E2%80%93-Shareholders-Who-Lost-Money-Urged-To-Contact-The-Law-Offices-of-Frank-R.-Cruz
+Fetching URL: https://www.businesswire.com/news/home/20260212195126/en/Securities-Fraud-Investigation-Into-ICON-Public-Limited-Company-ICLR-Announced-–-Shareholders-Who-Lost-Money-Urged-To-Contact-The-Law-Offices-of-Frank-R.-Cruz
+    No title found
+Processing: http://www.businesswire.com/news/home/20260212062092/en/Snap-on-Incorporated-Declares-Quarterly-Dividend
+Fetching URL: https://www.businesswire.com/news/home/20260212062092/en/Snap-on-Incorporated-Declares-Quarterly-Dividend
+    Title: Snap-on Incorporated Declares Quarterly Dividend...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212268736/en/Archer-To-Report-Fourth-Quarter-and-Full-Year-2025-Operating-Update-and-Financial-Results-on-March-2-2026
+Fetching URL: https://www.businesswire.com/news/home/20260212268736/en/Archer-To-Report-Fourth-Quarter-and-Full-Year-2025-Operating-Update-and-Financial-Results-on-March-2-2026
+    Title: Archer To Report Fourth Quarter and Full Year 2025...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212262425/en/Lambda-Appoints-Tech-Pioneer-Jerry-Hunter-as-Vice-Chairman-Compute-Delivery-and-Special-Advisor-to-the-Board
+Fetching URL: https://www.businesswire.com/news/home/20260212262425/en/Lambda-Appoints-Tech-Pioneer-Jerry-Hunter-as-Vice-Chairman-Compute-Delivery-and-Special-Advisor-to-the-Board
+    Title: Lambda Appoints Tech Pioneer Jerry Hunter as Vice ...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212962449/en/Glenfarne-Group-Appoints-Scott-Meller-as-Head-of-Capital-Formation
+Fetching URL: https://www.businesswire.com/news/home/20260212962449/en/Glenfarne-Group-Appoints-Scott-Meller-as-Head-of-Capital-Formation
+    Title: Glenfarne Group Appoints Scott Meller as Head of C...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212018210/en/Homes.com-Report-Home-Price-Growth-Picks-up-in-January-2026-as-Homebuying-Market-Normalizes
+Fetching URL: https://www.businesswire.com/news/home/20260212018210/en/Homes.com-Report-Home-Price-Growth-Picks-up-in-January-2026-as-Homebuying-Market-Normalizes
+    Title: Homes.com Report: Home Price Growth Picks up in Ja...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212485460/en/T-Mobile-Agrees-to-Sell-%E2%82%AC2.5-Billion-of-Euro-Denominated-Senior-Notes
+Fetching URL: https://www.businesswire.com/news/home/20260212485460/en/T-Mobile-Agrees-to-Sell-€2.5-Billion-of-Euro-Denominated-Senior-Notes
+    Title: T-Mobile Agrees to Sell €2.5 Billion of Euro-Denom...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212116671/en/Eiseman-Jewels-NorthPark-Center-Announces-Annual-Band-Event
+Fetching URL: https://www.businesswire.com/news/home/20260212116671/en/Eiseman-Jewels-NorthPark-Center-Announces-Annual-Band-Event
+    Title: Eiseman Jewels NorthPark Center Announces Annual B...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212352956/en/Farmland-Partners-Inc.-Announces-Date-for-Fourth-Quarter-and-Fiscal-Year-2025-Earnings-Release-and-Conference-Call
+Fetching URL: https://www.businesswire.com/news/home/20260212352956/en/Farmland-Partners-Inc.-Announces-Date-for-Fourth-Quarter-and-Fiscal-Year-2025-Earnings-Release-and-Conference-Call
+    Title: Farmland Partners Inc. Announces Date for Fourth Q...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212740005/en/Allegion-to-Attend-2026-Barclays-Industrial-Select-Conference
+Fetching URL: https://www.businesswire.com/news/home/20260212740005/en/Allegion-to-Attend-2026-Barclays-Industrial-Select-Conference
+    Title: Allegion to Attend 2026 Barclays Industrial Select...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212021032/en/VanEck-Recognized-for-REMX-Fund-Leadership-and-Social-Media-Excellence-at-2026-With-Intelligence-Awards
+Fetching URL: https://www.businesswire.com/news/home/20260212021032/en/VanEck-Recognized-for-REMX-Fund-Leadership-and-Social-Media-Excellence-at-2026-With-Intelligence-Awards
+    Title: VanEck Recognized for REMX, Fund Leadership and So...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212517883/en/Comfort-Systems-USA-Announces-Fourth-Quarter-and-Full-Year-2025-Conference-Call-and-Webcast
+Fetching URL: https://www.businesswire.com/news/home/20260212517883/en/Comfort-Systems-USA-Announces-Fourth-Quarter-and-Full-Year-2025-Conference-Call-and-Webcast
+    Title: Comfort Systems USA AnnouncesFourth Quarter and Fu...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212573383/en/Central-Garden-Pet-Announces-Kay-M.-Schwichtenberg-as-New-Director
+Fetching URL: https://www.businesswire.com/news/home/20260212573383/en/Central-Garden-Pet-Announces-Kay-M.-Schwichtenberg-as-New-Director
+    Title: Central Garden & Pet Announces Kay M. Schwichtenbe...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212952861/en/Murphy-USA-Inc.-Announces-Dividend
+Fetching URL: https://www.businesswire.com/news/home/20260212952861/en/Murphy-USA-Inc.-Announces-Dividend
+    Title: Murphy USA Inc. Announces Dividend...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212564058/en/KBRA-Assigns-Preliminary-Rating-to-Sabal-Issuer-2026-1-LLC
+Fetching URL: https://www.businesswire.com/news/home/20260212564058/en/KBRA-Assigns-Preliminary-Rating-to-Sabal-Issuer-2026-1-LLC
+    Title: KBRA Assigns Preliminary Rating to Sabal Issuer 20...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212331117/en/Bain-Capital-Specialty-Finance-Inc.-Schedules-Earnings-Release-for-the-Fourth-Quarter-Ended-December-31-2025
+Fetching URL: https://www.businesswire.com/news/home/20260212331117/en/Bain-Capital-Specialty-Finance-Inc.-Schedules-Earnings-Release-for-the-Fourth-Quarter-Ended-December-31-2025
+    Title: Bain Capital Specialty Finance, Inc. Schedules Ear...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212377771/en/Q2-Releases-2026-State-of-Commercial-Banking-Report
+Fetching URL: https://www.businesswire.com/news/home/20260212377771/en/Q2-Releases-2026-State-of-Commercial-Banking-Report
+    Title: Q2 Releases 2026 State of Commercial Banking Repor...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212764040/en/Shift4-Announces-Date-of-Fourth-Quarter-Earnings-Results-and-Upcoming-Investor-Conference-Participation
+Fetching URL: https://www.businesswire.com/news/home/20260212764040/en/Shift4-Announces-Date-of-Fourth-Quarter-Earnings-Results-and-Upcoming-Investor-Conference-Participation
+    Title: Shift4 Announces Date of Fourth Quarter Earnings R...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260211911261/en/CF-Industries-Holdings-Inc.-to-Participate-in-Upcoming-Investor-Conference
+Fetching URL: https://www.businesswire.com/news/home/20260211911261/en/CF-Industries-Holdings-Inc.-to-Participate-in-Upcoming-Investor-Conference
+    Title: CF Industries Holdings, Inc. to Participate inUpco...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212373079/en/MVB-Financial-Corp.-Announces-Fourth-Quarter-and-Full-Year-2025-Results
+Fetching URL: https://www.businesswire.com/news/home/20260212373079/en/MVB-Financial-Corp.-Announces-Fourth-Quarter-and-Full-Year-2025-Results
+    Title: MVB Financial Corp. Announces Fourth Quarter and F...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212107864/en/Travere-Therapeutics-to-Report-Fourth-Quarter-and-Full-Year-2025-Financial-Results
+Fetching URL: https://www.businesswire.com/news/home/20260212107864/en/Travere-Therapeutics-to-Report-Fourth-Quarter-and-Full-Year-2025-Financial-Results
+    Title: Travere Therapeutics to Report Fourth Quarter and ...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212542915/en/Innovative-Industrial-Properties-Announces-Fourth-Quarter-2025-Earnings-Release-Date-and-Conference-Call
+Fetching URL: https://www.businesswire.com/news/home/20260212542915/en/Innovative-Industrial-Properties-Announces-Fourth-Quarter-2025-Earnings-Release-Date-and-Conference-Call
+    Title: Innovative Industrial Properties Announces Fourth ...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212764220/en/Ardent-Health-Announces-Fourth-Quarter-and-Full-Year-2025-Results-Conference-Call-and-Webcast-Date
+Fetching URL: https://www.businesswire.com/news/home/20260212764220/en/Ardent-Health-Announces-Fourth-Quarter-and-Full-Year-2025-Results-Conference-Call-and-Webcast-Date
+    Title: Ardent Health Announces Fourth Quarter and Full Ye...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212884989/en/Jamieson-Wellness-Inc.-Announces-Date-of-Fourth-Quarter-and-Full-Year-2025-Financial-Results-and-Conference-Call
+Fetching URL: https://www.businesswire.com/news/home/20260212884989/en/Jamieson-Wellness-Inc.-Announces-Date-of-Fourth-Quarter-and-Full-Year-2025-Financial-Results-and-Conference-Call
+    Title: Jamieson Wellness Inc. Announces Date of Fourth Qu...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212959012/en/Vistagen-Reports-Fiscal-Year-2026-Third-Quarter-Financial-Results-and-Provides-Corporate-Update
+Fetching URL: https://www.businesswire.com/news/home/20260212959012/en/Vistagen-Reports-Fiscal-Year-2026-Third-Quarter-Financial-Results-and-Provides-Corporate-Update
+    Title: Vistagen Reports Fiscal Year 2026 Third Quarter Fi...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212993392/en/Guardian-Pharmacy-Services-Inc.-to-Participate-in-Upcoming-Raymond-James-Institutional-Investor-Conference
+Fetching URL: https://www.businesswire.com/news/home/20260212993392/en/Guardian-Pharmacy-Services-Inc.-to-Participate-in-Upcoming-Raymond-James-Institutional-Investor-Conference
+    Title: Guardian Pharmacy Services, Inc. to Participate in...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212667243/en/KBRA-Releases-Research-%E2%80%93-Watching-the-Clock-ARDs-and-Refinancings-in-Whole-Business-Securitizations
+Fetching URL: https://www.businesswire.com/news/home/20260212667243/en/KBRA-Releases-Research-–-Watching-the-Clock-ARDs-and-Refinancings-in-Whole-Business-Securitizations
+    No title found
+Processing: http://www.businesswire.com/news/home/20260211014166/en/Air-Lease-Announces-Fourth-Quarter-and-Fiscal-Year-2025-Results
+Fetching URL: https://www.businesswire.com/news/home/20260211014166/en/Air-Lease-Announces-Fourth-Quarter-and-Fiscal-Year-2025-Results
+    Title: Air Lease Announces Fourth Quarter and Fiscal Year...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260210578899/en/Hilton-Grand-Vacations-to-Report-Fourth-Quarter-and-Full-Year-2025-Results
+Fetching URL: https://www.businesswire.com/news/home/20260210578899/en/Hilton-Grand-Vacations-to-Report-Fourth-Quarter-and-Full-Year-2025-Results
+    Title: Hilton Grand Vacations to Report Fourth Quarter an...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212000714/en/IDEXX-Laboratories-to-Present-at-Two-Institutional-Investor-Conferences
+Fetching URL: https://www.businesswire.com/news/home/20260212000714/en/IDEXX-Laboratories-to-Present-at-Two-Institutional-Investor-Conferences
+    Title: IDEXX Laboratories to Present at Two Institutional...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260211892585/en/Morningstar-Inc.-Reports-Fourth-Quarter-Full-Year-2025-Financial-Results
+Fetching URL: https://www.businesswire.com/news/home/20260211892585/en/Morningstar-Inc.-Reports-Fourth-Quarter-Full-Year-2025-Financial-Results
+    Title: Morningstar, Inc. Reports Fourth-Quarter, Full-Yea...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212007443/en/Bright-Horizons-Family-Solutions-Reports-Financial-Results-for-the-Fourth-Quarter-and-Full-Year-of-2025
+Fetching URL: https://www.businesswire.com/news/home/20260212007443/en/Bright-Horizons-Family-Solutions-Reports-Financial-Results-for-the-Fourth-Quarter-and-Full-Year-of-2025
+    Title: Bright Horizons Family SolutionsReports Financial ...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212069055/en/Tennant-Company-Appoints-James-T.-Glerum-Jr.-Patrick-Allen-to-Its-Board-of-Directors
+Fetching URL: https://www.businesswire.com/news/home/20260212069055/en/Tennant-Company-Appoints-James-T.-Glerum-Jr.-Patrick-Allen-to-Its-Board-of-Directors
+    Title: Tennant Company Appoints James T. Glerum, Jr., Pat...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212109172/en/Ibotta-CEO-to-Present-at-The-Citizens-Technology-Conference
+Fetching URL: https://www.businesswire.com/news/home/20260212109172/en/Ibotta-CEO-to-Present-at-The-Citizens-Technology-Conference
+    Title: Ibotta CEO to Present at The Citizens Technology C...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212250444/en/Eversource-Energy-Reports-Full-Year-Fourth-Quarter-2025-Results
+Fetching URL: https://www.businesswire.com/news/home/20260212250444/en/Eversource-Energy-Reports-Full-Year-Fourth-Quarter-2025-Results
+    Title: Eversource Energy Reports Full-Year & Fourth Quart...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212273258/en/LIBERTY-LATIN-AMERICA-SCHEDULES-INVESTOR-CALL-FOR-FULL-YEAR-2025-RESULTS
+Fetching URL: https://www.businesswire.com/news/home/20260212273258/en/LIBERTY-LATIN-AMERICA-SCHEDULES-INVESTOR-CALL-FOR-FULL-YEAR-2025-RESULTS
+    Title: LIBERTY LATIN AMERICA SCHEDULES INVESTOR CALL FOR ...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212330794/en/Taurus-Canada-RNG-Corp-Awarded-10M-to-Build-World%E2%80%99s-First-Integrated-Anaerobic-Digestion-and-Carbon-Sequestration-Facility-to-Produce-Renewable-Natural-Gas-Exclusively-From-Local-Livestock-Manure
+Fetching URL: https://www.businesswire.com/news/home/20260212330794/en/Taurus-Canada-RNG-Corp-Awarded-10M-to-Build-World’s-First-Integrated-Anaerobic-Digestion-and-Carbon-Sequestration-Facility-to-Produce-Renewable-Natural-Gas-Exclusively-From-Local-Livestock-Manure
+    No title found
+Processing: http://www.businesswire.com/news/home/20260212354383/en/Anebulo-Pharmaceuticals-Reports-Second-Quarter-Fiscal-Year-2026-Financial-Results-and-Recent-Updates
+Fetching URL: https://www.businesswire.com/news/home/20260212354383/en/Anebulo-Pharmaceuticals-Reports-Second-Quarter-Fiscal-Year-2026-Financial-Results-and-Recent-Updates
+    Title: Anebulo Pharmaceuticals Reports Second Quarter Fis...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212373375/en/Ooma-Schedules-Release-of-Fourth-Quarter-Fiscal-2026-Results
+Fetching URL: https://www.businesswire.com/news/home/20260212373375/en/Ooma-Schedules-Release-of-Fourth-Quarter-Fiscal-2026-Results
+    Title: Ooma Schedules Release of Fourth Quarter & Fiscal ...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212385721/en/Elastic-to-Announce-Third-Quarter-Fiscal-2026-Earnings-Results-on-Thursday-February-26-2026
+Fetching URL: https://www.businesswire.com/news/home/20260212385721/en/Elastic-to-Announce-Third-Quarter-Fiscal-2026-Earnings-Results-on-Thursday-February-26-2026
+    Title: Elastic to Announce Third Quarter Fiscal 2026 Earn...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212416895/en/XP-Inc.-Reports-Fourth-Quarter-2025-Results
+Fetching URL: https://www.businesswire.com/news/home/20260212416895/en/XP-Inc.-Reports-Fourth-Quarter-2025-Results
+    Title: XP Inc. Reports Fourth Quarter 2025 Results...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212522546/en/EPR-Properties-Declares-Monthly-Dividend-for-Common-Shareholders
+Fetching URL: https://www.businesswire.com/news/home/20260212522546/en/EPR-Properties-Declares-Monthly-Dividend-for-Common-Shareholders
+    Title: EPR Properties Declares Monthly Dividend for Commo...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212682638/en/Eagle-Point-Income-Company-Inc.-Schedules-Release-of-Fourth-Quarter-and-Full-Year-2025-Financial-Results-on-Thursday-February-26-2026
+Fetching URL: https://www.businesswire.com/news/home/20260212682638/en/Eagle-Point-Income-Company-Inc.-Schedules-Release-of-Fourth-Quarter-and-Full-Year-2025-Financial-Results-on-Thursday-February-26-2026
+    Title: Eagle Point Income Company Inc. Schedules Release ...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212552869/en/Cross-Country-Healthcare-to-Hold-Fourth-Quarter-and-Full-Year-2025-Earnings-Conference-Call-on-Wednesday-March-4-2026
+Fetching URL: https://www.businesswire.com/news/home/20260212552869/en/Cross-Country-Healthcare-to-Hold-Fourth-Quarter-and-Full-Year-2025-Earnings-Conference-Call-on-Wednesday-March-4-2026
+    Title: Cross Country Healthcare to Hold Fourth Quarter an...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212765203/en/Enhabit-Home-Health-Hospice-Announces-Date-of-2025-Fourth-Quarter-Earnings-Call
+Fetching URL: https://www.businesswire.com/news/home/20260212765203/en/Enhabit-Home-Health-Hospice-Announces-Date-of-2025-Fourth-Quarter-Earnings-Call
+    Title: Enhabit Home Health & HospiceAnnounces Date of 202...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212866082/en/Seaport-Entertainment-Group-Announces-Fourth-Quarter-and-Full-Year-2025-Earnings-Release-and-Conference-Call
+Fetching URL: https://www.businesswire.com/news/home/20260212866082/en/Seaport-Entertainment-Group-Announces-Fourth-Quarter-and-Full-Year-2025-Earnings-Release-and-Conference-Call
+    Title: Seaport Entertainment Group Announces Fourth Quart...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212976030/en/Bio-Rad-Reports-Fourth-Quarter-and-Full-Year-2025-Financial-Results
+Fetching URL: https://www.businesswire.com/news/home/20260212976030/en/Bio-Rad-Reports-Fourth-Quarter-and-Full-Year-2025-Financial-Results
+    Title: Bio-Rad Reports Fourth-Quarter and Full-Year 2025 ...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212490372/en/Mastercard-to-Participate-in-Upcoming-Investor-Conferences
+Fetching URL: https://www.businesswire.com/news/home/20260212490372/en/Mastercard-to-Participate-in-Upcoming-Investor-Conferences
+    Title: Mastercard to Participate in Upcoming Investor Con...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212591516/en/Eagle-Point-Credit-Company-Inc.-Schedules-Release-of-Fourth-Quarter-and-Full-Year-2025-Financial-Results-on-Tuesday-February-17-2026
+Fetching URL: https://www.businesswire.com/news/home/20260212591516/en/Eagle-Point-Credit-Company-Inc.-Schedules-Release-of-Fourth-Quarter-and-Full-Year-2025-Financial-Results-on-Tuesday-February-17-2026
+    Title: Eagle Point Credit Company Inc. Schedules Release ...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212833008/en/Capstone-Green-Energy-Reports-Strong-Third-Quarter-Results-with-Significant-Revenue-Growth-Margin-Expansion-and-Continued-Profitability
+Fetching URL: https://www.businesswire.com/news/home/20260212833008/en/Capstone-Green-Energy-Reports-Strong-Third-Quarter-Results-with-Significant-Revenue-Growth-Margin-Expansion-and-Continued-Profitability
+    Title: Capstone Green Energy Reports Strong Third Quarter...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212902497/en/Eastman-Board-Declares-Dividend
+Fetching URL: https://www.businesswire.com/news/home/20260212902497/en/Eastman-Board-Declares-Dividend
+    Title: Eastman Board Declares Dividend...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212754635/en/SK-hynix-NAND-Product-Solutions-Investor-Alert-Kahn-Swick-Foti-LLC-Investigates-Proposed-Asset-Sale-Regarding-SK-hynix-NAND-Product-Solutions-Corp.-dba-Solidigm
+Fetching URL: https://www.businesswire.com/news/home/20260212754635/en/SK-hynix-NAND-Product-Solutions-Investor-Alert-Kahn-Swick-Foti-LLC-Investigates-Proposed-Asset-Sale-Regarding-SK-hynix-NAND-Product-Solutions-Corp.-dba-Solidigm
+    Title: SK hynix NAND Product Solutions Investor Alert: Ka...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260211543182/en/CareTrust-REIT-Announces-Fourth-Quarter-Full-Year-2025-Operating-Results
+Fetching URL: https://www.businesswire.com/news/home/20260211543182/en/CareTrust-REIT-Announces-Fourth-Quarter-Full-Year-2025-Operating-Results
+    Title: CareTrust REIT Announces Fourth Quarter & Full Yea...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212097652/en/Peraton-Appoints-Bob-Genter-as-President-and-COO
+Fetching URL: https://www.businesswire.com/news/home/20260212097652/en/Peraton-Appoints-Bob-Genter-as-President-and-COO
+    Title: Peraton Appoints Bob Genter as President and COO...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212182436/en/MNTN-to-Participate-in-Upcoming-Investor-Conferences
+Fetching URL: https://www.businesswire.com/news/home/20260212182436/en/MNTN-to-Participate-in-Upcoming-Investor-Conferences
+    Title: MNTN to Participate in Upcoming Investor Conferenc...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212699738/en/Kinsale-Capital-Group-Inc.-Reports-2025-Fourth-Quarter-and-Year-End-Results
+Fetching URL: https://www.businesswire.com/news/home/20260212699738/en/Kinsale-Capital-Group-Inc.-Reports-2025-Fourth-Quarter-and-Year-End-Results
+    Title: Kinsale Capital Group, Inc. Reports 2025 Fourth Qu...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212160722/en/Ingersoll-Rand-Reports-Fourth-Quarter-and-Full-Year-2025-Results
+Fetching URL: https://www.businesswire.com/news/home/20260212160722/en/Ingersoll-Rand-Reports-Fourth-Quarter-and-Full-Year-2025-Results
+    Title: Ingersoll Rand Reports Fourth Quarter and Full-Yea...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212204898/en/Amkor-Technology-Announces-Secondary-Offering-of-10-Million-Shares-of-Common-Stock-by-the-Kim-Family
+Fetching URL: https://www.businesswire.com/news/home/20260212204898/en/Amkor-Technology-Announces-Secondary-Offering-of-10-Million-Shares-of-Common-Stock-by-the-Kim-Family
+    Title: Amkor Technology Announces Secondary Offering of 1...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212063960/en/Coinbase-Delivers-on-Q4-Financial-Outlook-Doubles-Total-Trading-Volume-and-Crypto-Trading-Volume-Market-Share-in-2025
+Fetching URL: https://www.businesswire.com/news/home/20260212063960/en/Coinbase-Delivers-on-Q4-Financial-Outlook-Doubles-Total-Trading-Volume-and-Crypto-Trading-Volume-Market-Share-in-2025
+    Title: Coinbase Delivers on Q4 Financial Outlook, Doubles...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212028229/en/Mach-Natural-Resources-LP-Announces-Earnings-Release-and-Conference-Call-Schedule-for-Fourth-Quarter-and-Full-Year-2025
+Fetching URL: https://www.businesswire.com/news/home/20260212028229/en/Mach-Natural-Resources-LP-Announces-Earnings-Release-and-Conference-Call-Schedule-for-Fourth-Quarter-and-Full-Year-2025
+    Title: Mach Natural Resources LP Announces Earnings Relea...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212152131/en/Puma-Biotechnology-to-Host-Conference-Call-to-Discuss-Fourth-Quarter-and-Full-Year-2025-Financial-Results
+Fetching URL: https://www.businesswire.com/news/home/20260212152131/en/Puma-Biotechnology-to-Host-Conference-Call-to-Discuss-Fourth-Quarter-and-Full-Year-2025-Financial-Results
+    Title: Puma Biotechnology to Host Conference Call to Disc...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212059914/en/Pinterest-Announces-Fourth-Quarter-and-Full-Year-2025-Results-Delivers-14-Revenue-Growth-and-Record-Users
+Fetching URL: https://www.businesswire.com/news/home/20260212059914/en/Pinterest-Announces-Fourth-Quarter-and-Full-Year-2025-Results-Delivers-14-Revenue-Growth-and-Record-Users
+    Title: Pinterest Announces Fourth Quarter and Full Year 2...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212024157/en/Nu-Skin-Enterprises-Reports-Fourth-Quarter-and-Full-year-2025-Results-Within-Guidance
+Fetching URL: https://www.businesswire.com/news/home/20260212024157/en/Nu-Skin-Enterprises-Reports-Fourth-Quarter-and-Full-year-2025-Results-Within-Guidance
+    Title: Nu Skin Enterprises Reports Fourth Quarter and Ful...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212066179/en/Public-Storage-Reports-Fourth-Quarter-and-Full-Year-2025-Results
+Fetching URL: https://www.businesswire.com/news/home/20260212066179/en/Public-Storage-Reports-Fourth-Quarter-and-Full-Year-2025-Results
+    Title: Public Storage Reports Fourth Quarter and Full Yea...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212042217/en/Fortune-Brands-Innovations-Appoints-Amit-Banati-as-CEO
+Fetching URL: https://www.businesswire.com/news/home/20260212042217/en/Fortune-Brands-Innovations-Appoints-Amit-Banati-as-CEO
+    Title: Fortune Brands Innovations Appoints Amit Banati as...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212058106/en/Toast-Announces-Fourth-Quarter-and-Full-Year-2025-Financial-Results
+Fetching URL: https://www.businesswire.com/news/home/20260212058106/en/Toast-Announces-Fourth-Quarter-and-Full-Year-2025-Financial-Results
+    Title: Toast Announces Fourth Quarter and Full Year 2025 ...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212130307/en/Dutch-Bros-Inc.-Reports-Fourth-Quarter-and-Fiscal-Year-2025-Financial-Results
+Fetching URL: https://www.businesswire.com/news/home/20260212130307/en/Dutch-Bros-Inc.-Reports-Fourth-Quarter-and-Fiscal-Year-2025-Financial-Results
+    Title: Dutch Bros Inc. Reports Fourth Quarter and Fiscal ...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212164540/en/BILL-to-Participate-in-Upcoming-Investor-Conferences
+Fetching URL: https://www.businesswire.com/news/home/20260212164540/en/BILL-to-Participate-in-Upcoming-Investor-Conferences
+    Title: BILL to Participate in Upcoming Investor Conferenc...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212189225/en/Celsius-Holdings-Announces-CAGNY-Conference-Participation-and-Fourth-Quarter-and-Full-Year-2025-Earnings-Release-Date
+Fetching URL: https://www.businesswire.com/news/home/20260212189225/en/Celsius-Holdings-Announces-CAGNY-Conference-Participation-and-Fourth-Quarter-and-Full-Year-2025-Earnings-Release-Date
+    Title: Celsius Holdings Announces CAGNY Conference Partic...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212189743/en/Nu-Skin-Enterprises-Announces-Quarterly-Dividend
+Fetching URL: https://www.businesswire.com/news/home/20260212189743/en/Nu-Skin-Enterprises-Announces-Quarterly-Dividend
+    Title: Nu Skin Enterprises Announces Quarterly Dividend...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212219872/en/Sensus-Healthcare-Reports-Fourth-Quarter-2025-Financial-Results-Highlighted-by-Publication-of-Dedicated-CPT-Codes-for-SRT-to-Treat-Non-Melanoma-Skin-Cancer
+Fetching URL: https://www.businesswire.com/news/home/20260212219872/en/Sensus-Healthcare-Reports-Fourth-Quarter-2025-Financial-Results-Highlighted-by-Publication-of-Dedicated-CPT-Codes-for-SRT-to-Treat-Non-Melanoma-Skin-Cancer
+    Title: Sensus Healthcare Reports Fourth Quarter 2025 Fina...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212255985/en/National-Storage-Affiliates-Trust-Announces-Quarterly-Dividends
+Fetching URL: https://www.businesswire.com/news/home/20260212255985/en/National-Storage-Affiliates-Trust-Announces-Quarterly-Dividends
+    Title: National Storage Affiliates Trust Announces Quarte...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212288619/en/Mach-Natural-Resources-LP-Declares-Fourth-Quarter-2025-Cash-Distribution-of-0.53-Per-Common-Unit
+Fetching URL: https://www.businesswire.com/news/home/20260212288619/en/Mach-Natural-Resources-LP-Declares-Fourth-Quarter-2025-Cash-Distribution-of-0.53-Per-Common-Unit
+    No title found
+Processing: http://www.businesswire.com/news/home/20260212263909/en/Sixth-Street-Specialty-Lending-Inc.-Reports-Full-Year-and-Fourth-Quarter-2025-Earnings-Results-Declares-a-First-Quarter-Base-Dividend-Per-Share-of-0.46-and-a-Fourth-Quarter-Supplemental-Dividend-Per-Share-of-0.01
+Fetching URL: https://www.businesswire.com/news/home/20260212263909/en/Sixth-Street-Specialty-Lending-Inc.-Reports-Full-Year-and-Fourth-Quarter-2025-Earnings-Results-Declares-a-First-Quarter-Base-Dividend-Per-Share-of-0.46-and-a-Fourth-Quarter-Supplemental-Dividend-Per-Share-of-0.01
+    No title found
+Processing: http://www.businesswire.com/news/home/20260212332478/en/SentinelOne-Announces-Date-of-Fourth-Quarter-and-Fiscal-Year-2026-Financial-Results
+Fetching URL: https://www.businesswire.com/news/home/20260212332478/en/SentinelOne-Announces-Date-of-Fourth-Quarter-and-Fiscal-Year-2026-Financial-Results
+    Title: SentinelOne Announces Date of Fourth Quarter and F...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212351471/en/Grindr-Announces-Date-of-Fourth-Quarter-and-Full-Year-2025-Financial-Results-Earnings-Call
+Fetching URL: https://www.businesswire.com/news/home/20260212351471/en/Grindr-Announces-Date-of-Fourth-Quarter-and-Full-Year-2025-Financial-Results-Earnings-Call
+    Title: Grindr Announces Date of Fourth Quarter and Full Y...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212359648/en/Xponential-Fitness-Inc.-to-Announce-Fourth-Quarter-and-Full-Year-2025-Financial-Results-on-Thursday-February-26th
+Fetching URL: https://www.businesswire.com/news/home/20260212359648/en/Xponential-Fitness-Inc.-to-Announce-Fourth-Quarter-and-Full-Year-2025-Financial-Results-on-Thursday-February-26th
+    Title: Xponential Fitness, Inc. to Announce Fourth Quarte...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212387664/en/Tempus-Announces-Collaboration-with-Median-Technologies-to-Integrate-AI-Powered-Lung-Cancer-Screening-into-the-Pixel-Platform
+Fetching URL: https://www.businesswire.com/news/home/20260212387664/en/Tempus-Announces-Collaboration-with-Median-Technologies-to-Integrate-AI-Powered-Lung-Cancer-Screening-into-the-Pixel-Platform
+    Title: Tempus Announces Collaboration with Median Technol...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212393881/en/Forrester-Research-Reports-2025-Fourth-Quarter-And-Full-Year-Financial-Results
+Fetching URL: https://www.businesswire.com/news/home/20260212393881/en/Forrester-Research-Reports-2025-Fourth-Quarter-And-Full-Year-Financial-Results
+    Title: Forrester Research Reports 2025 Fourth-Quarter And...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212410314/en/Fortune-Brands-Innovations-Announces-Fourth-Quarter-and-Full-Year-2025-Results
+Fetching URL: https://www.businesswire.com/news/home/20260212410314/en/Fortune-Brands-Innovations-Announces-Fourth-Quarter-and-Full-Year-2025-Results
+    Title: Fortune Brands Innovations Announces Fourth Quarte...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212428401/en/Warrior-Reports-Fourth-Quarter-and-Full-Year-2025-Results
+Fetching URL: https://www.businesswire.com/news/home/20260212428401/en/Warrior-Reports-Fourth-Quarter-and-Full-Year-2025-Results
+    Title: Warrior Reports Fourth Quarter and Full Year 2025 ...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212452245/en/JFrog-Announces-Fourth-Quarter-and-Fiscal-2025-Results
+Fetching URL: https://www.businesswire.com/news/home/20260212452245/en/JFrog-Announces-Fourth-Quarter-and-Fiscal-2025-Results
+    Title: JFrog Announces Fourth Quarter and Fiscal 2025 Res...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212472439/en/Twilio-Announces-Fourth-Quarter-and-Full-Year-2025-Results
+Fetching URL: https://www.businesswire.com/news/home/20260212472439/en/Twilio-Announces-Fourth-Quarter-and-Full-Year-2025-Results
+    Title: Twilio Announces Fourth Quarter and Full Year 2025...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212491261/en/HASI-Announces-Fourth-Quarter-and-Full-Year-2025-Results-with-New-Investments-up-87-YY-to-a-Record-4.3b-Adjusted-ROE-up-70-bps-to-13.4-and-Adjusted-EPS-up-10-to-2.70
+Fetching URL: https://www.businesswire.com/news/home/20260212491261/en/HASI-Announces-Fourth-Quarter-and-Full-Year-2025-Results-with-New-Investments-up-87-YY-to-a-Record-4.3b-Adjusted-ROE-up-70-bps-to-13.4-and-Adjusted-EPS-up-10-to-2.70
+    No title found
+Processing: http://www.businesswire.com/news/home/20260212491358/en/Procore-Announces-Fourth-Quarter-and-Full-Year-2025-Financial-Results
+Fetching URL: https://www.businesswire.com/news/home/20260212491358/en/Procore-Announces-Fourth-Quarter-and-Full-Year-2025-Financial-Results
+    Title: Procore Announces Fourth Quarter and Full Year 202...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212506420/en/Victor-Peng-Joins-Rambus-Board-of-Directors
+Fetching URL: https://www.businesswire.com/news/home/20260212506420/en/Victor-Peng-Joins-Rambus-Board-of-Directors
+    Title: Victor Peng Joins Rambus Board of Directors...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212495514/en/REPAY-Announces-Departure-of-Co-Founder-and-President-Shaler-Alias
+Fetching URL: https://www.businesswire.com/news/home/20260212495514/en/REPAY-Announces-Departure-of-Co-Founder-and-President-Shaler-Alias
+    Title: REPAY Announces Departure of Co-Founder and Presid...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212589393/en/Logitech-to-Participate-in-Upcoming-Investor-Conferences
+Fetching URL: https://www.businesswire.com/news/home/20260212589393/en/Logitech-to-Participate-in-Upcoming-Investor-Conferences
+    Title: Logitech to Participate in Upcoming Investor Confe...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212530499/en/Sabra-Reports-Fourth-Quarter-2025-Results-Introduces-2026-Guidance
+Fetching URL: https://www.businesswire.com/news/home/20260212530499/en/Sabra-Reports-Fourth-Quarter-2025-Results-Introduces-2026-Guidance
+    Title: Sabra Reports Fourth Quarter 2025 Results; Introdu...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212659109/en/InTest-Schedules-Fourth-Quarter-2025-Financial-Results-Conference-Call-and-Webcast
+Fetching URL: https://www.businesswire.com/news/home/20260212659109/en/InTest-Schedules-Fourth-Quarter-2025-Financial-Results-Conference-Call-and-Webcast
+    Title: InTest Schedules Fourth Quarter 2025 Financial Res...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212665548/en/EVERTEC-to-Announce-Fourth-Quarter-2025-Financial-Results-on-February-26-2026
+Fetching URL: https://www.businesswire.com/news/home/20260212665548/en/EVERTEC-to-Announce-Fourth-Quarter-2025-Financial-Results-on-February-26-2026
+    Title: EVERTEC to Announce Fourth Quarter 2025 Financial ...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212724470/en/Public-Storage-Announces-PS4.0%E2%84%A2-%E2%80%94-A-New-Era-of-Leadership-Growth-and-Value-Creation
+Fetching URL: https://www.businesswire.com/news/home/20260212724470/en/Public-Storage-Announces-PS4.0™-—-A-New-Era-of-Leadership-Growth-and-Value-Creation
+    No title found
+Processing: http://www.businesswire.com/news/home/20260212733895/en/Roku-Releases-Fourth-Quarter-and-Full-Year-2025-Financial-Results
+Fetching URL: https://www.businesswire.com/news/home/20260212733895/en/Roku-Releases-Fourth-Quarter-and-Full-Year-2025-Financial-Results
+    Title: Roku Releases Fourth Quarter and Full Year 2025 Fi...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212737886/en/Tandem-Diabetes-Care-Announces-Upcoming-Conference-Presentations
+Fetching URL: https://www.businesswire.com/news/home/20260212737886/en/Tandem-Diabetes-Care-Announces-Upcoming-Conference-Presentations
+    Title: Tandem Diabetes Care Announces Upcoming Conference...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212836508/en/Forward-Industries-Reports-Fiscal-First-Quarter-2026-Financial-and-Operating-Results
+Fetching URL: https://www.businesswire.com/news/home/20260212836508/en/Forward-Industries-Reports-Fiscal-First-Quarter-2026-Financial-and-Operating-Results
+    Title: Forward Industries Reports Fiscal First Quarter 20...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212843430/en/Prothena-to-Report-Fourth-Quarter-and-Full-Year-2025-Financial-Results-on-February-19-2026
+Fetching URL: https://www.businesswire.com/news/home/20260212843430/en/Prothena-to-Report-Fourth-Quarter-and-Full-Year-2025-Financial-Results-on-February-19-2026
+    Title: Prothena to Report Fourth Quarter and Full Year 20...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212858454/en/Ryan-Specialty-Reports-Fourth-Quarter-2025-Results
+Fetching URL: https://www.businesswire.com/news/home/20260212858454/en/Ryan-Specialty-Reports-Fourth-Quarter-2025-Results
+    Title: Ryan Specialty Reports Fourth Quarter 2025 Results...
+  -> Found 1 insights
+Fetching URLs from page: https://www.stockwatch.com/News/Search?hours=24&region=U
+Fetching URL: https://www.stockwatch.com/News/Search?hours=24&region=U
+Primed session for: https://www.stockwatch.com (status: 200)
+Found 100 URLs to process for StockWatch
+Processing: https://www.stockwatch.com/News/Item/U-b20260212069055-U!TNC-20260212/U/TNC
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260212069055-U!TNC-20260212/U/TNC
+    Skipping duplicate title: Tennant Company Appoints James T. Glerum, Jr., Pat...
+Processing: https://www.stockwatch.com/News/Item/U-b20260212764040-U!FOUR-20260212/U/FOUR
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260212764040-U!FOUR-20260212/U/FOUR
+    Skipping duplicate title: Shift4 Announces Date of Fourth Quarter Earnings R...
+Processing: https://www.stockwatch.com/News/Item/U-SF87443-U!RHI-20260212/U/RHI
+Fetching URL: https://www.stockwatch.com/News/Item/U-SF87443-U!RHI-20260212/U/RHI
+    Title: Robert Half Announces Quarterly Dividend...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260212152131-U!PBYI-20260212/U/PBYI
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260212152131-U!PBYI-20260212/U/PBYI
+    Skipping duplicate title: Puma Biotechnology to Host Conference Call to Disc...
+Processing: https://www.stockwatch.com/News/Item/U-TO86917-U!HPS-20260212/U/HPS
+Fetching URL: https://www.stockwatch.com/News/Item/U-TO86917-U!HPS-20260212/U/HPS
+    Title: JOHN HANCOCK CLOSED-END FUNDS RELEASE EARNINGS DAT...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-TO86917-U!HTD-20260212/U/HTD
+Fetching URL: https://www.stockwatch.com/News/Item/U-TO86917-U!HTD-20260212/U/HTD
+    Skipping duplicate title: JOHN HANCOCK CLOSED-END FUNDS RELEASE EARNINGS DAT...
+Processing: https://www.stockwatch.com/News/Item/U-DA87007-U!ROAD-20260212/U/ROAD
+Fetching URL: https://www.stockwatch.com/News/Item/U-DA87007-U!ROAD-20260212/U/ROAD
+    Title: Construction Partners, Inc. to Participate in Two ...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260212331117-U!BCSF-20260212/U/BCSF
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260212331117-U!BCSF-20260212/U/BCSF
+    Skipping duplicate title: Bain Capital Specialty Finance, Inc. Schedules Ear...
+Processing: https://www.stockwatch.com/News/Item/U-b20260212866082-U!SEG-20260212/U/SEG
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260212866082-U!SEG-20260212/U/SEG
+    Skipping duplicate title: Seaport Entertainment Group Announces Fourth Quart...
+Processing: https://www.stockwatch.com/News/Item/U-CG87302-U!RRX-20260212/U/RRX
+Fetching URL: https://www.stockwatch.com/News/Item/U-CG87302-U!RRX-20260212/U/RRX
+    Title: REGAL REXNORD ANNOUNCES PARTICIPATION AT UPCOMING ...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260211014166-U!AL-20260212/U/AL
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260211014166-U!AL-20260212/U/AL
+    Skipping duplicate title: Air Lease Announces Fourth Quarter and Fiscal Year...
+Processing: https://www.stockwatch.com/News/Item/U-MX87067-U!BLX-20260212/U/BLX
+Fetching URL: https://www.stockwatch.com/News/Item/U-MX87067-U!BLX-20260212/U/BLX
+    Title: BLADEX ANNOUNCES INCREASE IN QUARTERLY CASH DIVIDE...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260212063960-U!COIN-20260212/U/COIN
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260212063960-U!COIN-20260212/U/COIN
+    Skipping duplicate title: Coinbase Delivers on Q4 Financial Outlook, Doubles...
+Processing: https://www.stockwatch.com/News/Item/U-TO86917-U!JHS-20260212/U/JHS
+Fetching URL: https://www.stockwatch.com/News/Item/U-TO86917-U!JHS-20260212/U/JHS
+    Skipping duplicate title: JOHN HANCOCK CLOSED-END FUNDS RELEASE EARNINGS DAT...
+Processing: https://www.stockwatch.com/News/Item/U-C4506-U!CESDF-20260212/U/CESDF
+Fetching URL: https://www.stockwatch.com/News/Item/U-C4506-U!CESDF-20260212/U/CESDF
+    Title: CES ENERGY SOLUTIONS CORP. PROVIDES Q4 AND YEAR EN...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-SP87057-U!GLOB-20260212/U/GLOB
+Fetching URL: https://www.stockwatch.com/News/Item/U-SP87057-U!GLOB-20260212/U/GLOB
+    Title: Globant to Announce Fourth Quarter 2025 Financial ...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-DE87171-U!HGTY-20260212/U/HGTY
+Fetching URL: https://www.stockwatch.com/News/Item/U-DE87171-U!HGTY-20260212/U/HGTY
+    Title: Hagerty to Report Fourth Quarter 2025 Results and ...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260212021032-U!REMX-20260212/U/REMX
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260212021032-U!REMX-20260212/U/REMX
+    Skipping duplicate title: VanEck Recognized for REMX, Fund Leadership and So...
+Processing: https://www.stockwatch.com/News/Item/U-b20260212373375-U!OOMA-20260212/U/OOMA
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260212373375-U!OOMA-20260212/U/OOMA
+    Skipping duplicate title: Ooma Schedules Release of Fourth Quarter & Fiscal ...
+Processing: https://www.stockwatch.com/News/Item/U-z9654159-U!PH-20260212/U/PH
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654159-U!PH-20260212/U/PH
+    Title: Parker Scheduled to Present at Citi’s 2026 Global ...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-TO86917-U!HPI-20260212/U/HPI
+Fetching URL: https://www.stockwatch.com/News/Item/U-TO86917-U!HPI-20260212/U/HPI
+    Skipping duplicate title: JOHN HANCOCK CLOSED-END FUNDS RELEASE EARNINGS DAT...
+Processing: https://www.stockwatch.com/News/Item/U-by1136883-U!CWLPF-20260212/U/CWLPF
+Fetching URL: https://www.stockwatch.com/News/Item/U-by1136883-U!CWLPF-20260212/U/CWLPF
+    Title: The Caldwell Partners International Announces Resu...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9653783-U!DTM-20260212/U/DTM
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9653783-U!DTM-20260212/U/DTM
+    Title: DT Midstream Sets 2026 Annual Meeting Date...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260212959012-U!VTGN-20260212/U/VTGN
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260212959012-U!VTGN-20260212/U/VTGN
+    Skipping duplicate title: Vistagen Reports Fiscal Year 2026 Third Quarter Fi...
+Processing: https://www.stockwatch.com/News/Item/U-b20260211892585-U!MORN-20260212/U/MORN
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260211892585-U!MORN-20260212/U/MORN
+    Skipping duplicate title: Morningstar, Inc. Reports Fourth-Quarter, Full-Yea...
+Processing: https://www.stockwatch.com/News/Item/U-b20260212028229-U!MNR-20260212/U/MNR
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260212028229-U!MNR-20260212/U/MNR
+    Skipping duplicate title: Mach Natural Resources LP Announces Earnings Relea...
+Processing: https://www.stockwatch.com/News/Item/U-TO86917-U!HPF-20260212/U/HPF
+Fetching URL: https://www.stockwatch.com/News/Item/U-TO86917-U!HPF-20260212/U/HPF
+    Skipping duplicate title: JOHN HANCOCK CLOSED-END FUNDS RELEASE EARNINGS DAT...
+Processing: https://www.stockwatch.com/News/Item/U-s0154128-U!JNJ-20260212/U/JNJ
+Fetching URL: https://www.stockwatch.com/News/Item/U-s0154128-U!JNJ-20260212/U/JNJ
+    No title found
+Processing: https://www.stockwatch.com/News/Item/U-b20260212812443-U!YELP-20260212/U/YELP
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260212812443-U!YELP-20260212/U/YELP
+    Title: Yelp Delivers Record Net Revenue in 2025 Accelerat...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260212250444-U!ES-20260212/U/ES
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260212250444-U!ES-20260212/U/ES
+    Skipping duplicate title: Eversource Energy Reports Full-Year & Fourth Quart...
+Processing: https://www.stockwatch.com/News/Item/U-z9653087-U!QGLDF-20260212/U/QGLDF
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9653087-U!QGLDF-20260212/U/QGLDF
+    Title: Q-Gold Resources Invited to BMO Global Metals, Min...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9654104-U!RFAM-20260212/U/RFAM
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654104-U!RFAM-20260212/U/RFAM
+    Title: RF Acquisition Corp III Announces Pricing of $100 ...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9654230-U!EBS-20260212/U/EBS
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654230-U!EBS-20260212/U/EBS
+    Title: Emergent BioSolutions Receives U.S. FDA Approval o...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-NY87328-U!PTCT-20260212/U/PTCT
+Fetching URL: https://www.stockwatch.com/News/Item/U-NY87328-U!PTCT-20260212/U/PTCT
+    Title: PTC Therapeutics Provides Regulatory Update on Tra...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9654227-U!IMIMF-20260212/U/IMIMF
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654227-U!IMIMF-20260212/U/IMIMF
+    Title: Copper Quest Announces Securities for Debt Settlem...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260212765203-U!EHAB-20260212/U/EHAB
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260212765203-U!EHAB-20260212/U/EHAB
+    Title: Enhabit Home Health & Hospice Announces Date of 20...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260212952861-U!MUSA-20260212/U/MUSA
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260212952861-U!MUSA-20260212/U/MUSA
+    Skipping duplicate title: Murphy USA Inc. Announces Dividend...
+Processing: https://www.stockwatch.com/News/Item/U-z9654028-U!RPID-20260212/U/RPID
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654028-U!RPID-20260212/U/RPID
+    Title: Rapid Micro Biosystems Announces Inducement Grants...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9654140-U!STZ-20260212/U/STZ
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654140-U!STZ-20260212/U/STZ
+    Title: Constellation Brands Announces CEO Succession Plan...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260212682638-U!EIC-20260212/U/EIC
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260212682638-U!EIC-20260212/U/EIC
+    Skipping duplicate title: Eagle Point Income Company Inc. Schedules Release ...
+Processing: https://www.stockwatch.com/News/Item/U-b20260212377771-U!QTWO-20260212/U/QTWO
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260212377771-U!QTWO-20260212/U/QTWO
+    Skipping duplicate title: Q2 Releases 2026 State of Commercial Banking Repor...
+Processing: https://www.stockwatch.com/News/Item/U-NE87340-U!APEI-20260212/U/APEI
+Fetching URL: https://www.stockwatch.com/News/Item/U-NE87340-U!APEI-20260212/U/APEI
+    Title: Rasmussen University Opens New Orlando Campus, Exp...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260212902497-U!EMN-20260212/U/EMN
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260212902497-U!EMN-20260212/U/EMN
+    Skipping duplicate title: Eastman Board Declares Dividend...
+Processing: https://www.stockwatch.com/News/Item/U-DA87382-U!KDP-20260212/U/KDP
+Fetching URL: https://www.stockwatch.com/News/Item/U-DA87382-U!KDP-20260212/U/KDP
+    Title: Keurig Dr Pepper Announces New Directors and Gover...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260212485460-U!TMUS-20260212/U/TMUS
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260212485460-U!TMUS-20260212/U/TMUS
+    Title: T-Mobile Agrees to Sell euros2.5 Billion of Euro-D...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260212472439-U!TWLO-20260212/U/TWLO
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260212472439-U!TWLO-20260212/U/TWLO
+    Skipping duplicate title: Twilio Announces Fourth Quarter and Full Year 2025...
+Processing: https://www.stockwatch.com/News/Item/U-z9653568-U!AIP-20260212/U/AIP
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9653568-U!AIP-20260212/U/AIP
+    Title: Arteris Network-on-Chip Technology Achieves Deploy...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260212007443-U!BFAM-20260212/U/BFAM
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260212007443-U!BFAM-20260212/U/BFAM
+    Title: Bright Horizons Family Solutions Reports Financial...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-283757-U!GAU-20260212/U/GAU
+Fetching URL: https://www.stockwatch.com/News/Item/U-283757-U!GAU-20260212/U/GAU
+    Title: Galiano Gold Delivers Annual Mineral Reserve and M...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9654135-U!FMCB-20260212/U/FMCB
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654135-U!FMCB-20260212/U/FMCB
+    Title: Farmers &amp; Merchants Bancorp (FMCB) Announces Q...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z1001164517-U!WIX-20260212/U/WIX
+Fetching URL: https://www.stockwatch.com/News/Item/U-z1001164517-U!WIX-20260212/U/WIX
+    Title: Wix to Announce Fourth Quarter and Full Year 2025 ...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260212591516-U!ECCV-20260212/U/ECCV
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260212591516-U!ECCV-20260212/U/ECCV
+    Skipping duplicate title: Eagle Point Credit Company Inc. Schedules Release ...
+Processing: https://www.stockwatch.com/News/Item/U-b20260212263909-U!TSLX-20260212/U/TSLX
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260212263909-U!TSLX-20260212/U/TSLX
+    Title: Sixth Street Specialty Lending, Inc. Reports Full ...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-LA86076-U!AEMD-20260212/U/AEMD
+Fetching URL: https://www.stockwatch.com/News/Item/U-LA86076-U!AEMD-20260212/U/AEMD
+    Title: Aethlon Medical Announces Fiscal Q3 2026 Financial...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260212993392-U!GRDN-20260212/U/GRDN
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260212993392-U!GRDN-20260212/U/GRDN
+    Skipping duplicate title: Guardian Pharmacy Services, Inc. to Participate in...
+Processing: https://www.stockwatch.com/News/Item/U-TO87272-U!TCX-20260212/U/TCX
+Fetching URL: https://www.stockwatch.com/News/Item/U-TO87272-U!TCX-20260212/U/TCX
+    Title: Tucows Reports Strong Fiscal 2025 Results; Beats G...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-283774-U!ZEFIF-20260212/U/ZEFIF
+Fetching URL: https://www.stockwatch.com/News/Item/U-283774-U!ZEFIF-20260212/U/ZEFIF
+    Title: Zefiro Methane Files Its Management Information Ci...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-s0154127-U!JNJ-20260212/U/JNJ
+Fetching URL: https://www.stockwatch.com/News/Item/U-s0154127-U!JNJ-20260212/U/JNJ
+    No title found
+Processing: https://www.stockwatch.com/News/Item/U-NY86978-U!DOV-20260212/U/DOV
+Fetching URL: https://www.stockwatch.com/News/Item/U-NY86978-U!DOV-20260212/U/DOV
+    Title: Dover Declares Regular Quarterly Cash Dividend...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-LA87165-U!CNVS-20260212/U/CNVS
+Fetching URL: https://www.stockwatch.com/News/Item/U-LA87165-U!CNVS-20260212/U/CNVS
+    Title: Cineverse Announces Agreement to Acquire IndiCue, ...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-DE87055-U!LEA-20260212/U/LEA
+Fetching URL: https://www.stockwatch.com/News/Item/U-DE87055-U!LEA-20260212/U/LEA
+    Title: Lear Declares Quarterly Cash Dividend...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260212542915-U!IIPR-20260212/U/IIPR
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260212542915-U!IIPR-20260212/U/IIPR
+    Skipping duplicate title: Innovative Industrial Properties Announces Fourth ...
+Processing: https://www.stockwatch.com/News/Item/U-283782-U!STKE-20260212/U/STKE
+Fetching URL: https://www.stockwatch.com/News/Item/U-283782-U!STKE-20260212/U/STKE
+    Title: CORRECTION FROM SOURCE: SOL Strategies Announces F...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9654024-U!GMED-20260212/U/GMED
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654024-U!GMED-20260212/U/GMED
+    Title: Globus Medical Schedules Fourth Quarter and Full Y...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9654119-U!VSH-20260212/U/VSH
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654119-U!VSH-20260212/U/VSH
+    Title: Vishay Intertechnology Declares Quarterly Dividend...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260212273258-U!LILA-20260212/U/LILA
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260212273258-U!LILA-20260212/U/LILA
+    Skipping duplicate title: LIBERTY LATIN AMERICA SCHEDULES INVESTOR CALL FOR ...
+Processing: https://www.stockwatch.com/News/Item/U-z9653757-U!WNC-20260212/U/WNC
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9653757-U!WNC-20260212/U/WNC
+    Title: Wabash Announces Quarterly Dividend...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9654136-U!ADX-20260212/U/ADX
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654136-U!ADX-20260212/U/ADX
+    Title: Steven G. Chambers Joins the Boards of Directors o...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260212591516-U!ECCW-20260212/U/ECCW
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260212591516-U!ECCW-20260212/U/ECCW
+    Skipping duplicate title: Eagle Point Credit Company Inc. Schedules Release ...
+Processing: https://www.stockwatch.com/News/Item/U-PH86518-U!SPGI-20260212/U/SPGI
+Fetching URL: https://www.stockwatch.com/News/Item/U-PH86518-U!SPGI-20260212/U/SPGI
+    Title: /C O R R E C T I O N -- CARFAX/...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-283752-U!COCH-20260212/U/COCH
+Fetching URL: https://www.stockwatch.com/News/Item/U-283752-U!COCH-20260212/U/COCH
+    Title: Envoy Medical Announces Closing of Up to $78.0 Mil...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9654192-U!TMCI-20260212/U/TMCI
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654192-U!TMCI-20260212/U/TMCI
+    Title: Treace Updates Date of Fourth Quarter and Full-Yea...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260212833008-U!CGEH-20260212/U/CGEH
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260212833008-U!CGEH-20260212/U/CGEH
+    Skipping duplicate title: Capstone Green Energy Reports Strong Third Quarter...
+Processing: https://www.stockwatch.com/News/Item/U-b20260212268736-U!ACHR-20260212/U/ACHR
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260212268736-U!ACHR-20260212/U/ACHR
+    Title: Archer To Report Fourth Quarter and Full Year 2025...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260212204898-U!AMKR-20260212/U/AMKR
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260212204898-U!AMKR-20260212/U/AMKR
+    Skipping duplicate title: Amkor Technology Announces Secondary Offering of 1...
+Processing: https://www.stockwatch.com/News/Item/U-b20260212160722-U!IR-20260212/U/IR
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260212160722-U!IR-20260212/U/IR
+    Skipping duplicate title: Ingersoll Rand Reports Fourth Quarter and Full-Yea...
+Processing: https://www.stockwatch.com/News/Item/U-PH87333-U!UHS-20260212/U/UHS
+Fetching URL: https://www.stockwatch.com/News/Item/U-PH87333-U!UHS-20260212/U/UHS
+    Title: UNIVERSAL HEALTH SERVICES, INC. ANNOUNCES DIVIDEND...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-CG87355-U!TWI-20260212/U/TWI
+Fetching URL: https://www.stockwatch.com/News/Item/U-CG87355-U!TWI-20260212/U/TWI
+    Title: Kim Marvin Steps Down from Titan International Inc...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-TO86917-U!JHI-20260212/U/JHI
+Fetching URL: https://www.stockwatch.com/News/Item/U-TO86917-U!JHI-20260212/U/JHI
+    Skipping duplicate title: JOHN HANCOCK CLOSED-END FUNDS RELEASE EARNINGS DAT...
+Processing: https://www.stockwatch.com/News/Item/U-283754-U!WARAF-20260212/U/WARAF
+Fetching URL: https://www.stockwatch.com/News/Item/U-283754-U!WARAF-20260212/U/WARAF
+    Title: Waraba Gold Provides Supplemental and Corrective D...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9654029-U!WFRD-20260212/U/WFRD
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654029-U!WFRD-20260212/U/WFRD
+    Title: Weatherford Awarded Multi-Year Integrated Completi...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-CG87348-U!CARS-20260212/U/CARS
+Fetching URL: https://www.stockwatch.com/News/Item/U-CG87348-U!CARS-20260212/U/CARS
+    Title: Cars.com to Announce Fourth Quarter and Full Year ...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260212059914-U!PINS-20260212/U/PINS
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260212059914-U!PINS-20260212/U/PINS
+    Skipping duplicate title: Pinterest Announces Fourth Quarter and Full Year 2...
+Processing: https://www.stockwatch.com/News/Item/U-C4626-U!AEM-20260212/U/AEM
+Fetching URL: https://www.stockwatch.com/News/Item/U-C4626-U!AEM-20260212/U/AEM
+    Title: AGNICO EAGLE REPORTS FOURTH QUARTER AND FULL YEAR ...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9654134-U!VTLSF-20260212/U/VTLSF
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654134-U!VTLSF-20260212/U/VTLSF
+    Title: Vitalist Reports Third Quarter 2026 Financial Resu...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260212591516-U!ECCX-20260212/U/ECCX
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260212591516-U!ECCX-20260212/U/ECCX
+    Skipping duplicate title: Eagle Point Credit Company Inc. Schedules Release ...
+Processing: https://www.stockwatch.com/News/Item/U-z9653909-U!FMAO-20260212/U/FMAO
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9653909-U!FMAO-20260212/U/FMAO
+    Title: Farmers &amp; Merchants Bancorp, Inc. Reports 2025...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260212552869-U!CCRN-20260212/U/CCRN
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260212552869-U!CCRN-20260212/U/CCRN
+    Skipping duplicate title: Cross Country Healthcare to Hold Fourth Quarter an...
+Processing: https://www.stockwatch.com/News/Item/U-z9653819-U!NCLH-20260212/U/NCLH
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9653819-U!NCLH-20260212/U/NCLH
+    Title: Norwegian Cruise Line Holdings Appoints John W. Ch...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9654178-U!CSV-20260212/U/CSV
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654178-U!CSV-20260212/U/CSV
+    Title: Carriage Services Announces 2025 Annual Results an...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260211543182-U!CTRE-20260212/U/CTRE
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260211543182-U!CTRE-20260212/U/CTRE
+    Skipping duplicate title: CareTrust REIT Announces Fourth Quarter & Full Yea...
+Processing: https://www.stockwatch.com/News/Item/U-b20260212062092-U!SNA-20260212/U/SNA
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260212062092-U!SNA-20260212/U/SNA
+    Skipping duplicate title: Snap-on Incorporated Declares Quarterly Dividend...
+Processing: https://www.stockwatch.com/News/Item/U-z9654177-U!EGY-20260212/U/EGY
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654177-U!EGY-20260212/U/EGY
+    Title: VAALCO Energy, Inc. Announces Participation in Non...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260212740005-U!ALLE-20260212/U/ALLE
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260212740005-U!ALLE-20260212/U/ALLE
+    Skipping duplicate title: Allegion to Attend 2026 Barclays Industrial Select...
+Processing: https://www.stockwatch.com/News/Item/U-PH87267-U!IFN-20260212/U/IFN
+Fetching URL: https://www.stockwatch.com/News/Item/U-PH87267-U!IFN-20260212/U/IFN
+    Title: The India Fund, Inc. (IFN) Announces Name Change...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9654097-U!ADV-20260212/U/ADV
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654097-U!ADV-20260212/U/ADV
+    Title: Advantage Solutions Strengthens Senior Leadership ...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9654172-U!CMII-20260212/U/CMII
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654172-U!CMII-20260212/U/CMII
+    Title: Columbus Circle Capital Corp. II and Cohen &amp; C...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-CL87449-U!YCBD-20260212/U/YCBD
+Fetching URL: https://www.stockwatch.com/News/Item/U-CL87449-U!YCBD-20260212/U/YCBD
+    Title: cbdMD, Inc. to Host Conference Call to Discuss Dec...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9654052-U!TRUP-20260212/U/TRUP
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654052-U!TRUP-20260212/U/TRUP
+    Title: Trupanion Reports Fourth Quarter &amp; Full Year 2...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9654088-U!SACH-20260212/U/SACH
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654088-U!SACH-20260212/U/SACH
+    Title: Sachem Capital Provides Fourth Quarter and Full Ye...
+  -> Found 1 insights
+Fetching URLs from page: https://www.investing.com/news/latest-news
+Fetching URL: https://www.investing.com/news/latest-news
+Primed session for: https://www.investing.com (status: 200)
+Found 100 URLs to process for Investing.com
+Processing: https://www.investing.com/news/stock-market-news/analysisfor-stock-market-ai-turns-from-lifting-all-boats-to-sinking-ships-4503578
+Fetching URL: https://www.investing.com/news/stock-market-news/analysisfor-stock-market-ai-turns-from-lifting-all-boats-to-sinking-ships-4503578
+    Title: Analysis-For stock market, AI turns from lifting a...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/stock-market-news/kioxias-monster-q4-outlook-sends-memory-stocks-soaring-again-4501918
+Fetching URL: https://www.investing.com/news/stock-market-news/kioxias-monster-q4-outlook-sends-memory-stocks-soaring-again-4501918
+    Title: Kioxia’s monster Q4 outlook sends memory stocks so...
+  -> Found 1 insights
+Processing: https://www.investing.com/equities/expeditors-intl-wash-inc
+Fetching URL: https://www.investing.com/equities/expeditors-intl-wash-inc
+    Title: Expeditors International of Washington Inc (EXPD)...
+  -> Found 1 insights
+Processing: https://www.investing.com/equities/akamai-technologies-inc
+Fetching URL: https://www.investing.com/equities/akamai-technologies-inc
+    Title: Akamai Technologies Inc (AKAM)...
+  -> Found 1 insights
+Processing: https://pt.investing.com
+Fetching URL: https://pt.investing.com
+Primed session for: https://pt.investing.com (status: 200)
+    Title: Investing.com - O Portal Líder Financeiro...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/stock-market-news/spartacus-acquisition-corp-ii-closes-230-million-ipo-on-nasdaq-432SI-4504153
+Fetching URL: https://www.investing.com/news/stock-market-news/spartacus-acquisition-corp-ii-closes-230-million-ipo-on-nasdaq-432SI-4504153
+    Title: Spartacus Acquisition Corp. II closes $230 million...
+  -> Found 1 insights
+Processing: https://www.investing.com/equities/united-states
+Fetching URL: https://www.investing.com/equities/united-states
+    Title: United States Stocks...
+  -> Found 1 insights
+Processing: https://www.investing.com/analysis/can-sp-500-finally-break-7000-barrier-200674922
+Fetching URL: https://www.investing.com/analysis/can-sp-500-finally-break-7000-barrier-200674922
+    Title: Can S&P 500 Finally Break 7,000 Barrier?...
+  -> Found 1 insights
+Processing: https://www.investing.com/discover/renewable-energy-stocks
+Fetching URL: https://www.investing.com/discover/renewable-energy-stocks
+    Title: Top Renewable Energy Stocks...
+  -> Found 1 insights
+Processing: https://www.investing.com/equities/carmax-inc
+Fetching URL: https://www.investing.com/equities/carmax-inc
+    Title: CarMax Inc (KMX)...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/cryptocurrency-news/bitcoin-price-today-muted-near-67k-after-strong-us-jobs-data-cpi-awaited-4501696
+Fetching URL: https://www.investing.com/news/cryptocurrency-news/bitcoin-price-today-muted-near-67k-after-strong-us-jobs-data-cpi-awaited-4501696
+    Title: Bitcoin set for four-day losing streak as traders ...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/earnings/coinbase-delivers-quarterly-profit-and-revenue-miss-amid-downturn-in-crypto-4504010
+Fetching URL: https://www.investing.com/news/earnings/coinbase-delivers-quarterly-profit-and-revenue-miss-amid-downturn-in-crypto-4504010
+    Title: Coinbase delivers quarterly profit and revenue mis...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/stock-market-news/openai-accuses-deepseek-of-distilling-us-models-to-gain-advantage-bloomberg-news-reports-4504138
+Fetching URL: https://www.investing.com/news/stock-market-news/openai-accuses-deepseek-of-distilling-us-models-to-gain-advantage-bloomberg-news-reports-4504138
+    Title: OpenAI accuses DeepSeek of distilling US models to...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/commodities-news/trump-administration-set-to-revoke-basis-of-us-climate-regulation-4502883#comments
+Fetching URL: https://www.investing.com/news/commodities-news/trump-administration-set-to-revoke-basis-of-us-climate-regulation-4502883
+    Title: Trump revokes basis of US climate regulation, ends...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/economy-news/futures-higher-nfps-fallout-cisco-shares-slide--whats-moving-markets-4501885
+Fetching URL: https://www.investing.com/news/economy-news/futures-higher-nfps-fallout-cisco-shares-slide--whats-moving-markets-4501885
+    Title: Futures higher; NFPs fallout; Cisco shares slide -...
+  -> Found 1 insights
+Processing: https://www.investing.com/equities/applovin
+Fetching URL: https://www.investing.com/equities/applovin
+    Title: Applovin Corp (APP)...
+  -> Found 1 insights
+Processing: https://www.investing.com/pro/propicks/tech-titans
+Fetching URL: https://www.investing.com/pro/propicks/tech-titans
+    Title: InvestingPro...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/cryptocurrency-news/bitcoin-may-drop-to-50000-in-coming-weeks-stancharts-kendrick-warns-4502175
+Fetching URL: https://www.investing.com/news/cryptocurrency-news/bitcoin-may-drop-to-50000-in-coming-weeks-stancharts-kendrick-warns-4502175
+    Title: Bitcoin may drop to $50,000 in coming weeks, StanC...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/earnings/callaway-golf-shares-tumble-after-revenue-miss-and-weak-outlook-93CH-4504136
+Fetching URL: https://www.investing.com/news/earnings/callaway-golf-shares-tumble-after-revenue-miss-and-weak-outlook-93CH-4504136
+    Title: Callaway Golf shares tumble after revenue miss and...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/commodities-news/us-publishes-interim-tax-credit-rules-meant-to-restrict-china-clean-energy-influence-4504184
+Fetching URL: https://www.investing.com/news/commodities-news/us-publishes-interim-tax-credit-rules-meant-to-restrict-china-clean-energy-influence-4504184
+    Title: US publishes interim tax credit rules meant to res...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/assorted/rocket-lab-to-launch-hypersonic-test-mission-for-defense-innovation-unit-432SI-4504047
+Fetching URL: https://www.investing.com/news/assorted/rocket-lab-to-launch-hypersonic-test-mission-for-defense-innovation-unit-432SI-4504047
+    Title: Rocket Lab to launch hypersonic test mission for D...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/commodities-news/trump-administration-set-to-revoke-basis-of-us-climate-regulation-4502883
+Fetching URL: https://www.investing.com/news/commodities-news/trump-administration-set-to-revoke-basis-of-us-climate-regulation-4502883
+    Skipping duplicate title: Trump revokes basis of US climate regulation, ends...
+Processing: https://www.investing.com/news/commodities-news/usled-oil-sales-from-venezuela-to-bring-in-5-billion-in-months-energy-chief-wright-tells-nbc-news-4504113
+Fetching URL: https://www.investing.com/news/commodities-news/usled-oil-sales-from-venezuela-to-bring-in-5-billion-in-months-energy-chief-wright-tells-nbc-news-4504113
+    Title: US-led oil sales from Venezuela to bring in $5 bil...
+  -> Found 1 insights
+Filtering insights with minimum score: 80
+Sending email with 14 top insights...
+Email sent to tray14@hotmail.com
+Job completed.
+Job finished at Thu Feb 12 05:09:35 PM CST 2026

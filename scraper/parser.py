@@ -100,6 +100,46 @@ class Parser:
                 
         return title
 
+    def extract_date(self, soup, date_regex=None, date_format=None, url=None):
+        """Extracts date from the page content or URL using regex and format."""
+        if not date_regex:
+            return None
+            
+        import re
+        from datetime import datetime
+        from dateutil import parser as date_parser
+        
+        # Helper to parse date string
+        def parse_date_str(d_str, d_fmt):
+            try:
+                # Try explicit format if provided
+                if d_fmt:
+                    return datetime.strptime(d_str, d_fmt)
+                # Fallback to dateutil
+                return date_parser.parse(d_str, fuzzy=True)
+            except Exception as e:
+                print(f"Error parsing date '{d_str}': {e}")
+                return None
+
+        # 1. Try regex on text content
+        if soup:
+            text = soup.get_text()
+            match = re.search(date_regex, text)
+            if match:
+                date_str = match.group(1).strip()
+                dt = parse_date_str(date_str, date_format)
+                if dt: return dt
+
+        # 2. Try regex on URL if provided
+        if url:
+            match = re.search(date_regex, url)
+            if match:
+                date_str = match.group(1).strip()
+                dt = parse_date_str(date_str, date_format)
+                if dt: return dt
+        
+        return None
+
     def extract_links(self, soup, base_url):
         """Extracts all links from the soup, resolving relative URLs."""
         links = []

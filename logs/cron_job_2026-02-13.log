@@ -1,0 +1,862 @@
+Starting job at Fri Feb 13 05:00:01 PM CST 2026
+Starting Stock Data Analysis Job...
+StateManager using local file.
+Fetching URLs from sitemap: https://bw-prod-sitemap.s3.us-east-1.amazonaws.com/webdmz1.vaprod.businesswire.com/home/2026-02-13.xml.gz
+Parsing sitemap: https://bw-prod-sitemap.s3.us-east-1.amazonaws.com/webdmz1.vaprod.businesswire.com/home/2026-02-13.xml.gz
+Found 100 URLs to process for BusinessWire
+Processing: http://www.businesswire.com/news/home/20260213508490/en/Funko-Announces-Amendment-and-Extension-of-Existing-Credit-Agreement
+Fetching URL: https://www.businesswire.com/news/home/20260213508490/en/Funko-Announces-Amendment-and-Extension-of-Existing-Credit-Agreement
+Primed session for: https://www.businesswire.com (status: 200)
+    Title: Funko Announces Amendment and Extension of Existin...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260213762621/en/The-Special-Committee-of-BARK-Provides-Update-on-Process
+Fetching URL: https://www.businesswire.com/news/home/20260213762621/en/The-Special-Committee-of-BARK-Provides-Update-on-Process
+    Title: The Special Committee of BARK Provides Update on P...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260213713497/en/KBRA-Assigns-Preliminary-Ratings-to-RCKT-Mortgage-Trust-2026-CES2-RCKT-2026-CES2
+Fetching URL: https://www.businesswire.com/news/home/20260213713497/en/KBRA-Assigns-Preliminary-Ratings-to-RCKT-Mortgage-Trust-2026-CES2-RCKT-2026-CES2
+    Title: KBRA Assigns Preliminary Ratings to RCKT Mortgage ...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260213797511/en/NIKE-Inc.-Declares-0.41-Quarterly-Dividend
+Fetching URL: https://www.businesswire.com/news/home/20260213797511/en/NIKE-Inc.-Declares-0.41-Quarterly-Dividend
+    No title found
+Processing: http://www.businesswire.com/news/home/20260213883507/en/OFS-Credit-Company-Provides-January-2026-Net-Asset-Value-Update
+Fetching URL: https://www.businesswire.com/news/home/20260213883507/en/OFS-Credit-Company-Provides-January-2026-Net-Asset-Value-Update
+    Title: OFS Credit Company Provides January 2026 Net Asset...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260213589122/en/Black-Rifle-Coffee-Company-Receives-NYSE-Continued-Listing-Standard-Notice
+Fetching URL: https://www.businesswire.com/news/home/20260213589122/en/Black-Rifle-Coffee-Company-Receives-NYSE-Continued-Listing-Standard-Notice
+    Title: Black Rifle Coffee Company Receives NYSE Continued...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260213827795/en/Granite-REIT-Declares-Distribution-for-February-2026
+Fetching URL: https://www.businesswire.com/news/home/20260213827795/en/Granite-REIT-Declares-Distribution-for-February-2026
+    Title: Granite REIT Declares Distribution for February 20...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260213113634/en/CWCI-COVID-19-Drove-Recent-Volatility-in-California-Work-Injury-Illness-Trends
+Fetching URL: https://www.businesswire.com/news/home/20260213113634/en/CWCI-COVID-19-Drove-Recent-Volatility-in-California-Work-Injury-Illness-Trends
+    Title: CWCI: COVID-19 Drove Recent Volatility in Californ...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260213168541/en/Aldous-Law-Trial-Team-Recognized-Among-America%E2%80%99s-Elite-Plaintiff-Attorneys
+Fetching URL: https://www.businesswire.com/news/home/20260213168541/en/Aldous-Law-Trial-Team-Recognized-Among-America’s-Elite-Plaintiff-Attorneys
+    No title found
+Processing: http://www.businesswire.com/news/home/20260213228971/en/Badger-Meter-Declares-Regular-Quarterly-Dividend-and-Expands-Share-Repurchase-Authorization
+Fetching URL: https://www.businesswire.com/news/home/20260213228971/en/Badger-Meter-Declares-Regular-Quarterly-Dividend-and-Expands-Share-Repurchase-Authorization
+    Title: Badger Meter Declares Regular Quarterly Dividend a...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260213717029/en/KBRA-Releases-Research-%E2%80%93-CMBS-Loan-Performance-Trends-January-2026
+Fetching URL: https://www.businesswire.com/news/home/20260213717029/en/KBRA-Releases-Research-–-CMBS-Loan-Performance-Trends-January-2026
+    No title found
+Processing: http://www.businesswire.com/news/home/20260213283579/en/KBRA-Assigns-A-Rating-to-City-of-Chicago-OHare-International-Airport-Revenue-Bonds-Series-2026A
+Fetching URL: https://www.businesswire.com/news/home/20260213283579/en/KBRA-Assigns-A-Rating-to-City-of-Chicago-OHare-International-Airport-Revenue-Bonds-Series-2026A
+    Title: KBRA Assigns A+ Rating to City of Chicago O'Hare I...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260213221323/en/Enpro-Increases-Quarterly-Dividend
+Fetching URL: https://www.businesswire.com/news/home/20260213221323/en/Enpro-Increases-Quarterly-Dividend
+    Title: Enpro Increases Quarterly Dividend...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260213002386/en/MercadoLibre-Inc.-to-Report-Fourth-Quarter-2025-Financial-Results
+Fetching URL: https://www.businesswire.com/news/home/20260213002386/en/MercadoLibre-Inc.-to-Report-Fourth-Quarter-2025-Financial-Results
+    Title: MercadoLibre, Inc. to Report Fourth Quarter 2025 F...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260213291241/en/Morgan-Stanley-Declares-Dividends-on-Its-Preferred-Stock
+Fetching URL: https://www.businesswire.com/news/home/20260213291241/en/Morgan-Stanley-Declares-Dividends-on-Its-Preferred-Stock
+    Title: Morgan Stanley Declares Dividends on Its Preferred...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260213768379/en/Cathay-General-Bancorp-Declares-0.38-Per-Share-Dividend
+Fetching URL: https://www.businesswire.com/news/home/20260213768379/en/Cathay-General-Bancorp-Declares-0.38-Per-Share-Dividend
+    No title found
+Processing: http://www.businesswire.com/news/home/20260213020958/en/Perfect-Corp.-Provides-APIs-to-DeveloperWeek-Hackathon-Inviting-Developers-to-Build-Next-Generation-AI-Driven-Consumer-Experiences
+Fetching URL: https://www.businesswire.com/news/home/20260213020958/en/Perfect-Corp.-Provides-APIs-to-DeveloperWeek-Hackathon-Inviting-Developers-to-Build-Next-Generation-AI-Driven-Consumer-Experiences
+    Title: Perfect Corp. Provides APIs to DeveloperWeek Hacka...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260213524218/en/Faraday-Future-Holds-Special-Meeting-of-Stockholders-Securing-Approval-for-Share-Authorization-to-Support-2026-FX-Super-One-and-EAI-Robotics-Deliveries
+Fetching URL: https://www.businesswire.com/news/home/20260213524218/en/Faraday-Future-Holds-Special-Meeting-of-Stockholders-Securing-Approval-for-Share-Authorization-to-Support-2026-FX-Super-One-and-EAI-Robotics-Deliveries
+    Title: Faraday Future Holds Special Meeting of Stockholde...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260213819517/en/JPMorganChase-Files-Form-10-K-for-the-Fiscal-Year-Ended-December-31-2025
+Fetching URL: https://www.businesswire.com/news/home/20260213819517/en/JPMorganChase-Files-Form-10-K-for-the-Fiscal-Year-Ended-December-31-2025
+    Title: JPMorganChase Files Form 10-K for the Fiscal Year ...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260213455415/en/JPMorganChase-Declares-Preferred-Stock-Dividends
+Fetching URL: https://www.businesswire.com/news/home/20260213455415/en/JPMorganChase-Declares-Preferred-Stock-Dividends
+    Title: JPMorganChase Declares Preferred Stock Dividends...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260213124431/en/General-American-Investors-Files-Certified-Shareholder-Report-for-Year-Ended-December-31-2025
+Fetching URL: https://www.businesswire.com/news/home/20260213124431/en/General-American-Investors-Files-Certified-Shareholder-Report-for-Year-Ended-December-31-2025
+    Title: General American Investors Files Certified Shareho...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260213824146/en/KD-Investors-Have-Opportunity-to-Lead-Kyndryl-Holdings-Inc.-Securities-Fraud-Lawsuit-With-The-Schall-Law-Firm
+Fetching URL: https://www.businesswire.com/news/home/20260213824146/en/KD-Investors-Have-Opportunity-to-Lead-Kyndryl-Holdings-Inc.-Securities-Fraud-Lawsuit-With-The-Schall-Law-Firm
+    Title: KD Investors Have Opportunity to Lead Kyndryl Hold...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260213785015/en/Philadelphia-Jury-Returns-250000-Verdict-Against-JJ-in-Latest-Baby-Powder-Ovarian-Cancer-Trial
+Fetching URL: https://www.businesswire.com/news/home/20260213785015/en/Philadelphia-Jury-Returns-250000-Verdict-Against-JJ-in-Latest-Baby-Powder-Ovarian-Cancer-Trial
+    No title found
+Processing: http://www.businesswire.com/news/home/20260212250444/en/ADDING-and-REPLACING-Eversource-Energy-Reports-Full-Year-Fourth-Quarter-2025-Results
+Fetching URL: https://www.businesswire.com/news/home/20260212250444/en/ADDING-and-REPLACING-Eversource-Energy-Reports-Full-Year-Fourth-Quarter-2025-Results
+    Title: ADDING and REPLACINGEversource Energy Reports Full...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260213473870/en/W.-R.-Berkley-Corporation-Declares-Regular-Quarterly-Cash-Dividend
+Fetching URL: https://www.businesswire.com/news/home/20260213473870/en/W.-R.-Berkley-Corporation-Declares-Regular-Quarterly-Cash-Dividend
+    Title: W. R. Berkley Corporation Declares Regular Quarter...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260213557611/en/BARK-Investors-Have-the-Opportunity-to-Join-Investigation-of-BARK-Inc.-with-the-Schall-Law-Firm
+Fetching URL: https://www.businesswire.com/news/home/20260213557611/en/BARK-Investors-Have-the-Opportunity-to-Join-Investigation-of-BARK-Inc.-with-the-Schall-Law-Firm
+    Title: BARK Investors Have the Opportunity to Join Invest...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260213106397/en/CenterWell-Completes-Acquisition-of-MaxHealth-From-Arsenal-Capital-Partners
+Fetching URL: https://www.businesswire.com/news/home/20260213106397/en/CenterWell-Completes-Acquisition-of-MaxHealth-From-Arsenal-Capital-Partners
+    Title: CenterWell Completes Acquisition of MaxHealth From...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260213487352/en/Cencora-Closes-3.0-Billion-Senior-Notes-Offering
+Fetching URL: https://www.businesswire.com/news/home/20260213487352/en/Cencora-Closes-3.0-Billion-Senior-Notes-Offering
+    No title found
+Processing: http://www.businesswire.com/news/home/20260213692517/en/Scholar-Rock-Reports-New-Employee-Inducement-Grants-Under-Nasdaq-Listing-Rule-5635-c-4
+Fetching URL: https://www.businesswire.com/news/home/20260213692517/en/Scholar-Rock-Reports-New-Employee-Inducement-Grants-Under-Nasdaq-Listing-Rule-5635-c-4
+    No title found
+Processing: http://www.businesswire.com/news/home/20260213012339/en/Western-Digital-to-Participate-in-Upcoming-Investor-Conference
+Fetching URL: https://www.businesswire.com/news/home/20260213012339/en/Western-Digital-to-Participate-in-Upcoming-Investor-Conference
+    Title: Western Digital to Participate in Upcoming Investo...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260213438284/en/Copper-Property-CTL-Pass-Through-Trust-Posts-Estimated-2025-Tax-Information
+Fetching URL: https://www.businesswire.com/news/home/20260213438284/en/Copper-Property-CTL-Pass-Through-Trust-Posts-Estimated-2025-Tax-Information
+    Title: Copper Property CTL Pass Through Trust Posts Estim...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260213565811/en/Michael-Lewis-Named-President-Marsh-Risk-Canada
+Fetching URL: https://www.businesswire.com/news/home/20260213565811/en/Michael-Lewis-Named-President-Marsh-Risk-Canada
+    Title: Michael Lewis Named President, Marsh Risk Canada...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260213964192/en/Granite-Ridge-Resources-Declares-Quarterly-Cash-Dividend-and-Schedules-Fourth-Quarter-2025-Earnings-Conference-Call
+Fetching URL: https://www.businesswire.com/news/home/20260213964192/en/Granite-Ridge-Resources-Declares-Quarterly-Cash-Dividend-and-Schedules-Fourth-Quarter-2025-Earnings-Conference-Call
+    Title: Granite Ridge Resources Declares Quarterly Cash Di...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260213612379/en/Quantum-Si-Announces-Inducement-Grants-Under-Nasdaq-Listing-Rule-5635-c-4
+Fetching URL: https://www.businesswire.com/news/home/20260213612379/en/Quantum-Si-Announces-Inducement-Grants-Under-Nasdaq-Listing-Rule-5635-c-4
+    No title found
+Processing: http://www.businesswire.com/news/home/20260213248136/en/Sabra-Health-Care-REIT-Inc.-to-Attend-Citi%E2%80%99s-2026-Global-Property-CEO-Conference
+Fetching URL: https://www.businesswire.com/news/home/20260213248136/en/Sabra-Health-Care-REIT-Inc.-to-Attend-Citi’s-2026-Global-Property-CEO-Conference
+    No title found
+Processing: http://www.businesswire.com/news/home/20260213924701/en/Savara-Announces-New-Employment-Inducement-Grant
+Fetching URL: https://www.businesswire.com/news/home/20260213924701/en/Savara-Announces-New-Employment-Inducement-Grant
+    Title: Savara Announces New Employment Inducement Grant...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260213973540/en/Evolus-Reports-Inducement-Grants-Under-Nasdaq-Listing-Rule-5635-c-4
+Fetching URL: https://www.businesswire.com/news/home/20260213973540/en/Evolus-Reports-Inducement-Grants-Under-Nasdaq-Listing-Rule-5635-c-4
+    No title found
+Processing: http://www.businesswire.com/news/home/20260213315061/en/SCE-Extends-More-Than-500-Offers-for-Eaton-Fire-Recovery-in-Just-Over-100-Days
+Fetching URL: https://www.businesswire.com/news/home/20260213315061/en/SCE-Extends-More-Than-500-Offers-for-Eaton-Fire-Recovery-in-Just-Over-100-Days
+    Title: SCE Extends More Than 500 Offers for Eaton Fire Re...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260213963431/en/Exact-Sciences-Announces-Record-Fourth-Quarter-and-Full-Year-2025-Results
+Fetching URL: https://www.businesswire.com/news/home/20260213963431/en/Exact-Sciences-Announces-Record-Fourth-Quarter-and-Full-Year-2025-Results
+    Title: Exact Sciences Announces Record Fourth Quarter and...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260213708794/en/Immersion-Corporation-Receives-Nasdaq-Staff-Determination-Letter-Will-Seek-Hearing-Continued-Listing
+Fetching URL: https://www.businesswire.com/news/home/20260213708794/en/Immersion-Corporation-Receives-Nasdaq-Staff-Determination-Letter-Will-Seek-Hearing-Continued-Listing
+    Title: Immersion Corporation Receives Nasdaq Staff Determ...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260213436454/en/STOCK-NEWS-Oracle-Corporation-Sued-for-Securities-Fraud-after-11-Stock-Drop----Investors-Notified-to-Contact-BFA-Law-by-April-6-Class-Action-Deadline
+Fetching URL: https://www.businesswire.com/news/home/20260213436454/en/STOCK-NEWS-Oracle-Corporation-Sued-for-Securities-Fraud-after-11-Stock-Drop----Investors-Notified-to-Contact-BFA-Law-by-April-6-Class-Action-Deadline
+    Title: STOCK NEWS: Oracle Corporation Sued for Securities...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260213617591/en/TRISO-X-Receives-First-Ever-Part-70-HALEU-Fuel-Fabrication-License
+Fetching URL: https://www.businesswire.com/news/home/20260213617591/en/TRISO-X-Receives-First-Ever-Part-70-HALEU-Fuel-Fabrication-License
+    Title: TRISO-X Receives First-Ever Part 70 HALEU Fuel Fab...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260213989610/en/KBRA-Assigns-Preliminary-Ratings-to-WFCM-2026-1250B
+Fetching URL: https://www.businesswire.com/news/home/20260213989610/en/KBRA-Assigns-Preliminary-Ratings-to-WFCM-2026-1250B
+    Title: KBRA Assigns Preliminary Ratings to WFCM 2026-1250...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212384290/en/EPC-Announces-Strategic-GaN-Technology-Licensing-and-Second-Sourcing-Agreement-With-Renesas
+Fetching URL: https://www.businesswire.com/news/home/20260212384290/en/EPC-Announces-Strategic-GaN-Technology-Licensing-and-Second-Sourcing-Agreement-With-Renesas
+    Title: EPC Announces Strategic GaN Technology Licensing a...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260213269786/en/HM-King-Mohammed-VI-Presides-Over-the-Launch-Ceremony-of-the-Aircraft-Landing-Gear-Production-Plant-Project-Representing-an-Investment-of-%E2%82%AC280-million-by-the-Safran-Group-in-Morocco
+Fetching URL: https://www.businesswire.com/news/home/20260213269786/en/HM-King-Mohammed-VI-Presides-Over-the-Launch-Ceremony-of-the-Aircraft-Landing-Gear-Production-Plant-Project-Representing-an-Investment-of-€280-million-by-the-Safran-Group-in-Morocco
+    Title: HM King Mohammed VI Presides Over the Launch Cerem...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260213929926/en/PAMT-CORP-Announces-Results-for-the-Fourth-Quarter-and-Year-Ended-December-31-2025
+Fetching URL: https://www.businesswire.com/news/home/20260213929926/en/PAMT-CORP-Announces-Results-for-the-Fourth-Quarter-and-Year-Ended-December-31-2025
+    Title: PAMT CORP Announces Results for the Fourth Quarter...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212864198/en/Lisa-Detanna-Named-to-Forbes%E2%80%99-Top-Women-Wealth-Advisors
+Fetching URL: https://www.businesswire.com/news/home/20260212864198/en/Lisa-Detanna-Named-to-Forbes’-Top-Women-Wealth-Advisors
+    Title: Lisa Detanna Named to Forbes’ Top Women Wealth Adv...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260213546955/en/Securities-Fraud-Investigation-Into-BYD-Company-Limited-BYDDF-Announced-%E2%80%93-Shareholders-Who-Lost-Money-Urged-To-Contact-The-Law-Offices-of-Frank-R.-Cruz
+Fetching URL: https://www.businesswire.com/news/home/20260213546955/en/Securities-Fraud-Investigation-Into-BYD-Company-Limited-BYDDF-Announced-–-Shareholders-Who-Lost-Money-Urged-To-Contact-The-Law-Offices-of-Frank-R.-Cruz
+    No title found
+Processing: http://www.businesswire.com/news/home/20260211018863/en/Inovar-Packaging-Group-Acquires-Kiliper-Corporation
+Fetching URL: https://www.businesswire.com/news/home/20260211018863/en/Inovar-Packaging-Group-Acquires-Kiliper-Corporation
+    Title: Inovar Packaging Group Acquires Kiliper Corporatio...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260213490364/en/Mineros-S.A.-to-Announce-Fourth-Quarter-and-Year-End-2025-Results-on-February-18-2026
+Fetching URL: https://www.businesswire.com/news/home/20260213490364/en/Mineros-S.A.-to-Announce-Fourth-Quarter-and-Year-End-2025-Results-on-February-18-2026
+    Title: Mineros S.A. to Announce Fourth Quarter and Year-E...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260213952689/en/Saint-Gobain-Celebrates-Completion-of-Expansion-Activities-at-CertainTeed-Roofing-Facility-in-Peachtree-City-Georgia
+Fetching URL: https://www.businesswire.com/news/home/20260213952689/en/Saint-Gobain-Celebrates-Completion-of-Expansion-Activities-at-CertainTeed-Roofing-Facility-in-Peachtree-City-Georgia
+    Title: Saint-Gobain Celebrates Completion of Expansion Ac...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260213878443/en/MIPS-to-Present-Software-First-Physical-AI-Design-Insights-at-Chiplet-Summit-2026
+Fetching URL: https://www.businesswire.com/news/home/20260213878443/en/MIPS-to-Present-Software-First-Physical-AI-Design-Insights-at-Chiplet-Summit-2026
+    Title: MIPS to Present Software-First Physical AI Design ...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212871720/en/Cove-Capital-Investments-LLC-Completes-the-Acquisition-of-a-Single-Tenant-Net-Lease-Industrial-Distribution-Facility-in-New-Mexico-for-Its-Cove-Essential-Net-Lease-Industrial-106-DST-in-a-100-Debt-Free-Transaction
+Fetching URL: https://www.businesswire.com/news/home/20260212871720/en/Cove-Capital-Investments-LLC-Completes-the-Acquisition-of-a-Single-Tenant-Net-Lease-Industrial-Distribution-Facility-in-New-Mexico-for-Its-Cove-Essential-Net-Lease-Industrial-106-DST-in-a-100-Debt-Free-Transaction
+    Title: Cove Capital Investments, LLC Completes the Acquis...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260213866620/en/Snowflake-Inc.-SNOW-Shareholders-Are-Encouraged-to-Reach-Out-to-Johnson-Fistel-for-More-Information-about-Potentially-Recovering-Their-Losses
+Fetching URL: https://www.businesswire.com/news/home/20260213866620/en/Snowflake-Inc.-SNOW-Shareholders-Are-Encouraged-to-Reach-Out-to-Johnson-Fistel-for-More-Information-about-Potentially-Recovering-Their-Losses
+    Title: Snowflake Inc. (SNOW) Shareholders Are Encouraged ...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260213866198/en/Securities-Fraud-Investigation-Into-Baidu-Inc.-BIDU-Continues-%E2%80%93-Shareholders-Who-Lost-Money-Urged-to-Contact-The-Law-Offices-of-Frank-R.-Cruz
+Fetching URL: https://www.businesswire.com/news/home/20260213866198/en/Securities-Fraud-Investigation-Into-Baidu-Inc.-BIDU-Continues-–-Shareholders-Who-Lost-Money-Urged-to-Contact-The-Law-Offices-of-Frank-R.-Cruz
+    No title found
+Processing: http://www.businesswire.com/news/home/20260213402806/en/Barco-Products-Expands-Mason-Furniture-Collection-to-Deliver-a-Complete-Modern-Outdoor-Solution
+Fetching URL: https://www.businesswire.com/news/home/20260213402806/en/Barco-Products-Expands-Mason-Furniture-Collection-to-Deliver-a-Complete-Modern-Outdoor-Solution
+    Title: Barco Products Expands Mason Furniture Collection ...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260213386364/en/The-iGarden-X-Series-Swim-Jet-Wins-CES-2026-Innovation-Award-The-Plug-and-Play-Revolution-for-Every-Backyard-Pool
+Fetching URL: https://www.businesswire.com/news/home/20260213386364/en/The-iGarden-X-Series-Swim-Jet-Wins-CES-2026-Innovation-Award-The-Plug-and-Play-Revolution-for-Every-Backyard-Pool
+    Title: The iGarden X Series Swim Jet Wins CES 2026 Innova...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260213680205/en/Fibra-Macquarie-M%C3%A9xico-Reports-Fourth-Quarter-and-Full-Year-2025-Results
+Fetching URL: https://www.businesswire.com/news/home/20260213680205/en/Fibra-Macquarie-México-Reports-Fourth-Quarter-and-Full-Year-2025-Results
+    Title: Fibra Macquarie México Reports Fourth Quarter and ...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260213670442/en/Securities-Fraud-Investigation-Into-Alibaba-Group-Holding-Ltd.-BABA-Continues-%E2%80%93-Shareholders-Who-Lost-Money-Urged-To-Contact-The-Law-Offices-of-Frank-R.-Cruz
+Fetching URL: https://www.businesswire.com/news/home/20260213670442/en/Securities-Fraud-Investigation-Into-Alibaba-Group-Holding-Ltd.-BABA-Continues-–-Shareholders-Who-Lost-Money-Urged-To-Contact-The-Law-Offices-of-Frank-R.-Cruz
+    Title: Securities Fraud Investigation Into Alibaba Group ...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260213415239/en/Park-Place-Dealerships-Breaks-Ground-on-New-Porsche-Dealership-and-Expanded-Volvo-Store
+Fetching URL: https://www.businesswire.com/news/home/20260213415239/en/Park-Place-Dealerships-Breaks-Ground-on-New-Porsche-Dealership-and-Expanded-Volvo-Store
+    Title: Park Place Dealerships Breaks Ground on New Porsch...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260213836737/en/AI-Media-Technology-Company-Chronicle-Studios-and-Academy-Award-Nominated-Animation-Production-Company-The-Hive-Studio-Enter-YouTube-Channel-Partnership-on-Two-Animated-Series
+Fetching URL: https://www.businesswire.com/news/home/20260213836737/en/AI-Media-Technology-Company-Chronicle-Studios-and-Academy-Award-Nominated-Animation-Production-Company-The-Hive-Studio-Enter-YouTube-Channel-Partnership-on-Two-Animated-Series
+    Title: AI Media Technology Company Chronicle Studios and ...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260213048607/en/First-Trust-Global-Portfolios-Management-Limited-Announces-Distribution-for-certain-sub-funds-of-First-Trust-Global-Funds-plc
+Fetching URL: https://www.businesswire.com/news/home/20260213048607/en/First-Trust-Global-Portfolios-Management-Limited-Announces-Distribution-for-certain-sub-funds-of-First-Trust-Global-Funds-plc
+    Title: First Trust Global Portfolios Management Limited A...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260213113222/en/ATLAS-FUNDING-2023--1-PLC-UK-Regulatory-Announcement-FRN-Variable-Rate-Fix
+Fetching URL: https://www.businesswire.com/news/home/20260213113222/en/ATLAS-FUNDING-2023--1-PLC-UK-Regulatory-Announcement-FRN-Variable-Rate-Fix
+    Title: FRN Variable Rate Fix...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260213388986/en/Citibank-UK-Regulatory-Announcement-FRN-Variable-Rate-Fix
+Fetching URL: https://www.businesswire.com/news/home/20260213388986/en/Citibank-UK-Regulatory-Announcement-FRN-Variable-Rate-Fix
+    Skipping duplicate title: FRN Variable Rate Fix...
+Processing: http://www.businesswire.com/news/home/20260213758621/en/Citibank-UK-Regulatory-Announcement-FRN-Variable-Rate-Fix
+Fetching URL: https://www.businesswire.com/news/home/20260213758621/en/Citibank-UK-Regulatory-Announcement-FRN-Variable-Rate-Fix
+    No title found
+Processing: http://www.businesswire.com/news/home/20260213353342/en/Citibank-UK-Regulatory-Announcement-FRN-Variable-Rate-Fix
+Fetching URL: https://www.businesswire.com/news/home/20260213353342/en/Citibank-UK-Regulatory-Announcement-FRN-Variable-Rate-Fix
+    No title found
+Processing: http://www.businesswire.com/news/home/20260213987071/en/Citibank-UK-Regulatory-Announcement-FRN-Variable-Rate-Fix
+Fetching URL: https://www.businesswire.com/news/home/20260213987071/en/Citibank-UK-Regulatory-Announcement-FRN-Variable-Rate-Fix
+    Skipping duplicate title: FRN Variable Rate Fix...
+Processing: http://www.businesswire.com/news/home/20260213878789/en/Citibank-UK-Regulatory-Announcement-FRN-Variable-Rate-Fix
+Fetching URL: https://www.businesswire.com/news/home/20260213878789/en/Citibank-UK-Regulatory-Announcement-FRN-Variable-Rate-Fix
+    Skipping duplicate title: FRN Variable Rate Fix...
+Processing: http://www.businesswire.com/news/home/20260213320299/en/Citibank-UK-Regulatory-Announcement-FRN-Variable-Rate-Fix
+Fetching URL: https://www.businesswire.com/news/home/20260213320299/en/Citibank-UK-Regulatory-Announcement-FRN-Variable-Rate-Fix
+    Skipping duplicate title: FRN Variable Rate Fix...
+Processing: http://www.businesswire.com/news/home/20260213339743/en/Paragon-Mortgages-No.12-Plc-UK-Regulatory-Announcement-FRN-Variable-Rate-Fix
+Fetching URL: https://www.businesswire.com/news/home/20260213339743/en/Paragon-Mortgages-No.12-Plc-UK-Regulatory-Announcement-FRN-Variable-Rate-Fix
+    No title found
+Processing: http://www.businesswire.com/news/home/20260213669361/en/Citibank-UK-Regulatory-Announcement-FRN-Variable-Rate-Fix
+Fetching URL: https://www.businesswire.com/news/home/20260213669361/en/Citibank-UK-Regulatory-Announcement-FRN-Variable-Rate-Fix
+    No title found
+Processing: http://www.businesswire.com/news/home/20260213724363/en/Citibank-UK-Regulatory-Announcement-FRN-Variable-Rate-Fix
+Fetching URL: https://www.businesswire.com/news/home/20260213724363/en/Citibank-UK-Regulatory-Announcement-FRN-Variable-Rate-Fix
+    No title found
+Processing: http://www.businesswire.com/news/home/20260213975231/en/Paragon-Mortgages-No.12-Plc-UK-Regulatory-Announcement-FRN-Variable-Rate-Fix
+Fetching URL: https://www.businesswire.com/news/home/20260213975231/en/Paragon-Mortgages-No.12-Plc-UK-Regulatory-Announcement-FRN-Variable-Rate-Fix
+    No title found
+Processing: http://www.businesswire.com/news/home/20260213009212/en/Citibank-UK-Regulatory-Announcement-FRN-Variable-Rate-Fix
+Fetching URL: https://www.businesswire.com/news/home/20260213009212/en/Citibank-UK-Regulatory-Announcement-FRN-Variable-Rate-Fix
+    No title found
+Processing: http://www.businesswire.com/news/home/20260213566118/en/Citibank-UK-Regulatory-Announcement-FRN-Variable-Rate-Fix
+Fetching URL: https://www.businesswire.com/news/home/20260213566118/en/Citibank-UK-Regulatory-Announcement-FRN-Variable-Rate-Fix
+    Skipping duplicate title: FRN Variable Rate Fix...
+Processing: http://www.businesswire.com/news/home/20260213072283/en/Citibank-UK-Regulatory-Announcement-FRN-Variable-Rate-Fix
+Fetching URL: https://www.businesswire.com/news/home/20260213072283/en/Citibank-UK-Regulatory-Announcement-FRN-Variable-Rate-Fix
+    No title found
+Processing: http://www.businesswire.com/news/home/20260213956819/en/Paragon-Mortgages-No.12-Plc-UK-Regulatory-Announcement-FRN-Variable-Rate-Fix
+Fetching URL: https://www.businesswire.com/news/home/20260213956819/en/Paragon-Mortgages-No.12-Plc-UK-Regulatory-Announcement-FRN-Variable-Rate-Fix
+    Skipping duplicate title: FRN Variable Rate Fix...
+Processing: http://www.businesswire.com/news/home/20260213700295/en/Citibank-UK-Regulatory-Announcement-FRN-Variable-Rate-Fix
+Fetching URL: https://www.businesswire.com/news/home/20260213700295/en/Citibank-UK-Regulatory-Announcement-FRN-Variable-Rate-Fix
+    No title found
+Processing: http://www.businesswire.com/news/home/20260213298440/en/United-Utilities-Water-Plc-UK-Regulatory-Announcement-FRN-Variable-Rate-Fix
+Fetching URL: https://www.businesswire.com/news/home/20260213298440/en/United-Utilities-Water-Plc-UK-Regulatory-Announcement-FRN-Variable-Rate-Fix
+    No title found
+Processing: http://www.businesswire.com/news/home/20260213966101/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+Fetching URL: https://www.businesswire.com/news/home/20260213966101/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+    Title: Net Asset Value(s)...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260213255373/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+Fetching URL: https://www.businesswire.com/news/home/20260213255373/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+    Skipping duplicate title: Net Asset Value(s)...
+Processing: http://www.businesswire.com/news/home/20260213553986/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+Fetching URL: https://www.businesswire.com/news/home/20260213553986/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+    No title found
+Processing: http://www.businesswire.com/news/home/20260213896800/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+Fetching URL: https://www.businesswire.com/news/home/20260213896800/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+    Skipping duplicate title: Net Asset Value(s)...
+Processing: http://www.businesswire.com/news/home/20260213978643/en/Graco-Announces-Regular-Quarterly-Dividend
+Fetching URL: https://www.businesswire.com/news/home/20260213978643/en/Graco-Announces-Regular-Quarterly-Dividend
+    Title: Graco Announces Regular Quarterly Dividend...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260213434261/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+Fetching URL: https://www.businesswire.com/news/home/20260213434261/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+    Skipping duplicate title: Net Asset Value(s)...
+Processing: http://www.businesswire.com/news/home/20260213682693/en/Sultan-bin-Ahmed-visits-Huawei-RD-Centre-and-SMG-in-China
+Fetching URL: https://www.businesswire.com/news/home/20260213682693/en/Sultan-bin-Ahmed-visits-Huawei-RD-Centre-and-SMG-in-China
+    Title: Sultan bin Ahmed visits Huawei R&D Centre and SMG ...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260213853275/en/Deadline-Alert-China-Liberal-Education-Holdings-Limited-CLEUF-Shareholders-Who-Lost-Money-Urged-To-Contact-Glancy-Prongay-Wolke-Rotter-LLP-About-Securities-Fraud-Lawsuit
+Fetching URL: https://www.businesswire.com/news/home/20260213853275/en/Deadline-Alert-China-Liberal-Education-Holdings-Limited-CLEUF-Shareholders-Who-Lost-Money-Urged-To-Contact-Glancy-Prongay-Wolke-Rotter-LLP-About-Securities-Fraud-Lawsuit
+    Title: Deadline Alert: China Liberal Education Holdings L...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260213775240/en/AM-Best-Comments-on-Credit-Ratings-of-Cavello-Bay-Reinsurance-Limited-Following-the-Acquisition-of-AF-Group-by-Enstar-Group-Limited
+Fetching URL: https://www.businesswire.com/news/home/20260213775240/en/AM-Best-Comments-on-Credit-Ratings-of-Cavello-Bay-Reinsurance-Limited-Following-the-Acquisition-of-AF-Group-by-Enstar-Group-Limited
+    Title: AM Best Comments on Credit Ratings of Cavello Bay ...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260130258750/en/Symetra-Announces-Departure-of-Symetra-Investment-Management-President-Mark-Hunt
+Fetching URL: https://www.businesswire.com/news/home/20260130258750/en/Symetra-Announces-Departure-of-Symetra-Investment-Management-President-Mark-Hunt
+    Title: Symetra Announces Departure of Symetra Investment ...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260213598461/en/Law-Offices-of-Howard-G.-Smith-Encourages-Inovio-Pharmaceuticals-Inc.-INO-Shareholders-To-Inquire-About-Securities-Fraud-Class-Action
+Fetching URL: https://www.businesswire.com/news/home/20260213598461/en/Law-Offices-of-Howard-G.-Smith-Encourages-Inovio-Pharmaceuticals-Inc.-INO-Shareholders-To-Inquire-About-Securities-Fraud-Class-Action
+    Title: Law Offices of Howard G. Smith Encourages Inovio P...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260213979577/en/Daimler-Truck-Middle-East-Africa-Sets-Performance-and-Excellence-Benchmarks-in-Commercial-Vehicles-at-EliteClass-Awards-Ceremony-2025
+Fetching URL: https://www.businesswire.com/news/home/20260213979577/en/Daimler-Truck-Middle-East-Africa-Sets-Performance-and-Excellence-Benchmarks-in-Commercial-Vehicles-at-EliteClass-Awards-Ceremony-2025
+    Title: Daimler Truck Middle East Africa Sets Performance ...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260213455568/en/Antin-Has-Entered-Into-Exclusive-Negotiations-With-CARAVELLE-to-Acquire-Belambra
+Fetching URL: https://www.businesswire.com/news/home/20260213455568/en/Antin-Has-Entered-Into-Exclusive-Negotiations-With-CARAVELLE-to-Acquire-Belambra
+    Title: Antin Has Entered Into Exclusive Negotiations With...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260213802088/en/Glancy-Prongay-Wolke-Rotter-LLP-a-Leading-Securities-Fraud-Law-Firm-Encourages-Kyndryl-Holdings-Inc.-KD-Shareholders-To-Inquire-About-Securities-Fraud-Class-Action
+Fetching URL: https://www.businesswire.com/news/home/20260213802088/en/Glancy-Prongay-Wolke-Rotter-LLP-a-Leading-Securities-Fraud-Law-Firm-Encourages-Kyndryl-Holdings-Inc.-KD-Shareholders-To-Inquire-About-Securities-Fraud-Class-Action
+    Title: Glancy Prongay Wolke & Rotter LLP, a Leading Secur...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260213539055/en/Infleqtion-and-Churchill-Capital-Corp-X-Complete-Business-Combination
+Fetching URL: https://www.businesswire.com/news/home/20260213539055/en/Infleqtion-and-Churchill-Capital-Corp-X-Complete-Business-Combination
+    Title: Infleqtion and Churchill Capital Corp X Complete B...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260213204931/en/Deadline-Alert-Oracle-Corporation-ORCL-Shareholders-Who-Lost-Money-Urged-To-Contact-Glancy-Prongay-Wolke-Rotter-LLP-About-Securities-Fraud-Lawsuit
+Fetching URL: https://www.businesswire.com/news/home/20260213204931/en/Deadline-Alert-Oracle-Corporation-ORCL-Shareholders-Who-Lost-Money-Urged-To-Contact-Glancy-Prongay-Wolke-Rotter-LLP-About-Securities-Fraud-Lawsuit
+    Title: Deadline Alert: Oracle Corporation (ORCL) Sharehol...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260213105795/en/LifeLink-Foundation-Appoints-Kelly-Cullen-RN-MBA-as-Chief-Operating-Officer
+Fetching URL: https://www.businesswire.com/news/home/20260213105795/en/LifeLink-Foundation-Appoints-Kelly-Cullen-RN-MBA-as-Chief-Operating-Officer
+    Title: LifeLink Foundation Appoints Kelly Cullen, RN, MBA...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260213881059/en/Law-Offices-of-Frank-R.-Cruz-Encourages-Kyndryl-Holdings-Inc.-KD-Shareholders-To-Inquire-About-Securities-Fraud-Class-Action
+Fetching URL: https://www.businesswire.com/news/home/20260213881059/en/Law-Offices-of-Frank-R.-Cruz-Encourages-Kyndryl-Holdings-Inc.-KD-Shareholders-To-Inquire-About-Securities-Fraud-Class-Action
+    Title: Law Offices of Frank R. Cruz Encourages Kyndryl Ho...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260213907964/en/Vivint-Launches-Vivint-for-Builders-The-Complete-Solution-Redefining-How-Builders-Deliver-Smart-Homes-by-Managing-and-Executing-Every-Step-of-The-Process
+Fetching URL: https://www.businesswire.com/news/home/20260213907964/en/Vivint-Launches-Vivint-for-Builders-The-Complete-Solution-Redefining-How-Builders-Deliver-Smart-Homes-by-Managing-and-Executing-Every-Step-of-The-Process
+    Title: Vivint Launches Vivint for Builders: The Complete ...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260213703344/en/Securities-Fraud-Investigation-Into-ICON-Public-Limited-Company-ICLR-Announced-%E2%80%93-Shareholders-Who-Lost-Money-Urged-To-Contact-Glancy-Prongay-Wolke-Rotter-LLP-a-Leading-Securities-Fraud-Law-Firm
+Fetching URL: https://www.businesswire.com/news/home/20260213703344/en/Securities-Fraud-Investigation-Into-ICON-Public-Limited-Company-ICLR-Announced-–-Shareholders-Who-Lost-Money-Urged-To-Contact-Glancy-Prongay-Wolke-Rotter-LLP-a-Leading-Securities-Fraud-Law-Firm
+    Title: Securities Fraud Investigation Into ICON Public Li...
+  -> Found 1 insights
+Processing: http://www.businesswire.com/news/home/20260212613090/en/Walton-Global-Launches-the-American-Builder-Growth-and-Income-Fund
+Fetching URL: https://www.businesswire.com/news/home/20260212613090/en/Walton-Global-Launches-the-American-Builder-Growth-and-Income-Fund
+    Title: Walton Global Launches the American Builder Growth...
+  -> Found 1 insights
+Fetching URLs from page: https://www.stockwatch.com/News/Search?hours=24&region=U
+Fetching URL: https://www.stockwatch.com/News/Search?hours=24&region=U
+Primed session for: https://www.stockwatch.com (status: 200)
+Found 100 URLs to process for StockWatch
+Processing: https://www.stockwatch.com/News/Item/U-283831-U!NMLSF-20260213/U/NMLSF
+Fetching URL: https://www.stockwatch.com/News/Item/U-283831-U!NMLSF-20260213/U/NMLSF
+    Title: Restart Life Sciences Executes Definitive Agreemen...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9654814-U!NIOMF-20260213/U/NIOMF
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654814-U!NIOMF-20260213/U/NIOMF
+    Title: North American Niobium and Critical Minerals Corp....
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-PH86937-U!LDOS-20260213/U/LDOS
+Fetching URL: https://www.stockwatch.com/News/Item/U-PH86937-U!LDOS-20260213/U/LDOS
+    Title: Leidos Holdings, Inc. Declares Quarterly Cash Divi...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9654237-U!NAII-20260213/U/NAII
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654237-U!NAII-20260213/U/NAII
+    Title: Natural Alternatives International, Inc. Announces...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9654585-U!CW-20260213/U/CW
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654585-U!CW-20260213/U/CW
+    Title: $9.8 Billion in Autonomy Spending Hits the AI-Boos...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-283906-U!CRCUF-20260213/U/CRCUF
+Fetching URL: https://www.stockwatch.com/News/Item/U-283906-U!CRCUF-20260213/U/CRCUF
+    Title: Canagold Resources Ltd. Announces Closing of $9.2M...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9654585-U!PSN-20260213/U/PSN
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654585-U!PSN-20260213/U/PSN
+    Skipping duplicate title: $9.8 Billion in Autonomy Spending Hits the AI-Boos...
+Processing: https://www.stockwatch.com/News/Item/U-z9654803-U!HTFL-20260213/U/HTFL
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654803-U!HTFL-20260213/U/HTFL
+    Title: Heartflow to Report Fourth Quarter and Full Year 2...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-s0154135-U!EDSA-20260213/U/EDSA
+Fetching URL: https://www.stockwatch.com/News/Item/U-s0154135-U!EDSA-20260213/U/EDSA
+    No title found
+Processing: https://www.stockwatch.com/News/Item/U-b20260213490364-U!MNSAF-20260213/U/MNSAF
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260213490364-U!MNSAF-20260213/U/MNSAF
+    Skipping duplicate title: Mineros S.A. to Announce Fourth Quarter and Year-E...
+Processing: https://www.stockwatch.com/News/Item/U-283843-U!SPARF-20260213/U/SPARF
+Fetching URL: https://www.stockwatch.com/News/Item/U-283843-U!SPARF-20260213/U/SPARF
+    Title: Spark Delivers Shallow Magnet Rare Earths Up To 33...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-DE87972-U!UFPI-20260213/U/UFPI
+Fetching URL: https://www.stockwatch.com/News/Item/U-DE87972-U!UFPI-20260213/U/UFPI
+    Title: UFP Industries Announces Quarterly Dividend...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260213748257-U!STT-20260213/U/STT
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260213748257-U!STT-20260213/U/STT
+    Title: AM Best Revises Outlooks to Positive for Federated...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9654622-U!RRUUF-20260213/U/RRUUF
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654622-U!RRUUF-20260213/U/RRUUF
+    Title: Refined Energy Corp. Closes C$1,500,000 Charity Fl...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9654833-U!SKBL-20260213/U/SKBL
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654833-U!SKBL-20260213/U/SKBL
+    Title: Skyline Builders Group Holding Ltd. Announces Clos...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-LA88023-U!AMGN-20260213/U/AMGN
+Fetching URL: https://www.stockwatch.com/News/Item/U-LA88023-U!AMGN-20260213/U/AMGN
+    Title: AMGEN TO PRESENT AT CITI'S 2026 VIRTUAL ONCOLOGY L...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9654551-U!CLMB-20260213/U/CLMB
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654551-U!CLMB-20260213/U/CLMB
+    Title: Climb’s Kim Stevens, recognized on Channel Insider...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-C7166-U!TD-20260213/U/TD
+Fetching URL: https://www.stockwatch.com/News/Item/U-C7166-U!TD-20260213/U/TD
+    Title: TD announces $250,000 donation in response to trag...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-by1137579-U!TT-20260213/U/TT
+Fetching URL: https://www.stockwatch.com/News/Item/U-by1137579-U!TT-20260213/U/TT
+    Title: How Trane Technologies' Madison Smith Found Commun...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-NY88066-U!IVR-20260213/U/IVR
+Fetching URL: https://www.stockwatch.com/News/Item/U-NY88066-U!IVR-20260213/U/IVR
+    Title: Invesco Mortgage Capital Inc. February 2026 Divide...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9654788-U!NOC-20260213/U/NOC
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654788-U!NOC-20260213/U/NOC
+    Title: Christopher Grady Joins Northrop Grumman Board of ...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9654806-U!BNC-20260213/U/BNC
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654806-U!BNC-20260213/U/BNC
+    Title: CEA Industries (BNC) Issues Statement Refuting YZi...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260213963431-U!EXAS-20260213/U/EXAS
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260213963431-U!EXAS-20260213/U/EXAS
+    Skipping duplicate title: Exact Sciences Announces Record Fourth Quarter and...
+Processing: https://www.stockwatch.com/News/Item/U-z9654818-U!AMBO-20260213/U/AMBO
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654818-U!AMBO-20260213/U/AMBO
+    Title: Ambow Files Annual Report on Form 10-K for Fiscal ...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-283939-U!NFLDF-20260213/U/NFLDF
+Fetching URL: https://www.stockwatch.com/News/Item/U-283939-U!NFLDF-20260213/U/NFLDF
+    Title: Exploits Changes Name to Epic Gold Corp....
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-LA88228-U!CRTO-20260213/U/CRTO
+Fetching URL: https://www.stockwatch.com/News/Item/U-LA88228-U!CRTO-20260213/U/CRTO
+    Title: Leading Independent Proxy Advisory Firms Recommend...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9654605-U!SAP-20260213/U/SAP
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654605-U!SAP-20260213/U/SAP
+    Title: Your Encryption Is Already Outdated. A $6.15 Trill...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9654594-U!VTYB-20260213/U/VTYB
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654594-U!VTYB-20260213/U/VTYB
+    Title: The Victory Bancorp, Inc. 2025 Fourth Quarter Earn...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9654769-U!TGB-20260213/U/TGB
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654769-U!TGB-20260213/U/TGB
+    Title: Taseko to Release Fourth Quarter and Year End 2025...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9654183-U!CRF-20260213/U/CRF
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654183-U!CRF-20260213/U/CRF
+    Title: Cornerstone Funds Announce Continuing Monthly Dist...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9654580-U!GV-20260213/U/GV
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654580-U!GV-20260213/U/GV
+    Title: Visionary Holdings Inc. Secures $450,000 in Debt F...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-SF88022-U!NKTR-20260213/U/NKTR
+Fetching URL: https://www.stockwatch.com/News/Item/U-SF88022-U!NKTR-20260213/U/NKTR
+    Title: Nektar Therapeutics Announces Closing of $460 Mill...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-C4299-U!AGAGF-20260213/U/AGAGF
+Fetching URL: https://www.stockwatch.com/News/Item/U-C4299-U!AGAGF-20260213/U/AGAGF
+    Title: Argenta Silver Corp. Announces Stock Option Grant...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z1001164735-U!SHEL-20260213/U/SHEL
+Fetching URL: https://www.stockwatch.com/News/Item/U-z1001164735-U!SHEL-20260213/U/SHEL
+    Title: Transaction in Own Shares...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9654605-U!ZS-20260213/U/ZS
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654605-U!ZS-20260213/U/ZS
+    Skipping duplicate title: Your Encryption Is Already Outdated. A $6.15 Trill...
+Processing: https://www.stockwatch.com/News/Item/U-z9651349-U!FDMT-20260213/U/FDMT
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9651349-U!FDMT-20260213/U/FDMT
+    Title: 4DMT Announces New Employment Inducement Grants...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-CN83451-U!XTKG-20260213/U/XTKG
+Fetching URL: https://www.stockwatch.com/News/Item/U-CN83451-U!XTKG-20260213/U/XTKG
+    Title: X3 Holdings Announces Annual General Meeting Resul...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-283862-U!ZEFIF-20260213/U/ZEFIF
+Fetching URL: https://www.stockwatch.com/News/Item/U-283862-U!ZEFIF-20260213/U/ZEFIF
+    Title: Zefiro Methane Corp. Announces Fiscal Q2 2026 Resu...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9654586-U!SB-20260213/U/SB
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654586-U!SB-20260213/U/SB
+    Title: Safe Bulkers, Inc. Announces Sale of a 2012-Built ...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260213473870-U!WRB-20260213/U/WRB
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260213473870-U!WRB-20260213/U/WRB
+    Skipping duplicate title: W. R. Berkley Corporation Declares Regular Quarter...
+Processing: https://www.stockwatch.com/News/Item/U-z9654700-U!WHG-20260213/U/WHG
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654700-U!WHG-20260213/U/WHG
+    Title: Westwood Holdings Group Reports Fourth Quarter and...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-DA87256-U!ALKT-20260213/U/ALKT
+Fetching URL: https://www.stockwatch.com/News/Item/U-DA87256-U!ALKT-20260213/U/ALKT
+    Title: Alkami to Host Webinar Showcasing How Clean Transa...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-PH88267-U!PDER-20260213/U/PDER
+Fetching URL: https://www.stockwatch.com/News/Item/U-PH88267-U!PDER-20260213/U/PDER
+    Title: Pardee Resources Company: Pardee Secures Jury Verd...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-s0154132-U!NBR-20260213/U/NBR
+Fetching URL: https://www.stockwatch.com/News/Item/U-s0154132-U!NBR-20260213/U/NBR
+    No title found
+Processing: https://www.stockwatch.com/News/Item/U-CL88117-U!VMC-20260213/U/VMC
+Fetching URL: https://www.stockwatch.com/News/Item/U-CL88117-U!VMC-20260213/U/VMC
+    Title: VULCAN INCREASES QUARTERLY DIVIDEND ON COMMON STOC...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260213924701-U!SVRA-20260213/U/SVRA
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260213924701-U!SVRA-20260213/U/SVRA
+    Skipping duplicate title: Savara Announces New Employment Inducement Grant...
+Processing: https://www.stockwatch.com/News/Item/U-b20260213248136-U!SBRA-20260213/U/SBRA
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260213248136-U!SBRA-20260213/U/SBRA
+    Title: Sabra Health Care REIT, Inc. to Attend Citi's 2026...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9654602-U!LVRO-20260213/U/LVRO
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654602-U!LVRO-20260213/U/LVRO
+    Title: Lavoro Announces Voluntary Delisting from the Nasd...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9654585-U!HII-20260213/U/HII
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654585-U!HII-20260213/U/HII
+    Skipping duplicate title: $9.8 Billion in Autonomy Spending Hits the AI-Boos...
+Processing: https://www.stockwatch.com/News/Item/U-SF88203-U!GPUS-20260213/U/GPUS
+Fetching URL: https://www.stockwatch.com/News/Item/U-SF88203-U!GPUS-20260213/U/GPUS
+    Title: Hyperscale Data Announces "At-the-Market" Offering...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260213069281-U!LPX-20260213/U/LPX
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260213069281-U!LPX-20260213/U/LPX
+    Title: LP Building Solutions Announces Increased Quarterl...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9654747-U!AISSF-20260213/U/AISSF
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654747-U!AISSF-20260213/U/AISSF
+    Title: A.I.S. Resources Announces Adoption of Shareholder...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260213124431-U!GAM-20260213/U/GAM
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260213124431-U!GAM-20260213/U/GAM
+    Skipping duplicate title: General American Investors Files Certified Shareho...
+Processing: https://www.stockwatch.com/News/Item/U-C9533-U!RY-20260213/U/RY
+Fetching URL: https://www.stockwatch.com/News/Item/U-C9533-U!RY-20260213/U/RY
+    Title: RBC Global Asset Management Inc. announces approva...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-by1137561-U!KEY-20260213/U/KEY
+Fetching URL: https://www.stockwatch.com/News/Item/U-by1137561-U!KEY-20260213/U/KEY
+    Title: 2,000 Volunteers Join Forces to Combat Food Insecu...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9654809-U!HACQ-20260213/U/HACQ
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654809-U!HACQ-20260213/U/HACQ
+    Title: HCM IV Acquisition Corp. Announces Closing of $287...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-by1137582-U!ELEK-20260213/U/ELEK
+Fetching URL: https://www.stockwatch.com/News/Item/U-by1137582-U!ELEK-20260213/U/ELEK
+    Title: Elektros Expands Shareholder Appreciation Initiati...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260213797511-U!NKE-20260213/U/NKE
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260213797511-U!NKE-20260213/U/NKE
+    Title: NIKE, Inc. Declares $0.41 Quarterly Dividend...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-283860-U!DVS-20260213/U/DVS
+Fetching URL: https://www.stockwatch.com/News/Item/U-283860-U!DVS-20260213/U/DVS
+    Title: Dolly Varden Silver Announces Filing of Special Me...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9654573-U!FIGR-20260213/U/FIGR
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654573-U!FIGR-20260213/U/FIGR
+    Title: Figure Technology Solutions Announces Launch of Se...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-FL87947-U!NEE-20260213/U/NEE
+Fetching URL: https://www.stockwatch.com/News/Item/U-FL87947-U!NEE-20260213/U/NEE
+    Title: NextEra Energy board declares quarterly dividend...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-s0154133-U!NBR-20260213/U/NBR
+Fetching URL: https://www.stockwatch.com/News/Item/U-s0154133-U!NBR-20260213/U/NBR
+    No title found
+Processing: https://www.stockwatch.com/News/Item/U-z9654715-U!JTAI-20260213/U/JTAI
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654715-U!JTAI-20260213/U/JTAI
+    Title: Jet.AI Adopts Limited Duration Stockholders Rights...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-C8754-U!MTA-20260213/U/MTA
+Fetching URL: https://www.stockwatch.com/News/Item/U-C8754-U!MTA-20260213/U/MTA
+    Title: METALLA ANNOUNCES FINALIZATION OF EQUITY GRANT...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9654701-U!XFLH-20260213/U/XFLH
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654701-U!XFLH-20260213/U/XFLH
+    Title: XFLH CAPITAL CORPORATION ANNOUNCES CLOSING OF $100...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9654186-U!EDSA-20260213/U/EDSA
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654186-U!EDSA-20260213/U/EDSA
+    Title: Edesa Biotech Reports Fiscal 1st Quarter 2026 Resu...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-by1136639-U!MDCE-20260213/U/MDCE
+Fetching URL: https://www.stockwatch.com/News/Item/U-by1136639-U!MDCE-20260213/U/MDCE
+    Title: Medical Care Technologies (OTC PINK:MDCE) AI App "...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-SF88026-U!PCG-20260213/U/PCG
+Fetching URL: https://www.stockwatch.com/News/Item/U-SF88026-U!PCG-20260213/U/PCG
+    Title: Ahead of Winter Storm, PG&amp;E Mobilizes Crews, P...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-C9637-U!TD-20260213/U/TD
+Fetching URL: https://www.stockwatch.com/News/Item/U-C9637-U!TD-20260213/U/TD
+    Title: TD Asset Management Inc. Announces Additional Annu...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-TO87895-U!IAUX-20260213/U/IAUX
+Fetching URL: https://www.stockwatch.com/News/Item/U-TO87895-U!IAUX-20260213/U/IAUX
+    Title: i-80 Gold Announces Details for Q4 and Full Year 2...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260212964747-U!H-20260213/U/H
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260212964747-U!H-20260213/U/H
+    Title: Destination by Hyatt Brand Expands in the Mid-Atla...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-by1137577-U!ELEK-20260213/U/ELEK
+Fetching URL: https://www.stockwatch.com/News/Item/U-by1137577-U!ELEK-20260213/U/ELEK
+    Title: A Grand Salute to Partnership and Progress: Elektr...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-th1LymFYmEe-U!JLRRF-20260213/U/JLRRF
+Fetching URL: https://www.stockwatch.com/News/Item/U-th1LymFYmEe-U!JLRRF-20260213/U/JLRRF
+    Title: South Atlantic Announces C$4M Non-Brokered Private...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9654670-U!LOGN-20260213/U/LOGN
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654670-U!LOGN-20260213/U/LOGN
+    Title: Logansport Financial Corp. Announces First Quarter...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9654813-U!SOBO-20260213/U/SOBO
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654813-U!SOBO-20260213/U/SOBO
+    Title: South Bow Shares Findings of Root Cause Analysis o...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260213929926-U!PAMT-20260213/U/PAMT
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260213929926-U!PAMT-20260213/U/PAMT
+    Skipping duplicate title: PAMT CORP Announces Results for the Fourth Quarter...
+Processing: https://www.stockwatch.com/News/Item/U-CN87983-U!UCAR-20260213/U/UCAR
+Fetching URL: https://www.stockwatch.com/News/Item/U-CN87983-U!UCAR-20260213/U/UCAR
+    Title: U Power to Present at OTC Markets AI &amp; Technol...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9654662-U!PAAC-20260213/U/PAAC
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654662-U!PAAC-20260213/U/PAAC
+    Title: Proem Acquisition Corp I Announces Closing of $130...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260213002386-U!MELI-20260213/U/MELI
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260213002386-U!MELI-20260213/U/MELI
+    Skipping duplicate title: MercadoLibre, Inc. to Report Fourth Quarter 2025 F...
+Processing: https://www.stockwatch.com/News/Item/U-b20260213455415-U!JPM-20260213/U/JPM
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260213455415-U!JPM-20260213/U/JPM
+    Skipping duplicate title: JPMorganChase Declares Preferred Stock Dividends...
+Processing: https://www.stockwatch.com/News/Item/U-z9654712-U!ARKO-20260213/U/ARKO
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654712-U!ARKO-20260213/U/ARKO
+    Title: ARKO to Report Fourth Quarter and Full Year 2025 F...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-CG88199-U!CBOE-20260213/U/CBOE
+Fetching URL: https://www.stockwatch.com/News/Item/U-CG88199-U!CBOE-20260213/U/CBOE
+    Title: Cboe Global Markets Declares First-Quarter 2026 Di...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-NY87342-U!HON-20260213/U/HON
+Fetching URL: https://www.stockwatch.com/News/Item/U-NY87342-U!HON-20260213/U/HON
+    Title: HONEYWELL ANNOUNCES QUARTERLY DIVIDEND...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9654561-U!FIGR-20260213/U/FIGR
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654561-U!FIGR-20260213/U/FIGR
+    Title: Figure Technology Solutions Announces Preliminary ...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-CG88052-U!RYZ-20260213/U/RYZ
+Fetching URL: https://www.stockwatch.com/News/Item/U-CG88052-U!RYZ-20260213/U/RYZ
+    Title: Ryerson and Olympic Steel Announce Successful Clos...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-CG88146-U!HOG-20260213/U/HOG
+Fetching URL: https://www.stockwatch.com/News/Item/U-CG88146-U!HOG-20260213/U/HOG
+    Title: Harley-Davidson, Inc. Declares Dividend...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-FL88223-U!NEE-20260213/U/NEE
+Fetching URL: https://www.stockwatch.com/News/Item/U-FL88223-U!NEE-20260213/U/NEE
+    Title: NextEra Energy Transmission and Exelon Welcome PJM...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9654549-U!OBIO-20260213/U/OBIO
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654549-U!OBIO-20260213/U/OBIO
+    Title: Orchestra BioMed Announces Inducement Grants Under...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260213665353-U!AEG-20260213/U/AEG
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260213665353-U!AEG-20260213/U/AEG
+    Title: AM Best Affirms Credit Ratings of Members of Aegon...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9654596-U!TOL-20260213/U/TOL
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654596-U!TOL-20260213/U/TOL
+    Title: Toll Brothers Announces Model Home Grand Opening a...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-LA88288-U!EXR-20260213/U/EXR
+Fetching URL: https://www.stockwatch.com/News/Item/U-LA88288-U!EXR-20260213/U/EXR
+    Title: Extra Space Storage Inc. Announces 1st Quarter 202...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-AQ88332-U!CME-20260213/U/CME
+Fetching URL: https://www.stockwatch.com/News/Item/U-AQ88332-U!CME-20260213/U/CME
+    Title: CME Group Announces 100 Million Event Contracts Tr...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260213012339-U!WDC-20260213/U/WDC
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260213012339-U!WDC-20260213/U/WDC
+    Skipping duplicate title: Western Digital to Participate in Upcoming Investo...
+Processing: https://www.stockwatch.com/News/Item/U-s0154137-U!NEXD-20260213/U/NEXD
+Fetching URL: https://www.stockwatch.com/News/Item/U-s0154137-U!NEXD-20260213/U/NEXD
+    No title found
+Processing: https://www.stockwatch.com/News/Item/U-s0154134-U!NBR-20260213/U/NBR
+Fetching URL: https://www.stockwatch.com/News/Item/U-s0154134-U!NBR-20260213/U/NBR
+    No title found
+Processing: https://www.stockwatch.com/News/Item/U-NY88263-U!HUM-20260213/U/HUM
+Fetching URL: https://www.stockwatch.com/News/Item/U-NY88263-U!HUM-20260213/U/HUM
+    Skipping duplicate title: CenterWell Completes Acquisition of MaxHealth from...
+Processing: https://www.stockwatch.com/News/Item/U-b20260213487352-U!COR-20260213/U/COR
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260213487352-U!COR-20260213/U/COR
+    Title: Cencora Closes $3.0 Billion Senior Notes Offering...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9654543-U!RC-20260213/U/RC
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654543-U!RC-20260213/U/RC
+    Title: Ready Capital Corporation Announces Fourth Quarter...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260213768379-U!CATY-20260213/U/CATY
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260213768379-U!CATY-20260213/U/CATY
+    Title: Cathay General Bancorp Declares $0.38 Per Share Di...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9654851-U!IDKFF-20260213/U/IDKFF
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654851-U!IDKFF-20260213/U/IDKFF
+    Title: ThreeD Capital Inc. Releases Results  For the Thre...
+  -> Found 1 insights
+Fetching URLs from page: https://www.investing.com/news/latest-news
+Fetching URL: https://www.investing.com/news/latest-news
+Primed session for: https://www.investing.com (status: 403)
+Received 403 for https://www.investing.com/news/latest-news. Retry 1/3 after 3.0s...
+Found 100 URLs to process for Investing.com
+Processing: https://www.investing.com/analysis/8-highyield-dividend-stocks-to-buy-and-hold-for-reliable-passive-income-200674902
+Fetching URL: https://www.investing.com/analysis/8-highyield-dividend-stocks-to-buy-and-hold-for-reliable-passive-income-200674902
+    Title: 8 High-Yield Dividend Stocks to Buy and Hold for R...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/politics-news/trump-says-will-require-voter-id-for-midterms-regardless-of-congress-4506898#comments
+Fetching URL: https://www.investing.com/news/politics-news/trump-says-will-require-voter-id-for-midterms-regardless-of-congress-4506898
+    Title: Trump says he will seek to require voter ID for mi...
+  -> Found 1 insights
+Processing: https://www.investing.com/analysis/2-undervalued-blue-chip-stocks-to-buy-as-the-dow-tops-50000-milestone-200674841
+Fetching URL: https://www.investing.com/analysis/2-undervalued-blue-chip-stocks-to-buy-as-the-dow-tops-50000-milestone-200674841
+    Title: 2 Undervalued Blue Chip Stocks to Buy as the Dow T...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/stock-market-news/paramount-taps-extrump-official-as-public-policy-vp-amid-warner-bros-bid-4506922
+Fetching URL: https://www.investing.com/news/stock-market-news/paramount-taps-extrump-official-as-public-policy-vp-amid-warner-bros-bid-4506922
+    Title: Paramount taps ex-Trump official as public policy ...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/stock-market-news/this-is-the-most-obvious-catalyst-to-halt-the-aiawe-rotation-bofas-hartnett-4504692
+Fetching URL: https://www.investing.com/news/stock-market-news/this-is-the-most-obvious-catalyst-to-halt-the-aiawe-rotation-bofas-hartnett-4504692
+    Title: This is ’the most obvious catalyst’ to halt the AI...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/stock-market-news/lockheed-martin-secures-101m-in-defense-contracts-for-various-systems-93CH-4506930
+Fetching URL: https://www.investing.com/news/stock-market-news/lockheed-martin-secures-101m-in-defense-contracts-for-various-systems-93CH-4506930
+    Title: Lockheed Martin secures $101M in defense contracts...
+  -> Found 1 insights
+Processing: https://www.investing.com/funds/pimco-commodity-real-ret-strat-inst
+Fetching URL: https://www.investing.com/funds/pimco-commodity-real-ret-strat-inst
+    Title: PIMCO CommodityRealReturn Strategy Fund Institutio...
+  -> Found 1 insights
+Processing: https://www.investing.com/pro/propicks/midcap-movers?entry=ws_propicks
+Fetching URL: https://www.investing.com/pro/propicks/midcap-movers?entry=ws_propicks
+    Title: InvestingPro...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/stock-market-news/lowes-cuts-600-corporate-and-support-roles-wsj-reports-4506882
+Fetching URL: https://www.investing.com/news/stock-market-news/lowes-cuts-600-corporate-and-support-roles-wsj-reports-4506882
+    Title: Lowe’s cuts 600 corporate and support roles to foc...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/stock-market-news/microsoft-ericsson-lead-global-tech-alliance-for-digital-trust-4506219
+Fetching URL: https://www.investing.com/news/stock-market-news/microsoft-ericsson-lead-global-tech-alliance-for-digital-trust-4506219
+    Title: Microsoft, Ericsson lead global tech alliance for ...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/assorted/uber-files-mixed-shelf-432SI-4506883
+Fetching URL: https://www.investing.com/news/assorted/uber-files-mixed-shelf-432SI-4506883
+    Title: Uber files mixed shelf...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/stock-market-news/us-stock-futures-skittish-after-tech-rout-batters-wall-st-cpi-data-in-focus-4504288
+Fetching URL: https://www.investing.com/news/stock-market-news/us-stock-futures-skittish-after-tech-rout-batters-wall-st-cpi-data-in-focus-4504288
+    Title: Stocks post weekly losses after economic data dump...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/economy-news/morgan-stanley-lifts-us-gdp-forecast-on-stronger-capex-outlook-4505402
+Fetching URL: https://www.investing.com/news/economy-news/morgan-stanley-lifts-us-gdp-forecast-on-stronger-capex-outlook-4505402
+    Title: Morgan Stanley lifts U.S. GDP forecast on stronger...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/economy-news/us-consumer-prices-rise-less-than-expected-in-january-4505490#comments
+Fetching URL: https://www.investing.com/news/economy-news/us-consumer-prices-rise-less-than-expected-in-january-4505490
+    Title: US consumer prices increase marginally, but inflat...
+  -> Found 1 insights
+Processing: https://www.investing.com/currencies/usd-jpy
+Fetching URL: https://www.investing.com/currencies/usd-jpy
+    Title: USD/JPY - US Dollar Japanese Yen...
+  -> Found 1 insights
+Processing: https://www.investing.com/equities/builders-firstsou
+Fetching URL: https://www.investing.com/equities/builders-firstsou
+    Title: Builders FirstSource Inc (BLDR)...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/stock-market-news/lowes-trims-corporate-workforce-amid-strategic-pivot--report-4506862
+Fetching URL: https://www.investing.com/news/stock-market-news/lowes-trims-corporate-workforce-amid-strategic-pivot--report-4506862
+    Title: Lowe’s trims corporate workforce amid strategic pi...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/assorted/alphabet-completes-20-billion-and-55-billion-senior-notes-offerings-432SI-4506709
+Fetching URL: https://www.investing.com/news/assorted/alphabet-completes-20-billion-and-55-billion-senior-notes-offerings-432SI-4506709
+    Title: Alphabet completes $20 billion and £5.5 billion se...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/economy-news/cpi-ahead-arista-networks-and-applied-materials-surge--whats-moving-markets-4504545
+Fetching URL: https://www.investing.com/news/economy-news/cpi-ahead-arista-networks-and-applied-materials-surge--whats-moving-markets-4504545
+    Title: CPI ahead; Arista Networks and Applied Materials s...
+  -> Found 1 insights
+Processing: https://www.investing.com/crypto/litecoin/ltc-usd
+Fetching URL: https://www.investing.com/crypto/litecoin/ltc-usd
+    Title: LTC/USD - Litecoin US Dollar...
+  -> Found 1 insights
+Processing: https://www.investing.com/analysis/silver-holding-this-key-support-level-keeps-upside-towards-90-in-play-200674833
+Fetching URL: https://www.investing.com/analysis/silver-holding-this-key-support-level-keeps-upside-towards-90-in-play-200674833
+    Title: Silver: Holding This Key Support Level Keeps Upsid...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/politics-news/senate-democrats-seek-cfius-probe-of-reported-uae-stake-in-trump-familys-crypto-company-4506988
+Fetching URL: https://www.investing.com/news/politics-news/senate-democrats-seek-cfius-probe-of-reported-uae-stake-in-trump-familys-crypto-company-4506988
+    Title: Senate Democrats seek CFIUS probe of reported UAE ...
+  -> Found 1 insights
+Processing: https://www.investing.com/pro/propicks/beat-ftse-italia?entry=ws_propicks
+Fetching URL: https://www.investing.com/pro/propicks/beat-ftse-italia?entry=ws_propicks
+    Skipping duplicate title: InvestingPro...
+Filtering insights with minimum score: 80
+Sending email with 11 top insights...
+Email sent to tray14@hotmail.com
+Job completed.
+Job finished at Fri Feb 13 05:11:06 PM CST 2026
