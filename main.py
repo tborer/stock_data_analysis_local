@@ -5,6 +5,7 @@ from scraper.sitemap_parser import SitemapParser
 from storage.state_manager import StateManager
 from processor.analyzer import Analyzer
 from notifier.emailer import Emailer
+from notifier.webhook import WebhookNotifier
 import yaml
 import os
 
@@ -18,6 +19,7 @@ def main():
     state_manager = StateManager()
     analyzer = Analyzer()
     emailer = Emailer()
+    webhook = WebhookNotifier()
     
     # Load sites to scrape
     if not os.path.exists(settings.sites_config_path):
@@ -197,6 +199,19 @@ def main():
             date_str = datetime.datetime.now().strftime("%B %d, %Y")
             subject = f"Stock Analysis Report for {date_str} - {len(top_insights)} Items"
             emailer.send_email(subject, body)
+            
+            # Watchlist API Integration
+            tickers_to_send = set()
+            for insight in top_insights:
+                ticker = insight.get('ticker')
+                if ticker:
+                    tickers_to_send.add(ticker)
+            
+            if tickers_to_send:
+                print(f"Sending {len(tickers_to_send)} unique tickers to Watchlist API...")
+                webhook.send_tickers(list(tickers_to_send))
+            else:
+                print("No tickers found in top insights to send.")
     else:
         print("No significant insights found during this run.")
 

@@ -12,6 +12,11 @@ class Settings:
         self.email_recipient = os.getenv("EMAIL_RECIPIENT")
         self.smtp_server = os.getenv("SMTP_SERVER", "smtp.gmail.com")
         self.smtp_port = int(os.getenv("SMTP_PORT", 587))
+        
+        # Watchlist API
+        self.watchlist_api_url = os.getenv("WATCHLIST_API_URL", "https://stock-trader-app-ten.vercel.app/api/watchlist/add")
+        self.watchlist_api_key = os.getenv("WATCHLIST_API_KEY")
+        
         self.sites_config_path = "config/sites.yaml"
 
     def load_sites_config(self):
