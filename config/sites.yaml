@@ -1,4 +1,4 @@
-email_min_score: 80
+email_min_score: 85
 
 sites:
   - name: "BusinessWire"

@@ -1139,3 +1139,451 @@ Email sent to tray14@hotmail.com
 Sending 4 unique tickers to Watchlist API...
 Job completed.
 Job finished at Mon Feb 16 09:02:37 AM CST 2026
+Starting job at Mon Feb 16 10:00:01 AM CST 2026
+Starting Stock Data Analysis Job...
+StateManager using local file.
+Fetching URLs from sitemap: https://bw-prod-sitemap.s3.us-east-1.amazonaws.com/webdmz1.vaprod.businesswire.com/home/2026-02-16.xml.gz
+Parsing sitemap: https://bw-prod-sitemap.s3.us-east-1.amazonaws.com/webdmz1.vaprod.businesswire.com/home/2026-02-16.xml.gz
+Found 126 URLs to process for BusinessWire
+Processing: http://www.businesswire.com/news/home/20260216045052/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+Fetching URL: https://www.businesswire.com/news/home/20260216045052/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+Primed session for: https://www.businesswire.com (status: 200)
+    Skipping old article (10.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216975003/en/Tikehau-Capital-UK-Limited-UK-Regulatory-Announcement-Form-8.3
+Fetching URL: https://www.businesswire.com/news/home/20260216975003/en/Tikehau-Capital-UK-Limited-UK-Regulatory-Announcement-Form-8.3
+    Skipping old article (10.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216083220/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+Fetching URL: https://www.businesswire.com/news/home/20260216083220/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+    Skipping old article (10.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216415057/en/Millennium-Partners-L.P.-UK-Regulatory-Announcement-Form-8.3
+Fetching URL: https://www.businesswire.com/news/home/20260216415057/en/Millennium-Partners-L.P.-UK-Regulatory-Announcement-Form-8.3
+    Skipping old article (10.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216465369/en/Millennium-Partners-L.P.-UK-Regulatory-Announcement-Form-8.3
+Fetching URL: https://www.businesswire.com/news/home/20260216465369/en/Millennium-Partners-L.P.-UK-Regulatory-Announcement-Form-8.3
+    Skipping old article (10.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216793455/en/Millennium-Partners-L.P.-UK-Regulatory-Announcement-Form-8.3
+Fetching URL: https://www.businesswire.com/news/home/20260216793455/en/Millennium-Partners-L.P.-UK-Regulatory-Announcement-Form-8.3
+    Skipping old article (10.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216089462/en/Millennium-Partners-L.P.-UK-Regulatory-Announcement-Form-8.3
+Fetching URL: https://www.businesswire.com/news/home/20260216089462/en/Millennium-Partners-L.P.-UK-Regulatory-Announcement-Form-8.3
+    Skipping old article (10.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216497086/en/Millennium-Partners-L.P.-UK-Regulatory-Announcement-Form-8.3
+Fetching URL: https://www.businesswire.com/news/home/20260216497086/en/Millennium-Partners-L.P.-UK-Regulatory-Announcement-Form-8.3
+    Skipping old article (10.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216890559/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+Fetching URL: https://www.businesswire.com/news/home/20260216890559/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+    Skipping old article (10.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216728076/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+Fetching URL: https://www.businesswire.com/news/home/20260216728076/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+    Skipping old article (10.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216429278/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+Fetching URL: https://www.businesswire.com/news/home/20260216429278/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+    Skipping old article (10.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216112118/en/VB-Spine-Announces-Intent-to-Acquire-Exclusive-Rights-to-Augmedics%E2%80%99-Spine-Platform
+Fetching URL: https://www.businesswire.com/news/home/20260216112118/en/VB-Spine-Announces-Intent-to-Acquire-Exclusive-Rights-to-Augmedics’-Spine-Platform
+    Skipping old article (10.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216456292/en/TRU-Simulation%E2%80%99s-Full-Flight-Simulator-for-the-Cessna-Citation-Ascend-Achieves-FAA-Qualification-Expanding-Advanced-Training-for-Midsize-Jet-Pilots
+Fetching URL: https://www.businesswire.com/news/home/20260216456292/en/TRU-Simulation’s-Full-Flight-Simulator-for-the-Cessna-Citation-Ascend-Achieves-FAA-Qualification-Expanding-Advanced-Training-for-Midsize-Jet-Pilots
+    Skipping old article (10.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216544430/en/Sand-Grove-Capital-Management-LLP-UK-Regulatory-Announcement-Form-8.3
+Fetching URL: https://www.businesswire.com/news/home/20260216544430/en/Sand-Grove-Capital-Management-LLP-UK-Regulatory-Announcement-Form-8.3
+    Skipping old article (10.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216821286/en/SEKO-Logistics-Achieves-World-Class-Global-Net-Promoter-Score-of-71
+Fetching URL: https://www.businesswire.com/news/home/20260216821286/en/SEKO-Logistics-Achieves-World-Class-Global-Net-Promoter-Score-of-71
+    Skipping old article (10.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216096230/en/Comcast-Business-Powers-February%E2%80%99s-Biggest-Broadcast-Events
+Fetching URL: https://www.businesswire.com/news/home/20260216096230/en/Comcast-Business-Powers-February’s-Biggest-Broadcast-Events
+    Skipping old article (10.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216486005/en/From-%E2%80%98Quiet-Luxury%E2%80%99-to-New-Neutrals-Westlake-Royal-Building-Products%E2%84%A2-Reveals-Top-2026-Trends-Driving-Home-Design-Choices
+Fetching URL: https://www.businesswire.com/news/home/20260216486005/en/From-‘Quiet-Luxury’-to-New-Neutrals-Westlake-Royal-Building-Products™-Reveals-Top-2026-Trends-Driving-Home-Design-Choices
+    Skipping old article (10.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216801247/en/L3Harris-Receives-New-Contract-to-Power-THAAD-Interceptors
+Fetching URL: https://www.businesswire.com/news/home/20260216801247/en/L3Harris-Receives-New-Contract-to-Power-THAAD-Interceptors
+    Skipping old article (10.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216463736/en/Deutsche-Bank-AG-UK-Regulatory-Announcement-Value-Per-Security
+Fetching URL: https://www.businesswire.com/news/home/20260216463736/en/Deutsche-Bank-AG-UK-Regulatory-Announcement-Value-Per-Security
+    Skipping old article (10.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216772773/en/Deutsche-Bank-AG-UK-Regulatory-Announcement-Buy-Back-of-Securities
+Fetching URL: https://www.businesswire.com/news/home/20260216772773/en/Deutsche-Bank-AG-UK-Regulatory-Announcement-Buy-Back-of-Securities
+    Skipping old article (10.0h old): 2026-02-16 00:00:00
+Fetching URLs from page: https://www.stockwatch.com/News/Search?hours=24&region=U
+Fetching URL: https://www.stockwatch.com/News/Search?hours=24&region=U
+Primed session for: https://www.stockwatch.com (status: 200)
+Found 88 URLs to process for StockWatch
+Processing: https://www.stockwatch.com/News/Item/U-by1137804-U!GEN-20260216/U/GEN
+Fetching URL: https://www.stockwatch.com/News/Item/U-by1137804-U!GEN-20260216/U/GEN
+    Article is fresh (-35.9m ago): 2026-02-16 10:37:00
+    Title: Working Together for a Better Internet...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9654782-U!LINC-20260216/U/LINC
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654782-U!LINC-20260216/U/LINC
+    Article is fresh (-58.9m ago): 2026-02-16 11:00:00
+    Title: Lincoln Tech Celebrates Grand Opening in Houston, ...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-by1137806-U!ELEK-20260216/U/ELEK
+Fetching URL: https://www.stockwatch.com/News/Item/U-by1137806-U!ELEK-20260216/U/ELEK
+    Article is fresh (-58.8m ago): 2026-02-16 11:00:00
+    Title: Presidents' Day: A Reflection on Service, Leadersh...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-CG88233-U!MMM-20260216/U/MMM
+Fetching URL: https://www.stockwatch.com/News/Item/U-CG88233-U!MMM-20260216/U/MMM
+    Article is fresh (1.2m ago): 2026-02-16 10:00:00
+    Title: 3M appoints Meagan Linn as Senior Vice President, ...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-CL87436-U!SO-20260216/U/SO
+Fetching URL: https://www.stockwatch.com/News/Item/U-CL87436-U!SO-20260216/U/SO
+    Article is fresh (1.2m ago): 2026-02-16 10:00:00
+    Title: PowerSecure works with Kit Carson Electric Coopera...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-by1137805-U!ELEK-20260216/U/ELEK
+Fetching URL: https://www.stockwatch.com/News/Item/U-by1137805-U!ELEK-20260216/U/ELEK
+    Article is fresh (-43.7m ago): 2026-02-16 10:45:00
+    Title: Presidents' Day Reflections on Leadership, Service...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260216173106-U!SBAC-20260216/U/SBAC
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260216173106-U!SBAC-20260216/U/SBAC
+    Article is fresh (-54.7m ago): 2026-02-16 10:56:00
+    Title: SBA Communications Corporation to Speak at the Ray...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9655264-U!NCLH-20260216/U/NCLH
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9655264-U!NCLH-20260216/U/NCLH
+    Article is fresh (-18.6m ago): 2026-02-16 10:20:00
+    Title: Norwegian Cruise Line Holdings Enters Into Agreeme...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9644868-U!TPB-20260216/U/TPB
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9644868-U!TPB-20260216/U/TPB
+    Article is fresh (-58.6m ago): 2026-02-16 11:00:00
+    Title: Stoker’s Introduces Stoker’s Proud: A New Value Dr...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-DE87899-U!LLY-20260216/U/LLY
+Fetching URL: https://www.stockwatch.com/News/Item/U-DE87899-U!LLY-20260216/U/LLY
+    Article is fresh (1.5m ago): 2026-02-16 10:00:00
+    Title: Lilly to participate in TD Cowen's 46th Annual Hea...
+  -> Found 1 insights
+Fetching URLs from page: https://www.investing.com/news/latest-news
+Fetching URL: https://www.investing.com/news/latest-news
+Primed session for: https://www.investing.com (status: 403)
+Found 200 URLs to process for Investing.com
+Processing: https://www.investing.com/news/stock-market-news/citi-sees-a-more-volatile-bull-market-amid-ai-disruption-fears-4507674
+Fetching URL: https://www.investing.com/news/stock-market-news/citi-sees-a-more-volatile-bull-market-amid-ai-disruption-fears-4507674
+    Article is fresh (19.6m ago): 2026-02-16 09:42:00
+    Title: Citi sees a more volatile bull market amid AI disr...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/earnings/energy-transfer-earnings-up-next-can-data-center-bet-deliver-93CH-4507684
+Fetching URL: https://www.investing.com/news/earnings/energy-transfer-earnings-up-next-can-data-center-bet-deliver-93CH-4507684
+    Article is fresh (-14.3m ago): 2026-02-16 10:16:00
+    Title: Energy Transfer earnings up next: Can data center ...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/economy-news/five-things-to-watch-in-markets-in-the-week-ahead-4507593#comments
+Fetching URL: https://www.investing.com/news/economy-news/five-things-to-watch-in-markets-in-the-week-ahead-4507593
+    Skipping old article (4.3h old): 2026-02-16 05:43:00
+Processing: https://www.investing.com/news/earnings/cocacola-european-partners-earnings-up-next-as-estimates-edge-lower-93CH-4507688
+Fetching URL: https://www.investing.com/news/earnings/cocacola-european-partners-earnings-up-next-as-estimates-edge-lower-93CH-4507688
+    Article is fresh (-30.2m ago): 2026-02-16 10:32:00
+    Title: Coca-Cola European Partners earnings up next as es...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/earnings/empire-state-realty-earnings-on-deck-as-office-recovery-tests-nyc-reit-93CH-4507679
+Fetching URL: https://www.investing.com/news/earnings/empire-state-realty-earnings-on-deck-as-office-recovery-tests-nyc-reit-93CH-4507679
+    Article is fresh (0.9m ago): 2026-02-16 10:01:00
+    Title: Empire State Realty earnings on deck as office rec...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/stock-market-news/ai-disruption-worries-have-turned-markets-into-snipers-alley--deutsche-bank-4507634#comments
+Fetching URL: https://www.investing.com/news/stock-market-news/ai-disruption-worries-have-turned-markets-into-snipers-alley--deutsche-bank-4507634
+    Skipping old article (2.3h old): 2026-02-16 07:43:00
+Filtering insights with minimum score: 80
+Sending email with 2 top insights...
+Email sent to tray14@hotmail.com
+No tickers found in top insights to send.
+Job completed.
+Job finished at Mon Feb 16 10:01:56 AM CST 2026
+Starting job at Mon Feb 16 11:00:01 AM CST 2026
+Starting Stock Data Analysis Job...
+StateManager using local file.
+Fetching URLs from sitemap: https://bw-prod-sitemap.s3.us-east-1.amazonaws.com/webdmz1.vaprod.businesswire.com/home/2026-02-16.xml.gz
+Parsing sitemap: https://bw-prod-sitemap.s3.us-east-1.amazonaws.com/webdmz1.vaprod.businesswire.com/home/2026-02-16.xml.gz
+Found 161 URLs to process for BusinessWire
+Processing: http://www.businesswire.com/news/home/20260216357555/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+Fetching URL: https://www.businesswire.com/news/home/20260216357555/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+Primed session for: https://www.businesswire.com (status: 200)
+    Skipping old article (11.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216873124/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+Fetching URL: https://www.businesswire.com/news/home/20260216873124/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+    Skipping old article (11.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216911107/en/Tidal-Stream-Energy-France%E2%80%99s-New-Energy-Roadmap-Confirms-Tidal-Stream-Energy-as-a-Predictable-Pillar-of-Its-Future-Energy-Mix
+Fetching URL: https://www.businesswire.com/news/home/20260216911107/en/Tidal-Stream-Energy-France’s-New-Energy-Roadmap-Confirms-Tidal-Stream-Energy-as-a-Predictable-Pillar-of-Its-Future-Energy-Mix
+    Skipping old article (11.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216227706/en/Eurofins-Weekly-Report-on-Share-Repurchases-From-09th-February-to-13th-February-2026
+Fetching URL: https://www.businesswire.com/news/home/20260216227706/en/Eurofins-Weekly-Report-on-Share-Repurchases-From-09th-February-to-13th-February-2026
+    Skipping old article (11.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216652190/en/Newron-Secures-Up-to-EUR-38-Million-to-Advance-Phase-III-Evenamide-Program
+Fetching URL: https://www.businesswire.com/news/home/20260216652190/en/Newron-Secures-Up-to-EUR-38-Million-to-Advance-Phase-III-Evenamide-Program
+    Skipping old article (11.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216779208/en/Eutelsat-Group-UK-Regulatory-Announcement-Eutelsat-Communications-Notice-of-the-Availability-of-the-Half-yearly-Financial-Report-2025-26
+Fetching URL: https://www.businesswire.com/news/home/20260216779208/en/Eutelsat-Group-UK-Regulatory-Announcement-Eutelsat-Communications-Notice-of-the-Availability-of-the-Half-yearly-Financial-Report-2025-26
+    Skipping old article (11.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216164279/en/Eutelsat-Communications-Notice-of-the-Availability-of-the-Half-yearly-Financial-Report-2025-26
+Fetching URL: https://www.businesswire.com/news/home/20260216164279/en/Eutelsat-Communications-Notice-of-the-Availability-of-the-Half-yearly-Financial-Report-2025-26
+    Skipping old article (11.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216948693/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+Fetching URL: https://www.businesswire.com/news/home/20260216948693/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+    Skipping old article (11.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216254855/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+Fetching URL: https://www.businesswire.com/news/home/20260216254855/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+    Skipping old article (11.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216320586/en/Bank-of-New-York-Mellon-UK-Regulatory-Announcement-FRN-Variable-Rate-Fix
+Fetching URL: https://www.businesswire.com/news/home/20260216320586/en/Bank-of-New-York-Mellon-UK-Regulatory-Announcement-FRN-Variable-Rate-Fix
+    Skipping old article (11.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216946411/en/Bank-of-New-York-Mellon-UK-Regulatory-Announcement-FRN-Variable-Rate-Fix
+Fetching URL: https://www.businesswire.com/news/home/20260216946411/en/Bank-of-New-York-Mellon-UK-Regulatory-Announcement-FRN-Variable-Rate-Fix
+    Skipping old article (11.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216622417/en/INVNT%C2%AE-Reports-Record-Growth-Expanding-Global-Infrastructure-and-Capabilities-Across-All-Regions
+Fetching URL: https://www.businesswire.com/news/home/20260216622417/en/INVNT®-Reports-Record-Growth-Expanding-Global-Infrastructure-and-Capabilities-Across-All-Regions
+    Skipping old article (11.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216010611/en/Register-for-Galaxy-Unpacked-2026-for-a-Chance-to-Win-BTS-Concert-Tickets
+Fetching URL: https://www.businesswire.com/news/home/20260216010611/en/Register-for-Galaxy-Unpacked-2026-for-a-Chance-to-Win-BTS-Concert-Tickets
+    Skipping old article (11.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216101116/en/Bank-of-New-York-Mellon-UK-Regulatory-Announcement-FRN-Variable-Rate-Fix
+Fetching URL: https://www.businesswire.com/news/home/20260216101116/en/Bank-of-New-York-Mellon-UK-Regulatory-Announcement-FRN-Variable-Rate-Fix
+    Skipping old article (11.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260212441988/en/THG-Beauty-Media-Partners-With-The-Trade-Desk-to-Pioneer-a-New-Approach-to-Retail-Media-on-the-Open-Internet
+Fetching URL: https://www.businesswire.com/news/home/20260212441988/en/THG-Beauty-Media-Partners-With-The-Trade-Desk-to-Pioneer-a-New-Approach-to-Retail-Media-on-the-Open-Internet
+    Skipping old article (107.0h old): 2026-02-12 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216332065/en/Bank-of-New-York-Mellon-UK-Regulatory-Announcement-FRN-Variable-Rate-Fix
+Fetching URL: https://www.businesswire.com/news/home/20260216332065/en/Bank-of-New-York-Mellon-UK-Regulatory-Announcement-FRN-Variable-Rate-Fix
+    Skipping old article (11.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216668157/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+Fetching URL: https://www.businesswire.com/news/home/20260216668157/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+    Skipping old article (11.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216522972/en/Bank-of-New-York-Mellon-UK-Regulatory-Announcement-FRN-Variable-Rate-Fix
+Fetching URL: https://www.businesswire.com/news/home/20260216522972/en/Bank-of-New-York-Mellon-UK-Regulatory-Announcement-FRN-Variable-Rate-Fix
+    Skipping old article (11.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216325582/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+Fetching URL: https://www.businesswire.com/news/home/20260216325582/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+    Skipping old article (11.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216770149/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+Fetching URL: https://www.businesswire.com/news/home/20260216770149/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+    Skipping old article (11.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216372836/en/Indeed-Appoints-Jim-Giles-as-Chief-Technology-Officer
+Fetching URL: https://www.businesswire.com/news/home/20260216372836/en/Indeed-Appoints-Jim-Giles-as-Chief-Technology-Officer
+    Skipping old article (11.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216978740/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+Fetching URL: https://www.businesswire.com/news/home/20260216978740/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+    Skipping old article (11.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216894773/en/Bank-of-New-York-Mellon-UK-Regulatory-Announcement-FRN-Variable-Rate-Fix
+Fetching URL: https://www.businesswire.com/news/home/20260216894773/en/Bank-of-New-York-Mellon-UK-Regulatory-Announcement-FRN-Variable-Rate-Fix
+    Skipping old article (11.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216870992/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+Fetching URL: https://www.businesswire.com/news/home/20260216870992/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+    Skipping old article (11.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216586365/en/Bank-of-New-York-Mellon-UK-Regulatory-Announcement-FRN-Variable-Rate-Fix
+Fetching URL: https://www.businesswire.com/news/home/20260216586365/en/Bank-of-New-York-Mellon-UK-Regulatory-Announcement-FRN-Variable-Rate-Fix
+    Skipping old article (11.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216968996/en/Mouser-Electronics-to-Highlight-Latest-Semiconductors-and-Technologies-for-Engineers-at-DesignCon-2026
+Fetching URL: https://www.businesswire.com/news/home/20260216968996/en/Mouser-Electronics-to-Highlight-Latest-Semiconductors-and-Technologies-for-Engineers-at-DesignCon-2026
+    Skipping old article (11.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216249931/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+Fetching URL: https://www.businesswire.com/news/home/20260216249931/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+    Skipping old article (11.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216990988/en/RestorixHealth-Announces-2025-Center-Recognition-Awards-Program-Recipients
+Fetching URL: https://www.businesswire.com/news/home/20260216990988/en/RestorixHealth-Announces-2025-Center-Recognition-Awards-Program-Recipients
+    Skipping old article (11.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216234514/en/Nexo-Returns-to-the-U.S.
+Fetching URL: https://www.businesswire.com/news/home/20260216234514/en/Nexo-Returns-to-the-U.S.
+    Skipping old article (11.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216963778/en/Sonny%E2%80%99s-Enterprises-Partners-with-Mothers%C2%AE-Automated-Solutions%E2%84%A2-to-Enhance-Car-Wash-Chemistry-Portfolio
+Fetching URL: https://www.businesswire.com/news/home/20260216963778/en/Sonny’s-Enterprises-Partners-with-Mothers®-Automated-Solutions™-to-Enhance-Car-Wash-Chemistry-Portfolio
+    Skipping old article (11.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216897049/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+Fetching URL: https://www.businesswire.com/news/home/20260216897049/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+    Skipping old article (11.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216522058/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+Fetching URL: https://www.businesswire.com/news/home/20260216522058/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+    Skipping old article (11.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216587697/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+Fetching URL: https://www.businesswire.com/news/home/20260216587697/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+    Skipping old article (11.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216173106/en/SBA-Communications-Corporation-to-Speak-at-the-Raymond-James-Associates-47th-Annual-Institutional-Investors-Conference
+Fetching URL: https://www.businesswire.com/news/home/20260216173106/en/SBA-Communications-Corporation-to-Speak-at-the-Raymond-James-Associates-47th-Annual-Institutional-Investors-Conference
+    Skipping old article (11.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216701622/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+Fetching URL: https://www.businesswire.com/news/home/20260216701622/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+    Skipping old article (11.0h old): 2026-02-16 00:00:00
+Fetching URLs from page: https://www.stockwatch.com/News/Search?hours=24&region=U
+Fetching URL: https://www.stockwatch.com/News/Search?hours=24&region=U
+Primed session for: https://www.stockwatch.com (status: 200)
+Found 95 URLs to process for StockWatch
+Processing: https://www.stockwatch.com/News/Item/U-z9655248-U!SFD-20260216/U/SFD
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9655248-U!SFD-20260216/U/SFD
+    Article is fresh (-13.4m ago): 2026-02-16 11:15:00
+    Title: Smithfield Foods to Build New State-of-the-Art Pro...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z1001165064-U!RACE-20260216/U/RACE
+Fetching URL: https://www.stockwatch.com/News/Item/U-z1001165064-U!RACE-20260216/U/RACE
+    Article is fresh (-56.4m ago): 2026-02-16 11:58:00
+    Title: FERRARI N.V.: PERIODIC REPORT ON THE BUYBACK PROGR...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-DE88749-U!UFPI-20260216/U/UFPI
+Fetching URL: https://www.stockwatch.com/News/Item/U-DE88749-U!UFPI-20260216/U/UFPI
+    Article is fresh (-30.3m ago): 2026-02-16 11:32:00
+    Title: UFP Industries Features Innovative, Solutions-Focu...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-SF88745-U!RHI-20260216/U/RHI
+Fetching URL: https://www.stockwatch.com/News/Item/U-SF88745-U!RHI-20260216/U/RHI
+    Article is fresh (-28.3m ago): 2026-02-16 11:30:00
+    Title: Robert Half Selected by Forbes as One of America's...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-by1137807-U!ELEK-20260216/U/ELEK
+Fetching URL: https://www.stockwatch.com/News/Item/U-by1137807-U!ELEK-20260216/U/ELEK
+    Article is fresh (-28.3m ago): 2026-02-16 11:30:00
+    Title: Presidents' Day: Leadership, Strength, and the Pro...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-by1137808-U!ELEK-20260216/U/ELEK
+Fetching URL: https://www.stockwatch.com/News/Item/U-by1137808-U!ELEK-20260216/U/ELEK
+    Article is fresh (-58.2m ago): 2026-02-16 12:00:00
+    Title: A Distinguished Presidents' Day Message of Gratitu...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-by1137812-U!FDX-20260216/U/FDX
+Fetching URL: https://www.stockwatch.com/News/Item/U-by1137812-U!FDX-20260216/U/FDX
+    Article is fresh (-28.2m ago): 2026-02-16 11:30:00
+    Title: Leveraging Logistics To Reduce Electronic Waste...
+  -> Found 1 insights
+Fetching URLs from page: https://www.investing.com/news/latest-news
+Fetching URL: https://www.investing.com/news/latest-news
+Primed session for: https://www.investing.com (status: 200)
+Found 200 URLs to process for Investing.com
+Processing: https://www.investing.com/news/economy-news/cubans-turn-to-electric-vehicles-as-us-tightens-oil-blockade-4507715
+Fetching URL: https://www.investing.com/news/economy-news/cubans-turn-to-electric-vehicles-as-us-tightens-oil-blockade-4507715
+    Article is fresh (-51.1m ago): 2026-02-16 11:53:00
+    Title: Cubans turn to electric vehicles as US tightens oi...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/earnings/enlight-earnings-up-next-can-project-wins-offset-nearterm-loss-93CH-4507714
+Fetching URL: https://www.investing.com/news/earnings/enlight-earnings-up-next-can-project-wins-offset-nearterm-loss-93CH-4507714
+    Article is fresh (-52.0m ago): 2026-02-16 11:54:00
+    Title: Enlight earnings up next: Can project wins offset ...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/earnings/fluor-earnings-up-next-can-revenue-growth-translate-to-profits-93CH-4507717
+Fetching URL: https://www.investing.com/news/earnings/fluor-earnings-up-next-can-revenue-growth-translate-to-profits-93CH-4507717
+    Article is fresh (-55.0m ago): 2026-02-16 11:57:00
+    Title: Fluor earnings up next: Can revenue growth transla...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/stock-market-news/sector-rotation-into-defensives-not-great-sign-for-market-says-citis-willer-4507658#comments
+Fetching URL: https://www.investing.com/news/stock-market-news/sector-rotation-into-defensives-not-great-sign-for-market-says-citis-willer-4507658
+    Skipping old article (2.2h old): 2026-02-16 08:52:00
+Processing: https://www.investing.com/news/earnings/allegion-earnings-on-deck-as-security-maker-tests-margin-shift-93CH-4507708
+Fetching URL: https://www.investing.com/news/earnings/allegion-earnings-on-deck-as-security-maker-tests-margin-shift-93CH-4507708
+    Article is fresh (-39.9m ago): 2026-02-16 11:42:00
+    Title: Allegion earnings on deck as security maker tests ...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/economy-news/canada-announces-new-chief-trade-negotiator-to-the-united-states-4507711
+Fetching URL: https://www.investing.com/news/economy-news/canada-announces-new-chief-trade-negotiator-to-the-united-states-4507711
+    Article is fresh (-43.8m ago): 2026-02-16 11:46:00
+    Title: Canada announces new chief trade negotiator to the...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/stock-market-news/sector-rotation-into-defensives-not-great-sign-for-market-says-citis-willer-4507658
+Fetching URL: https://www.investing.com/news/stock-market-news/sector-rotation-into-defensives-not-great-sign-for-market-says-citis-willer-4507658
+    Skipping old article (2.2h old): 2026-02-16 08:52:00
+Processing: https://www.investing.com/news/earnings/watsco-faces-earnings-test-as-hvac-distributor-navigates-headwinds-93CH-4507707
+Fetching URL: https://www.investing.com/news/earnings/watsco-faces-earnings-test-as-hvac-distributor-navigates-headwinds-93CH-4507707
+    Article is fresh (-36.8m ago): 2026-02-16 11:39:00
+    Title: Watsco faces earnings test as HVAC distributor nav...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/pro/a-recent-selloff-in-this-sector-presents-a-buying-opportunity-jefferies-432SI-4507720
+Fetching URL: https://www.investing.com/news/pro/a-recent-selloff-in-this-sector-presents-a-buying-opportunity-jefferies-432SI-4507720
+    Article is fresh (-57.7m ago): 2026-02-16 12:00:00
+    Title: A recent selloff in this sector presents a "buying...
+  -> Found 1 insights
+Filtering insights with minimum score: 80
+Sending email with 2 top insights...
+Email sent to tray14@hotmail.com
+No tickers found in top insights to send.
+Job completed.
+Job finished at Mon Feb 16 11:02:17 AM CST 2026
+Starting job at Mon Feb 16 12:00:01 PM CST 2026
+Starting Stock Data Analysis Job...
+StateManager using local file.
+Fetching URLs from sitemap: https://bw-prod-sitemap.s3.us-east-1.amazonaws.com/webdmz1.vaprod.businesswire.com/home/2026-02-16.xml.gz
+Parsing sitemap: https://bw-prod-sitemap.s3.us-east-1.amazonaws.com/webdmz1.vaprod.businesswire.com/home/2026-02-16.xml.gz
+Found 170 URLs to process for BusinessWire
+Processing: http://www.businesswire.com/news/home/20260216960232/en/Trafficmind-Expands-Global-Anycast-Network-for-Performance-Critical-and-Regulated-Workloads
+Fetching URL: https://www.businesswire.com/news/home/20260216960232/en/Trafficmind-Expands-Global-Anycast-Network-for-Performance-Critical-and-Regulated-Workloads
+Primed session for: https://www.businesswire.com (status: 200)
+    Skipping old article (12.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216705693/en/Regional-Dermatology-Joins-Epiphany-Dermatology
+Fetching URL: https://www.businesswire.com/news/home/20260216705693/en/Regional-Dermatology-Joins-Epiphany-Dermatology
+    Skipping old article (12.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216160861/en/Prime-Healthcare-Foundation-Expands-National-Footprint-as-Central-Maine-Healthcare-Joins-Its-Award-Winning-System
+Fetching URL: https://www.businesswire.com/news/home/20260216160861/en/Prime-Healthcare-Foundation-Expands-National-Footprint-as-Central-Maine-Healthcare-Joins-Its-Award-Winning-System
+    Skipping old article (12.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216388719/en/Arbor-Day-Foundation-Podcast-Features-Jane-Goodall-Institute-USA-Executive-Director-In-Latest-Episode
+Fetching URL: https://www.businesswire.com/news/home/20260216388719/en/Arbor-Day-Foundation-Podcast-Features-Jane-Goodall-Institute-USA-Executive-Director-In-Latest-Episode
+    Skipping old article (12.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216529178/en/Eurofins-Scientific-DirectorPDMR-Shareholding
+Fetching URL: https://www.businesswire.com/news/home/20260216529178/en/Eurofins-Scientific-DirectorPDMR-Shareholding
+    Skipping old article (12.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216504252/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+Fetching URL: https://www.businesswire.com/news/home/20260216504252/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+    Skipping old article (12.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216901130/en/Depop-Launches-%E2%80%9CDepoponomics%E2%80%9D-a-National-Campaign-Reframing-Resale-as-a-Personal-Economy
+Fetching URL: https://www.businesswire.com/news/home/20260216901130/en/Depop-Launches-“Depoponomics”-a-National-Campaign-Reframing-Resale-as-a-Personal-Economy
+    Skipping old article (12.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216850796/en/Legrand-Statement-of-Transactions-in-Own-Shares-from-2026-02-09-to-2026-02-13
+Fetching URL: https://www.businesswire.com/news/home/20260216850796/en/Legrand-Statement-of-Transactions-in-Own-Shares-from-2026-02-09-to-2026-02-13
+    Skipping old article (12.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216461175/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+Fetching URL: https://www.businesswire.com/news/home/20260216461175/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+    Skipping old article (12.0h old): 2026-02-16 00:00:00
+Fetching URLs from page: https://www.stockwatch.com/News/Search?hours=24&region=U
+Fetching URL: https://www.stockwatch.com/News/Search?hours=24&region=U
+Primed session for: https://www.stockwatch.com (status: 200)
+Found 97 URLs to process for StockWatch
+Processing: https://www.stockwatch.com/News/Item/U-z1001165073-U!SHEL-20260216/U/SHEL
+Fetching URL: https://www.stockwatch.com/News/Item/U-z1001165073-U!SHEL-20260216/U/SHEL
+    Article is fresh (-31.3m ago): 2026-02-16 12:32:00
+    Title: Transaction in Own Shares...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9655343-U!EH-20260216/U/EH
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9655343-U!EH-20260216/U/EH
+    Article is fresh (-52.3m ago): 2026-02-16 12:53:00
+    Title: EHang Lights Up China's Spring Festival Gala with ...
+  -> Found 1 insights
+Fetching URLs from page: https://www.investing.com/news/latest-news
+Fetching URL: https://www.investing.com/news/latest-news
+Primed session for: https://www.investing.com (status: 200)
+Found 200 URLs to process for Investing.com
+Processing: https://www.investing.com/news/earnings/usa-compression-earnings-in-focus-as-distribution-decision-looms-93CH-4507739
+Fetching URL: https://www.investing.com/news/earnings/usa-compression-earnings-in-focus-as-distribution-decision-looms-93CH-4507739
+    Article is fresh (-14.2m ago): 2026-02-16 12:15:00
+    Title: USA Compression earnings in focus as distribution ...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/stock-market-news/citi-sees-a-more-volatile-bull-market-amid-ai-disruption-fears-4507674#comments
+Fetching URL: https://www.investing.com/news/stock-market-news/citi-sees-a-more-volatile-bull-market-amid-ai-disruption-fears-4507674
+    Skipping old article (2.3h old): 2026-02-16 09:42:00
+Processing: https://www.investing.com/news/earnings/neogenomics-earnings-in-the-spotlight-as-analysts-eye-profitability-93CH-4507744
+Fetching URL: https://www.investing.com/news/earnings/neogenomics-earnings-in-the-spotlight-as-analysts-eye-profitability-93CH-4507744
+    Article is fresh (-20.1m ago): 2026-02-16 12:21:00
+    Title: NeoGenomics earnings in the spotlight as analysts ...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/stock-market-news/european-shares-edge-higher-buoyed-by-financials-4507464
+Fetching URL: https://www.investing.com/news/stock-market-news/european-shares-edge-higher-buoyed-by-financials-4507464
+    Skipping old article (8.6h old): 2026-02-16 03:25:00
+Processing: https://www.investing.com/news/earnings/lgi-homes-set-to-report-earnings-amid-housing-market-squeeze-93CH-4507745
+Fetching URL: https://www.investing.com/news/earnings/lgi-homes-set-to-report-earnings-amid-housing-market-squeeze-93CH-4507745
+    Article is fresh (-22.0m ago): 2026-02-16 12:23:00
+    Title: LGI Homes set to report earnings amid housing mark...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/earnings/hillman-earnings-in-spotlight-can-housing-rebound-drive-2026-93CH-4507743
+Fetching URL: https://www.investing.com/news/earnings/hillman-earnings-in-spotlight-can-housing-rebound-drive-2026-93CH-4507743
+    Article is fresh (-19.0m ago): 2026-02-16 12:20:00
+    Title: Hillman earnings in spotlight: Can housing rebound...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/commodities-news/trump-slams-energy-deal-between-californiaand-britain-politico-reports-4507749#comments
+Fetching URL: https://www.investing.com/news/commodities-news/trump-slams-energy-deal-between-californiaand-britain-politico-reports-4507749
+    Article is fresh (-33.9m ago): 2026-02-16 12:35:00
+    Title: Trump slams energy deal between California and Bri...
+  -> Found 1 insights
+Filtering insights with minimum score: 80
+Sending email with 2 top insights...
+Email sent to tray14@hotmail.com
+No tickers found in top insights to send.
+Job completed.
+Job finished at Mon Feb 16 12:01:05 PM CST 2026
