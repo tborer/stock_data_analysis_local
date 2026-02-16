@@ -442,3 +442,29 @@ negative_keywords:
     weight: 0.7
   - name: "Hit support level"
     weight: 0.6
+  - name: "Tumble"
+    weight: 0.9
+  - name: "Rating cut"
+    weight: 0.9
+  - name: "Uncertainty"
+    weight: 0.8
+  - name: "Headwinds"
+    weight: 0.8
+  - name: "Stagnating"
+    weight: 0.7
+  - name: "Lack of clarity"
+    weight: 0.8
+  - name: "Weighing on"
+    weight: 0.7
+  - name: "Soft outlook"
+    weight: 0.8
+  - name: "Softer outlook"
+    weight: 0.8
+  - name: "Hesitant"
+    weight: 0.6
+  - name: "Loss of momentum"
+    weight: 0.9
+  - name: "Modest"
+    weight: 0.4
+  - name: "Breaking point"
+    weight: 0.7
