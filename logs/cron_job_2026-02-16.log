@@ -896,3 +896,246 @@ Email sent to tray14@hotmail.com
 Sending 5 unique tickers to Watchlist API...
 Job completed.
 Job finished at Mon Feb 16 08:03:06 AM CST 2026
+Starting job at Mon Feb 16 09:00:01 AM CST 2026
+Starting Stock Data Analysis Job...
+StateManager using local file.
+Fetching URLs from sitemap: https://bw-prod-sitemap.s3.us-east-1.amazonaws.com/webdmz1.vaprod.businesswire.com/home/2026-02-16.xml.gz
+Parsing sitemap: https://bw-prod-sitemap.s3.us-east-1.amazonaws.com/webdmz1.vaprod.businesswire.com/home/2026-02-16.xml.gz
+Found 106 URLs to process for BusinessWire
+Processing: http://www.businesswire.com/news/home/20260216549873/en/Qube-Research-Technologies-LTD-UK-Regulatory-Announcement-Form-8.3
+Fetching URL: https://www.businesswire.com/news/home/20260216549873/en/Qube-Research-Technologies-LTD-UK-Regulatory-Announcement-Form-8.3
+Primed session for: https://www.businesswire.com (status: 200)
+    Skipping old article (9.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216189733/en/Qube-Research-Technologies-LTD-UK-Regulatory-Announcement-Form-8.3
+Fetching URL: https://www.businesswire.com/news/home/20260216189733/en/Qube-Research-Technologies-LTD-UK-Regulatory-Announcement-Form-8.3
+    Skipping old article (9.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217638770/en/Deutsche-Bank-AG-UK-Regulatory-Announcement-Issuance-of-Securities
+Fetching URL: https://www.businesswire.com/news/home/20260217638770/en/Deutsche-Bank-AG-UK-Regulatory-Announcement-Issuance-of-Securities
+    Article is fresh (-899.8m ago): 2026-02-17 00:00:00
+    No title found
+Processing: http://www.businesswire.com/news/home/20260216952019/en/Qube-Research-Technologies-LTD-UK-Regulatory-Announcement-Form-8.3
+Fetching URL: https://www.businesswire.com/news/home/20260216952019/en/Qube-Research-Technologies-LTD-UK-Regulatory-Announcement-Form-8.3
+    Skipping old article (9.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216000995/en/Qube-Research-Technologies-LTD-UK-Regulatory-Announcement-Form-8.3
+Fetching URL: https://www.businesswire.com/news/home/20260216000995/en/Qube-Research-Technologies-LTD-UK-Regulatory-Announcement-Form-8.3
+    Skipping old article (9.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216323043/en/IBSFINtech-named-as-a-Leader-in-the-IDC-MarketScape-Worldwide-AI-Enabled-Embedded-Trade-Financing-Applications-2025-2026-Vendor-Assessment
+Fetching URL: https://www.businesswire.com/news/home/20260216323043/en/IBSFINtech-named-as-a-Leader-in-the-IDC-MarketScape-Worldwide-AI-Enabled-Embedded-Trade-Financing-Applications-2025-2026-Vendor-Assessment
+    Skipping old article (9.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216163292/en/West-Shore-Home-Enters-Boston-Market-as-Renovation-Spending-Surges-Among-New-England-Homeowners
+Fetching URL: https://www.businesswire.com/news/home/20260216163292/en/West-Shore-Home-Enters-Boston-Market-as-Renovation-Spending-Surges-Among-New-England-Homeowners
+    Skipping old article (9.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217969459/en/Xtrackers-IE-plc-UK-Regulatory-Announcement-Net-Asset-Value-s
+Fetching URL: https://www.businesswire.com/news/home/20260217969459/en/Xtrackers-IE-plc-UK-Regulatory-Announcement-Net-Asset-Value-s
+    Article is fresh (-899.6m ago): 2026-02-17 00:00:00
+    No title found
+Processing: http://www.businesswire.com/news/home/20260217081146/en/Xtrackers-II-UK-Regulatory-Announcement-Net-Asset-Value-s
+Fetching URL: https://www.businesswire.com/news/home/20260217081146/en/Xtrackers-II-UK-Regulatory-Announcement-Net-Asset-Value-s
+    Article is fresh (-899.6m ago): 2026-02-17 00:00:00
+    No title found
+Processing: http://www.businesswire.com/news/home/20260216659246/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+Fetching URL: https://www.businesswire.com/news/home/20260216659246/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+    Skipping old article (9.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216214708/en/Andersen-Global-Strengthens-Global-Mobility-Platform-with-Addition-of-Member-Firm
+Fetching URL: https://www.businesswire.com/news/home/20260216214708/en/Andersen-Global-Strengthens-Global-Mobility-Platform-with-Addition-of-Member-Firm
+    Skipping old article (9.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216542746/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+Fetching URL: https://www.businesswire.com/news/home/20260216542746/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+    Skipping old article (9.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217583735/en/Xtrackers-UK-Regulatory-Announcement-Net-Asset-Value-s
+Fetching URL: https://www.businesswire.com/news/home/20260217583735/en/Xtrackers-UK-Regulatory-Announcement-Net-Asset-Value-s
+    Article is fresh (-899.4m ago): 2026-02-17 00:00:00
+    No title found
+Processing: http://www.businesswire.com/news/home/20260216602578/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+Fetching URL: https://www.businesswire.com/news/home/20260216602578/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+    Skipping old article (9.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216944976/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+Fetching URL: https://www.businesswire.com/news/home/20260216944976/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+    Skipping old article (9.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216276741/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+Fetching URL: https://www.businesswire.com/news/home/20260216276741/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+    Skipping old article (9.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260215653459/en/LSU-Athletics-Announces-Historic-Partnership-with-Woodside-Energy
+Fetching URL: https://www.businesswire.com/news/home/20260215653459/en/LSU-Athletics-Announces-Historic-Partnership-with-Woodside-Energy
+    Skipping old article (33.0h old): 2026-02-15 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216968123/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+Fetching URL: https://www.businesswire.com/news/home/20260216968123/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+    Skipping old article (9.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216129652/en/GoNetspeed-Supercharges-Northeast-with-Rollout-of-6-Gigabit-Speeds
+Fetching URL: https://www.businesswire.com/news/home/20260216129652/en/GoNetspeed-Supercharges-Northeast-with-Rollout-of-6-Gigabit-Speeds
+    Skipping old article (9.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216984391/en/AIT-Worldwide-Logistics-Announces-Strategic-Partnership-With-Greenbriar-Equity-Group
+Fetching URL: https://www.businesswire.com/news/home/20260216984391/en/AIT-Worldwide-Logistics-Announces-Strategic-Partnership-With-Greenbriar-Equity-Group
+    Skipping old article (9.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216500815/en/Porch-Group-Announces-Attendance-at-Upcoming-Investor-Events
+Fetching URL: https://www.businesswire.com/news/home/20260216500815/en/Porch-Group-Announces-Attendance-at-Upcoming-Investor-Events
+    Skipping old article (9.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216567666/en/Voyager-and-ATMOS-Accelerate-Access-to-Space
+Fetching URL: https://www.businesswire.com/news/home/20260216567666/en/Voyager-and-ATMOS-Accelerate-Access-to-Space
+    Skipping old article (9.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216966724/en/Westlake-Royal-Building-Products%E2%84%A2-Introduces-58%E2%80%9D-Lap-Siding-Profile-for-TruExterior%C2%AE-Siding-Trim
+Fetching URL: https://www.businesswire.com/news/home/20260216966724/en/Westlake-Royal-Building-Products™-Introduces-58”-Lap-Siding-Profile-for-TruExterior®-Siding-Trim
+    Skipping old article (9.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216128873/en/Canada%E2%80%99s-Paint-Company-CIL-Unveils-New-Logo-Mission
+Fetching URL: https://www.businesswire.com/news/home/20260216128873/en/Canada’s-Paint-Company-CIL-Unveils-New-Logo-Mission
+    Skipping old article (9.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216396634/en/Westlake-Royal-Building-Products%E2%84%A2-Launches-New-Website-Featuring-Innovative-AI-Design-Tool
+Fetching URL: https://www.businesswire.com/news/home/20260216396634/en/Westlake-Royal-Building-Products™-Launches-New-Website-Featuring-Innovative-AI-Design-Tool
+    Skipping old article (9.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216696194/en/Tractor-Supply-Announces-a-Flock-of-Animal-Friendly-Festivities-Launching-This-Month
+Fetching URL: https://www.businesswire.com/news/home/20260216696194/en/Tractor-Supply-Announces-a-Flock-of-Animal-Friendly-Festivities-Launching-This-Month
+    Skipping old article (9.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216151238/en/Europe-Oncology-Genomics-Tracker-Captures-Oncologist-Perspectives-Across-Major-European-Markets-%E2%80%93-Data-Report-by-DeciBio-Consulting-LLC
+Fetching URL: https://www.businesswire.com/news/home/20260216151238/en/Europe-Oncology-Genomics-Tracker-Captures-Oncologist-Perspectives-Across-Major-European-Markets-–-Data-Report-by-DeciBio-Consulting-LLC
+    Skipping old article (9.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216285653/en/Trex-Showcases-the-Future-of-Outdoor-Living-at-IBS-2026
+Fetching URL: https://www.businesswire.com/news/home/20260216285653/en/Trex-Showcases-the-Future-of-Outdoor-Living-at-IBS-2026
+    Skipping old article (9.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216598385/en/TaskUs-Inc.-to-Announce-Fourth-Quarter-and-Full-Year-2025-Financial-Results-on-February-25-2026
+Fetching URL: https://www.businesswire.com/news/home/20260216598385/en/TaskUs-Inc.-to-Announce-Fourth-Quarter-and-Full-Year-2025-Financial-Results-on-February-25-2026
+    Skipping old article (9.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216826296/en/HPE-Self-Driving-Network-Enables-Transformation-of-Riyadh-Air-Metropolitano-Stadium-to-Enhance-Fan-Experience
+Fetching URL: https://www.businesswire.com/news/home/20260216826296/en/HPE-Self-Driving-Network-Enables-Transformation-of-Riyadh-Air-Metropolitano-Stadium-to-Enhance-Fan-Experience
+    Skipping old article (9.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216826286/en/Cloudvirga-Enhances-Loan-Hub-with-Real-Time-Pricing-from-Optimal-Blue
+Fetching URL: https://www.businesswire.com/news/home/20260216826286/en/Cloudvirga-Enhances-Loan-Hub-with-Real-Time-Pricing-from-Optimal-Blue
+    Skipping old article (9.0h old): 2026-02-16 00:00:00
+Fetching URLs from page: https://www.stockwatch.com/News/Search?hours=24&region=U
+Fetching URL: https://www.stockwatch.com/News/Search?hours=24&region=U
+Primed session for: https://www.stockwatch.com (status: 200)
+Found 78 URLs to process for StockWatch
+Processing: https://www.stockwatch.com/News/Item/U-CL87344-U!AEP-20260216/U/AEP
+Fetching URL: https://www.stockwatch.com/News/Item/U-CL87344-U!AEP-20260216/U/AEP
+    Article is fresh (1.4m ago): 2026-02-16 09:00:00
+    Title: Transource Energy and FirstEnergy Transmission Joi...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-LN88597-U!ZIM-20260216/U/ZIM
+Fetching URL: https://www.stockwatch.com/News/Item/U-LN88597-U!ZIM-20260216/U/ZIM
+    Article is fresh (-19.6m ago): 2026-02-16 09:21:00
+    Title: ZIM to be Acquired by Hapag-Lloyd for $35.00 per S...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-CL88676-U!GE-20260216/U/GE
+Fetching URL: https://www.stockwatch.com/News/Item/U-CL88676-U!GE-20260216/U/GE
+    Article is fresh (-48.5m ago): 2026-02-16 09:50:00
+    Title: United Airlines Selects GE Aerospace GEnx Engines ...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260216096230-U!CMCS-20260216/U/CMCS
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260216096230-U!CMCS-20260216/U/CMCS
+    Article is fresh (-58.5m ago): 2026-02-16 10:00:00
+    Title: Comcast Business Powers February's Biggest Broadca...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-CL87961-U!FE-20260216/U/FE
+Fetching URL: https://www.stockwatch.com/News/Item/U-CL87961-U!FE-20260216/U/FE
+    Article is fresh (1.6m ago): 2026-02-16 09:00:00
+    Title: FirstEnergy Transmission and Transource Energy Joi...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-LA88067-U!GDDY-20260216/U/GDDY
+Fetching URL: https://www.stockwatch.com/News/Item/U-LA88067-U!GDDY-20260216/U/GDDY
+    Article is fresh (1.6m ago): 2026-02-16 09:00:00
+    Title: GoDaddy Inc. to Present at the Morgan Stanley Tech...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-CG87569-U!HOUS-20260216/U/HOUS
+Fetching URL: https://www.stockwatch.com/News/Item/U-CG87569-U!HOUS-20260216/U/HOUS
+    Article is fresh (0.6m ago): 2026-02-16 09:01:00
+    Title: Kevin Ginsburg named National Builder Divisional M...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-LA88302-U!ALLE-20260216/U/ALLE
+Fetching URL: https://www.stockwatch.com/News/Item/U-LA88302-U!ALLE-20260216/U/ALLE
+    Article is fresh (0.7m ago): 2026-02-16 09:01:00
+    Title: Schlage's Pin &amp; Tumbler™ Studio Reveals the As...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-CL88676-U!UAL-20260216/U/UAL
+Fetching URL: https://www.stockwatch.com/News/Item/U-CL88676-U!UAL-20260216/U/UAL
+    Article is fresh (-48.3m ago): 2026-02-16 09:50:00
+    Skipping duplicate title: United Airlines Selects GE Aerospace GEnx Engines ...
+Processing: https://www.stockwatch.com/News/Item/U-283832-U!ADIA-20260216/U/ADIA
+Fetching URL: https://www.stockwatch.com/News/Item/U-283832-U!ADIA-20260216/U/ADIA
+    Article is fresh (0.8m ago): 2026-02-16 09:01:00
+    Title: Adia Nutrition Announces Subsidiary Adia Med's Sub...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260216500815-U!PRCH-20260216/U/PRCH
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260216500815-U!PRCH-20260216/U/PRCH
+    Article is fresh (-0.2m ago): 2026-02-16 09:02:00
+    Title: Porch Group Announces Attendance at Upcoming Inves...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260216456292-U!TXT-20260216/U/TXT
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260216456292-U!TXT-20260216/U/TXT
+    Article is fresh (-58.1m ago): 2026-02-16 10:00:00
+    Title: TRU Simulation's Full Flight Simulator for the Ces...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-CL87344-U!FE-20260216/U/FE
+Fetching URL: https://www.stockwatch.com/News/Item/U-CL87344-U!FE-20260216/U/FE
+    Article is fresh (1.9m ago): 2026-02-16 09:00:00
+    Skipping duplicate title: Transource Energy and FirstEnergy Transmission Joi...
+Processing: https://www.stockwatch.com/News/Item/U-LA88513-U!CAG-20260216/U/CAG
+Fetching URL: https://www.stockwatch.com/News/Item/U-LA88513-U!CAG-20260216/U/CAG
+    Article is fresh (1.9m ago): 2026-02-16 09:00:00
+    Title: CONAGRA BRANDS REAFFIRMS FISCAL 2026 GUIDANCE AHEA...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260216801247-U!LHX-20260216/U/LHX
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260216801247-U!LHX-20260216/U/LHX
+    Article is fresh (-58.0m ago): 2026-02-16 10:00:00
+    Title: L3Harris Receives New Contract to Power THAAD Inte...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-LA88516-U!GRAL-20260216/U/GRAL
+Fetching URL: https://www.stockwatch.com/News/Item/U-LA88516-U!GRAL-20260216/U/GRAL
+    Article is fresh (2.0m ago): 2026-02-16 09:00:00
+    Title: GRAIL to Announce Fourth Quarter and Full Year 202...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-by1137754-U!SRMMF-20260216/U/SRMMF
+Fetching URL: https://www.stockwatch.com/News/Item/U-by1137754-U!SRMMF-20260216/U/SRMMF
+    Article is fresh (-28.0m ago): 2026-02-16 09:30:00
+    Title: Sarama Announces Change of Auditor...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-DE88660-U!CMS-20260216/U/CMS
+Fetching URL: https://www.stockwatch.com/News/Item/U-DE88660-U!CMS-20260216/U/CMS
+    Article is fresh (-11.9m ago): 2026-02-16 09:14:00
+    Title: Consumers Energy Promotes Home Heating Credit to H...
+  -> Found 1 insights
+Fetching URLs from page: https://www.investing.com/news/latest-news
+Fetching URL: https://www.investing.com/news/latest-news
+Primed session for: https://www.investing.com (status: 200)
+Found 200 URLs to process for Investing.com
+Processing: https://www.investing.com/news/earnings/national-energy-services-earnings-spotlight-can-jafurah-lift-results-93CH-4507676
+Fetching URL: https://www.investing.com/news/earnings/national-energy-services-earnings-spotlight-can-jafurah-lift-results-93CH-4507676
+    Article is fresh (-44.8m ago): 2026-02-16 09:47:00
+    Title: National Energy Services earnings spotlight: Can J...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/economy-news/japans-economy-barely-grew-in-q4-misses-forecasts-4507323
+Fetching URL: https://www.investing.com/news/economy-news/japans-economy-barely-grew-in-q4-misses-forecasts-4507323
+    Skipping old article (13.7h old): 2026-02-15 19:21:00
+Processing: https://www.investing.com/news/economic-indicators/israels-gdp-growth-slows-to-40-in-q4-after-postwar-rebound-93CH-4507654
+Fetching URL: https://www.investing.com/news/economic-indicators/israels-gdp-growth-slows-to-40-in-q4-after-postwar-rebound-93CH-4507654
+    Article is fresh (27.3m ago): 2026-02-16 08:35:00
+    Title: Israel’s GDP growth slows to 4.0% in Q4 after post...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/earnings/mercury-general-earnings-on-deck-as-margins-face-test-93CH-4507672
+Fetching URL: https://www.investing.com/news/earnings/mercury-general-earnings-on-deck-as-margins-face-test-93CH-4507672
+    Article is fresh (-29.7m ago): 2026-02-16 09:32:00
+    Title: Mercury General earnings on deck as margins face t...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/pro/hapaglloyd-to-acquire-zim-for-42-billion-in-allcash-deal-432SI-4507669
+Fetching URL: https://www.investing.com/news/pro/hapaglloyd-to-acquire-zim-for-42-billion-in-allcash-deal-432SI-4507669
+    Article is fresh (-20.6m ago): 2026-02-16 09:23:00
+    Title: Hapag-Lloyd to acquire ZIM for $4.2 billion in all...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/stock-market-news/top-stocks-to-buy-ubs-selects-the-best-eu-infrastructure-plays-for-2026-93CH-4507636
+Fetching URL: https://www.investing.com/news/stock-market-news/top-stocks-to-buy-ubs-selects-the-best-eu-infrastructure-plays-for-2026-93CH-4507636
+    Skipping old article (1.2h old): 2026-02-16 07:48:00
+Processing: https://www.investing.com/news/forex-news/goldman-sachs-sees-sterling-underperformance-despite-uk-data-resilience-4507633
+Fetching URL: https://www.investing.com/news/forex-news/goldman-sachs-sees-sterling-underperformance-despite-uk-data-resilience-4507633
+    Skipping old article (1.3h old): 2026-02-16 07:42:00
+Processing: https://www.investing.com/news/stock-market-news/natwest-shares-climb-after-ubs-raises-earnings-forecasts-4507638
+Fetching URL: https://www.investing.com/news/stock-market-news/natwest-shares-climb-after-ubs-raises-earnings-forecasts-4507638
+    Skipping old article (1.1h old): 2026-02-16 07:54:00
+Processing: https://www.investing.com/analysis/the-ai-boom-faces-a-hard-constraint-200675077
+Fetching URL: https://www.investing.com/analysis/the-ai-boom-faces-a-hard-constraint-200675077
+    Article is fresh (29.6m ago): 2026-02-16 08:33:00
+    Title: The AI Boom Faces a Hard Constraint...
+  -> Found 1 insights
+Filtering insights with minimum score: 70
+Sending email with 8 top insights...
+Email sent to tray14@hotmail.com
+Sending 4 unique tickers to Watchlist API...
+Job completed.
+Job finished at Mon Feb 16 09:02:37 AM CST 2026
