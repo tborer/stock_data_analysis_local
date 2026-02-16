@@ -16,6 +16,7 @@ class Settings:
         # Watchlist API
         self.watchlist_api_url = os.getenv("WATCHLIST_API_URL", "https://stock-trader-app-ten.vercel.app/api/watchlist/add")
         self.watchlist_api_key = os.getenv("WATCHLIST_API_KEY")
+        self.enable_api_error_email = os.getenv("ENABLE_API_ERROR_EMAIL", "true").lower() == "true"
         
         self.sites_config_path = "config/sites.yaml"
 

@@ -33,9 +33,15 @@ class WebhookNotifier:
             response = requests.post(self.api_url, json=payload, headers=headers, timeout=10)
             
             if response.status_code == 200:
-                logging.info(f"Successfully sent tickers. Response: {response.json()}")
+                msg = f"Successfully sent tickers. Response: {response.json()}"
+                logging.info(msg)
+                return True, msg
             else:
-                logging.error(f"Failed to send tickers. Status: {response.status_code}, Body: {response.text}")
+                msg = f"Failed to send tickers. Status: {response.status_code}, Body: {response.text}"
+                logging.error(msg)
+                return False, msg
                 
         except Exception as e:
-            logging.error(f"Error sending tickers to watchlist API: {e}")
+            msg = f"Error sending tickers to watchlist API: {e}"
+            logging.error(msg)
+            return False, msg

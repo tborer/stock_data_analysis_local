@@ -209,7 +209,19 @@ def main():
             
             if tickers_to_send:
                 print(f"Sending {len(tickers_to_send)} unique tickers to Watchlist API...")
-                webhook.send_tickers(list(tickers_to_send))
+                success, msg = webhook.send_tickers(list(tickers_to_send))
+                
+                if not success:
+                    print(f"API Error: {msg}")
+                    if settings.enable_api_error_email:
+                        print("Sending error notification email...")
+                        error_subject = f"Watchlist API Error - {datetime.datetime.now().strftime('%Y-%m-%d %H:%M')}"
+                        error_body = (
+                            f"An error occurred while sending tickers to the Watchlist API.\n\n"
+                            f"Error Details:\n{msg}\n\n"
+                            f"Tickers attempted:\n{', '.join(tickers_to_send)}"
+                        )
+                        emailer.send_email(error_subject, error_body)
             else:
                 print("No tickers found in top insights to send.")
     else:
