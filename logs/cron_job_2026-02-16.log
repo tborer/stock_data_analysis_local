@@ -1587,3 +1587,579 @@ Email sent to tray14@hotmail.com
 No tickers found in top insights to send.
 Job completed.
 Job finished at Mon Feb 16 12:01:05 PM CST 2026
+Starting job at Mon Feb 16 01:00:01 PM CST 2026
+Starting Stock Data Analysis Job...
+StateManager using local file.
+Fetching URLs from sitemap: https://bw-prod-sitemap.s3.us-east-1.amazonaws.com/webdmz1.vaprod.businesswire.com/home/2026-02-16.xml.gz
+Parsing sitemap: https://bw-prod-sitemap.s3.us-east-1.amazonaws.com/webdmz1.vaprod.businesswire.com/home/2026-02-16.xml.gz
+Found 186 URLs to process for BusinessWire
+Processing: http://www.businesswire.com/news/home/20260216779958/en/Generational-Group-Advises-Bailey-Engineering-Inc.-in-its-Sale-to-Wapiti-Holdings-LLC
+Fetching URL: https://www.businesswire.com/news/home/20260216779958/en/Generational-Group-Advises-Bailey-Engineering-Inc.-in-its-Sale-to-Wapiti-Holdings-LLC
+Primed session for: https://www.businesswire.com (status: 200)
+    Skipping old article (13.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216540249/en/SLM-Deadline-Rosen-Law-Firm-Urges-SLM-Corporation-aka-Sallie-Mae-NASDAQ-SLM-Stockholders-to-Contact-the-Firm-for-Information-About-Their-Rights
+Fetching URL: https://www.businesswire.com/news/home/20260216540249/en/SLM-Deadline-Rosen-Law-Firm-Urges-SLM-Corporation-aka-Sallie-Mae-NASDAQ-SLM-Stockholders-to-Contact-the-Firm-for-Information-About-Their-Rights
+    Skipping old article (13.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216160460/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+Fetching URL: https://www.businesswire.com/news/home/20260216160460/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+    Skipping old article (13.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216902595/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+Fetching URL: https://www.businesswire.com/news/home/20260216902595/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+    Skipping old article (13.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216501159/en/TalentSmartEQ%E2%80%99s-2026-State-of-EQ-Report-Finds-Human-Skills-Drive-Performance-in-AI-Economy
+Fetching URL: https://www.businesswire.com/news/home/20260216501159/en/TalentSmartEQ’s-2026-State-of-EQ-Report-Finds-Human-Skills-Drive-Performance-in-AI-Economy
+    Skipping old article (13.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216913381/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+Fetching URL: https://www.businesswire.com/news/home/20260216913381/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+    Skipping old article (13.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216677784/en/Hyatt-Announces-Thomas-J.-Pritzker-Retires-as-Executive-Chairman-and-Will-Not-Seek-Re-Election-to-Board-of-Directors-Mark-S.-Hoplamazian-Assumes-Combined-Role-of-Chairman-of-the-Board-and-Chief-Executive-Officer
+Fetching URL: https://www.businesswire.com/news/home/20260216677784/en/Hyatt-Announces-Thomas-J.-Pritzker-Retires-as-Executive-Chairman-and-Will-Not-Seek-Re-Election-to-Board-of-Directors-Mark-S.-Hoplamazian-Assumes-Combined-Role-of-Chairman-of-the-Board-and-Chief-Executive-Officer
+    Skipping old article (13.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216559656/en/Topcon-and-Fixposition-Announce-Collaboration-Agreement
+Fetching URL: https://www.businesswire.com/news/home/20260216559656/en/Topcon-and-Fixposition-Announce-Collaboration-Agreement
+    Skipping old article (13.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216146069/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+Fetching URL: https://www.businesswire.com/news/home/20260216146069/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+    Skipping old article (13.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216603342/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+Fetching URL: https://www.businesswire.com/news/home/20260216603342/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+    Skipping old article (13.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216206961/en/Dialed-Moods-Advances-Biohacking-Wellness-with-Nature-Driven-Supplement-Innovation
+Fetching URL: https://www.businesswire.com/news/home/20260216206961/en/Dialed-Moods-Advances-Biohacking-Wellness-with-Nature-Driven-Supplement-Innovation
+    Skipping old article (13.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216381183/en/HELLENiQ-ENERGY-and-Chevron-Sign-Offshore-Concession-Agreements-for-Hydrocarbon-Exploration-and-Production-with-the-Hellenic-Republic
+Fetching URL: https://www.businesswire.com/news/home/20260216381183/en/HELLENiQ-ENERGY-and-Chevron-Sign-Offshore-Concession-Agreements-for-Hydrocarbon-Exploration-and-Production-with-the-Hellenic-Republic
+    Skipping old article (13.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216011686/en/Poxel-Reports-its-2025-Revenue-and-Provides-an-Update-on-its-Financial-Position
+Fetching URL: https://www.businesswire.com/news/home/20260216011686/en/Poxel-Reports-its-2025-Revenue-and-Provides-an-Update-on-its-Financial-Position
+    Skipping old article (13.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216389772/en/PLATO-Publishes-Revised-ANSIPLATO-FL-1-Standard-Introducing-First-Industry-Standard-for-Turbo-Boost-Brightness-Measurement
+Fetching URL: https://www.businesswire.com/news/home/20260216389772/en/PLATO-Publishes-Revised-ANSIPLATO-FL-1-Standard-Introducing-First-Industry-Standard-for-Turbo-Boost-Brightness-Measurement
+    Skipping old article (13.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216864815/en/Tom-Pritzker-Retires-as-Executive-Chairman-of-Hyatt-After-22-Years-of-Service-and-Will-Not-Stand-for-Reelection-to-Board-of-Directors
+Fetching URL: https://www.businesswire.com/news/home/20260216864815/en/Tom-Pritzker-Retires-as-Executive-Chairman-of-Hyatt-After-22-Years-of-Service-and-Will-Not-Stand-for-Reelection-to-Board-of-Directors
+    Skipping old article (13.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216615459/en/Rosen-Law-Firm-Urges-REGENXBIO-Inc.-NASDAQ-RGNX-Stockholders-with-Large-Losses-to-Contact-the-Firm-for-Information-About-Their-Rights
+Fetching URL: https://www.businesswire.com/news/home/20260216615459/en/Rosen-Law-Firm-Urges-REGENXBIO-Inc.-NASDAQ-RGNX-Stockholders-with-Large-Losses-to-Contact-the-Firm-for-Information-About-Their-Rights
+    Skipping old article (13.0h old): 2026-02-16 00:00:00
+Fetching URLs from page: https://www.stockwatch.com/News/Search?hours=24&region=U
+Fetching URL: https://www.stockwatch.com/News/Search?hours=24&region=U
+Primed session for: https://www.stockwatch.com (status: 200)
+Found 100 URLs to process for StockWatch
+Processing: https://www.stockwatch.com/News/Item/U-b20260216677784-U!H-20260216/U/H
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260216677784-U!H-20260216/U/H
+    Article is fresh (-14.0m ago): 2026-02-16 13:15:00
+    Title: Hyatt Announces Thomas J. Pritzker Retires as Exec...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-by1137877-U!BTUMF-20260216/U/BTUMF
+Fetching URL: https://www.stockwatch.com/News/Item/U-by1137877-U!BTUMF-20260216/U/BTUMF
+    Article is fresh (-29.0m ago): 2026-02-16 13:30:00
+    Title: BTU Option Grant...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-LA88837-U!GREH-20260216/U/GREH
+Fetching URL: https://www.stockwatch.com/News/Item/U-LA88837-U!GREH-20260216/U/GREH
+    Article is fresh (-22.0m ago): 2026-02-16 13:23:00
+    Title: Green Rain Energy Holdings (OTC: GREH) Extends War...
+  -> Found 1 insights
+Fetching URLs from page: https://www.investing.com/news/latest-news
+Fetching URL: https://www.investing.com/news/latest-news
+Primed session for: https://www.investing.com (status: 200)
+Found 200 URLs to process for Investing.com
+Processing: https://www.investing.com/news/economy-news/heres-why-ubs-now-expects-two-fed-rate-cuts-later-this-year-4507616#comments
+Fetching URL: https://www.investing.com/news/economy-news/heres-why-ubs-now-expects-two-fed-rate-cuts-later-this-year-4507616
+    Skipping old article (6.6h old): 2026-02-16 06:26:00
+Processing: https://www.investing.com/news/earnings/knife-river-earnings-in-focus-can-margin-recovery-take-hold-93CH-4507730
+Fetching URL: https://www.investing.com/news/earnings/knife-river-earnings-in-focus-can-margin-recovery-take-hold-93CH-4507730
+    Article is fresh (53.2m ago): 2026-02-16 12:08:00
+    Title: Knife River earnings in focus: Can margin recovery...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/commodities-news/trump-slams-energy-deal-between-californiaand-britain-politico-reports-4507749
+Fetching URL: https://www.investing.com/news/commodities-news/trump-slams-energy-deal-between-californiaand-britain-politico-reports-4507749
+    Article is fresh (26.2m ago): 2026-02-16 12:35:00
+    Title: Trump slams energy deal between California and Bri...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/earnings/itron-earnings-on-deck-can-software-shift-offset-margin-pressure-93CH-4507737
+Fetching URL: https://www.investing.com/news/earnings/itron-earnings-on-deck-can-software-shift-offset-margin-pressure-93CH-4507737
+    Article is fresh (49.3m ago): 2026-02-16 12:12:00
+    Title: Itron earnings on deck: Can software shift offset ...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/world-news/robert-duvall-tender-mercies-oscar-winner-dies-at-95-4507760
+Fetching URL: https://www.investing.com/news/world-news/robert-duvall-tender-mercies-oscar-winner-dies-at-95-4507760
+    Article is fresh (-34.7m ago): 2026-02-16 13:36:00
+    Title: Robert Duvall, ’Tender Mercies’ Oscar winner, dies...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/stock-market-news/which-latin-american-stocks-are-in-jefferies-watchlist-93CH-4507683
+Fetching URL: https://www.investing.com/news/stock-market-news/which-latin-american-stocks-are-in-jefferies-watchlist-93CH-4507683
+    Skipping old article (2.8h old): 2026-02-16 10:13:00
+Processing: https://www.investing.com/news/stock-market-news/ftse-100-today-uk-shares-start-week-in-green-ahead-of-key-data-skinbio-slumps-4507589
+Fetching URL: https://www.investing.com/news/stock-market-news/ftse-100-today-uk-shares-start-week-in-green-ahead-of-key-data-skinbio-slumps-4507589
+    Skipping old article (7.4h old): 2026-02-16 05:36:00
+Processing: https://www.investing.com/news/stock-market-news/european-shares-edge-higher-buoyed-by-financials-4507464#comments
+Fetching URL: https://www.investing.com/news/stock-market-news/european-shares-edge-higher-buoyed-by-financials-4507464
+    Skipping old article (9.6h old): 2026-02-16 03:25:00
+Processing: https://www.investing.com/news/earnings/donnelley-financial-earnings-on-deck-can-ipo-rebound-help-93CH-4507747
+Fetching URL: https://www.investing.com/news/earnings/donnelley-financial-earnings-on-deck-can-ipo-rebound-help-93CH-4507747
+    Article is fresh (33.5m ago): 2026-02-16 12:28:00
+    Title: Donnelley Financial earnings on deck: Can IPO rebo...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/earnings/etoro-earnings-on-deck-can-social-trading-edge-survive-rivals-93CH-4507740
+Fetching URL: https://www.investing.com/news/earnings/etoro-earnings-on-deck-can-social-trading-edge-survive-rivals-93CH-4507740
+    Article is fresh (44.6m ago): 2026-02-16 12:17:00
+    Title: eToro earnings on deck: Can social trading edge su...
+  -> Found 1 insights
+Filtering insights with minimum score: 85
+No insights met the minimum score threshold of 85
+Job completed.
+Job finished at Mon Feb 16 01:01:33 PM CST 2026
+Starting job at Mon Feb 16 02:00:01 PM CST 2026
+Starting Stock Data Analysis Job...
+StateManager using local file.
+Fetching URLs from sitemap: https://bw-prod-sitemap.s3.us-east-1.amazonaws.com/webdmz1.vaprod.businesswire.com/home/2026-02-16.xml.gz
+Parsing sitemap: https://bw-prod-sitemap.s3.us-east-1.amazonaws.com/webdmz1.vaprod.businesswire.com/home/2026-02-16.xml.gz
+Found 190 URLs to process for BusinessWire
+Processing: http://www.businesswire.com/news/home/20260216934101/en/Gecina-Conditions-for-Accessing-or-Consulting-the-2025-Universal-Registration-Document
+Fetching URL: https://www.businesswire.com/news/home/20260216934101/en/Gecina-Conditions-for-Accessing-or-Consulting-the-2025-Universal-Registration-Document
+Primed session for: https://www.businesswire.com (status: 200)
+    Skipping old article (14.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216680407/en/Investor-Notice-Shareholder-Rights-Law-Firm-Robbins-LLP-Informs-Investors-of-the-REGENXBIO-Inc.-Securities-Class-Action-Lawsuit
+Fetching URL: https://www.businesswire.com/news/home/20260216680407/en/Investor-Notice-Shareholder-Rights-Law-Firm-Robbins-LLP-Informs-Investors-of-the-REGENXBIO-Inc.-Securities-Class-Action-Lawsuit
+    Skipping old article (14.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216382461/en/SwRI%E2%80%99s-78th-Annual-Meeting-Showcases-Advances-in-Robotics-Space-and-Energy-Infrastructure
+Fetching URL: https://www.businesswire.com/news/home/20260216382461/en/SwRI’s-78th-Annual-Meeting-Showcases-Advances-in-Robotics-Space-and-Energy-Infrastructure
+    Skipping old article (14.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216008015/en/Rosen-Law-Firm-Encourages-Franklin-BSP-Realty-Trust-Inc.-Investors-to-Inquire-About-Securities-Class-Action-Investigation-%E2%80%93-FBRT
+Fetching URL: https://www.businesswire.com/news/home/20260216008015/en/Rosen-Law-Firm-Encourages-Franklin-BSP-Realty-Trust-Inc.-Investors-to-Inquire-About-Securities-Class-Action-Investigation-–-FBRT
+    Skipping old article (14.0h old): 2026-02-16 00:00:00
+Fetching URLs from page: https://www.stockwatch.com/News/Search?hours=24&region=U
+Fetching URL: https://www.stockwatch.com/News/Search?hours=24&region=U
+Primed session for: https://www.stockwatch.com (status: 200)
+Found 103 URLs to process for StockWatch
+Processing: https://www.stockwatch.com/News/Item/U-by1137884-U!MPC-20260216/U/MPC
+Fetching URL: https://www.stockwatch.com/News/Item/U-by1137884-U!MPC-20260216/U/MPC
+    Article is fresh (-29.7m ago): 2026-02-16 14:30:00
+    Title: MPLX Trucking Fleets Deliver for Ute Tribe's Youth...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-PH88893-U!PDER-20260216/U/PDER
+Fetching URL: https://www.stockwatch.com/News/Item/U-PH88893-U!PDER-20260216/U/PDER
+    Article is fresh (-49.6m ago): 2026-02-16 14:50:00
+    Title: Pardee Resources Company: Pardee Coal Operator Idl...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-by1137880-U!MDT-20260216/U/MDT
+Fetching URL: https://www.stockwatch.com/News/Item/U-by1137880-U!MDT-20260216/U/MDT
+    Article is fresh (-9.6m ago): 2026-02-16 14:10:00
+    Title: Medtronic in India Launches DecodeYourRhythm Campa...
+  -> Found 1 insights
+Fetching URLs from page: https://www.investing.com/news/latest-news
+Fetching URL: https://www.investing.com/news/latest-news
+Primed session for: https://www.investing.com (status: 200)
+Found 200 URLs to process for Investing.com
+Processing: https://www.investing.com/news/commodities-news/climate-challenge-a-decade-after-paris-agreement-4507755#comments
+Fetching URL: https://www.investing.com/news/commodities-news/climate-challenge-a-decade-after-paris-agreement-4507755
+    Article is fresh (54.5m ago): 2026-02-16 13:06:00
+    Title: Climate Challenge: A Decade After Paris Agreement...
+  -> Found 1 insights
+Processing: https://www.investing.com/analysis/us-dollar-index-why-sustainability-above-97-remains-unclear-200675083
+Fetching URL: https://www.investing.com/analysis/us-dollar-index-why-sustainability-above-97-remains-unclear-200675083
+    Skipping old article (4.4h old): 2026-02-16 09:37:00
+Processing: https://www.investing.com/news/stock-market-news/adp-employment-ny-manufacturing-and-fed-speakers-headline-tuesdays-docket-93CH-4507761
+Fetching URL: https://www.investing.com/news/stock-market-news/adp-employment-ny-manufacturing-and-fed-speakers-headline-tuesdays-docket-93CH-4507761
+    Article is fresh (0.6m ago): 2026-02-16 14:00:00
+    Title: ADP employment, NY manufacturing and Fed speakers ...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/earnings/great-lakes-dredge-earnings-on-deck-as-saltchuk-deal-looms-93CH-4507746
+Fetching URL: https://www.investing.com/news/earnings/great-lakes-dredge-earnings-on-deck-as-saltchuk-deal-looms-93CH-4507746
+    Skipping old article (1.6h old): 2026-02-16 12:24:00
+Processing: https://www.investing.com/news/commodities-news/climate-challenge-a-decade-after-paris-agreement-4507755
+Fetching URL: https://www.investing.com/news/commodities-news/climate-challenge-a-decade-after-paris-agreement-4507755
+    Article is fresh (54.7m ago): 2026-02-16 13:06:00
+    Skipping duplicate title: Climate Challenge: A Decade After Paris Agreement...
+Filtering insights with minimum score: 85
+No insights met the minimum score threshold of 85
+Job completed.
+Job finished at Mon Feb 16 02:00:41 PM CST 2026
+Starting job at Mon Feb 16 03:00:01 PM CST 2026
+Starting Stock Data Analysis Job...
+StateManager using local file.
+Fetching URLs from sitemap: https://bw-prod-sitemap.s3.us-east-1.amazonaws.com/webdmz1.vaprod.businesswire.com/home/2026-02-16.xml.gz
+Parsing sitemap: https://bw-prod-sitemap.s3.us-east-1.amazonaws.com/webdmz1.vaprod.businesswire.com/home/2026-02-16.xml.gz
+Found 192 URLs to process for BusinessWire
+Processing: http://www.businesswire.com/news/home/20260216890688/en/Red-Sea-Global-Reveals-ADRENA-a-New-Adventure-and-Entertainment-District
+Fetching URL: https://www.businesswire.com/news/home/20260216890688/en/Red-Sea-Global-Reveals-ADRENA-a-New-Adventure-and-Entertainment-District
+Primed session for: https://www.businesswire.com (status: 200)
+    Skipping old article (15.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260215435462/en/Exa-Capital-Acquires-StaffReady
+Fetching URL: https://www.businesswire.com/news/home/20260215435462/en/Exa-Capital-Acquires-StaffReady
+    Skipping old article (39.0h old): 2026-02-15 00:00:00
+Fetching URLs from page: https://www.stockwatch.com/News/Search?hours=24&region=U
+Fetching URL: https://www.stockwatch.com/News/Search?hours=24&region=U
+Primed session for: https://www.stockwatch.com (status: 200)
+Found 105 URLs to process for StockWatch
+Processing: https://www.stockwatch.com/News/Item/U-z9655414-U!SON-20260216/U/SON
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9655414-U!SON-20260216/U/SON
+    Article is fresh (-59.7m ago): 2026-02-16 16:00:00
+    Title: Sonoco Reports Fourth Quarter and Full Year 2025 R...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-th1AJ6FYzba-U!VCIGF-20260216/U/VCIGF
+Fetching URL: https://www.stockwatch.com/News/Item/U-th1AJ6FYzba-U!VCIGF-20260216/U/VCIGF
+    Article is fresh (-19.7m ago): 2026-02-16 15:20:00
+    Title: Vitreous Glass Announces Grant of Deferred Share U...
+  -> Found 1 insights
+Fetching URLs from page: https://www.investing.com/news/latest-news
+Fetching URL: https://www.investing.com/news/latest-news
+Primed session for: https://www.investing.com (status: 200)
+Found 200 URLs to process for Investing.com
+Processing: https://www.investing.com/news/stock-market-news/cadence-design-palo-alto-networks-kenvue-to-report-earnings-tuesday-93CH-4507763
+Fetching URL: https://www.investing.com/news/stock-market-news/cadence-design-palo-alto-networks-kenvue-to-report-earnings-tuesday-93CH-4507763
+    Article is fresh (59.5m ago): 2026-02-16 14:01:00
+    Title: Cadence Design, Palo Alto Networks, Kenvue to repo...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/politics-news/trump-says-federal-government-to-step-in-to-protect-potomac-river-amid-sewage-leak-4507772
+Fetching URL: https://www.investing.com/news/politics-news/trump-says-federal-government-to-step-in-to-protect-potomac-river-amid-sewage-leak-4507772
+    Article is fresh (-17.5m ago): 2026-02-16 15:18:00
+    Title: Trump says federal government to step in to ’prote...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/world-news/cubas-havana-piles-with-trash-as-us-chokehold-halts-garbage-trucks-4507775
+Fetching URL: https://www.investing.com/news/world-news/cubas-havana-piles-with-trash-as-us-chokehold-halts-garbage-trucks-4507775
+    Article is fresh (-32.5m ago): 2026-02-16 15:33:00
+    Title: Cuba’s Havana piles with trash as US chokehold hal...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/stock-market-news/spacex-to-compete-in-pentagon-contest-for-autonomous-drone-tech-bloomberg-news-reports-4507771
+Fetching URL: https://www.investing.com/news/stock-market-news/spacex-to-compete-in-pentagon-contest-for-autonomous-drone-tech-bloomberg-news-reports-4507771
+    Article is fresh (-11.4m ago): 2026-02-16 15:12:00
+    Title: SpaceX to compete in Pentagon contest for autonomo...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/stock-market-news/third-point-buys-stake-in-spanish-defence-firm-indra-source-says-4507762#comments
+Fetching URL: https://www.investing.com/news/stock-market-news/third-point-buys-stake-in-spanish-defence-firm-indra-source-says-4507762
+    Skipping old article (1.1h old): 2026-02-16 13:54:00
+Filtering insights with minimum score: 85
+No insights met the minimum score threshold of 85
+Job completed.
+Job finished at Mon Feb 16 03:00:36 PM CST 2026
+Starting job at Mon Feb 16 04:00:01 PM CST 2026
+Starting Stock Data Analysis Job...
+StateManager using local file.
+Fetching URLs from sitemap: https://bw-prod-sitemap.s3.us-east-1.amazonaws.com/webdmz1.vaprod.businesswire.com/home/2026-02-16.xml.gz
+Parsing sitemap: https://bw-prod-sitemap.s3.us-east-1.amazonaws.com/webdmz1.vaprod.businesswire.com/home/2026-02-16.xml.gz
+Found 198 URLs to process for BusinessWire
+Processing: http://www.businesswire.com/news/home/20260216965970/en/Inspiring-Curiosity-Energizing-the-Future-NiSource-Charitable-Foundation-Hosts-Annual-%E2%80%98Introduce-a-Girl-to-STEAM%E2%80%99-Event-Across-Five-States
+Fetching URL: https://www.businesswire.com/news/home/20260216965970/en/Inspiring-Curiosity-Energizing-the-Future-NiSource-Charitable-Foundation-Hosts-Annual-‘Introduce-a-Girl-to-STEAM’-Event-Across-Five-States
+Primed session for: https://www.businesswire.com (status: 200)
+    Skipping old article (16.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216506135/en/Coeur-to-Present-at-Upcoming-BMO-Global-Metals-Mining-Critical-Minerals-Conference
+Fetching URL: https://www.businesswire.com/news/home/20260216506135/en/Coeur-to-Present-at-Upcoming-BMO-Global-Metals-Mining-Critical-Minerals-Conference
+    Skipping old article (16.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216688443/en/Marine-Bancorp-of-Florida-Inc.-Advises-Shareholders-of-Pending-Closure-of-Merger-with-ELGA-Credit-Union
+Fetching URL: https://www.businesswire.com/news/home/20260216688443/en/Marine-Bancorp-of-Florida-Inc.-Advises-Shareholders-of-Pending-Closure-of-Merger-with-ELGA-Credit-Union
+    Skipping old article (16.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216480969/en/Amtelco-Releases-Ellie%E2%84%A2-an-AI-powered-Intelligent-Virtual-Agent
+Fetching URL: https://www.businesswire.com/news/home/20260216480969/en/Amtelco-Releases-Ellie™-an-AI-powered-Intelligent-Virtual-Agent
+    Skipping old article (16.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216396469/en/UBIQUITI-INC.-INVESTOR-ALERT-ScottScott-Attorneys-at-Law-LLP-Investigates-Ubiquiti-Inc.%E2%80%99s-Directors-and-Officers-for-Breach-of-Fiduciary-Duties-%E2%80%93-UI
+Fetching URL: https://www.businesswire.com/news/home/20260216396469/en/UBIQUITI-INC.-INVESTOR-ALERT-ScottScott-Attorneys-at-Law-LLP-Investigates-Ubiquiti-Inc.’s-Directors-and-Officers-for-Breach-of-Fiduciary-Duties-–-UI
+    Skipping old article (16.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216470452/en/Kaleon-S.p.A-FY-2025-Consolidated-Revenues-Up-6.8-9.2-at-Current-Perimeter
+Fetching URL: https://www.businesswire.com/news/home/20260216470452/en/Kaleon-S.p.A-FY-2025-Consolidated-Revenues-Up-6.8-9.2-at-Current-Perimeter
+    Skipping old article (16.0h old): 2026-02-16 00:00:00
+Fetching URLs from page: https://www.stockwatch.com/News/Search?hours=24&region=U
+Fetching URL: https://www.stockwatch.com/News/Search?hours=24&region=U
+Primed session for: https://www.stockwatch.com (status: 200)
+Found 121 URLs to process for StockWatch
+Processing: https://www.stockwatch.com/News/Item/U-C8642-U!WPM-20260216/U/WPM
+Fetching URL: https://www.stockwatch.com/News/Item/U-C8642-U!WPM-20260216/U/WPM
+    Article is fresh (-39.2m ago): 2026-02-16 16:40:00
+    Title: Wheaton Precious Metals Announces Acquisition of A...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-VA88314-U!WPM-20260216/U/WPM
+Fetching URL: https://www.stockwatch.com/News/Item/U-VA88314-U!WPM-20260216/U/WPM
+    Article is fresh (-39.2m ago): 2026-02-16 16:40:00
+    Skipping duplicate title: Wheaton Precious Metals Announces Acquisition of A...
+Processing: https://www.stockwatch.com/News/Item/U-b20260216688443-U!MBOF-20260216/U/MBOF
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260216688443-U!MBOF-20260216/U/MBOF
+    Article is fresh (-4.2m ago): 2026-02-16 16:05:00
+    Title: Marine Bancorp of Florida, Inc. Advises Shareholde...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9655335-U!MYGN-20260216/U/MYGN
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9655335-U!MYGN-20260216/U/MYGN
+    Article is fresh (-14.0m ago): 2026-02-16 16:15:00
+    Title: Myriad Genetics to Release Fourth Quarter and Full...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9655398-U!AHH-20260216/U/AHH
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9655398-U!AHH-20260216/U/AHH
+    Article is fresh (-4.0m ago): 2026-02-16 16:05:00
+    Title: Armada Hoffler Reports Fourth Quarter 2025 Results...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-LA88962-U!AWK-20260216/U/AWK
+Fetching URL: https://www.stockwatch.com/News/Item/U-LA88962-U!AWK-20260216/U/AWK
+    Article is fresh (-28.9m ago): 2026-02-16 16:30:00
+    Title: New Jersey American Water Announces Launch of 2026...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9655418-U!AHH-20260216/U/AHH
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9655418-U!AHH-20260216/U/AHH
+    Article is fresh (-8.9m ago): 2026-02-16 16:10:00
+    Title: Armada Hoffler Unveils Bold New Strategic Directio...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-CL88265-U!AVNT-20260216/U/AVNT
+Fetching URL: https://www.stockwatch.com/News/Item/U-CL88265-U!AVNT-20260216/U/AVNT
+    Article is fresh (-9.8m ago): 2026-02-16 16:11:00
+    Title: Avient Announces Quarterly Dividend...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-NY88986-U!SEE-20260216/U/SEE
+Fetching URL: https://www.stockwatch.com/News/Item/U-NY88986-U!SEE-20260216/U/SEE
+    Article is fresh (-20.8m ago): 2026-02-16 16:22:00
+    Title: Sealed Air Declares Quarterly Cash Dividend...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-by1137875-U!NAK-20260216/U/NAK
+Fetching URL: https://www.stockwatch.com/News/Item/U-by1137875-U!NAK-20260216/U/NAK
+    Article is fresh (-29.8m ago): 2026-02-16 16:31:00
+    Title: Northern Dynasty: Update of Timelines for Summary ...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-CL87066-U!GPK-20260216/U/GPK
+Fetching URL: https://www.stockwatch.com/News/Item/U-CL87066-U!GPK-20260216/U/GPK
+    Article is fresh (-13.7m ago): 2026-02-16 16:15:00
+    Title: Graphic Packaging to Present at Raymond James Inst...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-SF88913-U!POR-20260216/U/POR
+Fetching URL: https://www.stockwatch.com/News/Item/U-SF88913-U!POR-20260216/U/POR
+    Article is fresh (1.3m ago): 2026-02-16 16:00:00
+    Title: Portland General Electric revises date and time fo...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260216506135-U!CDE-20260216/U/CDE
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260216506135-U!CDE-20260216/U/CDE
+    Article is fresh (-28.6m ago): 2026-02-16 16:30:00
+    Title: Coeur to Present at Upcoming BMO Global Metals, Mi...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-C4684-U!CURLF-20260216/U/CURLF
+Fetching URL: https://www.stockwatch.com/News/Item/U-C4684-U!CURLF-20260216/U/CURLF
+    Article is fresh (-13.6m ago): 2026-02-16 16:15:00
+    Title: Curaleaf Announces a Change in the Special Meeting...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-NE88970-U!CURLF-20260216/U/CURLF
+Fetching URL: https://www.stockwatch.com/News/Item/U-NE88970-U!CURLF-20260216/U/CURLF
+    Article is fresh (-13.5m ago): 2026-02-16 16:15:00
+    Skipping duplicate title: Curaleaf Announces a Change in the Special Meeting...
+Processing: https://www.stockwatch.com/News/Item/U-CL89005-U!AVNS-20260216/U/AVNS
+Fetching URL: https://www.stockwatch.com/News/Item/U-CL89005-U!AVNS-20260216/U/AVNS
+    Article is fresh (-28.5m ago): 2026-02-16 16:30:00
+    Title: Avanos Medical, Inc. to Webcast Conference Call Di...
+  -> Found 1 insights
+Fetching URLs from page: https://www.investing.com/news/latest-news
+Fetching URL: https://www.investing.com/news/latest-news
+Primed session for: https://www.investing.com (status: 200)
+Found 200 URLs to process for Investing.com
+Processing: https://www.investing.com/news/world-news/australia-rules-out-repatriating-citizens-from-syrian-camp-4507784
+Fetching URL: https://www.investing.com/news/world-news/australia-rules-out-repatriating-citizens-from-syrian-camp-4507784
+    Article is fresh (-43.2m ago): 2026-02-16 16:45:00
+    Title: Australia rules out repatriating citizens from Syr...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/commodities-news/citi-says-geopolitics-to-support-oil-near-term-peace-deals-seen-lowering-prices-4507776#comments
+Fetching URL: https://www.investing.com/news/commodities-news/citi-says-geopolitics-to-support-oil-near-term-peace-deals-seen-lowering-prices-4507776
+    Article is fresh (-0.2m ago): 2026-02-16 16:02:00
+    Title: Citi says geopolitics to support oil near term; pe...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/stock-market-news/spacex-to-compete-in-pentagon-contest-for-autonomous-drone-tech-bloomberg-news-reports-4507771#comments
+Fetching URL: https://www.investing.com/news/stock-market-news/spacex-to-compete-in-pentagon-contest-for-autonomous-drone-tech-bloomberg-news-reports-4507771
+    Article is fresh (49.9m ago): 2026-02-16 15:12:00
+    Title: SpaceX to compete in Pentagon contest for autonomo...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/stock-market-news/mexico-stocks-lower-at-close-of-trade-spbmv-ipc-down-013-4507782
+Fetching URL: https://www.investing.com/news/stock-market-news/mexico-stocks-lower-at-close-of-trade-spbmv-ipc-down-013-4507782
+    Article is fresh (-28.1m ago): 2026-02-16 16:30:00
+    Title: Mexico stocks lower at close of trade; S&P/BMV IPC...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/world-news/board-of-peace-members-have-pledged-more-than-5-billion-for-gaza-trump-says-4507766
+Fetching URL: https://www.investing.com/news/world-news/board-of-peace-members-have-pledged-more-than-5-billion-for-gaza-trump-says-4507766
+    Skipping old article (1.5h old): 2026-02-16 14:30:00
+Processing: https://www.investing.com/news/stock-market-news/russia-stocks-higher-at-close-of-trade-moex-russia-index-up-019-4507777
+Fetching URL: https://www.investing.com/news/stock-market-news/russia-stocks-higher-at-close-of-trade-moex-russia-index-up-019-4507777
+    Article is fresh (-18.0m ago): 2026-02-16 16:20:00
+    Title: Russia stocks higher at close of trade; MOEX Russi...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/politics-news/us-judge-tells-national-park-service-to-reinstall-philadelphia-slavery-exhibit-4507769
+Fetching URL: https://www.investing.com/news/politics-news/us-judge-tells-national-park-service-to-reinstall-philadelphia-slavery-exhibit-4507769
+    Article is fresh (53.0m ago): 2026-02-16 15:09:00
+    Title: US judge tells National Park Service to reinstall ...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/politics-news/trump-says-federal-government-to-step-in-to-protect-potomac-river-amid-sewage-leak-4507772#comments
+Fetching URL: https://www.investing.com/news/politics-news/trump-says-federal-government-to-step-in-to-protect-potomac-river-amid-sewage-leak-4507772
+    Article is fresh (44.1m ago): 2026-02-16 15:18:00
+    Title: Trump says federal government to step in to ’prote...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/stock-market-news/colombia-stocks-lower-at-close-of-trade-colcap-down-030-4507780
+Fetching URL: https://www.investing.com/news/stock-market-news/colombia-stocks-lower-at-close-of-trade-colcap-down-030-4507780
+    Article is fresh (-22.9m ago): 2026-02-16 16:25:00
+    Title: Colombia stocks lower at close of trade; COLCAP do...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/pro/this-stock-has-been-unfairly-caught-in-the-broader-software-selloff-ubs-432SI-4507768
+Fetching URL: https://www.investing.com/news/pro/this-stock-has-been-unfairly-caught-in-the-broader-software-selloff-ubs-432SI-4507768
+    Skipping old article (1.0h old): 2026-02-16 15:00:00
+Filtering insights with minimum score: 85
+No insights met the minimum score threshold of 85
+Job completed.
+Job finished at Mon Feb 16 04:02:10 PM CST 2026
+Starting job at Mon Feb 16 05:00:01 PM CST 2026
+Starting Stock Data Analysis Job...
+StateManager using local file.
+Fetching URLs from sitemap: https://bw-prod-sitemap.s3.us-east-1.amazonaws.com/webdmz1.vaprod.businesswire.com/home/2026-02-16.xml.gz
+Parsing sitemap: https://bw-prod-sitemap.s3.us-east-1.amazonaws.com/webdmz1.vaprod.businesswire.com/home/2026-02-16.xml.gz
+Found 200 URLs to process for BusinessWire
+Processing: http://www.businesswire.com/news/home/20260216184394/en/RGNX-Investors-Have-Opportunity-to-Lead-REGENXBIO-Inc.-Securities-Fraud-Lawsuit-with-the-Schall-Law-Firm
+Fetching URL: https://www.businesswire.com/news/home/20260216184394/en/RGNX-Investors-Have-Opportunity-to-Lead-REGENXBIO-Inc.-Securities-Fraud-Lawsuit-with-the-Schall-Law-Firm
+Primed session for: https://www.businesswire.com (status: 200)
+    Skipping old article (17.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216381021/en/Taco-Cabana-Introduces-Fan-Created-Margarita-Popcorn-Shrimp-and-Fajita-Melt-Tacos
+Fetching URL: https://www.businesswire.com/news/home/20260216381021/en/Taco-Cabana-Introduces-Fan-Created-Margarita-Popcorn-Shrimp-and-Fajita-Melt-Tacos
+    Skipping old article (17.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216538717/en/Sturm-Ruger-Company-Inc.-to-Report-Fourth-Quarter-and-Year-End-2025-Financial-Results-on-Monday-March-2
+Fetching URL: https://www.businesswire.com/news/home/20260216538717/en/Sturm-Ruger-Company-Inc.-to-Report-Fourth-Quarter-and-Year-End-2025-Financial-Results-on-Monday-March-2
+    Skipping old article (17.0h old): 2026-02-16 00:00:00
+Fetching URLs from page: https://www.stockwatch.com/News/Search?hours=24&region=U
+Fetching URL: https://www.stockwatch.com/News/Search?hours=24&region=U
+Primed session for: https://www.stockwatch.com (status: 200)
+Found 124 URLs to process for StockWatch
+Processing: https://www.stockwatch.com/News/Item/U-VA88315-U!WPM-20260216/U/WPM
+Fetching URL: https://www.stockwatch.com/News/Item/U-VA88315-U!WPM-20260216/U/WPM
+    Article is fresh (-26.7m ago): 2026-02-16 17:27:00
+    Title: Wheaton Precious Metals Exceeds 2025 Production Gu...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-C0910-U!WPM-20260216/U/WPM
+Fetching URL: https://www.stockwatch.com/News/Item/U-C0910-U!WPM-20260216/U/WPM
+    Article is fresh (-26.6m ago): 2026-02-16 17:27:00
+    Skipping duplicate title: Wheaton Precious Metals Exceeds 2025 Production Gu...
+Processing: https://www.stockwatch.com/News/Item/U-b20260216538717-U!RGR-20260216/U/RGR
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260216538717-U!RGR-20260216/U/RGR
+    Article is fresh (-4.6m ago): 2026-02-16 17:05:00
+    Title: Sturm, Ruger & Company, Inc. to Report Fourth Quar...
+  -> Found 1 insights
+Fetching URLs from page: https://www.investing.com/news/latest-news
+Fetching URL: https://www.investing.com/news/latest-news
+Primed session for: https://www.investing.com (status: 200)
+Found 200 URLs to process for Investing.com
+Processing: https://www.investing.com/news/world-news/frederick-wiseman-american-documentary-filmmaker-dies-at-96-4507787
+Fetching URL: https://www.investing.com/news/world-news/frederick-wiseman-american-documentary-filmmaker-dies-at-96-4507787
+    Article is fresh (-8.4m ago): 2026-02-16 17:09:00
+    Title: Frederick Wiseman, American documentary filmmaker,...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/world-news/zelenskiy-warns-of-new-russian-strikes-ahead-of-geneva-peace-talks-4507770
+Fetching URL: https://www.investing.com/news/world-news/zelenskiy-warns-of-new-russian-strikes-ahead-of-geneva-peace-talks-4507770
+    Skipping old article (1.8h old): 2026-02-16 15:15:00
+Processing: https://www.investing.com/news/stock-market-news/third-point-buys-stake-in-spanish-defence-firm-indra-source-says-4507762
+Fetching URL: https://www.investing.com/news/stock-market-news/third-point-buys-stake-in-spanish-defence-firm-indra-source-says-4507762
+    Skipping old article (3.1h old): 2026-02-16 13:54:00
+Processing: https://www.investing.com/news/stock-market-news/bhp-group-signs-silver-streaming-agreement-with-wheaton-precious-metals-4507786
+Fetching URL: https://www.investing.com/news/stock-market-news/bhp-group-signs-silver-streaming-agreement-with-wheaton-precious-metals-4507786
+    Article is fresh (-3.3m ago): 2026-02-16 17:04:00
+    Title: BHP Group signs silver streaming agreement with Wh...
+  -> Found 1 insights
+Filtering insights with minimum score: 85
+Sending email with 1 top insights...
+Email sent to tray14@hotmail.com
+No tickers found in top insights to send.
+Job completed.
+Job finished at Mon Feb 16 05:00:46 PM CST 2026
+Starting job at Mon Feb 16 06:00:01 PM CST 2026
+Starting Stock Data Analysis Job...
+StateManager using local file.
+Fetching URLs from sitemap: https://bw-prod-sitemap.s3.us-east-1.amazonaws.com/webdmz1.vaprod.businesswire.com/home/2026-02-16.xml.gz
+Parsing sitemap: https://bw-prod-sitemap.s3.us-east-1.amazonaws.com/webdmz1.vaprod.businesswire.com/home/2026-02-16.xml.gz
+Found 200 URLs to process for BusinessWire
+Processing: http://www.businesswire.com/news/home/20260216124753/en/Republic-Airways-Announces-Webcast-of-Fourth-Quarter-and-Full-Year-2025-Results
+Fetching URL: https://www.businesswire.com/news/home/20260216124753/en/Republic-Airways-Announces-Webcast-of-Fourth-Quarter-and-Full-Year-2025-Results
+Primed session for: https://www.businesswire.com (status: 200)
+    Skipping old article (18.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216055964/en/Two-Zehl-Associates-Attorneys-Honored-for-Excellence-in-Plaintiff-Consumer-Law
+Fetching URL: https://www.businesswire.com/news/home/20260216055964/en/Two-Zehl-Associates-Attorneys-Honored-for-Excellence-in-Plaintiff-Consumer-Law
+    Skipping old article (18.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216013398/en/GlobalFoundries-and-Renesas-Expand-Partnership-to-Accelerate-U.S.-Semiconductor-Manufacturing
+Fetching URL: https://www.businesswire.com/news/home/20260216013398/en/GlobalFoundries-and-Renesas-Expand-Partnership-to-Accelerate-U.S.-Semiconductor-Manufacturing
+    Skipping old article (18.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216752162/en/PwC-Hong-Kong-and-watchTowr-Expand-Partnership-to-Help-Organizations-Move-from-Reactive-Monitoring-to-Preemptive-Resilience
+Fetching URL: https://www.businesswire.com/news/home/20260216752162/en/PwC-Hong-Kong-and-watchTowr-Expand-Partnership-to-Help-Organizations-Move-from-Reactive-Monitoring-to-Preemptive-Resilience
+    Skipping old article (18.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216441136/en/Otter-Tail-Corporation-Announces-Annual-Earnings-and-Initiates-2026-Earnings-Guidance
+Fetching URL: https://www.businesswire.com/news/home/20260216441136/en/Otter-Tail-Corporation-Announces-Annual-Earnings-and-Initiates-2026-Earnings-Guidance
+    Skipping old article (18.0h old): 2026-02-16 00:00:00
+Fetching URLs from page: https://www.stockwatch.com/News/Search?hours=24&region=U
+Fetching URL: https://www.stockwatch.com/News/Search?hours=24&region=U
+Primed session for: https://www.stockwatch.com (status: 200)
+Found 131 URLs to process for StockWatch
+Processing: https://www.stockwatch.com/News/Item/U-DE88809-U!WHR-20260216/U/WHR
+Fetching URL: https://www.stockwatch.com/News/Item/U-DE88809-U!WHR-20260216/U/WHR
+    Article is fresh (-5.6m ago): 2026-02-16 18:06:00
+    Title: Whirlpool Corporation Declares Quarterly Dividend...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-CL89098-U!ROL-20260216/U/ROL
+Fetching URL: https://www.stockwatch.com/News/Item/U-CL89098-U!ROL-20260216/U/ROL
+    Article is fresh (-36.6m ago): 2026-02-16 18:37:00
+    Title: Rollins to Present at Upcoming Investor Conference...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260216013398-U!GFS-20260216/U/GFS
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260216013398-U!GFS-20260216/U/GFS
+    Article is fresh (0.5m ago): 2026-02-16 18:00:00
+    Title: GlobalFoundries and Renesas Expand Partnership to ...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260216441136-U!OTTR-20260216/U/OTTR
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260216441136-U!OTTR-20260216/U/OTTR
+    Article is fresh (0.5m ago): 2026-02-16 18:00:00
+    Title: Otter Tail Corporation Announces Annual Earnings a...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9654987-U!AERO-20260216/U/AERO
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654987-U!AERO-20260216/U/AERO
+    Article is fresh (0.6m ago): 2026-02-16 18:00:00
+    Title: Aeroméxico Reports Unaudited Fourth Quarter &amp; ...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260216124753-U!RJET-20260216/U/RJET
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260216124753-U!RJET-20260216/U/RJET
+    Article is fresh (-46.4m ago): 2026-02-16 18:47:00
+    Title: Republic Airways Announces Webcast of Fourth Quart...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9655239-U!GFS-20260216/U/GFS
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9655239-U!GFS-20260216/U/GFS
+    Article is fresh (0.7m ago): 2026-02-16 18:00:00
+    Skipping duplicate title: GlobalFoundries and Renesas Expand Partnership to ...
+Fetching URLs from page: https://www.investing.com/news/latest-news
+Fetching URL: https://www.investing.com/news/latest-news
+Primed session for: https://www.investing.com (status: 200)
+Found 200 URLs to process for Investing.com
+Processing: https://www.investing.com/news/stock-market-news/bhp-groups-firsthalf-profit-jumps-22-on-higher-commodity-prices-4507785
+Fetching URL: https://www.investing.com/news/stock-market-news/bhp-groups-firsthalf-profit-jumps-22-on-higher-commodity-prices-4507785
+    Skipping old article (1.2h old): 2026-02-16 16:51:00
+Processing: https://www.investing.com/news/stock-market-news/australian-gas-producer-santos-wins-court-fight-over-net-zero-claims-4507792
+Fetching URL: https://www.investing.com/news/stock-market-news/australian-gas-producer-santos-wins-court-fight-over-net-zero-claims-4507792
+    Article is fresh (-10.0m ago): 2026-02-16 18:11:00
+    Title: Australian gas producer Santos wins court fight ov...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/stock-market-news/hyatt-executive-chairman-pritzker-steps-down-cites-terrible-judgment-in-epstein-ties-4507804
+Fetching URL: https://www.investing.com/news/stock-market-news/hyatt-executive-chairman-pritzker-steps-down-cites-terrible-judgment-in-epstein-ties-4507804
+    Article is fresh (-35.9m ago): 2026-02-16 18:37:00
+    Title: Hyatt executive chairman Pritzker steps down, cite...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/world-news/israeli-cabinet-approves-west-bank-land-registration-palestinians-condemn-defacto-annexation-4507300
+Fetching URL: https://www.investing.com/news/world-news/israeli-cabinet-approves-west-bank-land-registration-palestinians-condemn-defacto-annexation-4507300
+    Skipping old article (31.1h old): 2026-02-15 10:53:00
+Processing: https://www.investing.com/news/commodities-news/citi-says-geopolitics-to-support-oil-near-term-peace-deals-seen-lowering-prices-4507776
+Fetching URL: https://www.investing.com/news/commodities-news/citi-says-geopolitics-to-support-oil-near-term-peace-deals-seen-lowering-prices-4507776
+    Skipping old article (2.0h old): 2026-02-16 16:02:00
+Processing: https://www.investing.com/news/stock-market-news/anderson-cooper-to-leave-cbs-60-minutes-program-source-says-4507790#comments
+Fetching URL: https://www.investing.com/news/stock-market-news/anderson-cooper-to-leave-cbs-60-minutes-program-source-says-4507790
+    Article is fresh (1.2m ago): 2026-02-16 18:00:00
+    Title: Anderson Cooper to leave CBS’ ’60 Minutes’ program...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/stock-market-news/treasury-wine-pauses-dividend-after-large-writedown-on-us-business-4507788#comments
+Fetching URL: https://www.investing.com/news/stock-market-news/treasury-wine-pauses-dividend-after-large-writedown-on-us-business-4507788
+    Article is fresh (23.3m ago): 2026-02-16 17:38:00
+    Title: Treasury Wine pauses dividend after large writedow...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/stock-market-news/treasury-wine-pauses-dividend-after-large-writedown-on-us-business-4507788
+Fetching URL: https://www.investing.com/news/stock-market-news/treasury-wine-pauses-dividend-after-large-writedown-on-us-business-4507788
+    Article is fresh (23.3m ago): 2026-02-16 17:38:00
+    Skipping duplicate title: Treasury Wine pauses dividend after large writedow...
+Processing: https://www.investing.com/news/economy-news/ecuadorean-shrimp-sales-rebound-in-2025-surpass-oil-exportsproducers-association-4507677
+Fetching URL: https://www.investing.com/news/economy-news/ecuadorean-shrimp-sales-rebound-in-2025-surpass-oil-exportsproducers-association-4507677
+    Skipping old article (8.3h old): 2026-02-16 09:45:00
+Processing: https://www.investing.com/news/world-news/guthrie-family-not-suspects-in-arizona-kidnapping-sheriff-says-4507783
+Fetching URL: https://www.investing.com/news/world-news/guthrie-family-not-suspects-in-arizona-kidnapping-sheriff-says-4507783
+    Skipping old article (1.5h old): 2026-02-16 16:29:00
+Filtering insights with minimum score: 85
+No insights met the minimum score threshold of 85
+Job completed.
+Job finished at Mon Feb 16 06:01:24 PM CST 2026

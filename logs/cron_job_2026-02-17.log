@@ -1,0 +1,2350 @@
+Starting job at Tue Feb 17 05:00:01 AM CST 2026
+Starting Stock Data Analysis Job...
+StateManager using local file.
+Fetching URLs from sitemap: https://bw-prod-sitemap.s3.us-east-1.amazonaws.com/webdmz1.vaprod.businesswire.com/home/2026-02-17.xml.gz
+Parsing sitemap: https://bw-prod-sitemap.s3.us-east-1.amazonaws.com/webdmz1.vaprod.businesswire.com/home/2026-02-17.xml.gz
+Found 32 URLs to process for BusinessWire
+Processing: http://www.businesswire.com/news/home/20260217893617/en/Massachusetts-Financial-Services-Company-UK-Regulatory-Announcement-Form-8.3
+Fetching URL: https://www.businesswire.com/news/home/20260217893617/en/Massachusetts-Financial-Services-Company-UK-Regulatory-Announcement-Form-8.3
+Primed session for: https://www.businesswire.com (status: 200)
+    Skipping old article (5.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216425128/en/PacifiCorp-to-Sell-Washington-Service-Area-to-Portland-General-Electric
+Fetching URL: https://www.businesswire.com/news/home/20260216425128/en/PacifiCorp-to-Sell-Washington-Service-Area-to-Portland-General-Electric
+    Skipping old article (29.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217104139/en/UK-Debt-Management-Office-UK-Regulatory-Announcement-Issue-of-Debt
+Fetching URL: https://www.businesswire.com/news/home/20260217104139/en/UK-Debt-Management-Office-UK-Regulatory-Announcement-Issue-of-Debt
+    Skipping old article (5.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216905016/en/ITC-Infotech-Establishes-Asia-Pacific-Digital-AI-Engineering-Hub-in-Melbourne-Australia
+Fetching URL: https://www.businesswire.com/news/home/20260216905016/en/ITC-Infotech-Establishes-Asia-Pacific-Digital-AI-Engineering-Hub-in-Melbourne-Australia
+    Skipping old article (29.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217825062/en/Ooma-Launches-POTSTracker.com-to-Help-Organizations-Track-and-Manage-POTS-Line-Discontinuance
+Fetching URL: https://www.businesswire.com/news/home/20260217825062/en/Ooma-Launches-POTSTracker.com-to-Help-Organizations-Track-and-Manage-POTS-Line-Discontinuance
+    Skipping old article (5.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217370450/en/Endava-Partners-with-Miro-to-Drive-Innovative-New-Model-for-AI-Transformation
+Fetching URL: https://www.businesswire.com/news/home/20260217370450/en/Endava-Partners-with-Miro-to-Drive-Innovative-New-Model-for-AI-Transformation
+    Skipping old article (5.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217402861/en/Proofpoint-Launches-Proofpoint-Partner-Network-to-Accelerate-Partner-Growth-and-Profitability
+Fetching URL: https://www.businesswire.com/news/home/20260217402861/en/Proofpoint-Launches-Proofpoint-Partner-Network-to-Accelerate-Partner-Growth-and-Profitability
+    Skipping old article (5.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217097405/en/Computershare-Trustees-Jersey-Limited-UK-Regulatory-Announcement-Form-8.3
+Fetching URL: https://www.businesswire.com/news/home/20260217097405/en/Computershare-Trustees-Jersey-Limited-UK-Regulatory-Announcement-Form-8.3
+    Skipping old article (5.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217095089/en/Nuclera-and-leadXpro-Partner-to-Accelerate-Structure-Based-Drug-Design-for-Complex-Membrane-Proteins
+Fetching URL: https://www.businesswire.com/news/home/20260217095089/en/Nuclera-and-leadXpro-Partner-to-Accelerate-Structure-Based-Drug-Design-for-Complex-Membrane-Proteins
+    Skipping old article (5.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217698682/en/RWS-Wins-%E2%80%98Outstanding-IP-Service-Team-in-China%E2%80%99-Award-for-Fourth-Straight-Year
+Fetching URL: https://www.businesswire.com/news/home/20260217698682/en/RWS-Wins-‘Outstanding-IP-Service-Team-in-China’-Award-for-Fourth-Straight-Year
+    Skipping old article (5.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217323791/en/Kingspan-Insulation-Chooses-Expereo-to-Unify-Connectivity-and-Accelerate-Growth-Across-90-Global-Sites
+Fetching URL: https://www.businesswire.com/news/home/20260217323791/en/Kingspan-Insulation-Chooses-Expereo-to-Unify-Connectivity-and-Accelerate-Growth-Across-90-Global-Sites
+    Skipping old article (5.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217810104/en/Insurance-AI-Leader-mea-Platform-Targets-Industry-Combined-Ratios-and-Margins-With-a-50-Million-Growth-Equity-Raise-From-SEP
+Fetching URL: https://www.businesswire.com/news/home/20260217810104/en/Insurance-AI-Leader-mea-Platform-Targets-Industry-Combined-Ratios-and-Margins-With-a-50-Million-Growth-Equity-Raise-From-SEP
+    Skipping old article (5.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217109457/en/Amentum-Selected-to-Advance-UK-Hypersonic-Strike-Capabilities
+Fetching URL: https://www.businesswire.com/news/home/20260217109457/en/Amentum-Selected-to-Advance-UK-Hypersonic-Strike-Capabilities
+    Skipping old article (5.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217547164/en/FICO-UK-Credit-Card-Market-Report-December-2025
+Fetching URL: https://www.businesswire.com/news/home/20260217547164/en/FICO-UK-Credit-Card-Market-Report-December-2025
+    Skipping old article (5.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217613354/en/IMI---Intesa-Sanpaolo-UK-Regulatory-Announcement-Post-Stabilisation-Notice-%E2%80%93-ISPIM-AT1-PNC6-PNC10
+Fetching URL: https://www.businesswire.com/news/home/20260217613354/en/IMI---Intesa-Sanpaolo-UK-Regulatory-Announcement-Post-Stabilisation-Notice-–-ISPIM-AT1-PNC6-PNC10
+    Skipping old article (5.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216102386/en/Ohana-Development-Launches-USD-4.1-Billion-%E2%80%98Manchester-City-Yas-Residences-by-Ohana%E2%80%99-in-Abu-Dhabi
+Fetching URL: https://www.businesswire.com/news/home/20260216102386/en/Ohana-Development-Launches-USD-4.1-Billion-‘Manchester-City-Yas-Residences-by-Ohana’-in-Abu-Dhabi
+    Skipping old article (29.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216642359/en/CVLT-Investors-Have-Opportunity-to-Join-Commvault-Systems-Inc.-Fraud-Investigation-with-the-Schall-Law-Firm
+Fetching URL: https://www.businesswire.com/news/home/20260216642359/en/CVLT-Investors-Have-Opportunity-to-Join-Commvault-Systems-Inc.-Fraud-Investigation-with-the-Schall-Law-Firm
+    Skipping old article (29.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217274114/en/Citibank-UK-Regulatory-Announcement-FRN-Variable-Rate-Fix
+Fetching URL: https://www.businesswire.com/news/home/20260217274114/en/Citibank-UK-Regulatory-Announcement-FRN-Variable-Rate-Fix
+    Skipping old article (5.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217729976/en/Citibank-UK-Regulatory-Announcement-FRN-Variable-Rate-Fix
+Fetching URL: https://www.businesswire.com/news/home/20260217729976/en/Citibank-UK-Regulatory-Announcement-FRN-Variable-Rate-Fix
+    Skipping old article (5.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217870034/en/Citibank-UK-Regulatory-Announcement-FRN-Variable-Rate-Fix
+Fetching URL: https://www.businesswire.com/news/home/20260217870034/en/Citibank-UK-Regulatory-Announcement-FRN-Variable-Rate-Fix
+    Skipping old article (5.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217747720/en/Citibank-UK-Regulatory-Announcement-FRN-Variable-Rate-Fix
+Fetching URL: https://www.businesswire.com/news/home/20260217747720/en/Citibank-UK-Regulatory-Announcement-FRN-Variable-Rate-Fix
+    Skipping old article (5.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217496342/en/Citibank-UK-Regulatory-Announcement-FRN-Variable-Rate-Fix
+Fetching URL: https://www.businesswire.com/news/home/20260217496342/en/Citibank-UK-Regulatory-Announcement-FRN-Variable-Rate-Fix
+    Skipping old article (5.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217931722/en/Citibank-UK-Regulatory-Announcement-FRN-Variable-Rate-Fix
+Fetching URL: https://www.businesswire.com/news/home/20260217931722/en/Citibank-UK-Regulatory-Announcement-FRN-Variable-Rate-Fix
+    Skipping old article (5.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217793867/en/Citibank-UK-Regulatory-Announcement-FRN-Variable-Rate-Fix
+Fetching URL: https://www.businesswire.com/news/home/20260217793867/en/Citibank-UK-Regulatory-Announcement-FRN-Variable-Rate-Fix
+    Skipping old article (5.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217853489/en/Citibank-UK-Regulatory-Announcement-FRN-Variable-Rate-Fix
+Fetching URL: https://www.businesswire.com/news/home/20260217853489/en/Citibank-UK-Regulatory-Announcement-FRN-Variable-Rate-Fix
+    Skipping old article (5.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217886900/en/Citibank-UK-Regulatory-Announcement-FRN-Variable-Rate-Fix
+Fetching URL: https://www.businesswire.com/news/home/20260217886900/en/Citibank-UK-Regulatory-Announcement-FRN-Variable-Rate-Fix
+    Skipping old article (5.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217898192/en/Citibank-UK-Regulatory-Announcement-FRN-Variable-Rate-Fix
+Fetching URL: https://www.businesswire.com/news/home/20260217898192/en/Citibank-UK-Regulatory-Announcement-FRN-Variable-Rate-Fix
+    Skipping old article (5.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217335674/en/Citibank-UK-Regulatory-Announcement-FRN-Variable-Rate-Fix
+Fetching URL: https://www.businesswire.com/news/home/20260217335674/en/Citibank-UK-Regulatory-Announcement-FRN-Variable-Rate-Fix
+    Skipping old article (5.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217152238/en/ITC-Secure-and-IronNet-Unite-to-Form-Collective-Defence-a-New-Force-in-Critical-Infrastructure-Protection-Against-Hybrid-Warfare
+Fetching URL: https://www.businesswire.com/news/home/20260217152238/en/ITC-Secure-and-IronNet-Unite-to-Form-Collective-Defence-a-New-Force-in-Critical-Infrastructure-Protection-Against-Hybrid-Warfare
+    Skipping old article (5.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217563435/en/Crescent-European-Specialty-Lending-Leads-Financing-to-Support-ECI-Partners%E2%80%99-Acquisition-of-Paragin
+Fetching URL: https://www.businesswire.com/news/home/20260217563435/en/Crescent-European-Specialty-Lending-Leads-Financing-to-Support-ECI-Partners’-Acquisition-of-Paragin
+    Skipping old article (5.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217027526/en/Citibank-UK-Regulatory-Announcement-FRN-Variable-Rate-Fix
+Fetching URL: https://www.businesswire.com/news/home/20260217027526/en/Citibank-UK-Regulatory-Announcement-FRN-Variable-Rate-Fix
+    Skipping old article (5.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217322211/en/ExtraHop%C2%AE-Fuels-International-Momentum-Establishes-Presence-in-Saudi-Arabia-with-AstroLabs
+Fetching URL: https://www.businesswire.com/news/home/20260217322211/en/ExtraHop®-Fuels-International-Momentum-Establishes-Presence-in-Saudi-Arabia-with-AstroLabs
+    Skipping old article (5.0h old): 2026-02-17 00:00:00
+Fetching URLs from page: https://www.stockwatch.com/News/Search?hours=24&region=U
+Fetching URL: https://www.stockwatch.com/News/Search?hours=24&region=U
+Primed session for: https://www.stockwatch.com (status: 200)
+Found 176 URLs to process for StockWatch
+Processing: https://www.stockwatch.com/News/Item/U-283960-U!CLGCF-20260217/U/CLGCF
+Fetching URL: https://www.stockwatch.com/News/Item/U-283960-U!CLGCF-20260217/U/CLGCF
+    Article is fresh (30.5m ago): 2026-02-17 04:31:00
+    Title: Clarity Metals Selects Drill Contractor and Prepar...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260216651848-U!FFAI-20260216/U/FFAI
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260216651848-U!FFAI-20260216/U/FFAI
+    Skipping old article (8.7h old): 2026-02-16 20:17:00
+Processing: https://www.stockwatch.com/News/Item/U-z9655581-U!ARLSF-20260217/U/ARLSF
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9655581-U!ARLSF-20260217/U/ARLSF
+    Skipping old article (2.0h old): 2026-02-17 03:01:00
+Processing: https://www.stockwatch.com/News/Item/U-by1137974-U!AGNMF-20260216/U/AGNMF
+Fetching URL: https://www.stockwatch.com/News/Item/U-by1137974-U!AGNMF-20260216/U/AGNMF
+    Skipping old article (2.6h old): 2026-02-17 02:25:00
+Processing: https://www.stockwatch.com/News/Item/U-ab137336-U!RSGOF-20260216/U/RSGOF
+Fetching URL: https://www.stockwatch.com/News/Item/U-ab137336-U!RSGOF-20260216/U/RSGOF
+    Skipping old article (9.8h old): 2026-02-16 19:12:00
+Processing: https://www.stockwatch.com/News/Item/U-z9655348-U!RDNT-20260217/U/RDNT
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9655348-U!RDNT-20260217/U/RDNT
+    Article is fresh (-58.3m ago): 2026-02-17 06:00:00
+    Title: RadNet, Inc. Announces Date of its Fourth Quarter ...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-C1582-U!MKL-20260217/U/MKL
+Fetching URL: https://www.stockwatch.com/News/Item/U-C1582-U!MKL-20260217/U/MKL
+    Skipping old article (2.0h old): 2026-02-17 03:00:00
+Processing: https://www.stockwatch.com/News/Item/U-b20260216786638-U!MCO-20260216/U/MCO
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260216786638-U!MCO-20260216/U/MCO
+    Skipping old article (6.0h old): 2026-02-16 23:00:00
+Processing: https://www.stockwatch.com/News/Item/U-NY88650-U!CTSH-20260217/U/CTSH
+Fetching URL: https://www.stockwatch.com/News/Item/U-NY88650-U!CTSH-20260217/U/CTSH
+    Skipping old article (2.0h old): 2026-02-17 03:00:00
+Processing: https://www.stockwatch.com/News/Item/U-284103-U!SRCRF-20260216/U/SRCRF
+Fetching URL: https://www.stockwatch.com/News/Item/U-284103-U!SRCRF-20260216/U/SRCRF
+    Skipping old article (8.0h old): 2026-02-16 20:59:00
+Processing: https://www.stockwatch.com/News/Item/U-z1001165168-U!VEON-20260217/U/VEON
+Fetching URL: https://www.stockwatch.com/News/Item/U-z1001165168-U!VEON-20260217/U/VEON
+    Article is fresh (1.9m ago): 2026-02-17 05:00:00
+    Title: VEON and Hala to Explore Partnership in Ride-haili...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-284115-U!SYNTF-20260217/U/SYNTF
+Fetching URL: https://www.stockwatch.com/News/Item/U-284115-U!SYNTF-20260217/U/SYNTF
+    Skipping old article (1.9h old): 2026-02-17 03:06:00
+Processing: https://www.stockwatch.com/News/Item/U-z1001165177-U!TEVA-20260217/U/TEVA
+Fetching URL: https://www.stockwatch.com/News/Item/U-z1001165177-U!TEVA-20260217/U/TEVA
+    Article is fresh (-58.0m ago): 2026-02-17 06:00:00
+    Title: Teva and Sanofi’s duvakitug phase 2b maintenance d...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-by1137942-U!ARAI-20260216/U/ARAI
+Fetching URL: https://www.stockwatch.com/News/Item/U-by1137942-U!ARAI-20260216/U/ARAI
+    Skipping old article (9.6h old): 2026-02-16 19:28:00
+Processing: https://www.stockwatch.com/News/Item/U-b20260216519041-U!ACIW-20260216/U/ACIW
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260216519041-U!ACIW-20260216/U/ACIW
+    Skipping old article (3.0h old): 2026-02-17 02:00:00
+Processing: https://www.stockwatch.com/News/Item/U-b20260216425128-U!POR-20260217/U/POR
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260216425128-U!POR-20260217/U/POR
+    Article is fresh (-24.9m ago): 2026-02-17 05:27:00
+    Title: PacifiCorp to Sell Washington Service Area to Port...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-by1137998-U!BNXTF-20260217/U/BNXTF
+Fetching URL: https://www.stockwatch.com/News/Item/U-by1137998-U!BNXTF-20260217/U/BNXTF
+    Skipping old article (2.0h old): 2026-02-17 03:05:00
+Processing: https://www.stockwatch.com/News/Item/U-z9655690-U!IREN-20260217/U/IREN
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9655690-U!IREN-20260217/U/IREN
+    Article is fresh (1.2m ago): 2026-02-17 05:01:00
+    Title: IREN Appoints John Gross as Chief Innovation Offic...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-by1137994-U!BYAGF-20260217/U/BYAGF
+Fetching URL: https://www.stockwatch.com/News/Item/U-by1137994-U!BYAGF-20260217/U/BYAGF
+    Article is fresh (-57.8m ago): 2026-02-17 06:00:00
+    Title: Banyan Gold Intersects More High-Grade Mineralizat...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-284106-U!NXXCF-20260217/U/NXXCF
+Fetching URL: https://www.stockwatch.com/News/Item/U-284106-U!NXXCF-20260217/U/NXXCF
+    Skipping old article (1.3h old): 2026-02-17 03:46:00
+Processing: https://www.stockwatch.com/News/Item/U-b20260216206602-U!BWLP-20260216/U/BWLP
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260216206602-U!BWLP-20260216/U/BWLP
+    Skipping old article (4.0h old): 2026-02-17 01:02:00
+Processing: https://www.stockwatch.com/News/Item/U-SF89071-U!POR-20260217/U/POR
+Fetching URL: https://www.stockwatch.com/News/Item/U-SF89071-U!POR-20260217/U/POR
+    Article is fresh (2.3m ago): 2026-02-17 05:00:00
+    Title: Portland General Electric announces acquisition of...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-ab137337-U!RLMLF-20260216/U/RLMLF
+Fetching URL: https://www.stockwatch.com/News/Item/U-ab137337-U!RLMLF-20260216/U/RLMLF
+    Skipping old article (7.6h old): 2026-02-16 21:29:00
+Processing: https://www.stockwatch.com/News/Item/U-by1137931-U!NNOMF-20260217/U/NNOMF
+Fetching URL: https://www.stockwatch.com/News/Item/U-by1137931-U!NNOMF-20260217/U/NNOMF
+    Skipping old article (2.0h old): 2026-02-17 03:05:00
+Processing: https://www.stockwatch.com/News/Item/U-LN89278-U!ESLT-20260216/U/ESLT
+Fetching URL: https://www.stockwatch.com/News/Item/U-LN89278-U!ESLT-20260216/U/ESLT
+    Skipping old article (2.5h old): 2026-02-17 02:34:00
+Processing: https://www.stockwatch.com/News/Item/U-by1137993-U!DVLT-20260217/U/DVLT
+Fetching URL: https://www.stockwatch.com/News/Item/U-by1137993-U!DVLT-20260217/U/DVLT
+    Article is fresh (-57.5m ago): 2026-02-17 06:00:00
+    Title: Datavault AI Updates Revenue Estimates by Approxim...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z1001165099-U!OCS-20260217/U/OCS
+Fetching URL: https://www.stockwatch.com/News/Item/U-z1001165099-U!OCS-20260217/U/OCS
+    Skipping old article (1.0h old): 2026-02-17 04:00:00
+Processing: https://www.stockwatch.com/News/Item/U-NE88054-U!TRIP-20260216/U/TRIP
+Fetching URL: https://www.stockwatch.com/News/Item/U-NE88054-U!TRIP-20260216/U/TRIP
+    Skipping old article (5.0h old): 2026-02-17 00:01:00
+Processing: https://www.stockwatch.com/News/Item/U-C8068-U!URAIF-20260217/U/URAIF
+Fetching URL: https://www.stockwatch.com/News/Item/U-C8068-U!URAIF-20260217/U/URAIF
+    Skipping old article (1.8h old): 2026-02-17 03:15:00
+Processing: https://www.stockwatch.com/News/Item/U-284110-U!ATMYF-20260217/U/ATMYF
+Fetching URL: https://www.stockwatch.com/News/Item/U-284110-U!ATMYF-20260217/U/ATMYF
+    Skipping old article (2.0h old): 2026-02-17 03:02:00
+Processing: https://www.stockwatch.com/News/Item/U-z9655518-U!TSEM-20260217/U/TSEM
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9655518-U!TSEM-20260217/U/TSEM
+    Article is fresh (-57.3m ago): 2026-02-17 06:00:00
+    Title: Tower Semiconductor and Scintil Photonics Announce...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-283213-U!FUUFF-20260217/U/FUUFF
+Fetching URL: https://www.stockwatch.com/News/Item/U-283213-U!FUUFF-20260217/U/FUUFF
+    Skipping old article (1.0h old): 2026-02-17 04:01:00
+Processing: https://www.stockwatch.com/News/Item/U-z9655623-U!DJCO-20260217/U/DJCO
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9655623-U!DJCO-20260217/U/DJCO
+    Article is fresh (-57.2m ago): 2026-02-17 06:00:00
+    Title: Daily Journal Corporation Announces First Quarter ...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-CN89302-U!AIXC-20260217/U/AIXC
+Fetching URL: https://www.stockwatch.com/News/Item/U-CN89302-U!AIXC-20260217/U/AIXC
+    Article is fresh (-7.2m ago): 2026-02-17 05:10:00
+    Title: AIxCrypto Co-CEO Jerry Wang Shares Weekly Investor...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-LN89283-U!ESLT-20260216/U/ESLT
+Fetching URL: https://www.stockwatch.com/News/Item/U-LN89283-U!ESLT-20260216/U/ESLT
+    Skipping old article (2.1h old): 2026-02-17 02:59:00
+Processing: https://www.stockwatch.com/News/Item/U-th1AlpF23JD-U!LMEFF-20260217/U/LMEFF
+Fetching URL: https://www.stockwatch.com/News/Item/U-th1AlpF23JD-U!LMEFF-20260217/U/LMEFF
+    Article is fresh (2.9m ago): 2026-02-17 05:00:00
+    Title: LAURION Strengthens Team with Appointment of Capit...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-C9769-U!INFY-20260216/U/INFY
+Fetching URL: https://www.stockwatch.com/News/Item/U-C9769-U!INFY-20260216/U/INFY
+    Skipping old article (5.5h old): 2026-02-16 23:33:00
+Processing: https://www.stockwatch.com/News/Item/U-283961-U!KCCFF-20260216/U/KCCFF
+Fetching URL: https://www.stockwatch.com/News/Item/U-283961-U!KCCFF-20260216/U/KCCFF
+    Skipping old article (4.0h old): 2026-02-17 01:01:00
+Processing: https://www.stockwatch.com/News/Item/U-b20260217677535-U!BLDR-20260217/U/BLDR
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260217677535-U!BLDR-20260217/U/BLDR
+    Article is fresh (-57.0m ago): 2026-02-17 06:00:00
+    Title: Builders FirstSource Reports Fourth Quarter and Fu...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-by1137981-U!CAMZF-20260217/U/CAMZF
+Fetching URL: https://www.stockwatch.com/News/Item/U-by1137981-U!CAMZF-20260217/U/CAMZF
+    Article is fresh (-56.9m ago): 2026-02-17 06:00:00
+    Title: Camino Intercepts High-Grade Copper with 83.5m at ...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-284123-U!HIVE-20260216/U/HIVE
+Fetching URL: https://www.stockwatch.com/News/Item/U-284123-U!HIVE-20260216/U/HIVE
+    Skipping old article (3.5h old): 2026-02-17 01:31:00
+Processing: https://www.stockwatch.com/News/Item/U-MO89072-U!URAIF-20260217/U/URAIF
+Fetching URL: https://www.stockwatch.com/News/Item/U-MO89072-U!URAIF-20260217/U/URAIF
+    Skipping old article (1.8h old): 2026-02-17 03:15:00
+Processing: https://www.stockwatch.com/News/Item/U-LN89275-U!SSL-20260216/U/SSL
+Fetching URL: https://www.stockwatch.com/News/Item/U-LN89275-U!SSL-20260216/U/SSL
+    Skipping old article (2.9h old): 2026-02-17 02:11:00
+Processing: https://www.stockwatch.com/News/Item/U-284111-U!EMETF-20260217/U/EMETF
+Fetching URL: https://www.stockwatch.com/News/Item/U-284111-U!EMETF-20260217/U/EMETF
+    Article is fresh (1.2m ago): 2026-02-17 05:02:00
+    Title: Canamera Options 2,300-Hectare Waterslide Uranium-...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-PH88787-U!MKL-20260217/U/MKL
+Fetching URL: https://www.stockwatch.com/News/Item/U-PH88787-U!MKL-20260217/U/MKL
+    Skipping old article (2.1h old): 2026-02-17 03:00:00
+Processing: https://www.stockwatch.com/News/Item/U-IO88844-U!INFY-20260216/U/INFY
+Fetching URL: https://www.stockwatch.com/News/Item/U-IO88844-U!INFY-20260216/U/INFY
+    Skipping old article (5.5h old): 2026-02-16 23:33:00
+Processing: https://www.stockwatch.com/News/Item/U-z9655396-U!EGY-20260216/U/EGY
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9655396-U!EGY-20260216/U/EGY
+    Skipping old article (3.1h old): 2026-02-17 02:00:00
+Processing: https://www.stockwatch.com/News/Item/U-C8697-U!MRNFF-20260216/U/MRNFF
+Fetching URL: https://www.stockwatch.com/News/Item/U-C8697-U!MRNFF-20260216/U/MRNFF
+    Skipping old article (3.1h old): 2026-02-17 02:00:00
+Processing: https://www.stockwatch.com/News/Item/U-z9654748-U!BLK-20260217/U/BLK
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654748-U!BLK-20260217/U/BLK
+    Article is fresh (3.4m ago): 2026-02-17 05:00:00
+    Title: BlackRock® Canada Announces February Cash Distribu...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-284095-U!ARLSF-20260217/U/ARLSF
+Fetching URL: https://www.stockwatch.com/News/Item/U-284095-U!ARLSF-20260217/U/ARLSF
+    Skipping old article (2.0h old): 2026-02-17 03:02:00
+Processing: https://www.stockwatch.com/News/Item/U-by1137978-U!EPMLF-20260216/U/EPMLF
+Fetching URL: https://www.stockwatch.com/News/Item/U-by1137978-U!EPMLF-20260216/U/EPMLF
+    Skipping old article (2.8h old): 2026-02-17 02:15:00
+Processing: https://www.stockwatch.com/News/Item/U-C9967-U!EMPPF-20260216/U/EMPPF
+Fetching URL: https://www.stockwatch.com/News/Item/U-C9967-U!EMPPF-20260216/U/EMPPF
+    Skipping old article (3.1h old): 2026-02-17 02:00:00
+Processing: https://www.stockwatch.com/News/Item/U-284043-U!ISPNF-20260217/U/ISPNF
+Fetching URL: https://www.stockwatch.com/News/Item/U-284043-U!ISPNF-20260217/U/ISPNF
+    Skipping old article (2.0h old): 2026-02-17 03:02:00
+Processing: https://www.stockwatch.com/News/Item/U-z9655545-U!LIFFF-20260217/U/LIFFF
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9655545-U!LIFFF-20260217/U/LIFFF
+    Skipping old article (2.0h old): 2026-02-17 03:05:00
+Processing: https://www.stockwatch.com/News/Item/U-by1137989-U!CCEP-20260216/U/CCEP
+Fetching URL: https://www.stockwatch.com/News/Item/U-by1137989-U!CCEP-20260216/U/CCEP
+    Skipping old article (3.1h old): 2026-02-17 02:00:00
+Processing: https://www.stockwatch.com/News/Item/U-b20260216876463-U!FBIN-20260216/U/FBIN
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260216876463-U!FBIN-20260216/U/FBIN
+    Skipping old article (7.5h old): 2026-02-16 21:33:00
+Processing: https://www.stockwatch.com/News/Item/U-284025-U!FFUCF-20260217/U/FFUCF
+Fetching URL: https://www.stockwatch.com/News/Item/U-284025-U!FFUCF-20260217/U/FFUCF
+    Article is fresh (2.7m ago): 2026-02-17 05:01:00
+    Title: F4 and UraniumX Announce Geophysics at Murphy Lake...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260217825062-U!OOMA-20260217/U/OOMA
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260217825062-U!OOMA-20260217/U/OOMA
+    Article is fresh (3.8m ago): 2026-02-17 05:00:00
+    Title: Ooma Launches POTSTracker.com to Help Organization...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-284036-U!SUUFF-20260217/U/SUUFF
+Fetching URL: https://www.stockwatch.com/News/Item/U-284036-U!SUUFF-20260217/U/SUUFF
+    Article is fresh (1.8m ago): 2026-02-17 05:02:00
+    Title: Strathmore Announces Private Placement up to $1M...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260216740598-U!WDS-20260216/U/WDS
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260216740598-U!WDS-20260216/U/WDS
+    Skipping old article (9.5h old): 2026-02-16 19:32:00
+Processing: https://www.stockwatch.com/News/Item/U-z9654591-U!TCEFF-20260216/U/TCEFF
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654591-U!TCEFF-20260216/U/TCEFF
+    Skipping old article (5.0h old): 2026-02-17 00:01:00
+Processing: https://www.stockwatch.com/News/Item/U-z9655694-U!TSEM-20260217/U/TSEM
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9655694-U!TSEM-20260217/U/TSEM
+    Article is fresh (-56.0m ago): 2026-02-17 06:00:00
+    Skipping duplicate title: Tower Semiconductor and Scintil Photonics Announce...
+Fetching URLs from page: https://www.investing.com/news/latest-news
+Fetching URL: https://www.investing.com/news/latest-news
+Primed session for: https://www.investing.com (status: 200)
+Found 200 URLs to process for Investing.com
+Processing: https://www.investing.com/news/company-news/meta-x-and-tiktok-face-spanish-investigation-over-ai-child-abuse-content-93CH-4508128
+Fetching URL: https://www.investing.com/news/company-news/meta-x-and-tiktok-face-spanish-investigation-over-ai-child-abuse-content-93CH-4508128
+    Article is fresh (-4.9m ago): 2026-02-17 05:09:00
+    Title: Meta, X and TikTok face Spanish investigation over...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/economy-news/morning-bid-quiet-markets-loud-diplomacy-all-eyes-on-iran-4507896
+Fetching URL: https://www.investing.com/news/economy-news/morning-bid-quiet-markets-loud-diplomacy-all-eyes-on-iran-4507896
+    Skipping old article (4.1h old): 2026-02-17 01:00:00
+Processing: https://www.investing.com/news/stock-market-news/bernstein-lists-5-vulnerable-eu-stocks-as-ai-threats-mount-4508120
+Fetching URL: https://www.investing.com/news/stock-market-news/bernstein-lists-5-vulnerable-eu-stocks-as-ai-threats-mount-4508120
+    Article is fresh (6.1m ago): 2026-02-17 04:58:00
+    Title: Bernstein lists 5 vulnerable EU stocks as AI threa...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/stock-market-news/lseg-stock-rises-following-bank-of-america-partnership-deal-93CH-4508142
+Fetching URL: https://www.investing.com/news/stock-market-news/lseg-stock-rises-following-bank-of-america-partnership-deal-93CH-4508142
+    Article is fresh (-16.8m ago): 2026-02-17 05:21:00
+    Title: LSEG stock rises following Bank of America partner...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/stock-market-news/paramount-shares-jump-amid-reports-warner-bros-is-mulling-reopening-sale-talks-4508129
+Fetching URL: https://www.investing.com/news/stock-market-news/paramount-shares-jump-amid-reports-warner-bros-is-mulling-reopening-sale-talks-4508129
+    Article is fresh (-4.7m ago): 2026-02-17 05:09:00
+    Title: Paramount shares jump amid reports Warner Bros is ...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/stock-market-news/warning-big-money-is-slashing-nasdaq-100-bets-as-ai-fears-mount-4508151
+Fetching URL: https://www.investing.com/news/stock-market-news/warning-big-money-is-slashing-nasdaq-100-bets-as-ai-fears-mount-4508151
+    Article is fresh (-23.7m ago): 2026-02-17 05:28:00
+    Title: Warning: Big money is slashing Nasdaq 100 bets as ...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/stock-market-news/unilever-downgraded-at-kepler-on-limited-nearterm-upside-after-strong-run-4508146
+Fetching URL: https://www.investing.com/news/stock-market-news/unilever-downgraded-at-kepler-on-limited-nearterm-upside-after-strong-run-4508146
+    Article is fresh (-20.7m ago): 2026-02-17 05:25:00
+    Title: Unilever downgraded at Kepler on limited near-term...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/stock-market-news/asia-markets-cautious-ahead-of-usiran-nuclear-talks-4507891
+Fetching URL: https://www.investing.com/news/stock-market-news/asia-markets-cautious-ahead-of-usiran-nuclear-talks-4507891
+    Skipping old article (4.2h old): 2026-02-17 00:53:00
+Processing: https://www.investing.com/news/economic-indicators/german-investor-morale-unexpectedly-declines-in-february-zew-finds-4508160
+Fetching URL: https://www.investing.com/news/economic-indicators/german-investor-morale-unexpectedly-declines-in-february-zew-finds-4508160
+    Article is fresh (-34.6m ago): 2026-02-17 05:39:00
+    Title: German investor morale unexpectedly declines in Fe...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/stock-market-news/lilly-targets-india-as-global-export-hub-amid-booming-mounjaro-sales-executive-says-4508123
+Fetching URL: https://www.investing.com/news/stock-market-news/lilly-targets-india-as-global-export-hub-amid-booming-mounjaro-sales-executive-says-4508123
+    Article is fresh (11.4m ago): 2026-02-17 04:53:00
+    Title: Lilly targets India as global export hub amid boom...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/pro/pacificorp-agrees-to-sell-washington-assets-to-pge-for-19-billion-432SI-4508168
+Fetching URL: https://www.investing.com/news/pro/pacificorp-agrees-to-sell-washington-assets-to-pge-for-19-billion-432SI-4508168
+    Article is fresh (-44.5m ago): 2026-02-17 05:49:00
+    Title: PacifiCorp agrees to sell Washington assets to PGE...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/stock-market-news/danaher-nears-10-bln-deal-to-buy-med-tech-firm-masimo-ft-4507856
+Fetching URL: https://www.investing.com/news/stock-market-news/danaher-nears-10-bln-deal-to-buy-med-tech-firm-masimo-ft-4507856
+    Skipping old article (5.8h old): 2026-02-16 23:15:00
+Processing: https://www.investing.com/news/economy-news/usiran-talks-ahead-palo-alto-networks-to-report--whats-moving-markets-4507964
+Fetching URL: https://www.investing.com/news/economy-news/usiran-talks-ahead-palo-alto-networks-to-report--whats-moving-markets-4507964
+    Skipping old article (1.6h old): 2026-02-17 03:30:00
+Processing: https://www.investing.com/news/earnings/yandex-reports-28-revenue-growth-in-q4-recommends-dividends-93CH-4508133
+Fetching URL: https://www.investing.com/news/earnings/yandex-reports-28-revenue-growth-in-q4-recommends-dividends-93CH-4508133
+    Article is fresh (-9.4m ago): 2026-02-17 05:14:00
+    Title: Yandex reports 28% revenue growth in Q4, recommend...
+  -> Found 1 insights
+Filtering insights with minimum score: 85
+Sending email with 4 top insights...
+Email sent to tray14@hotmail.com
+Sending 2 unique tickers to Watchlist API...
+Job completed.
+Job finished at Tue Feb 17 05:04:40 AM CST 2026
+Starting job at Tue Feb 17 06:00:01 AM CST 2026
+Starting Stock Data Analysis Job...
+StateManager using local file.
+Fetching URLs from sitemap: https://bw-prod-sitemap.s3.us-east-1.amazonaws.com/webdmz1.vaprod.businesswire.com/home/2026-02-17.xml.gz
+Parsing sitemap: https://bw-prod-sitemap.s3.us-east-1.amazonaws.com/webdmz1.vaprod.businesswire.com/home/2026-02-17.xml.gz
+Found 75 URLs to process for BusinessWire
+Processing: http://www.businesswire.com/news/home/20260217261295/en/Fluor-Receives-1.35-Billion-for-71-Million-NuScale-Shares-Launches-Trading-Program-for-Remaining-40-Million-Shares
+Fetching URL: https://www.businesswire.com/news/home/20260217261295/en/Fluor-Receives-1.35-Billion-for-71-Million-NuScale-Shares-Launches-Trading-Program-for-Remaining-40-Million-Shares
+Primed session for: https://www.businesswire.com (status: 200)
+    Skipping old article (6.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217133638/en/Fluor-Reports-Fourth-Quarter-and-Full-Year-2025-Results
+Fetching URL: https://www.businesswire.com/news/home/20260217133638/en/Fluor-Reports-Fourth-Quarter-and-Full-Year-2025-Results
+    Skipping old article (6.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217559267/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+Fetching URL: https://www.businesswire.com/news/home/20260217559267/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+    Skipping old article (6.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217759192/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+Fetching URL: https://www.businesswire.com/news/home/20260217759192/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+    Skipping old article (6.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217788263/en/DNOW-Announces-Fourth-Quarter-and-Full-Year-2025-Earnings-Conference-Call
+Fetching URL: https://www.businesswire.com/news/home/20260217788263/en/DNOW-Announces-Fourth-Quarter-and-Full-Year-2025-Earnings-Conference-Call
+    Skipping old article (6.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217508407/en/Pfizer%E2%80%99s-BRAFTOVI-Regimen-Improves-Progression-Free-Survival-in-Metastatic-Colorectal-Cancer
+Fetching URL: https://www.businesswire.com/news/home/20260217508407/en/Pfizer’s-BRAFTOVI-Regimen-Improves-Progression-Free-Survival-in-Metastatic-Colorectal-Cancer
+    Skipping old article (6.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217764353/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+Fetching URL: https://www.businesswire.com/news/home/20260217764353/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+    Skipping old article (6.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216506204/en/Henry-Schein-One-Connects-Align-Technology%E2%80%99s-iTero%E2%84%A2-Scanners-to-Dentrix-Dentrix-Ascend-and-Dentally-Advancing-a-More-Connected-Global-Standard-of-Care
+Fetching URL: https://www.businesswire.com/news/home/20260216506204/en/Henry-Schein-One-Connects-Align-Technology’s-iTero™-Scanners-to-Dentrix-Dentrix-Ascend-and-Dentally-Advancing-a-More-Connected-Global-Standard-of-Care
+    Skipping old article (30.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217100836/en/Compass-Pathways-Successfully-Achieves-Primary-Endpoint-in-Second-Phase-3-Trial-Evaluating-COMP360-Psilocybin-for-Treatment-Resistant-Depression
+Fetching URL: https://www.businesswire.com/news/home/20260217100836/en/Compass-Pathways-Successfully-Achieves-Primary-Endpoint-in-Second-Phase-3-Trial-Evaluating-COMP360-Psilocybin-for-Treatment-Resistant-Depression
+    Skipping old article (6.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217252177/en/Herc-Holdings-Reports-Full-Year-2025-Results-and-Announces-2026-Full-Year-Guidance
+Fetching URL: https://www.businesswire.com/news/home/20260217252177/en/Herc-Holdings-Reports-Full-Year-2025-Results-and-Announces-2026-Full-Year-Guidance
+    Skipping old article (6.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217321656/en/Anaergia-Eni-and-CREvolution-Unveil-Breakthrough-Platform-to-Scale-Demand-for-Biodiesel-and-SAF
+Fetching URL: https://www.businesswire.com/news/home/20260217321656/en/Anaergia-Eni-and-CREvolution-Unveil-Breakthrough-Platform-to-Scale-Demand-for-Biodiesel-and-SAF
+    Skipping old article (6.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217330830/en/Teleflex-Announces-Fourth-Quarter-2025-Earnings-Conference-Call-Information
+Fetching URL: https://www.businesswire.com/news/home/20260217330830/en/Teleflex-Announces-Fourth-Quarter-2025-Earnings-Conference-Call-Information
+    Skipping old article (6.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217402948/en/Orion-S.A.-Reports-Full-Year-2025-and-Fourth-Quarter-Earnings
+Fetching URL: https://www.businesswire.com/news/home/20260217402948/en/Orion-S.A.-Reports-Full-Year-2025-and-Fourth-Quarter-Earnings
+    Skipping old article (6.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217520691/en/Pennsylvania-Small-Businesses-Expand-into-Global-Markets-With-Assist-from-Coupang
+Fetching URL: https://www.businesswire.com/news/home/20260217520691/en/Pennsylvania-Small-Businesses-Expand-into-Global-Markets-With-Assist-from-Coupang
+    Skipping old article (6.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217761870/en/Lydian-Energy-Announces-689-Million-Financing-for-Solar-and-Battery-Storage-Projects
+Fetching URL: https://www.businesswire.com/news/home/20260217761870/en/Lydian-Energy-Announces-689-Million-Financing-for-Solar-and-Battery-Storage-Projects
+    Skipping old article (6.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217658767/en/General-Mills-Outlines-Progress-on-Accelerate-Strategy-at-CAGNY-Conference
+Fetching URL: https://www.businesswire.com/news/home/20260217658767/en/General-Mills-Outlines-Progress-on-Accelerate-Strategy-at-CAGNY-Conference
+    Skipping old article (6.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217813764/en/Kennedy-Wilson-Enters-into-Agreement-to-be-Acquired-by-Consortium-Led-by-William-McMorrow-and-Fairfax-Financial
+Fetching URL: https://www.businesswire.com/news/home/20260217813764/en/Kennedy-Wilson-Enters-into-Agreement-to-be-Acquired-by-Consortium-Led-by-William-McMorrow-and-Fairfax-Financial
+    Skipping old article (6.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217924284/en/TPG-Mortgage-Investment-Trust-Inc.-Reports-Full-Year-and-Fourth-Quarter-2025-Results
+Fetching URL: https://www.businesswire.com/news/home/20260217924284/en/TPG-Mortgage-Investment-Trust-Inc.-Reports-Full-Year-and-Fourth-Quarter-2025-Results
+    Skipping old article (6.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217991477/en/InfuSystem-to-Report-Fourth-Quarter-and-Full-Year-2025-Financial-Results-on-February-24-2026
+Fetching URL: https://www.businesswire.com/news/home/20260217991477/en/InfuSystem-to-Report-Fourth-Quarter-and-Full-Year-2025-Financial-Results-on-February-24-2026
+    Skipping old article (6.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217382688/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+Fetching URL: https://www.businesswire.com/news/home/20260217382688/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+    Skipping old article (6.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217363276/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+Fetching URL: https://www.businesswire.com/news/home/20260217363276/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+    Skipping old article (6.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217497799/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+Fetching URL: https://www.businesswire.com/news/home/20260217497799/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+    Skipping old article (6.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217085850/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+Fetching URL: https://www.businesswire.com/news/home/20260217085850/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+    Skipping old article (6.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217250658/en/ImmunityBio-Reports-Productive-Regulatory-Engagement-with-Saudi-Food-and-Drug-Authority-at-USA-Saudi-Biotech-Alliance-Meeting-Hosted-by-the-Ministry-of-Investment-of-Saudi-Arabia
+Fetching URL: https://www.businesswire.com/news/home/20260217250658/en/ImmunityBio-Reports-Productive-Regulatory-Engagement-with-Saudi-Food-and-Drug-Authority-at-USA-Saudi-Biotech-Alliance-Meeting-Hosted-by-the-Ministry-of-Investment-of-Saudi-Arabia
+    Skipping old article (6.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217079747/en/PurpleRidge-Launches-Automated-AWS-Account-Audit-to-Stop-8-Minute-AI-Assisted-Cloud-Attacks
+Fetching URL: https://www.businesswire.com/news/home/20260217079747/en/PurpleRidge-Launches-Automated-AWS-Account-Audit-to-Stop-8-Minute-AI-Assisted-Cloud-Attacks
+    Skipping old article (6.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217482176/en/U.S.-Department-of-Commerce-Issues-Final-Determination-in-Chinese-Graphite-Anti-Dumping-Investigation
+Fetching URL: https://www.businesswire.com/news/home/20260217482176/en/U.S.-Department-of-Commerce-Issues-Final-Determination-in-Chinese-Graphite-Anti-Dumping-Investigation
+    Skipping old article (6.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217673477/en/LP-Building-Solutions-Reports-Fourth-Quarter-and-Full-Year-2025-Results-and-Provides-First-Quarter-and-Full-Year-Outlook-for-2026
+Fetching URL: https://www.businesswire.com/news/home/20260217673477/en/LP-Building-Solutions-Reports-Fourth-Quarter-and-Full-Year-2025-Results-and-Provides-First-Quarter-and-Full-Year-Outlook-for-2026
+    Skipping old article (6.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217847531/en/Black-Rifle-Coffee-Company-Announces-Dates-for-Its-Fourth-Quarter-and-Fiscal-Year-2025-Earnings-Release-and-Conference-Call
+Fetching URL: https://www.businesswire.com/news/home/20260217847531/en/Black-Rifle-Coffee-Company-Announces-Dates-for-Its-Fourth-Quarter-and-Fiscal-Year-2025-Earnings-Release-and-Conference-Call
+    Skipping old article (6.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217888799/en/Tolion-Health-AI-Forms-Scientific-Advisory-Board-with-Leading-Experts-in-Alzheimer%E2%80%99s-Brain-Health-and-Artificial-Intelligence
+Fetching URL: https://www.businesswire.com/news/home/20260217888799/en/Tolion-Health-AI-Forms-Scientific-Advisory-Board-with-Leading-Experts-in-Alzheimer’s-Brain-Health-and-Artificial-Intelligence
+    Skipping old article (6.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217445934/en/Walker-Dunlop-Arranges-%E2%82%AC118-Million-Refinance-for-the-Zuiderpoort-Office-in-Belgium
+Fetching URL: https://www.businesswire.com/news/home/20260217445934/en/Walker-Dunlop-Arranges-€118-Million-Refinance-for-the-Zuiderpoort-Office-in-Belgium
+    Skipping old article (6.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217528854/en/Monroe-Capital-Supports-Fusion-Capital-Partners%E2%80%99-Acquisition-of-Excel-Testing-and-Engineering-Holdings-LLC
+Fetching URL: https://www.businesswire.com/news/home/20260217528854/en/Monroe-Capital-Supports-Fusion-Capital-Partners’-Acquisition-of-Excel-Testing-and-Engineering-Holdings-LLC
+    Skipping old article (6.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217750246/en/BeOne-Medicines-to-Present-at-Upcoming-Investor-Conferences
+Fetching URL: https://www.businesswire.com/news/home/20260217750246/en/BeOne-Medicines-to-Present-at-Upcoming-Investor-Conferences
+    Skipping old article (6.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217873576/en/Allegion-NYSE-ALLE-Reports-Q4-Full-Year-2025-Financial-Results-Introduces-2026-Outlook
+Fetching URL: https://www.businesswire.com/news/home/20260217873576/en/Allegion-NYSE-ALLE-Reports-Q4-Full-Year-2025-Financial-Results-Introduces-2026-Outlook
+    Skipping old article (6.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216691394/en/Milliman-analysis-Multiemployer-pensions%E2%80%99-aggregate-funding-level-reaches-103-at-year-end-2025-highest-in-study-history
+Fetching URL: https://www.businesswire.com/news/home/20260216691394/en/Milliman-analysis-Multiemployer-pensions’-aggregate-funding-level-reaches-103-at-year-end-2025-highest-in-study-history
+    Skipping old article (30.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217001046/en/Flip-Electronics-Appoints-David-Kalinske-to-Board-of-Directors
+Fetching URL: https://www.businesswire.com/news/home/20260217001046/en/Flip-Electronics-Appoints-David-Kalinske-to-Board-of-Directors
+    Skipping old article (6.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217031186/en/Stockholder-Alert-Robbins-LLP-Informs-Investors-of-the-Ostin-Technology-Group-Co.-Ltd.-Class-Action
+Fetching URL: https://www.businesswire.com/news/home/20260217031186/en/Stockholder-Alert-Robbins-LLP-Informs-Investors-of-the-Ostin-Technology-Group-Co.-Ltd.-Class-Action
+    Skipping old article (6.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217082188/en/Fisher-Anaya-Wins-the-2026-Lippert-Bassmaster-Elite-at-Lake-Martin
+Fetching URL: https://www.businesswire.com/news/home/20260217082188/en/Fisher-Anaya-Wins-the-2026-Lippert-Bassmaster-Elite-at-Lake-Martin
+    Skipping old article (6.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217364132/en/Dragos-OT-Cybersecurity-Report-Adversaries-Increase-Real-World-Impact-Map-Control-Loops-Across-Industrial-Infrastructure
+Fetching URL: https://www.businesswire.com/news/home/20260217364132/en/Dragos-OT-Cybersecurity-Report-Adversaries-Increase-Real-World-Impact-Map-Control-Loops-Across-Industrial-Infrastructure
+    Skipping old article (6.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217383048/en/CTC-Global-Launches-GridVista-System-and-Strategic-Partnership-with-Google-Cloud-and-Tapestry-to-Transform-Grid-Intelligence
+Fetching URL: https://www.businesswire.com/news/home/20260217383048/en/CTC-Global-Launches-GridVista-System-and-Strategic-Partnership-with-Google-Cloud-and-Tapestry-to-Transform-Grid-Intelligence
+    Skipping old article (6.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217431690/en/Knife-River-Corporation-Reports-Fourth-Quarter-and-Full-Year-2025-Financial-Results
+Fetching URL: https://www.businesswire.com/news/home/20260217431690/en/Knife-River-Corporation-Reports-Fourth-Quarter-and-Full-Year-2025-Financial-Results
+    Skipping old article (6.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217433987/en/Allocate-Closes-2025-with-Record-Growth-Serving-325-Wealth-Advisory-Firms
+Fetching URL: https://www.businesswire.com/news/home/20260217433987/en/Allocate-Closes-2025-with-Record-Growth-Serving-325-Wealth-Advisory-Firms
+    Skipping old article (6.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217493901/en/Forbright-Inc.-Announces-Confidential-Submission-of-Draft-S-1-Registration-Statement-to-the-U.S.-Securities-and-Exchange-Commission
+Fetching URL: https://www.businesswire.com/news/home/20260217493901/en/Forbright-Inc.-Announces-Confidential-Submission-of-Draft-S-1-Registration-Statement-to-the-U.S.-Securities-and-Exchange-Commission
+    Skipping old article (6.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217677535/en/Builders-FirstSource-Reports-Fourth-Quarter-and-Full-Year-2025-Results-Provides-2026-Financial-Outlook
+Fetching URL: https://www.businesswire.com/news/home/20260217677535/en/Builders-FirstSource-Reports-Fourth-Quarter-and-Full-Year-2025-Results-Provides-2026-Financial-Outlook
+    Skipping old article (6.0h old): 2026-02-17 00:00:00
+Fetching URLs from page: https://www.stockwatch.com/News/Search?hours=24&region=U
+Fetching URL: https://www.stockwatch.com/News/Search?hours=24&region=U
+Primed session for: https://www.stockwatch.com (status: 200)
+Found 200 URLs to process for StockWatch
+Processing: https://www.stockwatch.com/News/Item/U-284089-U!AVTGF-20260217/U/AVTGF
+Fetching URL: https://www.stockwatch.com/News/Item/U-284089-U!AVTGF-20260217/U/AVTGF
+    Article is fresh (0.8m ago): 2026-02-17 06:01:00
+    Title: Avanti Gold Announces Mobilisation of Drill Rigs t...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-284086-U!OSTX-20260217/U/OSTX
+Fetching URL: https://www.stockwatch.com/News/Item/U-284086-U!OSTX-20260217/U/OSTX
+    Article is fresh (0.8m ago): 2026-02-17 06:01:00
+    Title: OS Therapies Provides Global Regulatory Update for...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260217330830-U!TFX-20260217/U/TFX
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260217330830-U!TFX-20260217/U/TFX
+    Article is fresh (-28.1m ago): 2026-02-17 06:30:00
+    Title: Teleflex Announces Fourth Quarter 2025 Earnings Co...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9655430-U!FTAI-20260217/U/FTAI
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9655430-U!FTAI-20260217/U/FTAI
+    Article is fresh (-28.1m ago): 2026-02-17 06:30:00
+    Title: FTAI Aviation Expands Relationship with Air France...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-SF89220-U!PANW-20260217/U/PANW
+Fetching URL: https://www.stockwatch.com/News/Item/U-SF89220-U!PANW-20260217/U/PANW
+    Article is fresh (2.0m ago): 2026-02-17 06:00:00
+    Title: Palo Alto Networks Introduces MSIAM 2.0 with the I...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-C6420-U!TMQ-20260217/U/TMQ
+Fetching URL: https://www.stockwatch.com/News/Item/U-C6420-U!TMQ-20260217/U/TMQ
+    Article is fresh (-28.0m ago): 2026-02-17 06:30:00
+    Title: Trilogy Metals Reports Fiscal 2025 Year-End Result...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-CN88723-U!XTKG-20260217/U/XTKG
+Fetching URL: https://www.stockwatch.com/News/Item/U-CN88723-U!XTKG-20260217/U/XTKG
+    Article is fresh (2.1m ago): 2026-02-17 06:00:00
+    Title: X3 Holdings (NASDAQ: XTKG) Files Nasdaq Appeal; Sh...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260217810118-U!JBI-20260217/U/JBI
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260217810118-U!JBI-20260217/U/JBI
+    Article is fresh (-52.9m ago): 2026-02-17 06:55:00
+    Title: Janus International Group to Report Fourth Quarter...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-C4455-U!RDWR-20260217/U/RDWR
+Fetching URL: https://www.stockwatch.com/News/Item/U-C4455-U!RDWR-20260217/U/RDWR
+    Article is fresh (2.1m ago): 2026-02-17 06:00:00
+    Title: Bell Cyber and Radware expand AI-driven, cloud-del...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-VA89081-U!TMQ-20260217/U/TMQ
+Fetching URL: https://www.stockwatch.com/News/Item/U-VA89081-U!TMQ-20260217/U/TMQ
+    Article is fresh (-27.8m ago): 2026-02-17 06:30:00
+    Skipping duplicate title: Trilogy Metals Reports Fiscal 2025 Year-End Result...
+Processing: https://www.stockwatch.com/News/Item/U-b20260217847531-U!BRCC-20260217/U/BRCC
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260217847531-U!BRCC-20260217/U/BRCC
+    Article is fresh (2.2m ago): 2026-02-17 06:00:00
+    Title: Black Rifle Coffee Company Announces Dates for Its...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-by1137889-U!NESR-20260217/U/NESR
+Fetching URL: https://www.stockwatch.com/News/Item/U-by1137889-U!NESR-20260217/U/NESR
+    Article is fresh (-2.7m ago): 2026-02-17 06:05:00
+    Title: National Energy Services Reunited Corp. Reports Fo...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-SF89182-U!GPUS-20260217/U/GPUS
+Fetching URL: https://www.stockwatch.com/News/Item/U-SF89182-U!GPUS-20260217/U/GPUS
+    Article is fresh (2.3m ago): 2026-02-17 06:00:00
+    Title: Hyperscale Data Bitcoin Treasury at 600.5299 Bitco...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9655046-U!CTM-20260217/U/CTM
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9655046-U!CTM-20260217/U/CTM
+    Article is fresh (-42.7m ago): 2026-02-17 06:45:00
+    Title: Castellum, Inc. Pays Off All Debt...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260217261295-U!FLR-20260217/U/FLR
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260217261295-U!FLR-20260217/U/FLR
+    Article is fresh (-49.6m ago): 2026-02-17 06:52:00
+    Title: Fluor Receives $1.35 Billion for 71 Million NuScal...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-CG89204-U!MDT-20260217/U/MDT
+Fetching URL: https://www.stockwatch.com/News/Item/U-CG89204-U!MDT-20260217/U/MDT
+    Article is fresh (-41.6m ago): 2026-02-17 06:44:00
+    Title: Medtronic announces first surgery with Hugo™ robot...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9655718-U!TE-20260217/U/TE
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9655718-U!TE-20260217/U/TE
+    Article is fresh (-7.6m ago): 2026-02-17 06:10:00
+    Title: Treasury Guidance Supports T1’s Tax Credit Eligibi...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-SF89090-U!Z-20260217/U/Z
+Fetching URL: https://www.stockwatch.com/News/Item/U-SF89090-U!Z-20260217/U/Z
+    Article is fresh (2.5m ago): 2026-02-17 06:00:00
+    Title: Zillow launches Zillow for Warcraft®, a new way to...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260217100836-U!CMPS-20260217/U/CMPS
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260217100836-U!CMPS-20260217/U/CMPS
+    Article is fresh (-27.5m ago): 2026-02-17 06:30:00
+    Title: Compass Pathways Successfully Achieves Primary End...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260217520691-U!CPNG-20260217/U/CPNG
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260217520691-U!CPNG-20260217/U/CPNG
+    Article is fresh (-27.5m ago): 2026-02-17 06:30:00
+    Title: Pennsylvania Small Businesses Expand into Global M...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9655531-U!DSGX-20260217/U/DSGX
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9655531-U!DSGX-20260217/U/DSGX
+    Article is fresh (-42.4m ago): 2026-02-17 06:45:00
+    Title: Vesta Freight Drives 18x Shipment Growth with Desc...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260217066501-U!PSQH-20260217/U/PSQH
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260217066501-U!PSQH-20260217/U/PSQH
+    Article is fresh (-56.4m ago): 2026-02-17 06:59:00
+    Title: PSQ Holdings, Inc. Announces Preliminary Fourth Qu...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260217186072-U!VMI-20260217/U/VMI
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260217186072-U!VMI-20260217/U/VMI
+    Article is fresh (-57.3m ago): 2026-02-17 07:00:00
+    Title: Valmont Reports Fourth Quarter GAAP EPS of $9.05 a...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9650530-U!MHCUF-20260217/U/MHCUF
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9650530-U!MHCUF-20260217/U/MHCUF
+    Article is fresh (-57.3m ago): 2026-02-17 07:00:00
+    Title: Flagship Communities Real Estate Investment Trust ...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-TO89230-U!GLDG-20260217/U/GLDG
+Fetching URL: https://www.stockwatch.com/News/Item/U-TO89230-U!GLDG-20260217/U/GLDG
+    Article is fresh (-27.3m ago): 2026-02-17 06:30:00
+    Title: GoldMining Updates Mineral Resource Estimate with ...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-NE89024-U!QTTB-20260217/U/QTTB
+Fetching URL: https://www.stockwatch.com/News/Item/U-NE89024-U!QTTB-20260217/U/QTTB
+    Article is fresh (-56.2m ago): 2026-02-17 06:59:00
+    Title: Q32 Bio Announces $10.5 Million Registered Direct ...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260217750246-U!ONC-20260217/U/ONC
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260217750246-U!ONC-20260217/U/ONC
+    Article is fresh (2.8m ago): 2026-02-17 06:00:00
+    Title: BeOne Medicines to Present at Upcoming Investor Co...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-SF89090-U!MSFT-20260217/U/MSFT
+Fetching URL: https://www.stockwatch.com/News/Item/U-SF89090-U!MSFT-20260217/U/MSFT
+    Article is fresh (2.8m ago): 2026-02-17 06:00:00
+    Skipping duplicate title: Zillow launches Zillow for Warcraft®, a new way to...
+Processing: https://www.stockwatch.com/News/Item/U-b20260217657186-U!BMY-20260217/U/BMY
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260217657186-U!BMY-20260217/U/BMY
+    Article is fresh (-56.1m ago): 2026-02-17 06:59:00
+    Title: U.S. Food and Drug Administration Accepts Bristol ...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260217450793-U!TRIP-20260217/U/TRIP
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260217450793-U!TRIP-20260217/U/TRIP
+    Article is fresh (-57.1m ago): 2026-02-17 07:00:00
+    Title: Starboard Delivers Letter to Tripadvisor...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z1001165171-U!CNHI-20260217/U/CNHI
+Fetching URL: https://www.stockwatch.com/News/Item/U-z1001165171-U!CNHI-20260217/U/CNHI
+    Article is fresh (-27.1m ago): 2026-02-17 06:30:00
+    Title: CNH Industrial N.V. Reports Fourth Quarter and Ful...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260217016688-U!PLTR-20260217/U/PLTR
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260217016688-U!PLTR-20260217/U/PLTR
+    Article is fresh (-56.0m ago): 2026-02-17 06:59:00
+    Title: Palantir Wins Dresner Advisory Services 2025 Techn...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260217431690-U!KNF-20260217/U/KNF
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260217431690-U!KNF-20260217/U/KNF
+    Article is fresh (3.0m ago): 2026-02-17 06:00:00
+    Title: Knife River Corporation Reports Fourth Quarter and...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-DC89006-U!LH-20260217/U/LH
+Fetching URL: https://www.stockwatch.com/News/Item/U-DC89006-U!LH-20260217/U/LH
+    Article is fresh (-46.9m ago): 2026-02-17 06:50:00
+    Title: Labcorp Announces 2025 Fourth Quarter and Full Yea...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260217250658-U!IBRX-20260217/U/IBRX
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260217250658-U!IBRX-20260217/U/IBRX
+    Article is fresh (-3.9m ago): 2026-02-17 06:07:00
+    Title: ImmunityBio Reports Productive Regulatory Engageme...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260217920400-U!MANU-20260217/U/MANU
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260217920400-U!MANU-20260217/U/MANU
+    Article is fresh (-56.9m ago): 2026-02-17 07:00:00
+    Title: Manchester United plc Announces Second Quarter Fis...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-by1138019-U!GNGXF-20260217/U/GNGXF
+Fetching URL: https://www.stockwatch.com/News/Item/U-by1138019-U!GNGXF-20260217/U/GNGXF
+    Article is fresh (-56.8m ago): 2026-02-17 07:00:00
+    Title: Inventus Announces Leadership Transition and Provi...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-SF89090-U!ZG-20260217/U/ZG
+Fetching URL: https://www.stockwatch.com/News/Item/U-SF89090-U!ZG-20260217/U/ZG
+    Article is fresh (3.2m ago): 2026-02-17 06:00:00
+    Skipping duplicate title: Zillow launches Zillow for Warcraft®, a new way to...
+Processing: https://www.stockwatch.com/News/Item/U-b20260217490892-U!WLYB-20260217/U/WLYB
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260217490892-U!WLYB-20260217/U/WLYB
+    Article is fresh (-56.7m ago): 2026-02-17 07:00:00
+    Title: Wiley to Expand Prestigious Advanced Journals Port...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260217112800-U!TWST-20260217/U/TWST
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260217112800-U!TWST-20260217/U/TWST
+    Article is fresh (-56.7m ago): 2026-02-17 07:00:00
+    Title: Twist Bioscience Expands Antibody Discovery Offeri...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-CL88868-U!SGI-20260217/U/SGI
+Fetching URL: https://www.stockwatch.com/News/Item/U-CL88868-U!SGI-20260217/U/SGI
+    Article is fresh (-33.7m ago): 2026-02-17 06:37:00
+    Title: Somnigroup Announces First Quarter Cash Dividend...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-284059-U!BSENF-20260217/U/BSENF
+Fetching URL: https://www.stockwatch.com/News/Item/U-284059-U!BSENF-20260217/U/BSENF
+    Article is fresh (2.4m ago): 2026-02-17 06:01:00
+    Title: Geiger Intersects Widespread Uranium Enrichment at...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-C6915-U!MDT-20260217/U/MDT
+Fetching URL: https://www.stockwatch.com/News/Item/U-C6915-U!MDT-20260217/U/MDT
+    Article is fresh (-41.6m ago): 2026-02-17 06:45:00
+    Title: Medtronic reports strong third quarter fiscal 2026...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260217337332-U!BETA-20260217/U/BETA
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260217337332-U!BETA-20260217/U/BETA
+    Article is fresh (-56.6m ago): 2026-02-17 07:00:00
+    Title: BETA Technologies to Participate in Citi's 2026 Gl...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-C8682-U!GLDG-20260217/U/GLDG
+Fetching URL: https://www.stockwatch.com/News/Item/U-C8682-U!GLDG-20260217/U/GLDG
+    Article is fresh (-26.5m ago): 2026-02-17 06:30:00
+    Skipping duplicate title: GoldMining Updates Mineral Resource Estimate with ...
+Processing: https://www.stockwatch.com/News/Item/U-b20260217482176-U!WWR-20260217/U/WWR
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260217482176-U!WWR-20260217/U/WWR
+    Article is fresh (3.5m ago): 2026-02-17 06:00:00
+    Title: U.S. Department of Commerce Issues Final Determina...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260217558380-U!USAC-20260217/U/USAC
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260217558380-U!USAC-20260217/U/USAC
+    Article is fresh (-51.4m ago): 2026-02-17 06:55:00
+    Title: USA Compression Partners Reports Fourth-Quarter 20...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-SF89219-U!PANW-20260217/U/PANW
+Fetching URL: https://www.stockwatch.com/News/Item/U-SF89219-U!PANW-20260217/U/PANW
+    Article is fresh (3.6m ago): 2026-02-17 06:00:00
+    Title: Unit 42 Report: AI and Attack Surface Complexity F...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-by1137898-U!MRNA-20260217/U/MRNA
+Fetching URL: https://www.stockwatch.com/News/Item/U-by1137898-U!MRNA-20260217/U/MRNA
+    Article is fresh (-56.3m ago): 2026-02-17 07:00:00
+    Title: Moderna Receives European Commission Marketing Aut...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9655603-U!KW-20260217/U/KW
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9655603-U!KW-20260217/U/KW
+    Article is fresh (-26.3m ago): 2026-02-17 06:30:00
+    Title: Kennedy Wilson Enters into Agreement to be Acquire...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260217991477-U!INFU-20260217/U/INFU
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260217991477-U!INFU-20260217/U/INFU
+    Article is fresh (-26.3m ago): 2026-02-17 06:30:00
+    Title: InfuSystem to Report Fourth Quarter and Full Year ...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260217658767-U!GIS-20260217/U/GIS
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260217658767-U!GIS-20260217/U/GIS
+    Article is fresh (-26.2m ago): 2026-02-17 06:30:00
+    Title: General Mills Outlines Progress on Accelerate Stra...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260217813764-U!KW-20260217/U/KW
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260217813764-U!KW-20260217/U/KW
+    Article is fresh (-26.2m ago): 2026-02-17 06:30:00
+    Skipping duplicate title: Kennedy Wilson Enters into Agreement to be Acquire...
+Processing: https://www.stockwatch.com/News/Item/U-C9810-U!BMO-20260217/U/BMO
+Fetching URL: https://www.stockwatch.com/News/Item/U-C9810-U!BMO-20260217/U/BMO
+    Article is fresh (-26.2m ago): 2026-02-17 06:30:00
+    Title: BMO Survey: Majority of Canadians Say Rising Costs...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-LA88005-U!NWS-20260217/U/NWS
+Fetching URL: https://www.stockwatch.com/News/Item/U-LA88005-U!NWS-20260217/U/NWS
+    Article is fresh (3.9m ago): 2026-02-17 06:00:00
+    Title: Realtor.com® Rent Report: U.S. Rental Market Now F...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-CL88997-U!GPC-20260217/U/GPC
+Fetching URL: https://www.stockwatch.com/News/Item/U-CL88997-U!GPC-20260217/U/GPC
+    Article is fresh (-52.1m ago): 2026-02-17 06:56:00
+    Title: Genuine Parts Company Announces Plan to Separate A...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260217098643-U!JANX-20260217/U/JANX
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260217098643-U!JANX-20260217/U/JANX
+    Article is fresh (-56.0m ago): 2026-02-17 07:00:00
+    Title: Janux Therapeutics Announces First Patient Dosed i...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260217324371-U!SXC-20260217/U/SXC
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260217324371-U!SXC-20260217/U/SXC
+    Article is fresh (-56.0m ago): 2026-02-17 07:00:00
+    Title: Suncoke Energy, Inc. Announces 2025 Results and Pr...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-TO89254-U!DNN-20260217/U/DNN
+Fetching URL: https://www.stockwatch.com/News/Item/U-TO89254-U!DNN-20260217/U/DNN
+    Article is fresh (-25.9m ago): 2026-02-17 06:30:00
+    Title: Denison Announces Award of Construction Management...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-CL88927-U!ROL-20260217/U/ROL
+Fetching URL: https://www.stockwatch.com/News/Item/U-CL88927-U!ROL-20260217/U/ROL
+    Article is fresh (-6.9m ago): 2026-02-17 06:11:00
+    Title: Miami Holds No. 1 Spot on Orkin's 2026 Top 50 Term...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-by1137564-U!TTGXF-20260217/U/TTGXF
+Fetching URL: https://www.stockwatch.com/News/Item/U-by1137564-U!TTGXF-20260217/U/TTGXF
+    Article is fresh (-25.9m ago): 2026-02-17 06:30:00
+    Title: Trans Canada Gold Moves Toward a Major 2026-2027 D...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-th1AXXF3J1O-U!HWAUF-20260217/U/HWAUF
+Fetching URL: https://www.stockwatch.com/News/Item/U-th1AXXF3J1O-U!HWAUF-20260217/U/HWAUF
+    Article is fresh (-25.8m ago): 2026-02-17 06:30:00
+    Title: Headwater Gold Upgrades Trading to OTCQX Best Mark...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260216506204-U!HSIC-20260217/U/HSIC
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260216506204-U!HSIC-20260217/U/HSIC
+    Article is fresh (-25.8m ago): 2026-02-17 06:30:00
+    Title: Henry Schein One Connects Align Technology's iTero...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9655718-U!NXT-20260217/U/NXT
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9655718-U!NXT-20260217/U/NXT
+    Article is fresh (-5.8m ago): 2026-02-17 06:10:00
+    Skipping duplicate title: Treasury Guidance Supports T1’s Tax Credit Eligibi...
+Processing: https://www.stockwatch.com/News/Item/U-b20260217673477-U!LPX-20260217/U/LPX
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260217673477-U!LPX-20260217/U/LPX
+    Article is fresh (4.3m ago): 2026-02-17 06:00:00
+    Title: LP Building Solutions Reports Fourth Quarter and F...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260217252177-U!HRI-20260217/U/HRI
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260217252177-U!HRI-20260217/U/HRI
+    Article is fresh (-25.7m ago): 2026-02-17 06:30:00
+    Title: Herc Holdings Reports Full Year 2025 Results and A...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260217647796-U!MSLE-20260217/U/MSLE
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260217647796-U!MSLE-20260217/U/MSLE
+    Article is fresh (-55.7m ago): 2026-02-17 07:00:00
+    Title: Satellos to Participate in Upcoming Investor Confe...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260217924284-U!MITT-20260217/U/MITT
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260217924284-U!MITT-20260217/U/MITT
+    Article is fresh (-25.6m ago): 2026-02-17 06:30:00
+    Title: TPG Mortgage Investment Trust, Inc. Reports Full Y...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-NY89064-U!HON-20260217/U/HON
+Fetching URL: https://www.stockwatch.com/News/Item/U-NY89064-U!HON-20260217/U/HON
+    Article is fresh (-5.6m ago): 2026-02-17 06:10:00
+    Title: HONEYWELL FILES ANNUAL REPORT ON FORM 10-K FOR FIS...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-CG87982-U!GRMN-20260217/U/GRMN
+Fetching URL: https://www.stockwatch.com/News/Item/U-CG87982-U!GRMN-20260217/U/GRMN
+    Article is fresh (-54.6m ago): 2026-02-17 06:59:00
+    Title: Optimize time on the track with the cutting-edge G...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-DA89039-U!PRT-20260217/U/PRT
+Fetching URL: https://www.stockwatch.com/News/Item/U-DA89039-U!PRT-20260217/U/PRT
+    Article is fresh (-25.5m ago): 2026-02-17 06:30:00
+    Title: PermRock Royalty Trust Declares Monthly Cash Distr...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-SF88351-U!IDYA-20260217/U/IDYA
+Fetching URL: https://www.stockwatch.com/News/Item/U-SF88351-U!IDYA-20260217/U/IDYA
+    Article is fresh (4.5m ago): 2026-02-17 06:00:00
+    Title: IDEAYA Biosciences Reports Fourth Quarter and Full...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260217873576-U!ALLE-20260217/U/ALLE
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260217873576-U!ALLE-20260217/U/ALLE
+    Article is fresh (4.6m ago): 2026-02-17 06:00:00
+    Title: Allegion (NYSE: ALLE) Reports Q4, Full-Year 2025 F...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-LA88005-U!NWSA-20260217/U/NWSA
+Fetching URL: https://www.stockwatch.com/News/Item/U-LA88005-U!NWSA-20260217/U/NWSA
+    Article is fresh (4.6m ago): 2026-02-17 06:00:00
+    Skipping duplicate title: Realtor.com® Rent Report: U.S. Rental Market Now F...
+Processing: https://www.stockwatch.com/News/Item/U-PH88682-U!LDOS-20260217/U/LDOS
+Fetching URL: https://www.stockwatch.com/News/Item/U-PH88682-U!LDOS-20260217/U/LDOS
+    Article is fresh (4.6m ago): 2026-02-17 06:00:00
+    Title: Leidos Posts Strong Fourth Quarter and Fiscal Year...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-th1BjjFlDqQ-U!PMMCF-20260217/U/PMMCF
+Fetching URL: https://www.stockwatch.com/News/Item/U-th1BjjFlDqQ-U!PMMCF-20260217/U/PMMCF
+    Article is fresh (4.7m ago): 2026-02-17 06:00:00
+    Title: Andina Copper Reports 620 m @ 0.45% Cu, 79 ppm Mo ...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-284046-U!MRRDF-20260217/U/MRRDF
+Fetching URL: https://www.stockwatch.com/News/Item/U-284046-U!MRRDF-20260217/U/MRRDF
+    Article is fresh (-26.3m ago): 2026-02-17 06:31:00
+    Title: Meridian Accelerates Post Financing 2026's Field a...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-SF87786-U!VIAV-20260217/U/VIAV
+Fetching URL: https://www.stockwatch.com/News/Item/U-SF87786-U!VIAV-20260217/U/VIAV
+    Article is fresh (-25.2m ago): 2026-02-17 06:30:00
+    Title: VIAVI Launches Cesium-less ePRTC360+ Enhanced Prim...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260217490892-U!WLY-20260217/U/WLY
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260217490892-U!WLY-20260217/U/WLY
+    Article is fresh (-55.2m ago): 2026-02-17 07:00:00
+    Skipping duplicate title: Wiley to Expand Prestigious Advanced Journals Port...
+Processing: https://www.stockwatch.com/News/Item/U-CL88988-U!GPC-20260217/U/GPC
+Fetching URL: https://www.stockwatch.com/News/Item/U-CL88988-U!GPC-20260217/U/GPC
+    Article is fresh (-50.2m ago): 2026-02-17 06:55:00
+    Title: Genuine Parts Company Reports Fourth Quarter and F...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9655484-U!IDCC-20260217/U/IDCC
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9655484-U!IDCC-20260217/U/IDCC
+    Article is fresh (-25.1m ago): 2026-02-17 06:30:00
+    Title: InterDigital renews license agreement with Sony...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-SF88013-U!PRU-20260217/U/PRU
+Fetching URL: https://www.stockwatch.com/News/Item/U-SF88013-U!PRU-20260217/U/PRU
+    Article is fresh (4.9m ago): 2026-02-17 06:00:00
+    Title: Marivic Dar honored as a Luminaries with Heart rec...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-284124-U!HIVE-20260217/U/HIVE
+Fetching URL: https://www.stockwatch.com/News/Item/U-284124-U!HIVE-20260217/U/HIVE
+    Article is fresh (3.9m ago): 2026-02-17 06:01:00
+    Title: RETRANSMISSION: HIVE Delivers Record Q3 Revenue of...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260217788263-U!DNOW-20260217/U/DNOW
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260217788263-U!DNOW-20260217/U/DNOW
+    Article is fresh (-40.0m ago): 2026-02-17 06:45:00
+    Title: DNOW Announces Fourth Quarter and Full-Year 2025 E...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-C9805-U!DNN-20260217/U/DNN
+Fetching URL: https://www.stockwatch.com/News/Item/U-C9805-U!DNN-20260217/U/DNN
+    Article is fresh (-25.0m ago): 2026-02-17 06:30:00
+    Skipping duplicate title: Denison Announces Award of Construction Management...
+Processing: https://www.stockwatch.com/News/Item/U-z9655431-U!SKE-20260217/U/SKE
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9655431-U!SKE-20260217/U/SKE
+    Article is fresh (-44.9m ago): 2026-02-17 06:50:00
+    Title: Skeena Gold &amp; Silver Releases Construction Vid...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260217445934-U!WD-20260217/U/WD
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260217445934-U!WD-20260217/U/WD
+    Article is fresh (5.1m ago): 2026-02-17 06:00:00
+    Title: Walker & Dunlop Arranges euros118 Million Refinanc...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-CL85944-U!JLL-20260217/U/JLL
+Fetching URL: https://www.stockwatch.com/News/Item/U-CL85944-U!JLL-20260217/U/JLL
+    Article is fresh (5.1m ago): 2026-02-17 06:00:00
+    Title: Storage Post Self Storage Expands Its Rockland Cou...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9655490-U!BRO-20260217/U/BRO
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9655490-U!BRO-20260217/U/BRO
+    Article is fresh (-39.8m ago): 2026-02-17 06:45:00
+    Title: Brown &amp; Brown, Inc. acquires the assets of The...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-NE88063-U!KMT-20260217/U/KMT
+Fetching URL: https://www.stockwatch.com/News/Item/U-NE88063-U!KMT-20260217/U/KMT
+    Article is fresh (-24.8m ago): 2026-02-17 06:30:00
+    Title: Kennametal to Attend the Loop Capital Conference...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9654566-U!BJDX-20260217/U/BJDX
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654566-U!BJDX-20260217/U/BJDX
+    Article is fresh (-24.8m ago): 2026-02-17 06:30:00
+    Title: Bluejay Diagnostics Successfully Enrolls 545 Patie...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-CL88863-U!SGI-20260217/U/SGI
+Fetching URL: https://www.stockwatch.com/News/Item/U-CL88863-U!SGI-20260217/U/SGI
+    Article is fresh (-30.7m ago): 2026-02-17 06:36:00
+    Title: Somnigroup International Inc. Reports Fourth Quart...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-283869-U!CGTRF-20260217/U/CGTRF
+Fetching URL: https://www.stockwatch.com/News/Item/U-283869-U!CGTRF-20260217/U/CGTRF
+    Article is fresh (-25.7m ago): 2026-02-17 06:31:00
+    Title: GT Resources Adds Greenstone Hosted Gold and Nicke...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-283899-U!VOLMF-20260217/U/VOLMF
+Fetching URL: https://www.stockwatch.com/News/Item/U-283899-U!VOLMF-20260217/U/VOLMF
+    Article is fresh (3.4m ago): 2026-02-17 06:02:00
+    Title: Volta Initiates Gallium Recovery Study with Lauren...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-284107-U!OMGGF-20260217/U/OMGGF
+Fetching URL: https://www.stockwatch.com/News/Item/U-284107-U!OMGGF-20260217/U/OMGGF
+    Article is fresh (-10.6m ago): 2026-02-17 06:16:00
+    Title: Omai Gold Drills Multiple Gold Zones at Wenot Incl...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-CG88919-U!MDT-20260217/U/MDT
+Fetching URL: https://www.stockwatch.com/News/Item/U-CG88919-U!MDT-20260217/U/MDT
+    Article is fresh (-39.6m ago): 2026-02-17 06:45:00
+    Skipping duplicate title: Medtronic reports strong third quarter fiscal 2026...
+Processing: https://www.stockwatch.com/News/Item/U-b20260217133638-U!FLR-20260217/U/FLR
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260217133638-U!FLR-20260217/U/FLR
+    Article is fresh (-44.5m ago): 2026-02-17 06:50:00
+    Title: Fluor Reports Fourth Quarter and Full Year 2025 Re...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260217402948-U!OEC-20260217/U/OEC
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260217402948-U!OEC-20260217/U/OEC
+    Article is fresh (-24.5m ago): 2026-02-17 06:30:00
+    Title: Orion S.A. Reports Full Year 2025 and Fourth Quart...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9655718-U!GLW-20260217/U/GLW
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9655718-U!GLW-20260217/U/GLW
+    Article is fresh (-4.4m ago): 2026-02-17 06:10:00
+    Skipping duplicate title: Treasury Guidance Supports T1’s Tax Credit Eligibi...
+Processing: https://www.stockwatch.com/News/Item/U-b20260217508407-U!PFE-20260217/U/PFE
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260217508407-U!PFE-20260217/U/PFE
+    Article is fresh (-39.4m ago): 2026-02-17 06:45:00
+    Title: Pfizer's BRAFTOVI Regimen Improves Progression-Fre...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9655563-U!ENLT-20260217/U/ENLT
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9655563-U!ENLT-20260217/U/ENLT
+    Article is fresh (-9.3m ago): 2026-02-17 06:15:00
+    Title: Enlight Renewable Energy Reports Fourth Quarter 20...
+  -> Found 1 insights
+Fetching URLs from page: https://www.investing.com/news/latest-news
+Fetching URL: https://www.investing.com/news/latest-news
+Primed session for: https://www.investing.com (status: 200)
+Found 200 URLs to process for Investing.com
+Processing: https://www.investing.com/news/earnings/labcorp-holdings-earnings-beat-by-014-revenue-fell-short-of-estimates-4508335
+Fetching URL: https://www.investing.com/news/earnings/labcorp-holdings-earnings-beat-by-014-revenue-fell-short-of-estimates-4508335
+    Article is fresh (-51.2m ago): 2026-02-17 06:57:00
+    Title: Labcorp Holdings earnings beat by $0.14, revenue f...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/stock-market-news/berenberg-upgrades-basf-to-hold-lifts-target-to-48-on-eu-policy-shift-4508289
+Fetching URL: https://www.investing.com/news/stock-market-news/berenberg-upgrades-basf-to-hold-lifts-target-to-48-on-eu-policy-shift-4508289
+    Article is fresh (-43.2m ago): 2026-02-17 06:49:00
+    Title: Berenberg upgrades BASF to “hold,” lifts target to...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/earnings/cnh-shares-fall-as-2026-guidance-disappoints-despite-q4-beat-93CH-4508367
+Fetching URL: https://www.investing.com/news/earnings/cnh-shares-fall-as-2026-guidance-disappoints-despite-q4-beat-93CH-4508367
+    Article is fresh (-58.1m ago): 2026-02-17 07:04:00
+    Title: CNH shares fall as 2026 guidance disappoints despi...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/stock-market-news/warning-big-money-is-slashing-nasdaq-100-bets-as-ai-fears-mount-4508151#comments
+Fetching URL: https://www.investing.com/news/stock-market-news/warning-big-money-is-slashing-nasdaq-100-bets-as-ai-fears-mount-4508151
+    Article is fresh (37.9m ago): 2026-02-17 05:28:00
+    Title: Warning: Big money is slashing Nasdaq 100 bets as ...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/stock-market-news/raspberry-pi-stock-soars-after-ceo-upton-boosts-stake-in-company-4508290
+Fetching URL: https://www.investing.com/news/stock-market-news/raspberry-pi-stock-soars-after-ceo-upton-boosts-stake-in-company-4508290
+    Article is fresh (-44.0m ago): 2026-02-17 06:50:00
+    Title: Raspberry Pi stock soars after CEO Upton boosts st...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/earnings/fluor-shares-fall-nearly-5-as-q4-earnings-miss-estimates-93CH-4508333
+Fetching URL: https://www.investing.com/news/earnings/fluor-shares-fall-nearly-5-as-q4-earnings-miss-estimates-93CH-4508333
+    Article is fresh (-51.0m ago): 2026-02-17 06:57:00
+    Title: Fluor shares fall nearly 5% as Q4 earnings miss es...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/stock-market-news/citi-says-buy-nvidia-stock-ahead--2h26-outperformance-4508233
+Fetching URL: https://www.investing.com/news/stock-market-news/citi-says-buy-nvidia-stock-ahead--2h26-outperformance-4508233
+    Article is fresh (-18.0m ago): 2026-02-17 06:24:00
+    Title: Citi says buy Nvidia stock ahead  2H26 outperforma...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/commodities-news/trumps-push-for-peace-deals-could-lead-to-lower-oil-prices--citi-4508338
+Fetching URL: https://www.investing.com/news/commodities-news/trumps-push-for-peace-deals-could-lead-to-lower-oil-prices--citi-4508338
+    Article is fresh (-52.9m ago): 2026-02-17 06:59:00
+    Title: Trump’s push for peace deals could lead to lower o...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/earnings/orion-engineered-carbons-reports-wider-q4-loss-despite-revenue-beat-93CH-4508259
+Fetching URL: https://www.investing.com/news/earnings/orion-engineered-carbons-reports-wider-q4-loss-despite-revenue-beat-93CH-4508259
+    Article is fresh (-30.9m ago): 2026-02-17 06:37:00
+    Title: Orion Engineered Carbons reports wider Q4 loss des...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/commodities-news/gold-silver-prices-fall-further-with-econ-data-fed-cues-in-focus-4507813
+Fetching URL: https://www.investing.com/news/commodities-news/gold-silver-prices-fall-further-with-econ-data-fed-cues-in-focus-4507813
+    Skipping old article (10.7h old): 2026-02-16 19:23:00
+Processing: https://www.investing.com/news/earnings/herc-holdings-beats-earnings-estimates-misses-on-revenue-93CH-4508262
+Fetching URL: https://www.investing.com/news/earnings/herc-holdings-beats-earnings-estimates-misses-on-revenue-93CH-4508262
+    Article is fresh (-31.8m ago): 2026-02-17 06:38:00
+    Title: Herc Holdings beats earnings estimates, misses on ...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/economic-indicators/italian-exports-to-us-rise-7-in-2025-despite-trumps-tariffs-4508283
+Fetching URL: https://www.investing.com/news/economic-indicators/italian-exports-to-us-rise-7-in-2025-despite-trumps-tariffs-4508283
+    Article is fresh (-36.7m ago): 2026-02-17 06:43:00
+    Title: Italian exports to US rise 7% in 2025 despite Trum...
+  -> Found 1 insights
+Filtering insights with minimum score: 85
+Sending email with 8 top insights...
+Email sent to tray14@hotmail.com
+Sending 8 unique tickers to Watchlist API...
+Job completed.
+Job finished at Tue Feb 17 06:06:18 AM CST 2026
+Starting job at Tue Feb 17 07:00:01 AM CST 2026
+Starting Stock Data Analysis Job...
+StateManager using local file.
+Fetching URLs from sitemap: https://bw-prod-sitemap.s3.us-east-1.amazonaws.com/webdmz1.vaprod.businesswire.com/home/2026-02-17.xml.gz
+Parsing sitemap: https://bw-prod-sitemap.s3.us-east-1.amazonaws.com/webdmz1.vaprod.businesswire.com/home/2026-02-17.xml.gz
+Found 145 URLs to process for BusinessWire
+Processing: http://www.businesswire.com/news/home/20260217778367/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+Fetching URL: https://www.businesswire.com/news/home/20260217778367/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+Primed session for: https://www.businesswire.com (status: 200)
+    Skipping old article (7.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217982535/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+Fetching URL: https://www.businesswire.com/news/home/20260217982535/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+    Skipping old article (7.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217853810/en/Cizzle-Brands-Corporation-Announces-U.S.-Retail-Expansion-with-Launch-of-CWENCH-Hydration-at-109-Target-locations-in-the-U.S.
+Fetching URL: https://www.businesswire.com/news/home/20260217853810/en/Cizzle-Brands-Corporation-Announces-U.S.-Retail-Expansion-with-Launch-of-CWENCH-Hydration-at-109-Target-locations-in-the-U.S.
+    Skipping old article (7.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217819821/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+Fetching URL: https://www.businesswire.com/news/home/20260217819821/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+    Skipping old article (7.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217205558/en/BostonGene-Announces-Strategic-Collaboration-with-Daiichi-Sankyo-to-Accelerate-Drug-Development-Through-AI-Driven-Multimodal-Analytics
+Fetching URL: https://www.businesswire.com/news/home/20260217205558/en/BostonGene-Announces-Strategic-Collaboration-with-Daiichi-Sankyo-to-Accelerate-Drug-Development-Through-AI-Driven-Multimodal-Analytics
+    Skipping old article (7.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217591456/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+Fetching URL: https://www.businesswire.com/news/home/20260217591456/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+    Skipping old article (7.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217696118/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+Fetching URL: https://www.businesswire.com/news/home/20260217696118/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+    Skipping old article (7.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217427043/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+Fetching URL: https://www.businesswire.com/news/home/20260217427043/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+    Skipping old article (7.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217672423/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+Fetching URL: https://www.businesswire.com/news/home/20260217672423/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+    Skipping old article (7.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217772115/en/UnionPay-Cardholders-Gain-Access-to-Cash-at-NCR-Atleos-Cashzone-ATMs-Across-the-UK
+Fetching URL: https://www.businesswire.com/news/home/20260217772115/en/UnionPay-Cardholders-Gain-Access-to-Cash-at-NCR-Atleos-Cashzone-ATMs-Across-the-UK
+    Skipping old article (7.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217814866/en/DocGo-Announces-Upcoming-Participation-at-TD-Cowen-46th-Annual-Health-Care-Conference
+Fetching URL: https://www.businesswire.com/news/home/20260217814866/en/DocGo-Announces-Upcoming-Participation-at-TD-Cowen-46th-Annual-Health-Care-Conference
+    Skipping old article (7.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217470089/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+Fetching URL: https://www.businesswire.com/news/home/20260217470089/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+    Skipping old article (7.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217718408/en/Xeris-Biopharma-to-Report-Full-Year-2025-Financial-Results-and-Provide-Full-Year-2026-Guidance-on-March-2-2026
+Fetching URL: https://www.businesswire.com/news/home/20260217718408/en/Xeris-Biopharma-to-Report-Full-Year-2025-Financial-Results-and-Provide-Full-Year-2026-Guidance-on-March-2-2026
+    Skipping old article (7.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217034434/en/APi-Group-Provides-Update-on-2025-Performance-and-Initial-2026-Guidance
+Fetching URL: https://www.businesswire.com/news/home/20260217034434/en/APi-Group-Provides-Update-on-2025-Performance-and-Initial-2026-Guidance
+    Skipping old article (7.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217862316/en/REGENXBIO-Inc.-Sued-for-Securities-Law-Violations-%E2%80%93-Contact-the-DJS-Law-Group-to-Discuss-Your-Rights-%E2%80%93-RGNX
+Fetching URL: https://www.businesswire.com/news/home/20260217862316/en/REGENXBIO-Inc.-Sued-for-Securities-Law-Violations-–-Contact-the-DJS-Law-Group-to-Discuss-Your-Rights-–-RGNX
+    Skipping old article (7.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260216863193/en/Energy-Transfer-Reports-Fourth-Quarter-2025-Results
+Fetching URL: https://www.businesswire.com/news/home/20260216863193/en/Energy-Transfer-Reports-Fourth-Quarter-2025-Results
+    Skipping old article (31.0h old): 2026-02-16 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217141378/en/Soluna-Expands-Partnership-With-Blockware-Adding-6-MW-at-Project-Dorothy-1
+Fetching URL: https://www.businesswire.com/news/home/20260217141378/en/Soluna-Expands-Partnership-With-Blockware-Adding-6-MW-at-Project-Dorothy-1
+    Skipping old article (7.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217496573/en/A3-Presents-%E2%80%9CAge-of-Automation%E2%80%9D-a-Global-Film-Series-Produced-by-BBC-StoryWorks
+Fetching URL: https://www.businesswire.com/news/home/20260217496573/en/A3-Presents-“Age-of-Automation”-a-Global-Film-Series-Produced-by-BBC-StoryWorks
+    Skipping old article (7.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217944556/en/Sanborn-Chief-Scientist-Dr.-Srini-Dharmapuri-Named-ASPRS-Fellow-Honored-with-Society%E2%80%99s-Highest-Distinction
+Fetching URL: https://www.businesswire.com/news/home/20260217944556/en/Sanborn-Chief-Scientist-Dr.-Srini-Dharmapuri-Named-ASPRS-Fellow-Honored-with-Society’s-Highest-Distinction
+    Skipping old article (7.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217471597/en/Sherritt-Provides-an-Update-on-its-Operations
+Fetching URL: https://www.businesswire.com/news/home/20260217471597/en/Sherritt-Provides-an-Update-on-its-Operations
+    Skipping old article (7.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217295843/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+Fetching URL: https://www.businesswire.com/news/home/20260217295843/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+    Skipping old article (7.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217920152/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+Fetching URL: https://www.businesswire.com/news/home/20260217920152/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+    Skipping old article (7.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217014253/en/BX-Partners-Launches-12-Open-Architecture-Portfolio-Models-on-Nitrogen-Partner-Store
+Fetching URL: https://www.businesswire.com/news/home/20260217014253/en/BX-Partners-Launches-12-Open-Architecture-Portfolio-Models-on-Nitrogen-Partner-Store
+    Skipping old article (7.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217632574/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+Fetching URL: https://www.businesswire.com/news/home/20260217632574/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+    Skipping old article (7.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217513962/en/NeoGenomics-Reports-Fourth-Quarter-and-Full-Year-2025-Results
+Fetching URL: https://www.businesswire.com/news/home/20260217513962/en/NeoGenomics-Reports-Fourth-Quarter-and-Full-Year-2025-Results
+    Skipping old article (7.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217284269/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+Fetching URL: https://www.businesswire.com/news/home/20260217284269/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+    Skipping old article (7.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217324503/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+Fetching URL: https://www.businesswire.com/news/home/20260217324503/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+    Skipping old article (7.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217365078/en/Exchange-Income-Corporation-Announces-February-2026-Dividend
+Fetching URL: https://www.businesswire.com/news/home/20260217365078/en/Exchange-Income-Corporation-Announces-February-2026-Dividend
+    Skipping old article (7.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217021418/en/Tenax-Aerospace-and-Air-Industries-Group-Announce-Strategic-Combination-to-Form-Scaled-Aerospace-and-Defense-Platform
+Fetching URL: https://www.businesswire.com/news/home/20260217021418/en/Tenax-Aerospace-and-Air-Industries-Group-Announce-Strategic-Combination-to-Form-Scaled-Aerospace-and-Defense-Platform
+    Skipping old article (7.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260213103872/en/Amerit-Fleet-Solutions-Appoints-Adam-Lev-as-Vice-President-of-Corporate-Development-to-Accelerate-Acquisition-Strategy
+Fetching URL: https://www.businesswire.com/news/home/20260213103872/en/Amerit-Fleet-Solutions-Appoints-Adam-Lev-as-Vice-President-of-Corporate-Development-to-Accelerate-Acquisition-Strategy
+    Skipping old article (103.0h old): 2026-02-13 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217037600/en/Rising-Phoenix-Capital-Announces-Successful-Full-Cycle-Exits-Across-Multiple-Mineral-Funds-in-2025
+Fetching URL: https://www.businesswire.com/news/home/20260217037600/en/Rising-Phoenix-Capital-Announces-Successful-Full-Cycle-Exits-Across-Multiple-Mineral-Funds-in-2025
+    Skipping old article (7.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217098643/en/Janux-Therapeutics-Announces-First-Patient-Dosed-in-Phase-1-Study-of-JANX011
+Fetching URL: https://www.businesswire.com/news/home/20260217098643/en/Janux-Therapeutics-Announces-First-Patient-Dosed-in-Phase-1-Study-of-JANX011
+    Skipping old article (7.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217112800/en/Twist-Bioscience-Expands-Antibody-Discovery-Offering-with-Bispecific-Licensing-Agreement
+Fetching URL: https://www.businesswire.com/news/home/20260217112800/en/Twist-Bioscience-Expands-Antibody-Discovery-Offering-with-Bispecific-Licensing-Agreement
+    Skipping old article (7.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217174124/en/Pacific-Defense-Delivers-First-CMFF-MCI-Systems-Months-After-Award-Accelerating-U.S.-Army-CMOSS-Adoption
+Fetching URL: https://www.businesswire.com/news/home/20260217174124/en/Pacific-Defense-Delivers-First-CMFF-MCI-Systems-Months-After-Award-Accelerating-U.S.-Army-CMOSS-Adoption
+    Skipping old article (7.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217186072/en/Valmont-Reports-Fourth-Quarter-GAAP-EPS-of-9.05-and-Adjusted-EPS-of-4.92-Provides-Full-Year-2026-EPS-Outlook-of-20.50-to-23.50
+Fetching URL: https://www.businesswire.com/news/home/20260217186072/en/Valmont-Reports-Fourth-Quarter-GAAP-EPS-of-9.05-and-Adjusted-EPS-of-4.92-Provides-Full-Year-2026-EPS-Outlook-of-20.50-to-23.50
+    Skipping old article (7.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217211150/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+Fetching URL: https://www.businesswire.com/news/home/20260217211150/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+    Skipping old article (7.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217237391/en/Sunoco-LP-and-SunocoCorp-LLC-Report-Solid-Fourth-Quarter-and-Full-Year-2025-Financial-and-Operating-Results
+Fetching URL: https://www.businesswire.com/news/home/20260217237391/en/Sunoco-LP-and-SunocoCorp-LLC-Report-Solid-Fourth-Quarter-and-Full-Year-2025-Financial-and-Operating-Results
+    Skipping old article (7.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217277627/en/Deciphera-Pharmaceuticals-Announces-U.S.-Food-and-Drug-Administration-Acceptance-for-Filing-of-New-Drug-Application-for-Tirabrutinib-in-Patients-with-Relapsed-or-Refractory-PCNSL
+Fetching URL: https://www.businesswire.com/news/home/20260217277627/en/Deciphera-Pharmaceuticals-Announces-U.S.-Food-and-Drug-Administration-Acceptance-for-Filing-of-New-Drug-Application-for-Tirabrutinib-in-Patients-with-Relapsed-or-Refractory-PCNSL
+    Skipping old article (7.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217294556/en/908-Devices-to-Report-Fourth-Quarter-and-Full-Year-2025-Financial-Results-on-March-3-2026
+Fetching URL: https://www.businesswire.com/news/home/20260217294556/en/908-Devices-to-Report-Fourth-Quarter-and-Full-Year-2025-Financial-Results-on-March-3-2026
+    Skipping old article (7.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217324371/en/Suncoke-Energy-Inc.-Announces-2025-Results-and-Provides-Full-Year-2026-Guidance
+Fetching URL: https://www.businesswire.com/news/home/20260217324371/en/Suncoke-Energy-Inc.-Announces-2025-Results-and-Provides-Full-Year-2026-Guidance
+    Skipping old article (7.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217337332/en/BETA-Technologies-to-Participate-in-Citi%E2%80%99s-2026-Global-Industrial-Tech-and-Mobility-Conference
+Fetching URL: https://www.businesswire.com/news/home/20260217337332/en/BETA-Technologies-to-Participate-in-Citi’s-2026-Global-Industrial-Tech-and-Mobility-Conference
+    Skipping old article (7.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217450793/en/Starboard-Delivers-Letter-to-Tripadvisor
+Fetching URL: https://www.businesswire.com/news/home/20260217450793/en/Starboard-Delivers-Letter-to-Tripadvisor
+    Skipping old article (7.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217461205/en/Levin-Capital-Calls-on-the-MarineMax-Board-to-Immediately-Announce-a-Review-of-Strategic-Alternatives-Following-Recent-Acquisition-Offer
+Fetching URL: https://www.businesswire.com/news/home/20260217461205/en/Levin-Capital-Calls-on-the-MarineMax-Board-to-Immediately-Announce-a-Review-of-Strategic-Alternatives-Following-Recent-Acquisition-Offer
+    Skipping old article (7.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217490892/en/Wiley-to-Expand-Prestigious-Advanced-Journals-Portfolio
+Fetching URL: https://www.businesswire.com/news/home/20260217490892/en/Wiley-to-Expand-Prestigious-Advanced-Journals-Portfolio
+    Skipping old article (7.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217518244/en/Artisight-Now-Runs-Epic-MyChart-Bedside-TV-Powering-a-Fully-Connected-Smart-Hospital-Experience
+Fetching URL: https://www.businesswire.com/news/home/20260217518244/en/Artisight-Now-Runs-Epic-MyChart-Bedside-TV-Powering-a-Fully-Connected-Smart-Hospital-Experience
+    Skipping old article (7.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217522704/en/Cyera-Expands-Executive-Leadership-Appoints-Brandon-Sweeney-as-President
+Fetching URL: https://www.businesswire.com/news/home/20260217522704/en/Cyera-Expands-Executive-Leadership-Appoints-Brandon-Sweeney-as-President
+    Skipping old article (7.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217557336/en/Ascend-Elements-Announces-TDK-Ventures-as-2025-Partner-of-the-Year
+Fetching URL: https://www.businesswire.com/news/home/20260217557336/en/Ascend-Elements-Announces-TDK-Ventures-as-2025-Partner-of-the-Year
+    Skipping old article (7.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217608879/en/Impart-Launches-Programmable-Bot-Protection-Making-Enforcement-Operational-as-AI-Powered-Bot-Attacks-Surge
+Fetching URL: https://www.businesswire.com/news/home/20260217608879/en/Impart-Launches-Programmable-Bot-Protection-Making-Enforcement-Operational-as-AI-Powered-Bot-Attacks-Surge
+    Skipping old article (7.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217634495/en/AN2-Therapeutics-to-Participate-in-Fireside-Chat-at-Leerink-Global-Healthcare-Conference
+Fetching URL: https://www.businesswire.com/news/home/20260217634495/en/AN2-Therapeutics-to-Participate-in-Fireside-Chat-at-Leerink-Global-Healthcare-Conference
+    Skipping old article (7.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217647796/en/Satellos-to-Participate-in-Upcoming-Investor-Conferences
+Fetching URL: https://www.businesswire.com/news/home/20260217647796/en/Satellos-to-Participate-in-Upcoming-Investor-Conferences
+    Skipping old article (7.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217687723/en/Air-Industries-Group-Announces-Preliminary-Unaudited-Results-for-2025
+Fetching URL: https://www.businesswire.com/news/home/20260217687723/en/Air-Industries-Group-Announces-Preliminary-Unaudited-Results-for-2025
+    Skipping old article (7.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217722947/en/monday.com-Reinforces-AI-First-Work-Platform-With-Expanded-Partner-Program
+Fetching URL: https://www.businesswire.com/news/home/20260217722947/en/monday.com-Reinforces-AI-First-Work-Platform-With-Expanded-Partner-Program
+    Skipping old article (7.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217728313/en/Comcast-Classiq-and-AMD-Demonstrate-Quantum-Algorithm-for-More-Resilient-and-Reliable-Internet
+Fetching URL: https://www.businesswire.com/news/home/20260217728313/en/Comcast-Classiq-and-AMD-Demonstrate-Quantum-Algorithm-for-More-Resilient-and-Reliable-Internet
+    Skipping old article (7.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217735272/en/NationsBenefits-and-Kinney-Drugs-Partner-to-Expand-Flex-Card-Access-for-Rx-and-OTC-Health-Needs-in-New-York
+Fetching URL: https://www.businesswire.com/news/home/20260217735272/en/NationsBenefits-and-Kinney-Drugs-Partner-to-Expand-Flex-Card-Access-for-Rx-and-OTC-Health-Needs-in-New-York
+    Skipping old article (7.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217728317/en/MarketStreet-Releases-Second-National-Research-Report-on-Independent-Restaurants-Identifies-Widening-%E2%80%9CCapability-Gap%E2%80%9D-Between-Survival-and-Scale
+Fetching URL: https://www.businesswire.com/news/home/20260217728317/en/MarketStreet-Releases-Second-National-Research-Report-on-Independent-Restaurants-Identifies-Widening-“Capability-Gap”-Between-Survival-and-Scale
+    Skipping old article (7.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217796741/en/Middleby-Schedules-Fourth-Quarter-Earnings-Release-and-Conference-Call
+Fetching URL: https://www.businesswire.com/news/home/20260217796741/en/Middleby-Schedules-Fourth-Quarter-Earnings-Release-and-Conference-Call
+    Skipping old article (7.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217797349/en/FlightHub-Launches-%E2%80%9CFly-to-the-Beautiful-Game%E2%80%9D-Making-It-Easier-for-Soccer-Fans-to-Find-Flight-Deals-for-Global-Matches
+Fetching URL: https://www.businesswire.com/news/home/20260217797349/en/FlightHub-Launches-“Fly-to-the-Beautiful-Game”-Making-It-Easier-for-Soccer-Fans-to-Find-Flight-Deals-for-Global-Matches
+    Skipping old article (7.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217918278/en/Collage-Becomes-the-First-Benefits-Connected-HR-Platform-in-Canada-to-Embed-Payroll-Powered-by-Nmbr
+Fetching URL: https://www.businesswire.com/news/home/20260217918278/en/Collage-Becomes-the-First-Benefits-Connected-HR-Platform-in-Canada-to-Embed-Payroll-Powered-by-Nmbr
+    Skipping old article (7.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217810823/en/CoStar-Group-Launches-Transformative-AI-Experience-on-Homes.com-Redefining-the-Future-of-Home-Shopping
+Fetching URL: https://www.businesswire.com/news/home/20260217810823/en/CoStar-Group-Launches-Transformative-AI-Experience-on-Homes.com-Redefining-the-Future-of-Home-Shopping
+    Skipping old article (7.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217303698/en/FlightHub-Launches-Fly-to-the-Beautiful-Game-to-Help-Fans-Find-Affordable-Flights-to-Summer-Soccer-Matches
+Fetching URL: https://www.businesswire.com/news/home/20260217303698/en/FlightHub-Launches-Fly-to-the-Beautiful-Game-to-Help-Fans-Find-Affordable-Flights-to-Summer-Soccer-Matches
+    Skipping old article (7.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217920400/en/Manchester-United-plc-Announces-Second-Quarter-Fiscal-2026-Earnings-Report-Date
+Fetching URL: https://www.businesswire.com/news/home/20260217920400/en/Manchester-United-plc-Announces-Second-Quarter-Fiscal-2026-Earnings-Report-Date
+    Skipping old article (7.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217066501/en/PSQ-Holdings-Inc.-Announces-Preliminary-Fourth-Quarter-and-Year-End-2025-Financial-Results-Highlighting-Operating-Improvements-and-Strengthened-Cash-Discipline
+Fetching URL: https://www.businesswire.com/news/home/20260217066501/en/PSQ-Holdings-Inc.-Announces-Preliminary-Fourth-Quarter-and-Year-End-2025-Financial-Results-Highlighting-Operating-Improvements-and-Strengthened-Cash-Discipline
+    Skipping old article (7.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217657186/en/U.S.-Food-and-Drug-Administration-Accepts-Bristol-Myers-Squibbs-New-Drug-Application-for-Iberdomide-in-Patients-with-Relapsed-or-Refractory-Multiple-Myeloma
+Fetching URL: https://www.businesswire.com/news/home/20260217657186/en/U.S.-Food-and-Drug-Administration-Accepts-Bristol-Myers-Squibbs-New-Drug-Application-for-Iberdomide-in-Patients-with-Relapsed-or-Refractory-Multiple-Myeloma
+    Skipping old article (7.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217016688/en/Palantir-Wins-Dresner-Advisory-Services-2025-Technology-Innovation-and-Application-Innovation-Awards-in-Multiple-Categories
+Fetching URL: https://www.businesswire.com/news/home/20260217016688/en/Palantir-Wins-Dresner-Advisory-Services-2025-Technology-Innovation-and-Application-Innovation-Awards-in-Multiple-Categories
+    Skipping old article (7.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217101243/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+Fetching URL: https://www.businesswire.com/news/home/20260217101243/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+    Skipping old article (7.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217977318/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+Fetching URL: https://www.businesswire.com/news/home/20260217977318/en/First-Trust-Global-Funds-PLC-UK-Regulatory-Announcement-Net-Asset-Value-s
+    Skipping old article (7.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217810118/en/Janus-International-Group-to-Report-Fourth-Quarter-and-Full-Year-2025-Results-on-March-4-2026
+Fetching URL: https://www.businesswire.com/news/home/20260217810118/en/Janus-International-Group-to-Report-Fourth-Quarter-and-Full-Year-2025-Results-on-March-4-2026
+    Skipping old article (7.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217558380/en/USA-Compression-Partners-Reports-Fourth-Quarter-2025-Results-and-Provides-2026-Outlook-Achieves-Record-Results
+Fetching URL: https://www.businesswire.com/news/home/20260217558380/en/USA-Compression-Partners-Reports-Fourth-Quarter-2025-Results-and-Provides-2026-Outlook-Achieves-Record-Results
+    Skipping old article (7.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217776895/en/UK-Debt-Management-Office-UK-Regulatory-Announcement-Issue-of-Debt
+Fetching URL: https://www.businesswire.com/news/home/20260217776895/en/UK-Debt-Management-Office-UK-Regulatory-Announcement-Issue-of-Debt
+    Skipping old article (7.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217695698/en/Rasan-Reports-Record-FY-2025-Results-with-82-Revenue-Growth-to-SAR-653-Million-and-Adjusted-Net-Income-Nearly-Tripling
+Fetching URL: https://www.businesswire.com/news/home/20260217695698/en/Rasan-Reports-Record-FY-2025-Results-with-82-Revenue-Growth-to-SAR-653-Million-and-Adjusted-Net-Income-Nearly-Tripling
+    Skipping old article (7.0h old): 2026-02-17 00:00:00
+Fetching URLs from page: https://www.stockwatch.com/News/Search?hours=24&region=U
+Fetching URL: https://www.stockwatch.com/News/Search?hours=24&region=U
+Primed session for: https://www.stockwatch.com (status: 200)
+Found 200 URLs to process for StockWatch
+Processing: https://www.stockwatch.com/News/Item/U-CG88918-U!LMRI-20260217/U/LMRI
+Fetching URL: https://www.stockwatch.com/News/Item/U-CG88918-U!LMRI-20260217/U/LMRI
+    Article is fresh (-27.2m ago): 2026-02-17 07:30:00
+    Title: Lumexa Imaging Announces Participation in Upcoming...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260217237391-U!SUN-20260217/U/SUN
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260217237391-U!SUN-20260217/U/SUN
+    Article is fresh (2.9m ago): 2026-02-17 07:00:00
+    Title: Sunoco LP and SunocoCorp LLC Report Solid Fourth Q...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-PH89257-U!CPK-20260217/U/CPK
+Fetching URL: https://www.stockwatch.com/News/Item/U-PH89257-U!CPK-20260217/U/CPK
+    Article is fresh (-57.1m ago): 2026-02-17 08:00:00
+    Title: Chesapeake Utilities to Host its Fourth Quarter an...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-by1137802-U!FCUL-20260217/U/FCUL
+Fetching URL: https://www.stockwatch.com/News/Item/U-by1137802-U!FCUL-20260217/U/FCUL
+    Article is fresh (-57.1m ago): 2026-02-17 08:00:00
+    Title: Food Culture Inc. Secures US$1 Million Commercial ...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260217056162-U!CELH-20260217/U/CELH
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260217056162-U!CELH-20260217/U/CELH
+    Article is fresh (-57.0m ago): 2026-02-17 08:00:00
+    Title: Celsius Holdings to Participate in Upcoming Invest...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9655627-U!VTAK-20260217/U/VTAK
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9655627-U!VTAK-20260217/U/VTAK
+    Article is fresh (-42.0m ago): 2026-02-17 07:45:00
+    Title: VTAK Acquires 19.98% Strategic Stake in AI-Enabled...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-284093-U!NZAUF-20260217/U/NZAUF
+Fetching URL: https://www.stockwatch.com/News/Item/U-284093-U!NZAUF-20260217/U/NZAUF
+    Article is fresh (1.0m ago): 2026-02-17 07:02:00
+    Title: RUA GOLD Approved to List on the New Zealand Stock...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-C6945-U!THSGF-20260217/U/THSGF
+Fetching URL: https://www.stockwatch.com/News/Item/U-C6945-U!THSGF-20260217/U/THSGF
+    Article is fresh (3.1m ago): 2026-02-17 07:00:00
+    Title: Thesis Gold Rebrands to Thesis Gold &amp; Silver...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-NE89344-U!CNX-20260217/U/CNX
+Fetching URL: https://www.stockwatch.com/News/Item/U-NE89344-U!CNX-20260217/U/CNX
+    Article is fresh (-48.9m ago): 2026-02-17 07:52:00
+    Title: CNX Resources Corporation Announces Private Offeri...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-284042-U!LITM-20260217/U/LITM
+Fetching URL: https://www.stockwatch.com/News/Item/U-284042-U!LITM-20260217/U/LITM
+    Article is fresh (-27.9m ago): 2026-02-17 07:31:00
+    Title: Snow Lake Energy Issues Letter to Shareholders...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9655661-U!NTRB-20260217/U/NTRB
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9655661-U!NTRB-20260217/U/NTRB
+    Article is fresh (3.2m ago): 2026-02-17 07:00:00
+    Title: Nutriband Signs Exclusive Distribution Agreement w...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-CG88492-U!JNJ-20260217/U/JNJ
+Fetching URL: https://www.stockwatch.com/News/Item/U-CG88492-U!JNJ-20260217/U/JNJ
+    Article is fresh (-56.8m ago): 2026-02-17 08:00:00
+    Title: FDA approves RYBREVANT FASPRO™ (amivantamab and hy...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9655749-U!NTRB-20260217/U/NTRB
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9655749-U!NTRB-20260217/U/NTRB
+    Article is fresh (-24.7m ago): 2026-02-17 07:28:00
+    Skipping duplicate title: Nutriband Signs Exclusive Distribution Agreement w...
+Processing: https://www.stockwatch.com/News/Item/U-b20260217513962-U!NEO-20260217/U/NEO
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260217513962-U!NEO-20260217/U/NEO
+    Article is fresh (-1.7m ago): 2026-02-17 07:05:00
+    Title: NeoGenomics Reports Fourth Quarter and Full Year 2...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9655735-U!ASPI-20260217/U/ASPI
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9655735-U!ASPI-20260217/U/ASPI
+    Article is fresh (-26.7m ago): 2026-02-17 07:30:00
+    Title: ASP Isotopes Announces Quantum Leap Energy to Esta...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-283847-U!PSSOF-20260217/U/PSSOF
+Fetching URL: https://www.stockwatch.com/News/Item/U-283847-U!PSSOF-20260217/U/PSSOF
+    Article is fresh (-27.6m ago): 2026-02-17 07:31:00
+    Title: PesoRama Announces Grand Opening of Stores #32, #3...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-by1137667-U!BGSF-20260217/U/BGSF
+Fetching URL: https://www.stockwatch.com/News/Item/U-by1137667-U!BGSF-20260217/U/BGSF
+    Article is fresh (-56.6m ago): 2026-02-17 08:00:00
+    Title: BGSF, Inc. Expands PropTech Services by Joining Ya...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260217294556-U!MASS-20260217/U/MASS
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260217294556-U!MASS-20260217/U/MASS
+    Article is fresh (3.4m ago): 2026-02-17 07:00:00
+    Title: 908 Devices to Report Fourth Quarter and Full Year...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9655368-U!BCTX-20260217/U/BCTX
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9655368-U!BCTX-20260217/U/BCTX
+    Article is fresh (-26.5m ago): 2026-02-17 07:30:00
+    Title: BriaCell Receives Positive Recommendation from Dat...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9655765-U!ERDCF-20260217/U/ERDCF
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9655765-U!ERDCF-20260217/U/ERDCF
+    Article is fresh (-51.5m ago): 2026-02-17 07:55:00
+    Title: Erdene Expands Mineralization at Zuun Mod Molybede...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9654891-U!VRRCF-20260217/U/VRRCF
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654891-U!VRRCF-20260217/U/VRRCF
+    Article is fresh (3.6m ago): 2026-02-17 07:00:00
+    Title: DCIP Geophysical Survey Underway on VR’s Bonita Po...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-C5710-U!NILTF-20260217/U/NILTF
+Fetching URL: https://www.stockwatch.com/News/Item/U-C5710-U!NILTF-20260217/U/NILTF
+    Article is fresh (3.6m ago): 2026-02-17 07:00:00
+    Title: NiCAN Intersects 1.54% Nickel over 1.45 Meters on ...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9654802-U!CRON-20260217/U/CRON
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654802-U!CRON-20260217/U/CRON
+    Article is fresh (-26.3m ago): 2026-02-17 07:30:00
+    Title: Cronos Launches New All-in-One Vape, Spinach PUFFE...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260217034434-U!APG-20260217/U/APG
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260217034434-U!APG-20260217/U/APG
+    Article is fresh (-26.3m ago): 2026-02-17 07:30:00
+    Title: APi Group Provides Update on 2025 Performance and ...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9655621-U!MAXXF-20260217/U/MAXXF
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9655621-U!MAXXF-20260217/U/MAXXF
+    Article is fresh (-26.3m ago): 2026-02-17 07:30:00
+    Title: MAX Power Ramps Up Next Phase for Lawson Natural H...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9654940-U!OTCM-20260217/U/OTCM
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654940-U!OTCM-20260217/U/OTCM
+    Article is fresh (3.8m ago): 2026-02-17 07:00:00
+    Title: OTC Markets Group Welcomes Goliath Resources Ltd. ...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9654888-U!CERO-20260217/U/CERO
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654888-U!CERO-20260217/U/CERO
+    Article is fresh (-56.2m ago): 2026-02-17 08:00:00
+    Title: CERo Therapeutics Announces Biotech Industry Veter...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-LA88957-U!HURA-20260217/U/HURA
+Fetching URL: https://www.stockwatch.com/News/Item/U-LA88957-U!HURA-20260217/U/HURA
+    Article is fresh (-41.2m ago): 2026-02-17 07:45:00
+    Title: TuHURA Files Investigational New Drug Application ...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-283925-U!BKUCF-20260217/U/BKUCF
+Fetching URL: https://www.stockwatch.com/News/Item/U-283925-U!BKUCF-20260217/U/BKUCF
+    Article is fresh (1.9m ago): 2026-02-17 07:02:00
+    Title: Blue Sky Uranium Reports Detailed Modelling of Hig...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9654811-U!OXLC-20260217/U/OXLC
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654811-U!OXLC-20260217/U/OXLC
+    Article is fresh (-56.1m ago): 2026-02-17 08:00:00
+    Title: Oxford Lane Capital Corp. Provides January 2026 Ne...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9655468-U!CYTK-20260217/U/CYTK
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9655468-U!CYTK-20260217/U/CYTK
+    Article is fresh (-26.0m ago): 2026-02-17 07:30:00
+    Title: Cytokinetics Announces European Commission Approva...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9655424-U!BWMN-20260217/U/BWMN
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9655424-U!BWMN-20260217/U/BWMN
+    Article is fresh (-26.0m ago): 2026-02-17 07:30:00
+    Title: Bowman Announces Retirement Plan for Founder and C...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9654635-U!CUE-20260217/U/CUE
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654635-U!CUE-20260217/U/CUE
+    Article is fresh (-55.9m ago): 2026-02-17 08:00:00
+    Title: Cue Biopharma Announces Preclinical Safety and Tol...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-by1138027-U!TT-20260217/U/TT
+Fetching URL: https://www.stockwatch.com/News/Item/U-by1138027-U!TT-20260217/U/TT
+    Article is fresh (-55.9m ago): 2026-02-17 08:00:00
+    Title: Turning Decarbonization Into a Long-Term Business ...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-284034-U!NILIF-20260217/U/NILIF
+Fetching URL: https://www.stockwatch.com/News/Item/U-284034-U!NILIF-20260217/U/NILIF
+    Article is fresh (2.1m ago): 2026-02-17 07:02:00
+    Title: Surge Continues to Encounter Robust Lithium Grades...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9655229-U!KTTA-20260217/U/KTTA
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9655229-U!KTTA-20260217/U/KTTA
+    Article is fresh (3.2m ago): 2026-02-17 07:01:00
+    Title: Pasithea Therapeutics to Present at the Oppenheime...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260217437075-U!LUMN-20260217/U/LUMN
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260217437075-U!LUMN-20260217/U/LUMN
+    Article is fresh (-55.8m ago): 2026-02-17 08:00:00
+    Title: Lumen Targets AI Bottlenecks with New Multi-Cloud ...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-CG76698-U!ROK-20260217/U/ROK
+Fetching URL: https://www.stockwatch.com/News/Item/U-CG76698-U!ROK-20260217/U/ROK
+    Article is fresh (4.3m ago): 2026-02-17 07:00:00
+    Title: Rockwell Automation Cuts Maintenance Costs, Finds ...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-s0154139-U!VPLM-20260217/U/VPLM
+Fetching URL: https://www.stockwatch.com/News/Item/U-s0154139-U!VPLM-20260217/U/VPLM
+    Warning: Date extraction failed despite configuration.
+    No title found
+Processing: https://www.stockwatch.com/News/Item/U-by1137818-U!SDCH-20260217/U/SDCH
+Fetching URL: https://www.stockwatch.com/News/Item/U-by1137818-U!SDCH-20260217/U/SDCH
+    Article is fresh (-25.7m ago): 2026-02-17 07:30:00
+    Title: SideChannel Reports FY 2026 First Quarter Results...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z1001165114-U!MYNZ-20260217/U/MYNZ
+Fetching URL: https://www.stockwatch.com/News/Item/U-z1001165114-U!MYNZ-20260217/U/MYNZ
+    Article is fresh (-25.6m ago): 2026-02-17 07:30:00
+    Title: Mainz Biomed Announces 6.0 USD Million Private Pla...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-CN88418-U!LU-20260217/U/LU
+Fetching URL: https://www.stockwatch.com/News/Item/U-CN88418-U!LU-20260217/U/LU
+    Article is fresh (-15.6m ago): 2026-02-17 07:20:00
+    Title: Lufax Announces Changes of Directors and Senior Ma...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-by1137349-U!LOOP-20260217/U/LOOP
+Fetching URL: https://www.stockwatch.com/News/Item/U-by1137349-U!LOOP-20260217/U/LOOP
+    Article is fresh (-55.6m ago): 2026-02-17 08:00:00
+    Title: Loop Industries' European Joint Venture Selects BA...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260217021418-U!AIRI-20260217/U/AIRI
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260217021418-U!AIRI-20260217/U/AIRI
+    Article is fresh (3.5m ago): 2026-02-17 07:01:00
+    Title: Tenax Aerospace and Air Industries Group Announce ...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260217906369-U!NET-20260217/U/NET
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260217906369-U!NET-20260217/U/NET
+    Article is fresh (-55.5m ago): 2026-02-17 08:00:00
+    Title: Cloudflare and Mastercard Partner to Extend Compre...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260217824108-U!GHM-20260217/U/GHM
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260217824108-U!GHM-20260217/U/GHM
+    Article is fresh (-55.5m ago): 2026-02-17 08:00:00
+    Title: Graham Corporation Announces Appointment of Willia...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9655752-U!FUSE-20260217/U/FUSE
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9655752-U!FUSE-20260217/U/FUSE
+    Article is fresh (-40.4m ago): 2026-02-17 07:45:00
+    Title: Fusemachines Launches 9th Year of AI Fellowship Pr...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9655303-U!FCN-20260217/U/FCN
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9655303-U!FCN-20260217/U/FCN
+    Article is fresh (-25.4m ago): 2026-02-17 07:30:00
+    Title: Survey Reveals Lender Concern with Fraud, Defaults...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9655592-U!ZENA-20260217/U/ZENA
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9655592-U!ZENA-20260217/U/ZENA
+    Article is fresh (-25.4m ago): 2026-02-17 07:30:00
+    Title: ZenaTech Advances its Autonomous AI Drone Power Wa...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9655765-U!ERDC-20260217/U/ERDC
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9655765-U!ERDC-20260217/U/ERDC
+    Article is fresh (-50.3m ago): 2026-02-17 07:55:00
+    Skipping duplicate title: Erdene Expands Mineralization at Zuun Mod Molybede...
+Processing: https://www.stockwatch.com/News/Item/U-284120-U!SSPLF-20260217/U/SSPLF
+Fetching URL: https://www.stockwatch.com/News/Item/U-284120-U!SSPLF-20260217/U/SSPLF
+    Article is fresh (-8.3m ago): 2026-02-17 07:13:00
+    Title: Safe Supply Announces Sale of Two NIRLAB Drug Anal...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-283872-U!OPTHF-20260217/U/OPTHF
+Fetching URL: https://www.stockwatch.com/News/Item/U-283872-U!OPTHF-20260217/U/OPTHF
+    Article is fresh (2.8m ago): 2026-02-17 07:02:00
+    Title: Optimi Health Reports First MDMA-Assisted Treatmen...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-LN89305-U!SCNI-20260217/U/SCNI
+Fetching URL: https://www.stockwatch.com/News/Item/U-LN89305-U!SCNI-20260217/U/SCNI
+    Article is fresh (4.8m ago): 2026-02-17 07:00:00
+    Title: Scinai Announces Completion of Acquisition of Reci...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9655553-U!KNBIF-20260217/U/KNBIF
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9655553-U!KNBIF-20260217/U/KNBIF
+    Article is fresh (-20.2m ago): 2026-02-17 07:25:00
+    Title: Kane Biotech Announces FDA 510(k) Clearance for re...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9655401-U!GTBP-20260217/U/GTBP
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9655401-U!GTBP-20260217/U/GTBP
+    Article is fresh (-25.1m ago): 2026-02-17 07:30:00
+    Title: GT Biopharma to Present at the Centurion One Capit...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-NY89349-U!ATNM-20260217/U/ATNM
+Fetching URL: https://www.stockwatch.com/News/Item/U-NY89349-U!ATNM-20260217/U/ATNM
+    Article is fresh (-37.1m ago): 2026-02-17 07:42:00
+    Title: Actinium Pharmaceuticals, Inc. to Present Two Abst...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260217237391-U!SUNC-20260217/U/SUNC
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260217237391-U!SUNC-20260217/U/SUNC
+    Article is fresh (4.9m ago): 2026-02-17 07:00:00
+    Skipping duplicate title: Sunoco LP and SunocoCorp LLC Report Solid Fourth Q...
+Processing: https://www.stockwatch.com/News/Item/U-CL88894-U!VMC-20260217/U/VMC
+Fetching URL: https://www.stockwatch.com/News/Item/U-CL88894-U!VMC-20260217/U/VMC
+    Article is fresh (5.0m ago): 2026-02-17 07:00:00
+    Title: VULCAN REPORTS FOURTH QUARTER AND FULL YEAR 2025 R...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9654679-U!CMLS-20260217/U/CMLS
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654679-U!CMLS-20260217/U/CMLS
+    Article is fresh (-55.0m ago): 2026-02-17 08:00:00
+    Title: Mark Levin to Launch New Vodcast Series Across You...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260217162426-U!VAL-20260217/U/VAL
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260217162426-U!VAL-20260217/U/VAL
+    Article is fresh (-55.0m ago): 2026-02-17 08:00:00
+    Title: Valaris Reschedules Fourth Quarter 2025 Earnings R...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-284128-U!AGLDF-20260217/U/AGLDF
+Fetching URL: https://www.stockwatch.com/News/Item/U-284128-U!AGLDF-20260217/U/AGLDF
+    Article is fresh (-5.9m ago): 2026-02-17 07:11:00
+    Title: Austral Gold Announces A$8.456 million Strategic P...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-NY88363-U!SSTK-20260217/U/SSTK
+Fetching URL: https://www.stockwatch.com/News/Item/U-NY88363-U!SSTK-20260217/U/SSTK
+    Article is fresh (3.1m ago): 2026-02-17 07:02:00
+    Title: Shutterstock Reports Full Year 2025 and Fourth Qua...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9655561-U!SAIC-20260217/U/SAIC
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9655561-U!SAIC-20260217/U/SAIC
+    Article is fresh (-9.8m ago): 2026-02-17 07:15:00
+    Title: SAIC Announces CEO Appointment...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260217273895-U!BIAF-20260217/U/BIAF
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260217273895-U!BIAF-20260217/U/BIAF
+    Article is fresh (-54.8m ago): 2026-02-17 08:00:00
+    Title: Clinical Utility of bioAffinity Technologies' CyPa...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-HK89315-U!HKD-20260217/U/HKD
+Fetching URL: https://www.stockwatch.com/News/Item/U-HK89315-U!HKD-20260217/U/HKD
+    Article is fresh (-24.7m ago): 2026-02-17 07:30:00
+    Title: TGE's Latest Movie "Scare Out" Surpasses US$ 14.5 ...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9655599-U!WTHVF-20260217/U/WTHVF
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9655599-U!WTHVF-20260217/U/WTHVF
+    Article is fresh (5.3m ago): 2026-02-17 07:00:00
+    Title: Westhaven Launches 50,000m 2026 Drill Program at t...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-284009-U!DTARF-20260217/U/DTARF
+Fetching URL: https://www.stockwatch.com/News/Item/U-284009-U!DTARF-20260217/U/DTARF
+    Article is fresh (4.3m ago): 2026-02-17 07:01:00
+    Title: Delta Resources Announces Closing of the Delta-2 O...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9655535-U!DYAI-20260217/U/DYAI
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9655535-U!DYAI-20260217/U/DYAI
+    Article is fresh (-19.6m ago): 2026-02-17 07:25:00
+    Title: Dyadic Applied BioSolutions and Proliant Health &a...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-CN88327-U!LU-20260217/U/LU
+Fetching URL: https://www.stockwatch.com/News/Item/U-CN88327-U!LU-20260217/U/LU
+    Article is fresh (-14.6m ago): 2026-02-17 07:20:00
+    Title: Lufax Announces Filing of Its Annual Report on For...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-SF89246-U!NFLX-20260217/U/NFLX
+Fetching URL: https://www.stockwatch.com/News/Item/U-SF89246-U!NFLX-20260217/U/NFLX
+    Article is fresh (2.5m ago): 2026-02-17 07:03:00
+    Title: WBD Files Definitive Proxy Statement and Schedules...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-284032-U!NYWKF-20260217/U/NYWKF
+Fetching URL: https://www.stockwatch.com/News/Item/U-284032-U!NYWKF-20260217/U/NYWKF
+    Article is fresh (4.5m ago): 2026-02-17 07:01:00
+    Title: NTG Clarity Announces Work Valued at $14.1M and Ne...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260217906369-U!MA-20260217/U/MA
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260217906369-U!MA-20260217/U/MA
+    Article is fresh (-54.4m ago): 2026-02-17 08:00:00
+    Skipping duplicate title: Cloudflare and Mastercard Partner to Extend Compre...
+Processing: https://www.stockwatch.com/News/Item/U-VA88370-U!THSGF-20260217/U/THSGF
+Fetching URL: https://www.stockwatch.com/News/Item/U-VA88370-U!THSGF-20260217/U/THSGF
+    Article is fresh (5.6m ago): 2026-02-17 07:00:00
+    Skipping duplicate title: Thesis Gold Rebrands to Thesis Gold &amp; Silver...
+Processing: https://www.stockwatch.com/News/Item/U-b20260217718408-U!XERS-20260217/U/XERS
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260217718408-U!XERS-20260217/U/XERS
+    Article is fresh (-24.4m ago): 2026-02-17 07:30:00
+    Title: Xeris Biopharma to Report Full Year 2025 Financial...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-C2208-U!NFLX-20260217/U/NFLX
+Fetching URL: https://www.stockwatch.com/News/Item/U-C2208-U!NFLX-20260217/U/NFLX
+    Article is fresh (2.7m ago): 2026-02-17 07:03:00
+    Skipping duplicate title: WBD Files Definitive Proxy Statement and Schedules...
+Processing: https://www.stockwatch.com/News/Item/U-283947-U!SMDRF-20260217/U/SMDRF
+Fetching URL: https://www.stockwatch.com/News/Item/U-283947-U!SMDRF-20260217/U/SMDRF
+    Article is fresh (3.7m ago): 2026-02-17 07:02:00
+    Title: Sierra Madre Provides Update on Production Expansi...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9655722-U!TGTX-20260217/U/TGTX
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9655722-U!TGTX-20260217/U/TGTX
+    Article is fresh (-24.2m ago): 2026-02-17 07:30:00
+    Title: Long Term Data Published in JAMA Neurology Demonst...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-by1137923-U!GAME-20260217/U/GAME
+Fetching URL: https://www.stockwatch.com/News/Item/U-by1137923-U!GAME-20260217/U/GAME
+    Article is fresh (-54.2m ago): 2026-02-17 08:00:00
+    Title: FaZe Esports, a GameSquare Company, Wins Back-to-B...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9655741-U!GILT-20260217/U/GILT
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9655741-U!GILT-20260217/U/GILT
+    Article is fresh (3.8m ago): 2026-02-17 07:02:00
+    Title: Gilat Receives $9 Million Order for Defense SATCOM...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-by1137991-U!ESAUF-20260217/U/ESAUF
+Fetching URL: https://www.stockwatch.com/News/Item/U-by1137991-U!ESAUF-20260217/U/ESAUF
+    Article is fresh (-24.1m ago): 2026-02-17 07:30:00
+    Title: ESGold Appoints Galen Carson to Advisory Board...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-284119-U!SROYF-20260217/U/SROYF
+Fetching URL: https://www.stockwatch.com/News/Item/U-284119-U!SROYF-20260217/U/SROYF
+    Article is fresh (3.9m ago): 2026-02-17 07:02:00
+    Title: Sailfish Enters into Amended Agreements with Mako ...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-NY89242-U!THAR-20260217/U/THAR
+Fetching URL: https://www.stockwatch.com/News/Item/U-NY89242-U!THAR-20260217/U/THAR
+    Article is fresh (-4.1m ago): 2026-02-17 07:10:00
+    Title: Tharimmune, Inc. Announces Corporate Rebrand to Ca...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9655593-U!NIOMF-20260217/U/NIOMF
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9655593-U!NIOMF-20260217/U/NIOMF
+    Article is fresh (-24.0m ago): 2026-02-17 07:30:00
+    Title: North American Niobium Highlights 0.150% Nb₂O₅ wit...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9655624-U!HELP-20260217/U/HELP
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9655624-U!HELP-20260217/U/HELP
+    Article is fresh (-24.0m ago): 2026-02-17 07:30:00
+    Title: Nature Medicine Publishes Helus Pharma’s Randomize...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-NY89335-U!KD-20260217/U/KD
+Fetching URL: https://www.stockwatch.com/News/Item/U-NY89335-U!KD-20260217/U/KD
+    Article is fresh (-21.0m ago): 2026-02-17 07:27:00
+    Title: Kyndryl Announces Filing of Form 10-Q for Quarter ...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9655421-U!HLMN-20260217/U/HLMN
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9655421-U!HLMN-20260217/U/HLMN
+    Article is fresh (-23.9m ago): 2026-02-17 07:30:00
+    Title: Hillman Reports Fourth Quarter and Record Full Yea...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-HK89315-U!AMTD-20260217/U/AMTD
+Fetching URL: https://www.stockwatch.com/News/Item/U-HK89315-U!AMTD-20260217/U/AMTD
+    Article is fresh (-23.9m ago): 2026-02-17 07:30:00
+    Skipping duplicate title: TGE's Latest Movie "Scare Out" Surpasses US$ 14.5 ...
+Processing: https://www.stockwatch.com/News/Item/U-z9653807-U!OTCM-20260217/U/OTCM
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9653807-U!OTCM-20260217/U/OTCM
+    Article is fresh (6.2m ago): 2026-02-17 07:00:00
+    Title: OTC Markets Group Welcomes Ballston Spa Bancorp, I...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-NY88673-U!WAY-20260217/U/WAY
+Fetching URL: https://www.stockwatch.com/News/Item/U-NY88673-U!WAY-20260217/U/WAY
+    Article is fresh (6.2m ago): 2026-02-17 07:00:00
+    Title: Waystar Reports Fourth Quarter and Fiscal Year 202...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-283484-U!CROMF-20260217/U/CROMF
+Fetching URL: https://www.stockwatch.com/News/Item/U-283484-U!CROMF-20260217/U/CROMF
+    Article is fresh (-24.8m ago): 2026-02-17 07:31:00
+    Title: Crombie REIT Announces February 2026 Monthly Distr...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-284131-U!HLEO-20260217/U/HLEO
+Fetching URL: https://www.stockwatch.com/News/Item/U-284131-U!HLEO-20260217/U/HLEO
+    Article is fresh (-14.7m ago): 2026-02-17 07:21:00
+    Title: Helio Corporation Expands Capital Markets Outreach...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9654850-U!BBBXF-20260217/U/BBBXF
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654850-U!BBBXF-20260217/U/BBBXF
+    Article is fresh (-23.7m ago): 2026-02-17 07:30:00
+    Title: Brixton Metals Corporation Announces Share Consoli...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-284020-U!ABBRF-20260217/U/ABBRF
+Fetching URL: https://www.stockwatch.com/News/Item/U-284020-U!ABBRF-20260217/U/ABBRF
+    Article is fresh (-24.7m ago): 2026-02-17 07:31:00
+    Title: AbraSilver Consolidates Diablillos Footprint with ...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260217528691-U!CTOS-20260217/U/CTOS
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260217528691-U!CTOS-20260217/U/CTOS
+    Article is fresh (-53.6m ago): 2026-02-17 08:00:00
+    Title: Custom Truck One Source Announces Fourth Quarter a...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-284076-U!ZEFIF-20260217/U/ZEFIF
+Fetching URL: https://www.stockwatch.com/News/Item/U-284076-U!ZEFIF-20260217/U/ZEFIF
+    Article is fresh (-24.6m ago): 2026-02-17 07:31:00
+    Title: Zefiro Methane Corp. Announces Fiscal Q2 2026 Resu...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-by1137915-U!CBLO-20260217/U/CBLO
+Fetching URL: https://www.stockwatch.com/News/Item/U-by1137915-U!CBLO-20260217/U/CBLO
+    Article is fresh (-53.5m ago): 2026-02-17 08:00:00
+    Title: C2 Blockchain Reports Increase in DOG (Bitcoin) Ho...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-284057-U!SCTSF-20260217/U/SCTSF
+Fetching URL: https://www.stockwatch.com/News/Item/U-284057-U!SCTSF-20260217/U/SCTSF
+    Article is fresh (-24.5m ago): 2026-02-17 07:31:00
+    Title: Scottie Resources Demonstrates More High-Grade Con...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-C4799-U!INFY-20260217/U/INFY
+Fetching URL: https://www.stockwatch.com/News/Item/U-C4799-U!INFY-20260217/U/INFY
+    Article is fresh (-42.5m ago): 2026-02-17 07:49:00
+    Title: Infosys Unveils AI First Value Framework: Uniquely...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9654699-U!SOMC-20260217/U/SOMC
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654699-U!SOMC-20260217/U/SOMC
+    Article is fresh (-33.4m ago): 2026-02-17 07:40:00
+    Title: Southern Michigan Bancorp, Inc. Announces Fourth Q...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-284026-U!PCLOF-20260217/U/PCLOF
+Fetching URL: https://www.stockwatch.com/News/Item/U-284026-U!PCLOF-20260217/U/PCLOF
+    Article is fresh (-39.4m ago): 2026-02-17 07:46:00
+    Title: PharmaCielo Announces Annual General Meeting and I...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9655637-U!TRWD-20260217/U/TRWD
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9655637-U!TRWD-20260217/U/TRWD
+    Article is fresh (-23.3m ago): 2026-02-17 07:30:00
+    Title: Tradewinds Universal Secures $10 Million Equity Li...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260217497291-U!HMN-20260217/U/HMN
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260217497291-U!HMN-20260217/U/HMN
+    Article is fresh (-53.3m ago): 2026-02-17 08:00:00
+    Title: Horace Mann Launches Exclusive Program that Offers...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-C7128-U!SUUN-20260217/U/SUUN
+Fetching URL: https://www.stockwatch.com/News/Item/U-C7128-U!SUUN-20260217/U/SUUN
+    Article is fresh (-0.2m ago): 2026-02-17 07:07:00
+    Title: PowerBank Shares 2025 Highlights and 2026 Updates...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260217796741-U!MIDD-20260217/U/MIDD
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260217796741-U!MIDD-20260217/U/MIDD
+    Article is fresh (6.8m ago): 2026-02-17 07:00:00
+    Title: Middleby Schedules Fourth Quarter Earnings Release...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260217765567-U!SN-20260217/U/SN
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260217765567-U!SN-20260217/U/SN
+    Article is fresh (-50.2m ago): 2026-02-17 07:57:00
+    Title: SharkNinja Introduces Shark(TM) SilkiPro(TM) Strai...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9655574-U!KBLB-20260217/U/KBLB
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9655574-U!KBLB-20260217/U/KBLB
+    Article is fresh (1.8m ago): 2026-02-17 07:05:00
+    Title: Kraig Biocraft Laboratories Activates First Wave o...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-HK89315-U!TGE-20260217/U/TGE
+Fetching URL: https://www.stockwatch.com/News/Item/U-HK89315-U!TGE-20260217/U/TGE
+    Article is fresh (-23.1m ago): 2026-02-17 07:30:00
+    Skipping duplicate title: TGE's Latest Movie "Scare Out" Surpasses US$ 14.5 ...
+Processing: https://www.stockwatch.com/News/Item/U-z1001164847-U!NSRX-20260217/U/NSRX
+Fetching URL: https://www.stockwatch.com/News/Item/U-z1001164847-U!NSRX-20260217/U/NSRX
+    Article is fresh (-53.1m ago): 2026-02-17 08:00:00
+    Title: Nasus Pharma to Present Data Highlighting Superior...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9655604-U!WSO-20260217/U/WSO
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9655604-U!WSO-20260217/U/WSO
+    Article is fresh (-23.1m ago): 2026-02-17 07:30:00
+    Title: Watsco Reports Record Full-Year Gross Margin, Meet...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9654221-U!SMTI-20260217/U/SMTI
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654221-U!SMTI-20260217/U/SMTI
+    Article is fresh (-23.1m ago): 2026-02-17 07:30:00
+    Title: Sanara MedTech Inc. to Participate in the TD Cowen...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260217726277-U!RVTY-20260217/U/RVTY
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260217726277-U!RVTY-20260217/U/RVTY
+    Article is fresh (-53.0m ago): 2026-02-17 08:00:00
+    Title: Revvity to Present at Upcoming Investor Conference...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-TO88432-U!AB-20260217/U/AB
+Fetching URL: https://www.stockwatch.com/News/Item/U-TO88432-U!AB-20260217/U/AB
+    Article is fresh (-23.0m ago): 2026-02-17 07:30:00
+    Title: AllianceBernstein selects SimCorp One technology p...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-284094-U!TLTFF-20260217/U/TLTFF
+Fetching URL: https://www.stockwatch.com/News/Item/U-284094-U!TLTFF-20260217/U/TLTFF
+    Article is fresh (5.1m ago): 2026-02-17 07:02:00
+    Title: Theralase Bladder Cancer Clinical Data to be Prese...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-by1137503-U!AIMD-20260217/U/AIMD
+Fetching URL: https://www.stockwatch.com/News/Item/U-by1137503-U!AIMD-20260217/U/AIMD
+    Article is fresh (-52.9m ago): 2026-02-17 08:00:00
+    Title: Ainos Reports Statistically Significant Interim Ef...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260217306399-U!ACNT-20260217/U/ACNT
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260217306399-U!ACNT-20260217/U/ACNT
+    Article is fresh (-52.8m ago): 2026-02-17 08:00:00
+    Title: Ascent Industries Sets Fourth Quarter 2025 Earning...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-DA89274-U!NOMA-20260217/U/NOMA
+Fetching URL: https://www.stockwatch.com/News/Item/U-DA89274-U!NOMA-20260217/U/NOMA
+    Article is fresh (-52.8m ago): 2026-02-17 08:00:00
+    Title: Nomadar Launches Our XI, A Digital Education Platf...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9654664-U!CRBAF-20260217/U/CRBAF
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654664-U!CRBAF-20260217/U/CRBAF
+    Article is fresh (-52.8m ago): 2026-02-17 08:00:00
+    Title: Agereh Secures First Commercial Customer with Mult...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-284109-U!CSRNF-20260217/U/CSRNF
+Fetching URL: https://www.stockwatch.com/News/Item/U-284109-U!CSRNF-20260217/U/CSRNF
+    Article is fresh (5.3m ago): 2026-02-17 07:02:00
+    Title: Canstar Enters into Binding Letter of Intent for G...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-PH89214-U!PSKY-20260217/U/PSKY
+Fetching URL: https://www.stockwatch.com/News/Item/U-PH89214-U!PSKY-20260217/U/PSKY
+    Article is fresh (7.3m ago): 2026-02-17 07:00:00
+    Title: Warner Bros. Discovery Sets Special Meeting Date o...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-by1137703-U!CBDW-20260217/U/CBDW
+Fetching URL: https://www.stockwatch.com/News/Item/U-by1137703-U!CBDW-20260217/U/CBDW
+    Article is fresh (-52.7m ago): 2026-02-17 08:00:00
+    Title: 1606 Corp. (OTC:CBDW) Enters into Term Sheet to Ac...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-C8665-U!LBCMF-20260217/U/LBCMF
+Fetching URL: https://www.stockwatch.com/News/Item/U-C8665-U!LBCMF-20260217/U/LBCMF
+    Article is fresh (-22.6m ago): 2026-02-17 07:30:00
+    Title: Copper Giant Announces the 2026 Exploration Plan, ...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260217098217-U!KEYS-20260217/U/KEYS
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260217098217-U!KEYS-20260217/U/KEYS
+    Article is fresh (-52.6m ago): 2026-02-17 08:00:00
+    Title: Spirent Introduces First Domain-Trained Agentic AI...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260217141378-U!SLNH-20260217/U/SLNH
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260217141378-U!SLNH-20260217/U/SLNH
+    Article is fresh (-22.5m ago): 2026-02-17 07:30:00
+    Title: Soluna Expands Partnership With Blockware, Adding ...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9655347-U!AMAT-20260217/U/AMAT
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9655347-U!AMAT-20260217/U/AMAT
+    Article is fresh (-22.5m ago): 2026-02-17 07:30:00
+    Title: Applied Materials to Participate in Upcoming Inves...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260217853810-U!CZZLF-20260217/U/CZZLF
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260217853810-U!CZZLF-20260217/U/CZZLF
+    Article is fresh (-42.4m ago): 2026-02-17 07:50:00
+    Title: Cizzle Brands Corporation Announces U.S. Retail Ex...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-C5823-U!T-20260217/U/T
+Fetching URL: https://www.stockwatch.com/News/Item/U-C5823-U!T-20260217/U/T
+    Article is fresh (7.6m ago): 2026-02-17 07:00:00
+    Title: AT&amp;T to Webcast Fireside Chats with CFO and CO...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-s0154138-U!VPLM-20260217/U/VPLM
+Fetching URL: https://www.stockwatch.com/News/Item/U-s0154138-U!VPLM-20260217/U/VPLM
+    Warning: Date extraction failed despite configuration.
+    No title found
+Processing: https://www.stockwatch.com/News/Item/U-b20260217563763-U!CFG-20260217/U/CFG
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260217563763-U!CFG-20260217/U/CFG
+    Article is fresh (-52.3m ago): 2026-02-17 08:00:00
+    Title: Citizens Financial Group Adds to Advisory Capabili...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9654103-U!ZSPC-20260217/U/ZSPC
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654103-U!ZSPC-20260217/U/ZSPC
+    Article is fresh (-52.3m ago): 2026-02-17 08:00:00
+    Title: zSpace Advances Immersive Learning, Workforce Rese...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260217453253-U!PBI-20260217/U/PBI
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260217453253-U!PBI-20260217/U/PBI
+    Article is fresh (-52.3m ago): 2026-02-17 08:00:00
+    Title: Pitney Bowes Appoints Accomplished Financial Servi...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-C7604-U!URLOF-20260217/U/URLOF
+Fetching URL: https://www.stockwatch.com/News/Item/U-C7604-U!URLOF-20260217/U/URLOF
+    Article is fresh (7.8m ago): 2026-02-17 07:00:00
+    Title: NameSilo Technologies Corp. Closes Strategic Acqui...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9653923-U!RYTM-20260217/U/RYTM
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9653923-U!RYTM-20260217/U/RYTM
+    Article is fresh (-52.2m ago): 2026-02-17 08:00:00
+    Title: Rhythm Pharmaceuticals to Report Fourth Quarter an...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260217632714-U!DIN-20260217/U/DIN
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260217632714-U!DIN-20260217/U/DIN
+    Article is fresh (-52.2m ago): 2026-02-17 08:00:00
+    Title: Applebee's Launches NEW Still Together Sips Featur...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260216863193-U!ET-20260217/U/ET
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260216863193-U!ET-20260217/U/ET
+    Article is fresh (-22.1m ago): 2026-02-17 07:30:00
+    Title: Energy Transfer Reports Fourth Quarter 2025 Result...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-by1137890-U!INKW-20260217/U/INKW
+Fetching URL: https://www.stockwatch.com/News/Item/U-by1137890-U!INKW-20260217/U/INKW
+    Article is fresh (-22.1m ago): 2026-02-17 07:30:00
+    Title: Greene Concepts Announces Be Water Coming Soon to ...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9655636-U!OCUL-20260217/U/OCUL
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9655636-U!OCUL-20260217/U/OCUL
+    Article is fresh (8.0m ago): 2026-02-17 07:00:00
+    Title: Ocular Therapeutix™ Reports Positive Results from ...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260217871104-U!TTRX-20260217/U/TTRX
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260217871104-U!TTRX-20260217/U/TTRX
+    Article is fresh (-52.0m ago): 2026-02-17 08:00:00
+    Title: Turn Therapeutics Appoints Dr. Robert Redfield as ...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-PH88285-U!PTN-20260217/U/PTN
+Fetching URL: https://www.stockwatch.com/News/Item/U-PH88285-U!PTN-20260217/U/PTN
+    Article is fresh (-21.9m ago): 2026-02-17 07:30:00
+    Title: Palatin Reports Second Quarter Fiscal Year 2026 Fi...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9655473-U!LFCR-20260217/U/LFCR
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9655473-U!LFCR-20260217/U/LFCR
+    Article is fresh (3.1m ago): 2026-02-17 07:05:00
+    Title: Lifecore Biomedical to Participate at DCAT Week 20...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-C4510-U!ROOOF-20260217/U/ROOOF
+Fetching URL: https://www.stockwatch.com/News/Item/U-C4510-U!ROOOF-20260217/U/ROOOF
+    Article is fresh (8.1m ago): 2026-02-17 07:00:00
+    Title: Northstar Extends Maturing Convertible Debentures...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-284127-U!ABVE-20260217/U/ABVE
+Fetching URL: https://www.stockwatch.com/News/Item/U-284127-U!ABVE-20260217/U/ABVE
+    Article is fresh (-28.8m ago): 2026-02-17 07:37:00
+    Title: Above Food Ingredients Inc. Reporting Update...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-by1137965-U!TMASF-20260217/U/TMASF
+Fetching URL: https://www.stockwatch.com/News/Item/U-by1137965-U!TMASF-20260217/U/TMASF
+    Article is fresh (-21.8m ago): 2026-02-17 07:30:00
+    Title: Temas Signs Letter of Intent for RCL Technology to...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9655023-U!SHC-20260217/U/SHC
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9655023-U!SHC-20260217/U/SHC
+    Article is fresh (-21.8m ago): 2026-02-17 07:30:00
+    Title: Sotera Health Announces Fourth-Quarter and Full-Ye...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-NE89351-U!CNX-20260217/U/CNX
+Fetching URL: https://www.stockwatch.com/News/Item/U-NE89351-U!CNX-20260217/U/CNX
+    Article is fresh (-47.7m ago): 2026-02-17 07:56:00
+    Title: CNX Resources Corporation Announces Tender Offer f...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-VA89191-U!URLOF-20260217/U/URLOF
+Fetching URL: https://www.stockwatch.com/News/Item/U-VA89191-U!URLOF-20260217/U/URLOF
+    Article is fresh (8.3m ago): 2026-02-17 07:00:00
+    Skipping duplicate title: NameSilo Technologies Corp. Closes Strategic Acqui...
+Processing: https://www.stockwatch.com/News/Item/U-z9655435-U!WSO-20260217/U/WSO
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9655435-U!WSO-20260217/U/WSO
+    Article is fresh (-21.6m ago): 2026-02-17 07:30:00
+    Title: Watsco Boosts Annual Dividend 10% to $13.20 Per Sh...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-VA89178-U!ROOOF-20260217/U/ROOOF
+Fetching URL: https://www.stockwatch.com/News/Item/U-VA89178-U!ROOOF-20260217/U/ROOOF
+    Article is fresh (8.4m ago): 2026-02-17 07:00:00
+    Skipping duplicate title: Northstar Extends Maturing Convertible Debentures...
+Processing: https://www.stockwatch.com/News/Item/U-z9652257-U!CXT-20260217/U/CXT
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9652257-U!CXT-20260217/U/CXT
+    Article is fresh (3.4m ago): 2026-02-17 07:05:00
+    Title: Crane NXT Announces Live Webcast of 2026 Investor ...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-TO88455-U!SUUN-20260217/U/SUUN
+Fetching URL: https://www.stockwatch.com/News/Item/U-TO88455-U!SUUN-20260217/U/SUUN
+    Article is fresh (1.5m ago): 2026-02-17 07:07:00
+    Skipping duplicate title: PowerBank Shares 2025 Highlights and 2026 Updates...
+Processing: https://www.stockwatch.com/News/Item/U-DA88304-U!T-20260217/U/T
+Fetching URL: https://www.stockwatch.com/News/Item/U-DA88304-U!T-20260217/U/T
+    Article is fresh (8.5m ago): 2026-02-17 07:00:00
+    Skipping duplicate title: AT&amp;T to Webcast Fireside Chats with CFO and CO...
+Processing: https://www.stockwatch.com/News/Item/U-z9654845-U!VTIX-20260217/U/VTIX
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654845-U!VTIX-20260217/U/VTIX
+    Article is fresh (-38.4m ago): 2026-02-17 07:47:00
+    Title: Virtuix Joins Meta’s “Made for Meta” with AI-Power...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-IO89245-U!ZCAR-20260217/U/ZCAR
+Fetching URL: https://www.stockwatch.com/News/Item/U-IO89245-U!ZCAR-20260217/U/ZCAR
+    Article is fresh (8.6m ago): 2026-02-17 07:00:00
+    Title: Zoomcar Delivers Highest-Ever Contribution Profit,...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9655691-U!TRDA-20260217/U/TRDA
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9655691-U!TRDA-20260217/U/TRDA
+    Article is fresh (8.6m ago): 2026-02-17 07:00:00
+    Title: Independent Data Monitoring Committee Recommends I...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9655742-U!DBGI-20260217/U/DBGI
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9655742-U!DBGI-20260217/U/DBGI
+    Article is fresh (2.7m ago): 2026-02-17 07:06:00
+    Title: DBGI Announces Extension of Warrant Exercise Perio...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-284021-U!PMEDF-20260217/U/PMEDF
+Fetching URL: https://www.stockwatch.com/News/Item/U-284021-U!PMEDF-20260217/U/PMEDF
+    Article is fresh (6.7m ago): 2026-02-17 07:02:00
+    Title: QScreen AI Advances Quantum-Inspired Optimization ...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-IO89261-U!INFY-20260217/U/INFY
+Fetching URL: https://www.stockwatch.com/News/Item/U-IO89261-U!INFY-20260217/U/INFY
+    Article is fresh (-40.3m ago): 2026-02-17 07:49:00
+    Skipping duplicate title: Infosys Unveils AI First Value Framework: Uniquely...
+Processing: https://www.stockwatch.com/News/Item/U-LN89306-U!NVMI-20260217/U/NVMI
+Fetching URL: https://www.stockwatch.com/News/Item/U-LN89306-U!NVMI-20260217/U/NVMI
+    Article is fresh (-21.2m ago): 2026-02-17 07:30:00
+    Title: Nova Announces Availability of Annual Report on Fo...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-283964-U!ELE-20260217/U/ELE
+Fetching URL: https://www.stockwatch.com/News/Item/U-283964-U!ELE-20260217/U/ELE
+    Article is fresh (-22.2m ago): 2026-02-17 07:31:00
+    Title: Elemental Royalty Announces Inaugural Dividend and...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9655641-U!NRXP-20260217/U/NRXP
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9655641-U!NRXP-20260217/U/NRXP
+    Article is fresh (8.9m ago): 2026-02-17 07:00:00
+    Title: NRx Pharmaceuticals (Nasdaq:NRXP) Announces Path t...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9654579-U!TMDE-20260217/U/TMDE
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654579-U!TMDE-20260217/U/TMDE
+    Article is fresh (-51.1m ago): 2026-02-17 08:00:00
+    Title: TMD Energy Limited Announces Changes to Its Board ...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9655025-U!BWAY-20260217/U/BWAY
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9655025-U!BWAY-20260217/U/BWAY
+    Article is fresh (-21.1m ago): 2026-02-17 07:30:00
+    Title: BrainsWay Announces Change in ADS-to-Ordinary Shar...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-th1AwGF0odv-U!GBLEF-20260217/U/GBLEF
+Fetching URL: https://www.stockwatch.com/News/Item/U-th1AwGF0odv-U!GBLEF-20260217/U/GBLEF
+    Article is fresh (-36.0m ago): 2026-02-17 07:45:00
+    Title: Global Energy Metals' Partner Enters MOU With Aust...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9654945-U!OTCM-20260217/U/OTCM
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654945-U!OTCM-20260217/U/OTCM
+    Article is fresh (9.0m ago): 2026-02-17 07:00:00
+    Title: OTC Markets Group Welcomes Headwater Gold Inc. to ...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-SF88771-U!VMAR-20260217/U/VMAR
+Fetching URL: https://www.stockwatch.com/News/Item/U-SF88771-U!VMAR-20260217/U/VMAR
+    Article is fresh (-20.9m ago): 2026-02-17 07:30:00
+    Title: Vision Marine Technologies Establishes Yamaha Floo...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9654944-U!OTCM-20260217/U/OTCM
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654944-U!OTCM-20260217/U/OTCM
+    Article is fresh (9.1m ago): 2026-02-17 07:00:00
+    Skipping duplicate title: OTC Markets Group Welcomes Ballston Spa Bancorp, I...
+Processing: https://www.stockwatch.com/News/Item/U-283999-U!AVLNF-20260217/U/AVLNF
+Fetching URL: https://www.stockwatch.com/News/Item/U-283999-U!AVLNF-20260217/U/AVLNF
+    Article is fresh (-21.9m ago): 2026-02-17 07:31:00
+    Title: Avalon Advanced Materials Engages Rachel Bridge as...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9655527-U!BBIO-20260217/U/BBIO
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9655527-U!BBIO-20260217/U/BBIO
+    Article is fresh (-20.8m ago): 2026-02-17 07:30:00
+    Title: BridgeBio to Report Fourth Quarter and Full Year 2...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260217814866-U!DCGO-20260217/U/DCGO
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260217814866-U!DCGO-20260217/U/DCGO
+    Article is fresh (-25.8m ago): 2026-02-17 07:35:00
+    Title: DocGo Announces Upcoming Participation at TD Cowen...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-by1137801-U!CAPS-20260217/U/CAPS
+Fetching URL: https://www.stockwatch.com/News/Item/U-by1137801-U!CAPS-20260217/U/CAPS
+    Article is fresh (-20.7m ago): 2026-02-17 07:30:00
+    Title: Capstone Positioned to Lead Multi-Year Remodeling ...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-SF88310-U!NKTR-20260217/U/NKTR
+Fetching URL: https://www.stockwatch.com/News/Item/U-SF88310-U!NKTR-20260217/U/NKTR
+    Article is fresh (9.3m ago): 2026-02-17 07:00:00
+    Title: Nektar Therapeutics Announces Research Collaborati...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9653999-U!PFS-20260217/U/PFS
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9653999-U!PFS-20260217/U/PFS
+    Article is fresh (-50.7m ago): 2026-02-17 08:00:00
+    Title: Provident Bank Strengthens Middle Market Lending B...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9654791-U!KTOS-20260217/U/KTOS
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654791-U!KTOS-20260217/U/KTOS
+    Article is fresh (-50.6m ago): 2026-02-17 08:00:00
+    Title: Kratos Awarded Multi-Million Dollar Ground System ...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260217772115-U!NATL-20260217/U/NATL
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260217772115-U!NATL-20260217/U/NATL
+    Article is fresh (-26.6m ago): 2026-02-17 07:36:00
+    Title: UnionPay Cardholders Gain Access to Cash at NCR At...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9654889-U!MLMLF-20260217/U/MLMLF
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654889-U!MLMLF-20260217/U/MLMLF
+    Article is fresh (-25.5m ago): 2026-02-17 07:35:00
+    Title: McFarlane Lake Mining Commences Trading on Frankfu...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-284104-U!HYHDF-20260217/U/HYHDF
+Fetching URL: https://www.stockwatch.com/News/Item/U-284104-U!HYHDF-20260217/U/HYHDF
+    Article is fresh (8.5m ago): 2026-02-17 07:01:00
+    Title: Sixty Six Capital Announces Proposed New Insider...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-PH89214-U!WBD-20260217/U/WBD
+Fetching URL: https://www.stockwatch.com/News/Item/U-PH89214-U!WBD-20260217/U/WBD
+    Article is fresh (9.5m ago): 2026-02-17 07:00:00
+    Skipping duplicate title: Warner Bros. Discovery Sets Special Meeting Date o...
+Processing: https://www.stockwatch.com/News/Item/U-z9655352-U!CRVL-20260217/U/CRVL
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9655352-U!CRVL-20260217/U/CRVL
+    Article is fresh (-1.4m ago): 2026-02-17 07:11:00
+    Title: CorVel Earns Sixth Consecutive Great Place To Work...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-283616-U!GGDCF-20260217/U/GGDCF
+Fetching URL: https://www.stockwatch.com/News/Item/U-283616-U!GGDCF-20260217/U/GGDCF
+    Article is fresh (7.6m ago): 2026-02-17 07:02:00
+    Title: Galloper Retains P&amp;E Mining Consultants and In...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-by1137792-U!BB-20260217/U/BB
+Fetching URL: https://www.stockwatch.com/News/Item/U-by1137792-U!BB-20260217/U/BB
+    Article is fresh (-49.4m ago): 2026-02-17 07:59:00
+    Title: QNX to Showcase the Software Building Blocks Power...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-284091-U!UGDIF-20260217/U/UGDIF
+Fetching URL: https://www.stockwatch.com/News/Item/U-284091-U!UGDIF-20260217/U/UGDIF
+    Article is fresh (-16.3m ago): 2026-02-17 07:26:00
+    Title: Unigold Announces the Appointment of Ms. Juana Bar...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-284078-U!LRAXF-20260217/U/LRAXF
+Fetching URL: https://www.stockwatch.com/News/Item/U-284078-U!LRAXF-20260217/U/LRAXF
+    Article is fresh (7.7m ago): 2026-02-17 07:02:00
+    Title: Lara Announces That Drilling Resumes to Test Poten...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-284108-U!SYZLF-20260217/U/SYZLF
+Fetching URL: https://www.stockwatch.com/News/Item/U-284108-U!SYZLF-20260217/U/SYZLF
+    Article is fresh (7.8m ago): 2026-02-17 07:02:00
+    Title: Sylogist Announces Renewal of its NCIB and Declare...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9655566-U!DSEAF-20260217/U/DSEAF
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9655566-U!DSEAF-20260217/U/DSEAF
+    Article is fresh (-20.2m ago): 2026-02-17 07:30:00
+    Title: DEEP SEA MINERALS CORP. APPOINTS MARK HANDIN AS ST...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9655345-U!XTRAF-20260217/U/XTRAF
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9655345-U!XTRAF-20260217/U/XTRAF
+    Article is fresh (-20.2m ago): 2026-02-17 07:30:00
+    Title: Xtract One Announces Fiscal 2026 Second Quarter Co...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9654690-U!TRVI-20260217/U/TRVI
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9654690-U!TRVI-20260217/U/TRVI
+    Article is fresh (-20.1m ago): 2026-02-17 07:30:00
+    Title: Trevi Therapeutics to Participate in the Oppenheim...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9655485-U!WLBMF-20260217/U/WLBMF
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9655485-U!WLBMF-20260217/U/WLBMF
+    Article is fresh (9.9m ago): 2026-02-17 07:00:00
+    Title: Wallbridge Launches 2026 Exploration and Technical...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-by1137677-U!TELO-20260217/U/TELO
+Fetching URL: https://www.stockwatch.com/News/Item/U-by1137677-U!TELO-20260217/U/TELO
+    Article is fresh (-50.0m ago): 2026-02-17 08:00:00
+    Title: Telomir Pharmaceuticals Demonstrates Broad Tumor C...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-284075-U!ABCFF-20260217/U/ABCFF
+Fetching URL: https://www.stockwatch.com/News/Item/U-284075-U!ABCFF-20260217/U/ABCFF
+    Article is fresh (9.0m ago): 2026-02-17 07:01:00
+    Title: Abacus Announces New Addition to Board of Director...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-PH89214-U!NFLX-20260217/U/NFLX
+Fetching URL: https://www.stockwatch.com/News/Item/U-PH89214-U!NFLX-20260217/U/NFLX
+    Article is fresh (10.0m ago): 2026-02-17 07:00:00
+    Skipping duplicate title: Warner Bros. Discovery Sets Special Meeting Date o...
+Processing: https://www.stockwatch.com/News/Item/U-284044-U!CVVUF-20260217/U/CVVUF
+Fetching URL: https://www.stockwatch.com/News/Item/U-284044-U!CVVUF-20260217/U/CVVUF
+    Article is fresh (-21.0m ago): 2026-02-17 07:31:00
+    Title: CanAlaska Begins Drill Program at Nebula Project...
+  -> Found 1 insights
+Fetching URLs from page: https://www.investing.com/news/latest-news
+Fetching URL: https://www.investing.com/news/latest-news
+Primed session for: https://www.investing.com (status: 200)
+Found 200 URLs to process for Investing.com
+Processing: https://www.investing.com/news/earnings/valmont-industries-shares-fall-over-4-as-q4-earnings-miss-expectations-93CH-4508628
+Fetching URL: https://www.investing.com/news/earnings/valmont-industries-shares-fall-over-4-as-q4-earnings-miss-expectations-93CH-4508628
+    Article is fresh (-48.8m ago): 2026-02-17 07:59:00
+    Title: Valmont Industries shares fall over 4% as Q4 earni...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/pro/senstar-technologies-completes-blickfeld-acquisition-for-114-million-432SI-4508659
+Fetching URL: https://www.investing.com/news/pro/senstar-technologies-completes-blickfeld-acquisition-for-114-million-432SI-4508659
+    Article is fresh (-52.8m ago): 2026-02-17 08:03:00
+    Title: Senstar Technologies completes Blickfeld acquisiti...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/pro/1606-corp-signs-term-sheet-to-acquire-55-mw-texas-power-facility-for-117m-432SI-4508669
+Fetching URL: https://www.investing.com/news/pro/1606-corp-signs-term-sheet-to-acquire-55-mw-texas-power-facility-for-117m-432SI-4508669
+    Article is fresh (-53.7m ago): 2026-02-17 08:04:00
+    Title: 1606 Corp signs term sheet to acquire 55 MW Texas ...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/earnings/hillman-solutions-posts-inline-q4-earnings-revenue-misses-estimates-93CH-4508626
+Fetching URL: https://www.investing.com/news/earnings/hillman-solutions-posts-inline-q4-earnings-revenue-misses-estimates-93CH-4508626
+    Article is fresh (-47.7m ago): 2026-02-17 07:58:00
+    Title: Hillman Solutions posts in-line Q4 earnings, reven...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/stock-market-news/factboxeuropean-regulators-crack-down-on-big-tech-4508054
+Fetching URL: https://www.investing.com/news/stock-market-news/factboxeuropean-regulators-crack-down-on-big-tech-4508054
+    Skipping old article (2.8h old): 2026-02-17 04:22:00
+Processing: https://www.investing.com/news/stock-market-news/labcorp-forecasts-upbeat-annual-profit-on-strong-demand-for-diagnostic-products-4508630
+Fetching URL: https://www.investing.com/news/stock-market-news/labcorp-forecasts-upbeat-annual-profit-on-strong-demand-for-diagnostic-products-4508630
+    Article is fresh (-48.6m ago): 2026-02-17 07:59:00
+    Title: Labcorp forecasts upbeat annual profit on strong d...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/stock-market-news/ocular-therapeutix-stock-news-why-positive-data-led-to-a-25-drop-4508627
+Fetching URL: https://www.investing.com/news/stock-market-news/ocular-therapeutix-stock-news-why-positive-data-led-to-a-25-drop-4508627
+    Article is fresh (-49.5m ago): 2026-02-17 08:00:00
+    Title: Ocular Therapeutix stock news: Why positive data l...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/assorted/palantir-wins-15-dresner-advisory-services-awards-for-tech-innovation-432SI-4508357
+Fetching URL: https://www.investing.com/news/assorted/palantir-wins-15-dresner-advisory-services-awards-for-tech-innovation-432SI-4508357
+    Article is fresh (8.5m ago): 2026-02-17 07:02:00
+    Title: Palantir wins 15 Dresner Advisory Services awards ...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/stock-market-news/us-stock-futures-steady-with-fed-minutes-econ-data-in-focus-4507837#comments
+Fetching URL: https://www.investing.com/news/stock-market-news/us-stock-futures-steady-with-fed-minutes-econ-data-in-focus-4507837
+    Skipping old article (10.3h old): 2026-02-16 20:54:00
+Processing: https://www.investing.com/news/earnings/vulcan-materials-misses-q4-estimates-as-shares-tumble-7-93CH-4508549
+Fetching URL: https://www.investing.com/news/earnings/vulcan-materials-misses-q4-estimates-as-shares-tumble-7-93CH-4508549
+    Article is fresh (-32.4m ago): 2026-02-17 07:43:00
+    Title: Vulcan Materials misses Q4 estimates as shares tum...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/stock-market-news/warner-bros-rejects-paramounts-revised-offer-but-gives-studio-a-week-to-negotiate-better-deal-4508369
+Fetching URL: https://www.investing.com/news/stock-market-news/warner-bros-rejects-paramounts-revised-offer-but-gives-studio-a-week-to-negotiate-better-deal-4508369
+    Article is fresh (5.7m ago): 2026-02-17 07:05:00
+    Title: Warner Bros rejects Paramount’s revised offer, but...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/earnings/national-energy-services-reunited-stock-rises-over-3-as-q4-earnings-beat-expectations-93CH-4508587
+Fetching URL: https://www.investing.com/news/earnings/national-energy-services-reunited-stock-rises-over-3-as-q4-earnings-beat-expectations-93CH-4508587
+    Article is fresh (-41.3m ago): 2026-02-17 07:52:00
+    Title: National Energy Services Reunited stock rises over...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/assorted/carpenter-technology-names-brian-malloy-as-ceo-effective-july-1-2026-432SI-4508660
+Fetching URL: https://www.investing.com/news/assorted/carpenter-technology-names-brian-malloy-as-ceo-effective-july-1-2026-432SI-4508660
+    Article is fresh (-57.2m ago): 2026-02-17 08:08:00
+    Title: Carpenter Technology names Brian Malloy as CEO eff...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/stock-market-news/trading-platform-etoro-beats-profit-estimates-on-growth-across-asset-classes-4508632
+Fetching URL: https://www.investing.com/news/stock-market-news/trading-platform-etoro-beats-profit-estimates-on-growth-across-asset-classes-4508632
+    Article is fresh (-43.2m ago): 2026-02-17 07:54:00
+    Title: Trading platform eToro beats profit estimates on g...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/stock-market-news/medtronic-beats-quarterly-profit-estimates-on-robust-demand-for-heart-devices-4508346
+Fetching URL: https://www.investing.com/news/stock-market-news/medtronic-beats-quarterly-profit-estimates-on-robust-demand-for-heart-devices-4508346
+    Article is fresh (16.9m ago): 2026-02-17 06:54:00
+    Title: Medtronic beats quarterly estimates on robust dema...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/earnings/etoro-shares-soar-nearly-10-as-q4-earnings-top-estimates-93CH-4508589
+Fetching URL: https://www.investing.com/news/earnings/etoro-shares-soar-nearly-10-as-q4-earnings-top-estimates-93CH-4508589
+    Article is fresh (-41.1m ago): 2026-02-17 07:52:00
+    Title: eToro shares soar nearly 10% as Q4 earnings top es...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/stock-market-news/us-stock-futures-steady-with-fed-minutes-econ-data-in-focus-4507837
+Fetching URL: https://www.investing.com/news/stock-market-news/us-stock-futures-steady-with-fed-minutes-econ-data-in-focus-4507837
+    Skipping old article (10.3h old): 2026-02-16 20:54:00
+Filtering insights with minimum score: 85
+Sending email with 8 top insights...
+Email sent to tray14@hotmail.com
+Sending 5 unique tickers to Watchlist API...
+Job completed.
+Job finished at Tue Feb 17 07:11:00 AM CST 2026
