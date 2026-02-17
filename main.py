@@ -190,40 +190,47 @@ def main():
         if not top_insights:
             print(f"No insights met the minimum score threshold of {min_score}")
         else:
-            print(f"Sending email with {len(top_insights)} top insights...")
-            
-            # Format explicitly for better readability with metadata
-            body = emailer.format_results(top_insights) 
-            
-            # Subject with Date
-            date_str = datetime.datetime.now().strftime("%B %d, %Y")
-            subject = f"Stock Analysis Report for {date_str} - {len(top_insights)} Items"
-            emailer.send_email(subject, body)
-            
-            # Watchlist API Integration
-            tickers_to_send = set()
-            for insight in top_insights:
-                ticker = insight.get('ticker')
-                if ticker:
-                    tickers_to_send.add(ticker)
-            
-            if tickers_to_send:
-                print(f"Sending {len(tickers_to_send)} unique tickers to Watchlist API...")
-                success, msg = webhook.send_tickers(list(tickers_to_send))
-                
-                if not success:
-                    print(f"API Error: {msg}")
-                    if settings.enable_api_error_email:
-                        print("Sending error notification email...")
-                        error_subject = f"Watchlist API Error - {datetime.datetime.now().strftime('%Y-%m-%d %H:%M')}"
-                        error_body = (
-                            f"An error occurred while sending tickers to the Watchlist API.\n\n"
-                            f"Error Details:\n{msg}\n\n"
-                            f"Tickers attempted:\n{', '.join(tickers_to_send)}"
-                        )
-                        emailer.send_email(error_subject, error_body)
+            # 1. Send Email (if enabled)
+            if settings.enable_insights_email:
+                print(f"Sending email with {len(top_insights)} top insights...")
+
+                # Format explicitly for better readability with metadata
+                body = emailer.format_results(top_insights)
+
+                # Subject with Date
+                date_str = datetime.datetime.now().strftime("%B %d, %Y")
+                subject = f"Stock Analysis Report for {date_str} - {len(top_insights)} Items"
+                emailer.send_email(subject, body)
             else:
-                print("No tickers found in top insights to send.")
+                print("Insights email is disabled. Skipping.")
+
+            # 2. Watchlist API Integration (if enabled)
+            if settings.enable_watchlist_api:
+                tickers_to_send = set()
+                for insight in top_insights:
+                    ticker = insight.get('ticker')
+                    if ticker:
+                        tickers_to_send.add(ticker)
+                
+                if tickers_to_send:
+                    print(f"Sending {len(tickers_to_send)} unique tickers to Watchlist API...")
+                    success, msg = webhook.send_tickers(list(tickers_to_send))
+                    
+                    if not success:
+                        print(f"API Error: {msg}")
+                        if settings.enable_api_error_email:
+                            print("Sending error notification email...")
+                            error_subject = f"Watchlist API Error - {datetime.datetime.now().strftime('%Y-%m-%d %H:%M')}"
+                            error_body = (
+                                f"An error occurred while sending tickers to the Watchlist API.\n\n"
+                                f"Error Details:\n{msg}\n\n"
+                                f"Tickers attempted:\n{', '.join(tickers_to_send)}"
+                            )
+                            emailer.send_email(error_subject, error_body)
+                else:
+                    print("No tickers found in top insights to send.")
+            else:
+                print("Watchlist API integration is disabled. Skipping.")
     else:
         print("No significant insights found during this run.")
 

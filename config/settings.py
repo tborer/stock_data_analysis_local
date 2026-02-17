@@ -13,6 +13,10 @@ class Settings:
         self.smtp_server = os.getenv("SMTP_SERVER", "smtp.gmail.com")
         self.smtp_port = int(os.getenv("SMTP_PORT", 587))
         
+        # Feature Flags
+        self.enable_insights_email = os.getenv("ENABLE_INSIGHTS_EMAIL", "true").lower() == "true"
+        self.enable_watchlist_api = os.getenv("ENABLE_WATCHLIST_API", "false").lower() == "true"
+
         # Watchlist API
         self.watchlist_api_url = os.getenv("WATCHLIST_API_URL", "https://stock-trader-app-ten.vercel.app/api/watchlist/add")
         self.watchlist_api_key = os.getenv("WATCHLIST_API_KEY")
