@@ -7622,3 +7622,145 @@ DEBUG: Webhook Response Code: 200
 DEBUG: Webhook Success: Successfully sent tickers. Response: {'ok': True, 'added': [], 'alreadyExisted': ['AMRZ'], 'watchlist': ['AAL', 'AMD', 'AMRZ', 'BAC', 'C', 'DNN', 'F', 'FE', 'HIMS', 'INTC', 'KO', 'LZB', 'MS', 'NFLX', 'NOW', 'NVDA', 'PANW', 'PFE', 'PG', 'PLTR', 'PYPL', 'QUAD', 'RIVN', 'RKT', 'SOFI', 'TOST', 'WFC']}
 Job completed.
 Job finished at Tue Feb 17 05:02:43 PM CST 2026
+Starting job at Tue Feb 17 06:00:01 PM CST 2026
+Starting Stock Data Analysis Job...
+StateManager using local file.
+Fetching URLs from sitemap: https://bw-prod-sitemap.s3.us-east-1.amazonaws.com/webdmz1.vaprod.businesswire.com/home/2026-02-17.xml.gz
+Parsing sitemap: https://bw-prod-sitemap.s3.us-east-1.amazonaws.com/webdmz1.vaprod.businesswire.com/home/2026-02-17.xml.gz
+Found 200 URLs to process for BusinessWire
+Processing: http://www.businesswire.com/news/home/20260217335500/en/TJ-Maxx-and-JP-Morgan-Chase-Bank-Renew-Long-Term-Retail-Leases-With-Empire-State-Realty-Trust-Which-Total-68120-Square-Feet
+Fetching URL: https://www.businesswire.com/news/home/20260217335500/en/TJ-Maxx-and-JP-Morgan-Chase-Bank-Renew-Long-Term-Retail-Leases-With-Empire-State-Realty-Trust-Which-Total-68120-Square-Feet
+Primed session for: https://www.businesswire.com (status: 200)
+    Skipping old article (18.0h old): 2026-02-17 00:00:00
+Processing: http://www.businesswire.com/news/home/20260217772128/en/HP-Releases-2025-Sustainability-Report
+Fetching URL: https://www.businesswire.com/news/home/20260217772128/en/HP-Releases-2025-Sustainability-Report
+    Skipping old article (18.0h old): 2026-02-17 00:00:00
+Fetching URLs from page: https://www.stockwatch.com/News/Search?hours=24&region=U
+Fetching URL: https://www.stockwatch.com/News/Search?hours=24&region=U
+Primed session for: https://www.stockwatch.com (status: 200)
+Found 200 URLs to process for StockWatch
+Processing: https://www.stockwatch.com/News/Item/U-b20260217129205-U!AACI-20260217/U/AACI
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260217129205-U!AACI-20260217/U/AACI
+    Article is fresh (-13.7m ago): 2026-02-17 18:14:00
+    Title: Armada Acquisition Corp. III Announces Pricing of ...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-s0154141-U!-20260217/U/
+Fetching URL: https://www.stockwatch.com/News/Item/U-s0154141-U!-20260217/U/
+Error fetching https://www.stockwatch.com/News/Item/U-s0154141-U!-20260217/U/: HTTP Error 404: Not Found
+Processing: https://www.stockwatch.com/News/Item/U-by1138354-U!BGDFF-20260217/U/BGDFF
+Fetching URL: https://www.stockwatch.com/News/Item/U-by1138354-U!BGDFF-20260217/U/BGDFF
+    Article is fresh (-5.7m ago): 2026-02-17 18:06:00
+    Title: Presentation to RIU Explorers Conference...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-C0605-U!ACB-20260217/U/ACB
+Fetching URL: https://www.stockwatch.com/News/Item/U-C0605-U!ACB-20260217/U/ACB
+    Article is fresh (-38.6m ago): 2026-02-17 18:39:00
+    Title: Aurora to Participate in the TD Cowen 46th Annual ...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260217335500-U!ESRT-20260217/U/ESRT
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260217335500-U!ESRT-20260217/U/ESRT
+    Article is fresh (-45.6m ago): 2026-02-17 18:46:00
+    Title: TJ Maxx and JP Morgan Chase Bank Renew Long-Term R...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9656359-U!BFST-20260217/U/BFST
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9656359-U!BFST-20260217/U/BFST
+    Article is fresh (-9.6m ago): 2026-02-17 18:10:00
+    Title: b1BANK partners with Covecta to deploy agentic AI...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9656391-U!TRCTF-20260217/U/TRCTF
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9656391-U!TRCTF-20260217/U/TRCTF
+    Article is fresh (-30.5m ago): 2026-02-17 18:31:00
+    Title: Traction Uranium Announces Proposed Share Consolid...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-284136-U!IAG-20260217/U/IAG
+Fetching URL: https://www.stockwatch.com/News/Item/U-284136-U!IAG-20260217/U/IAG
+    Article is fresh (-0.5m ago): 2026-02-17 18:01:00
+    Title: lAMGOLD Reports Mineral Resources and Reserves for...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9656382-U!ARGHF-20260217/U/ARGHF
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9656382-U!ARGHF-20260217/U/ARGHF
+    Article is fresh (-14.4m ago): 2026-02-17 18:15:00
+    Title: Argo Corporation Announces Investment And Lock-Up ...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-s0154140-U!-20260217/U/
+Fetching URL: https://www.stockwatch.com/News/Item/U-s0154140-U!-20260217/U/
+Error fetching https://www.stockwatch.com/News/Item/U-s0154140-U!-20260217/U/: HTTP Error 404: Not Found
+Processing: https://www.stockwatch.com/News/Item/U-TO90150-U!ACB-20260217/U/ACB
+Fetching URL: https://www.stockwatch.com/News/Item/U-TO90150-U!ACB-20260217/U/ACB
+    Article is fresh (-38.4m ago): 2026-02-17 18:39:00
+    Skipping duplicate title: Aurora to Participate in the TD Cowen 46th Annual ...
+Processing: https://www.stockwatch.com/News/Item/U-b20260217640661-U!ESRT-20260217/U/ESRT
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260217640661-U!ESRT-20260217/U/ESRT
+    Article is fresh (-6.4m ago): 2026-02-17 18:07:00
+    Title: Burlington Stores, Inc. Expands Space and Renews L...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-CG90021-U!HRL-20260217/U/HRL
+Fetching URL: https://www.stockwatch.com/News/Item/U-CG90021-U!HRL-20260217/U/HRL
+    Article is fresh (-39.3m ago): 2026-02-17 18:40:00
+    Title: Hormel Foods Announces Definitive Agreement to Sel...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9656405-U!INTWF-20260217/U/INTWF
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9656405-U!INTWF-20260217/U/INTWF
+    Article is fresh (-50.3m ago): 2026-02-17 18:51:00
+    Title: SHARC Energy Announces $2.0M Convertible Debenture...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-by1138363-U!REVVF-20260217/U/REVVF
+Fetching URL: https://www.stockwatch.com/News/Item/U-by1138363-U!REVVF-20260217/U/REVVF
+    Article is fresh (-56.2m ago): 2026-02-17 18:57:00
+    Title: Revolve Receives Final Approval for Canadian Secur...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-CG90133-U!HRL-20260217/U/HRL
+Fetching URL: https://www.stockwatch.com/News/Item/U-CG90133-U!HRL-20260217/U/HRL
+    Article is fresh (-44.2m ago): 2026-02-17 18:45:00
+    Title: Hormel Foods Announces Preliminary First Quarter 2...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9656416-U!NSRPF-20260217/U/NSRPF
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9656416-U!NSRPF-20260217/U/NSRPF
+    Article is fresh (-56.2m ago): 2026-02-17 18:57:00
+    Title: Novo Resources Releases Updated Corporate Presenta...
+  -> Found 1 insights
+Fetching URLs from page: https://www.investing.com/news/latest-news
+Fetching URL: https://www.investing.com/news/latest-news
+Primed session for: https://www.investing.com (status: 200)
+Found 200 URLs to process for Investing.com
+Processing: https://www.investing.com/news/pro/orange-earnings-preview-ubs-sees-eventful-months-ahead-432SI-4509884
+Fetching URL: https://www.investing.com/news/pro/orange-earnings-preview-ubs-sees-eventful-months-ahead-432SI-4509884
+    Article is fresh (1.0m ago): 2026-02-17 18:00:00
+    Title: Orange earnings preview: UBS sees eventful months ...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/politics-news/us-lawmaker-fine-criticized-by-rights-advocates-democrats-after-antimuslim-remarks-4509900
+Fetching URL: https://www.investing.com/news/politics-news/us-lawmaker-fine-criticized-by-rights-advocates-democrats-after-antimuslim-remarks-4509900
+    Article is fresh (-18.0m ago): 2026-02-17 18:19:00
+    Title: US lawmaker Fine criticized by rights advocates, D...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/stock-market-news/pediatricians-group-sues-over-us-ftc-launching-genderaffirming-care-probe-4509794#comments
+Fetching URL: https://www.investing.com/news/stock-market-news/pediatricians-group-sues-over-us-ftc-launching-genderaffirming-care-probe-4509794
+    Skipping old article (1.3h old): 2026-02-17 16:41:00
+Processing: https://www.investing.com/news/stock-market-news/santos-to-cut-10-of-workforce-posts-fall-in-annual-profit-4509892
+Fetching URL: https://www.investing.com/news/stock-market-news/santos-to-cut-10-of-workforce-posts-fall-in-annual-profit-4509892
+    Article is fresh (-9.0m ago): 2026-02-17 18:10:00
+    Title: Santos to cut 10% of workforce, posts fall in annu...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/stock-market-news/berkshire-hathaway-discloses-investment-in-new-york-times-4509812
+Fetching URL: https://www.investing.com/news/stock-market-news/berkshire-hathaway-discloses-investment-in-new-york-times-4509812
+    Skipping old article (1.2h old): 2026-02-17 16:50:00
+Processing: https://www.investing.com/news/stock-market-news/nvidia-to-sell-meta-millions-of-chips-in-multiyear-deal-4509719
+Fetching URL: https://www.investing.com/news/stock-market-news/nvidia-to-sell-meta-millions-of-chips-in-multiyear-deal-4509719
+    Skipping old article (1.7h old): 2026-02-17 16:17:00
+Processing: https://www.investing.com/news/economic-indicators/japan-exports-jump-168-yearyear-in-january-4509914
+Fetching URL: https://www.investing.com/news/economic-indicators/japan-exports-jump-168-yearyear-in-january-4509914
+    Article is fresh (-56.8m ago): 2026-02-17 18:58:00
+    Title: Japan exports jump 16.8% year/year in January...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/stock-market-news/berkshire-hathaway-discloses-investment-in-new-york-times-4509812#comments
+Fetching URL: https://www.investing.com/news/stock-market-news/berkshire-hathaway-discloses-investment-in-new-york-times-4509812
+    Skipping old article (1.2h old): 2026-02-17 16:50:00
+Processing: https://www.investing.com/news/stock-market-news/pediatricians-group-sues-over-us-ftc-launching-genderaffirming-care-probe-4509794
+Fetching URL: https://www.investing.com/news/stock-market-news/pediatricians-group-sues-over-us-ftc-launching-genderaffirming-care-probe-4509794
+    Skipping old article (1.3h old): 2026-02-17 16:41:00
+Filtering insights with minimum score: 85
+Sending email with 1 top insights...
+Email sent to tray14@hotmail.com
+Watchlist API integration is disabled. Skipping.
+Job completed.
+Job finished at Tue Feb 17 06:01:17 PM CST 2026
