@@ -205,3 +205,19 @@ class Parser:
             encapsulated_text += "++,"
             
         return encapsulated_text
+
+    def has_paywall(self, soup, paywall_selector=None):
+        """Checks if the page contains a paywall using the optionally configured CSS selectors."""
+        if not soup or not paywall_selector:
+            return False
+            
+        # Selectors can be comma-separated in the yaml config
+        selectors = [s.strip() for s in paywall_selector.split(',')]
+        for selector in selectors:
+            try:
+                if soup.select_one(selector):
+                    return True
+            except Exception as e:
+                print(f"Error checking paywall selector '{selector}': {e}")
+                
+        return False

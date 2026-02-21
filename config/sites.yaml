@@ -6,6 +6,7 @@ sites:
     type: "sitemap"
     max_urls: 200
     max_chars: 3500
+    min_chars: 1000
     include_filters:
       - "/en/"
     content_selector: "#bw-release-story"
@@ -18,6 +19,7 @@ sites:
     type: "page"
     max_urls: 200
     max_chars: 3500
+    min_chars: 1000
     include_filters:
       - "/News/Item/U-"
     content_selector: "#MainContent_NewsText"
@@ -30,7 +32,9 @@ sites:
     type: "page"
     max_urls: 200
     max_chars: 10000
+    min_chars: 1000
     # No content_selector needed as parser.py uses JSON extraction
+    paywall_selector: ".paywall-banner, .pro-subscription-banner"
     title_selector: "h1"
     date_regex: 'Published (\d{2}/\d{2}/\d{4}, \d{2}:\d{2} [AP]M)'
     date_format: "%m/%d/%Y, %I:%M %p"

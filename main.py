@@ -130,7 +130,14 @@ def main():
                     if date_regex:
                         print("    Warning: Date extraction failed despite configuration.")
 
-                # Title De-duplication
+                # Paywall CSS selector check
+                paywall_selector = site.get('paywall_selector')
+                if paywall_selector and parser.has_paywall(soup, paywall_selector):
+                    print(f"    Skipping: Paywall detected via selector ({paywall_selector})")
+                    state_manager.mark_processed(url)
+                    continue
+
+                # Title Extraction & De-duplication
                 if title:
                     norm_title = " ".join(title.lower().split())
                     if norm_title in seen_titles:
@@ -140,6 +147,14 @@ def main():
                     seen_titles.add(norm_title)
                     
                 print(f"    Title: {title[:50]}..." if title else "    No title found")
+                
+                # Check text length before scraping
+                # Typical paywall stubs are under 500-1000 characters
+                min_chars = site.get('min_chars', 0)
+                if len(text) < min_chars:
+                    print(f"    Skipping: Content length ({len(text)} chars) is below minimum of {min_chars} (Possible paywall stub)")
+                    state_manager.mark_processed(url)
+                    continue
                 
                 # Format text using legacy encapsulation
                 # Prepend title to the text for analysis context

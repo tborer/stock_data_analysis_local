@@ -1,0 +1,114 @@
+Starting Stock Data Analysis Job...
+StateManager using local file.
+Fetching URLs from sitemap: https://bw-prod-sitemap.s3.us-east-1.amazonaws.com/webdmz1.vaprod.businesswire.com/home/2026-02-21.xml.gz
+Parsing sitemap: https://bw-prod-sitemap.s3.us-east-1.amazonaws.com/webdmz1.vaprod.businesswire.com/home/2026-02-21.xml.gz
+Found 4 URLs to process for BusinessWire
+Processing: http://www.businesswire.com/news/home/20260221278936/en/INVESTOR-NOTICE-Kyndryl-Holdings-Inc.-KD-Investors-with-Substantial-Losses-Have-Opportunity-to-Lead-Class-Action-Lawsuit-Robbins-Geller-Rudman-Dowd-LLP-Announces
+Fetching URL: https://www.businesswire.com/news/home/20260221278936/en/INVESTOR-NOTICE-Kyndryl-Holdings-Inc.-KD-Investors-with-Substantial-Losses-Have-Opportunity-to-Lead-Class-Action-Lawsuit-Robbins-Geller-Rudman-Dowd-LLP-Announces
+Primed session for: https://www.businesswire.com (status: 200)
+    Skipping old article (12.8h old): 2026-02-21 00:00:00
+Processing: http://www.businesswire.com/news/home/20260221122910/en/INVESTOR-NOTICE-PayPal-Holdings-Inc.-Investors-with-Substantial-Losses-Have-Opportunity-to-Lead-Class-Action-Lawsuit-Robbins-Geller-Rudman-Dowd-LLP-Announces
+Fetching URL: https://www.businesswire.com/news/home/20260221122910/en/INVESTOR-NOTICE-PayPal-Holdings-Inc.-Investors-with-Substantial-Losses-Have-Opportunity-to-Lead-Class-Action-Lawsuit-Robbins-Geller-Rudman-Dowd-LLP-Announces
+    Skipping old article (12.8h old): 2026-02-21 00:00:00
+Processing: http://www.businesswire.com/news/home/20260221667546/en/INVESTOR-DEADLINE-NuScale-Power-Corporation-Investors-With-Substantial-Losses-Have-Opportunity-to-Lead-Class-Action-Lawsuit-Filed-by-Robbins-Geller-Rudman-Dowd-LLP
+Fetching URL: https://www.businesswire.com/news/home/20260221667546/en/INVESTOR-DEADLINE-NuScale-Power-Corporation-Investors-With-Substantial-Losses-Have-Opportunity-to-Lead-Class-Action-Lawsuit-Filed-by-Robbins-Geller-Rudman-Dowd-LLP
+    Skipping old article (12.8h old): 2026-02-21 00:00:00
+Processing: http://www.businesswire.com/news/home/20260221153583/en/INVESTOR-NOTICE-Enphase-Energy-Inc.-Investors-with-Substantial-Losses-Have-Opportunity-to-Lead-Class-Action-Lawsuit-Robbins-Geller-Rudman-Dowd-LLP-Announces
+Fetching URL: https://www.businesswire.com/news/home/20260221153583/en/INVESTOR-NOTICE-Enphase-Energy-Inc.-Investors-with-Substantial-Losses-Have-Opportunity-to-Lead-Class-Action-Lawsuit-Robbins-Geller-Rudman-Dowd-LLP-Announces
+    Skipping old article (12.8h old): 2026-02-21 00:00:00
+Fetching URLs from page: https://www.stockwatch.com/News/Search?hours=24&region=U
+Fetching URL: https://www.stockwatch.com/News/Search?hours=24&region=U
+Primed session for: https://www.stockwatch.com (status: 200)
+Found 106 URLs to process for StockWatch
+Processing: https://www.stockwatch.com/News/Item/U-z9658697-U!VRSS-20260220/U/VRSS
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9658697-U!VRSS-20260220/U/VRSS
+    Skipping old article (17.6h old): 2026-02-20 19:12:00
+Processing: https://www.stockwatch.com/News/Item/U-z9658697-U!VRSSF-20260220/U/VRSSF
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9658697-U!VRSSF-20260220/U/VRSSF
+    Skipping old article (17.6h old): 2026-02-20 19:12:00
+Processing: https://www.stockwatch.com/News/Item/U-b20260220955382-U!DXPE-20260220/U/DXPE
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260220955382-U!DXPE-20260220/U/DXPE
+    Skipping old article (17.8h old): 2026-02-20 19:00:00
+Processing: https://www.stockwatch.com/News/Item/U-b20260220957638-U!CBSTF-20260220/U/CBSTF
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260220957638-U!CBSTF-20260220/U/CBSTF
+    Skipping old article (16.3h old): 2026-02-20 20:32:00
+Processing: https://www.stockwatch.com/News/Item/U-NY90088-U!JNJ-20260221/U/JNJ
+Fetching URL: https://www.stockwatch.com/News/Item/U-NY90088-U!JNJ-20260221/U/JNJ
+    Skipping old article (4.8h old): 2026-02-21 08:00:00
+Processing: https://www.stockwatch.com/News/Item/U-z9658713-U!ANORF-20260221/U/ANORF
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9658713-U!ANORF-20260221/U/ANORF
+    Skipping old article (3.8h old): 2026-02-21 09:00:00
+Processing: https://www.stockwatch.com/News/Item/U-z1001165969-U!ABVX-20260221/U/ABVX
+Fetching URL: https://www.stockwatch.com/News/Item/U-z1001165969-U!ABVX-20260221/U/ABVX
+    Skipping old article (6.8h old): 2026-02-21 06:00:00
+Fetching URLs from page: https://www.investing.com/news/latest-news
+Fetching URL: https://www.investing.com/news/latest-news
+Primed session for: https://www.investing.com (status: 200)
+Found 200 URLs to process for Investing.com
+Processing: https://www.investing.com/news/analyst-ratings/synopsys-downgraded-to-hold-at-hsbc-on-lack-of-fullyear-2026-catalysts-4517514
+Fetching URL: https://www.investing.com/news/analyst-ratings/synopsys-downgraded-to-hold-at-hsbc-on-lack-of-fullyear-2026-catalysts-4517514
+    Skipping old article (3.1h old): 2026-02-21 09:41:00
+Processing: https://www.investing.com/news/technology-news/should-you-buy-a-dip-in-cyber-stocks-after-a-new-ailed-selloff-4517511
+Fetching URL: https://www.investing.com/news/technology-news/should-you-buy-a-dip-in-cyber-stocks-after-a-new-ailed-selloff-4517511
+    Skipping old article (3.8h old): 2026-02-21 09:03:00
+Processing: https://www.investing.com/news/world-news/frances-macron-calls-for-calm-ahead-of-march-for-farright-activist-killed-last-week-4517496
+Fetching URL: https://www.investing.com/news/world-news/frances-macron-calls-for-calm-ahead-of-march-for-farright-activist-killed-last-week-4517496
+    Skipping old article (7.5h old): 2026-02-21 05:21:00
+Processing: https://www.investing.com/news/world-news/israeli-strikes-in-lebanon-kill-at-least-10-including-senior-hezbollah-official-4517507#comments
+Fetching URL: https://www.investing.com/news/world-news/israeli-strikes-in-lebanon-kill-at-least-10-including-senior-hezbollah-official-4517507
+    Skipping old article (5.0h old): 2026-02-21 07:48:00
+Processing: https://www.investing.com/news/world-news/nasa-to-roll-back-artemis-ii-spacecraft-impacting-march-launch-window-4517519
+Fetching URL: https://www.investing.com/news/world-news/nasa-to-roll-back-artemis-ii-spacecraft-impacting-march-launch-window-4517519
+    Skipping old article (1.8h old): 2026-02-21 10:58:00
+Processing: https://www.investing.com/news/world-news/ukrainians-scattered-across-europe-trapped-in-limbo-by-war-4517494
+Fetching URL: https://www.investing.com/news/world-news/ukrainians-scattered-across-europe-trapped-in-limbo-by-war-4517494
+    Skipping old article (7.7h old): 2026-02-21 05:05:00
+Processing: https://www.investing.com/news/economy-news/trump-says-he-will-raise-global-tariff-rate-from-10-to-15-4517520#comments
+Fetching URL: https://www.investing.com/news/economy-news/trump-says-he-will-raise-global-tariff-rate-from-10-to-15-4517520
+    Skipping old article (1.6h old): 2026-02-21 11:10:00
+Processing: https://www.investing.com/news/stock-market-news/ubs-hikes-its-corning-inc-price-target-on-ai-data-center-fiberoptic-cables-demand-4517396
+Fetching URL: https://www.investing.com/news/stock-market-news/ubs-hikes-its-corning-inc-price-target-on-ai-data-center-fiberoptic-cables-demand-4517396
+    Skipping old article (17.3h old): 2026-02-20 19:33:00
+Processing: https://www.investing.com/news/general-news/europe-wary-as-scotus-ruling-triggers-a-new-round-of-trade-uncertainty-4517488
+Fetching URL: https://www.investing.com/news/general-news/europe-wary-as-scotus-ruling-triggers-a-new-round-of-trade-uncertainty-4517488
+    Skipping old article (9.7h old): 2026-02-21 03:07:00
+Processing: https://www.investing.com/news/commodities-news/ubs-sets-bold-6200-gold-target-as-middle-east-tensions-rise-4517486
+Fetching URL: https://www.investing.com/news/commodities-news/ubs-sets-bold-6200-gold-target-as-middle-east-tensions-rise-4517486
+    Skipping old article (10.8h old): 2026-02-21 01:59:00
+Processing: https://www.investing.com/news/commodities-news/blizzard-warnings-issued-for-new-york-area-as-storm-heads-to-east-coast-4517524
+Fetching URL: https://www.investing.com/news/commodities-news/blizzard-warnings-issued-for-new-york-area-as-storm-heads-to-east-coast-4517524
+    Article is fresh (39.1m ago): 2026-02-21 12:10:00
+    Title: Blizzard warnings issued for New York area as stor...
+    Skipping: Content length (974 chars) is below minimum of 1000 (Possible paywall stub)
+Processing: https://www.investing.com/news/world-news/pezeshkian-says-iran-will-not-bow-to-pressure-amid-us-nuclear-talks-4517513
+Fetching URL: https://www.investing.com/news/world-news/pezeshkian-says-iran-will-not-bow-to-pressure-amid-us-nuclear-talks-4517513
+    Skipping old article (3.4h old): 2026-02-21 09:28:00
+Processing: https://www.investing.com/news/stock-market-news/indigenous-protesters-occupy-cargills-santarem-port-terminal-in-brazil-4517512
+Fetching URL: https://www.investing.com/news/stock-market-news/indigenous-protesters-occupy-cargills-santarem-port-terminal-in-brazil-4517512
+    Skipping old article (3.8h old): 2026-02-21 09:02:00
+Processing: https://www.investing.com/news/stock-market-news/coreweaves-b-rating-leads-to-blue-owls-failed-4bn-data-center-financing-4517459
+Fetching URL: https://www.investing.com/news/stock-market-news/coreweaves-b-rating-leads-to-blue-owls-failed-4bn-data-center-financing-4517459
+    Skipping old article (13.5h old): 2026-02-20 23:19:00
+Processing: https://www.investing.com/news/economy-news/germanys-merz-expects-lower-tariff-burden-after-us-court-verdict-on-trump-tariffs-4517517#comments
+Fetching URL: https://www.investing.com/news/economy-news/germanys-merz-expects-lower-tariff-burden-after-us-court-verdict-on-trump-tariffs-4517517
+    Skipping old article (2.6h old): 2026-02-21 10:11:00
+Processing: https://www.investing.com/news/economy-news/trump-to-raise-global-tariff-rate-to-15-after-supreme-court-ruling-4517522#comments
+Fetching URL: https://www.investing.com/news/economy-news/trump-to-raise-global-tariff-rate-to-15-after-supreme-court-ruling-4517522
+    Skipping old article (1.1h old): 2026-02-21 11:41:00
+Processing: https://www.investing.com/news/world-news/israeli-strikes-in-lebanon-kill-at-least-10-including-senior-hezbollah-official-4517507
+Fetching URL: https://www.investing.com/news/world-news/israeli-strikes-in-lebanon-kill-at-least-10-including-senior-hezbollah-official-4517507
+    Skipping old article (5.0h old): 2026-02-21 07:48:00
+Processing: https://www.investing.com/news/economy-news/10-market-drop-could-meaningfully-dent-us-consumption-bca-says-4517504#comments
+Fetching URL: https://www.investing.com/news/economy-news/10-market-drop-could-meaningfully-dent-us-consumption-bca-says-4517504
+    Skipping old article (5.3h old): 2026-02-21 07:30:00
+Processing: https://www.investing.com/news/world-news/ukraine-strikes-ballistic-missile-producer-deep-inside-russia-kyiv-says-4517518
+Fetching URL: https://www.investing.com/news/world-news/ukraine-strikes-ballistic-missile-producer-deep-inside-russia-kyiv-says-4517518
+    Skipping old article (2.1h old): 2026-02-21 10:43:00
+Processing: https://www.investing.com/news/economy-news/trump-says-he-will-raise-global-tariff-rate-from-10-to-15-4517520
+Fetching URL: https://www.investing.com/news/economy-news/trump-says-he-will-raise-global-tariff-rate-from-10-to-15-4517520
+    Skipping old article (1.7h old): 2026-02-21 11:10:00
+Processing: https://www.investing.com/news/technology-news/scotus-strike-down-of-trump-tariffs-whats-the-impact-on-it-hardwarenetworking-4517509
+Fetching URL: https://www.investing.com/news/technology-news/scotus-strike-down-of-trump-tariffs-whats-the-impact-on-it-hardwarenetworking-4517509
+    Skipping old article (4.5h old): 2026-02-21 08:18:00
+No significant insights found during this run.
+Job completed.
