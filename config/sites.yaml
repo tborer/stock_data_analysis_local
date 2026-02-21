@@ -4,7 +4,7 @@ sites:
   - name: "BusinessWire"
     url: "https://bw-prod-sitemap.s3.us-east-1.amazonaws.com/webdmz1.vaprod.businesswire.com/home/%Y-%m-%d.xml.gz"
     type: "sitemap"
-    max_urls: 200
+    max_urls: 250
     max_chars: 3500
     min_chars: 1000
     include_filters:
@@ -17,7 +17,7 @@ sites:
   - name: "StockWatch"
     url: "https://www.stockwatch.com/News/Search?hours=24&region=U"
     type: "page"
-    max_urls: 200
+    max_urls: 250
     max_chars: 3500
     min_chars: 1000
     include_filters:
@@ -30,8 +30,8 @@ sites:
   - name: "Investing.com"
     url: "https://www.investing.com/news/latest-news"
     type: "page"
-    max_urls: 200
-    max_chars: 10000
+    max_urls: 250
+    max_chars: 3500
     min_chars: 1000
     # No content_selector needed as parser.py uses JSON extraction
     paywall_selector: ".paywall-banner, .pro-subscription-banner"
