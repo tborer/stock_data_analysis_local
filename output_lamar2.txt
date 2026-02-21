@@ -1,0 +1,12 @@
+INFO:root:Loaded 108 positive and 135 negative keywords.
+INFO:root:VADER Score: 0.9722
+INFO:root:Positive Matches: ['Growth', 'Growth', 'Strength', 'Momentum', 'Momentum', 'Confidence'], Impact: 3.0
+INFO:root:Negative Matches: ['Loss', 'Edged down', 'Softer earnings outlook', 'Mixed fourth-quarter results(H)', 'Missing Wall Street expectations(H)', 'Below the consensus estimate'], Impact: 5.3999999999999995
+INFO:root:Raw Keyword: -2.3999999999999995, Norm Keyword: -0.4462436102487795, Combined: -0.020710527174145676, Final: 48.96447364129271
+
+--- Sentiment Results ---
+Likelihood Score: 48.96
+Sentiment Score (Vader): 0.97
+Match Details: Pos: ['Growth', 'Growth', 'Strength', 'Momentum', 'Momentum', 'Confidence'], Neg: ['Loss', 'Edged down', 'Softer earnings outlook', 'Mixed fourth-quarter results(H)', 'Missing Wall Street expectations(H)', 'Below the consensus estimate']
+-------------------------
+

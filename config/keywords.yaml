@@ -468,3 +468,23 @@ negative_keywords:
     weight: 0.4
   - name: "Breaking point"
     weight: 0.7
+  - name: "Mixed results"
+    weight: 0.6
+  - name: "Missing expectations"
+    weight: 0.8
+  - name: "Below consensus"
+    weight: 0.8
+  - name: "Below estimate"
+    weight: 0.8
+  - name: "Edged down"
+    weight: 0.6
+  - name: "Tough comp"
+    weight: 0.6
+  - name: "Softer earnings outlook"
+    weight: 0.8
+  - name: "Mixed fourth-quarter results"
+    weight: 0.6
+  - name: "Missing Wall Street expectations"
+    weight: 0.8
+  - name: "Below the consensus estimate"
+    weight: 0.8

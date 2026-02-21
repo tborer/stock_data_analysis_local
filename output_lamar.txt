@@ -1,0 +1,12 @@
+INFO:root:Loaded 108 positive and 132 negative keywords.
+INFO:root:VADER Score: 0.9722
+INFO:root:Positive Matches: ['Growth', 'Growth', 'Strength', 'Momentum', 'Momentum', 'Confidence'], Impact: 3.0
+INFO:root:Negative Matches: ['Loss', 'Edged down', 'Softer earnings outlook'], Impact: 1.8
+INFO:root:Raw Keyword: 1.2, Norm Keyword: 0.23549574953849794, Combined: 0.45650702467694854, Final: 72.82535123384743
+
+--- Sentiment Results ---
+Likelihood Score: 72.83
+Sentiment Score (Vader): 0.97
+Match Details: Pos: ['Growth', 'Growth', 'Strength', 'Momentum', 'Momentum', 'Confidence'], Neg: ['Loss', 'Edged down', 'Softer earnings outlook']
+-------------------------
+
