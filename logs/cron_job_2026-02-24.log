@@ -7834,3 +7834,171 @@ DEBUG: Webhook Response Code: 200
 DEBUG: Webhook Success: Successfully sent tickers. Response: {'ok': True, 'added': ['ELVR', 'MELI', 'FLYW'], 'alreadyExisted': [], 'watchlist': ['AAL', 'AGL', 'AITX', 'ALC', 'ALLO', 'AMC', 'AMPH', 'AMRZ', 'AS', 'BAC', 'BKR', 'BMRN', 'CAVA', 'CCCC', 'CE', 'CEO', 'CGNT', 'CHAC', 'CLNN', 'CLVT', 'CNP', 'CTRE', 'CWH', 'DEA', 'DNN', 'DOCN', 'ECG', 'EGO', 'ELAN', 'ELVR', 'EPS', 'EVRG', 'F', 'FIS', 'FLYW', 'FTW', 'GIB', 'GMED', 'HG', 'HIMS', 'HRMY', 'HSIC', 'IBRX', 'INTC', 'IOVA', 'JAKK', 'JAZZ', 'KDP', 'LRMR', 'LTC', 'LUMN', 'MDIA', 'MELI', 'NABL', 'NIVF', 'NOG', 'NSCLC', 'NWPX', 'OFIX', 'OPEN', 'PFE', 'PMTS', 'PPC', 'PYPL', 'RAAQ', 'RIVN', 'RKT', 'SEGG', 'SHC', 'SIBN', 'SOFI', 'SPXC', 'SUPN', 'TH', 'TIRX', 'TMDX', 'TOST', 'TOVX', 'TREX', 'TRNR', 'TXNM', 'UFI', 'UFPT', 'VNDA', 'VVX', 'WAA', 'XMTR', 'XXII', 'YETI', 'ZETA']}
 Job completed.
 Job finished at Tue Feb 24 05:02:30 PM CST 2026
+Starting job at Tue Feb 24 06:00:01 PM CST 2026
+Starting Stock Data Analysis Job...
+StateManager using local file.
+Fetching URLs from sitemap: https://bw-prod-sitemap.s3.us-east-1.amazonaws.com/webdmz1.vaprod.businesswire.com/home/2026-02-24.xml.gz
+Parsing sitemap: https://bw-prod-sitemap.s3.us-east-1.amazonaws.com/webdmz1.vaprod.businesswire.com/home/2026-02-24.xml.gz
+Found 250 URLs to process for BusinessWire
+Processing: http://www.businesswire.com/news/home/20260224491177/en/Reinsurance-Group-of-America-Announces-Pricing-of-Subordinated-Debentures
+Fetching URL: https://www.businesswire.com/news/home/20260224491177/en/Reinsurance-Group-of-America-Announces-Pricing-of-Subordinated-Debentures
+Primed session for: https://www.businesswire.com (status: 200)
+    Skipping old article (18.0h old): 2026-02-24 00:00:00
+Processing: http://www.businesswire.com/news/home/20260224318819/en/Arcosa-Inc.-Announces-Agreement-to-Divest-Barge-Business-for-450-Million
+Fetching URL: https://www.businesswire.com/news/home/20260224318819/en/Arcosa-Inc.-Announces-Agreement-to-Divest-Barge-Business-for-450-Million
+    Skipping old article (18.0h old): 2026-02-24 00:00:00
+Processing: http://www.businesswire.com/news/home/20260224398832/en/Concentric-AI-and-Sektor-Join-Forces-to-Secure-AI-and-Data-Across-Australia-and-New-Zealand
+Fetching URL: https://www.businesswire.com/news/home/20260224398832/en/Concentric-AI-and-Sektor-Join-Forces-to-Secure-AI-and-Data-Across-Australia-and-New-Zealand
+    Skipping old article (18.0h old): 2026-02-24 00:00:00
+Processing: http://www.businesswire.com/news/home/20260224058387/en/ICLR-INVESTOR-ALERT-Kirby-McInerney-LLP-Investigates-Potential-Claims-Involving-ICON-Public-Limited-Company
+Fetching URL: https://www.businesswire.com/news/home/20260224058387/en/ICLR-INVESTOR-ALERT-Kirby-McInerney-LLP-Investigates-Potential-Claims-Involving-ICON-Public-Limited-Company
+    Skipping old article (18.0h old): 2026-02-24 00:00:00
+Processing: http://www.businesswire.com/news/home/20260224181852/en/Generational-Group-Advises-Greenville-Scale-Company-Inc.-in-its-Sale-to-Michelli-Weighing-Measurement-a-Portfolio-Company-of-Summit-Park-LLC
+Fetching URL: https://www.businesswire.com/news/home/20260224181852/en/Generational-Group-Advises-Greenville-Scale-Company-Inc.-in-its-Sale-to-Michelli-Weighing-Measurement-a-Portfolio-Company-of-Summit-Park-LLC
+    Skipping old article (18.0h old): 2026-02-24 00:00:00
+Fetching URLs from page: https://www.stockwatch.com/News/Search?hours=24&region=U
+Fetching URL: https://www.stockwatch.com/News/Search?hours=24&region=U
+Primed session for: https://www.stockwatch.com (status: 200)
+Found 200 URLs to process for StockWatch
+Processing: https://www.stockwatch.com/News/Item/U-C8484-U!JSDA-20260224/U/JSDA
+Fetching URL: https://www.stockwatch.com/News/Item/U-C8484-U!JSDA-20260224/U/JSDA
+    Article is fresh (-54.7m ago): 2026-02-24 18:55:00
+    Title: Jones Soda Co. Engages Hayden, IR Expanding Invest...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-DC91668-U!EOD-20260224/U/EOD
+Fetching URL: https://www.stockwatch.com/News/Item/U-DC91668-U!EOD-20260224/U/EOD
+    Article is fresh (-0.6m ago): 2026-02-24 18:01:00
+    Title: Allspring Closed-End Funds Declare Monthly and Qua...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-SF94157-U!NKTR-20260224/U/NKTR
+Fetching URL: https://www.stockwatch.com/News/Item/U-SF94157-U!NKTR-20260224/U/NKTR
+    Article is fresh (0.4m ago): 2026-02-24 18:00:00
+    Title: Nektar Therapeutics to Participate in Two Investor...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-DC91668-U!EAD-20260224/U/EAD
+Fetching URL: https://www.stockwatch.com/News/Item/U-DC91668-U!EAD-20260224/U/EAD
+    Article is fresh (-0.5m ago): 2026-02-24 18:01:00
+    Skipping duplicate title: Allspring Closed-End Funds Declare Monthly and Qua...
+Processing: https://www.stockwatch.com/News/Item/U-by1140747-U!UAMY-20260224/U/UAMY
+Fetching URL: https://www.stockwatch.com/News/Item/U-by1140747-U!UAMY-20260224/U/UAMY
+    Article is fresh (-4.5m ago): 2026-02-24 18:05:00
+    Title: United States Antimony Corporation to Present at 2...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9660728-U!AISSF-20260224/U/AISSF
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9660728-U!AISSF-20260224/U/AISSF
+    Article is fresh (-25.4m ago): 2026-02-24 18:26:00
+    Title: A.I.S. Resources Announces Debt Settlement...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-CG95079-U!TDS-20260224/U/TDS
+Fetching URL: https://www.stockwatch.com/News/Item/U-CG95079-U!TDS-20260224/U/TDS
+    Article is fresh (-19.4m ago): 2026-02-24 18:20:00
+    Title: TDS and Array to present at Raymond James 47th Ann...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-TO95046-U!DNN-20260224/U/DNN
+Fetching URL: https://www.stockwatch.com/News/Item/U-TO95046-U!DNN-20260224/U/DNN
+    Article is fresh (-2.4m ago): 2026-02-24 18:03:00
+    Title: Denison Announces Final Investment Decision for th...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9660724-U!CHDN-20260224/U/CHDN
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9660724-U!CHDN-20260224/U/CHDN
+    Article is fresh (-19.3m ago): 2026-02-24 18:20:00
+    Title: Churchill Downs Incorporated Opens Marshall Yards ...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260224318819-U!ACA-20260224/U/ACA
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260224318819-U!ACA-20260224/U/ACA
+    Article is fresh (-6.3m ago): 2026-02-24 18:07:00
+    Title: Arcosa, Inc. Announces Agreement to Divest Barge B...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-DC91668-U!ERC-20260224/U/ERC
+Fetching URL: https://www.stockwatch.com/News/Item/U-DC91668-U!ERC-20260224/U/ERC
+    Article is fresh (-0.3m ago): 2026-02-24 18:01:00
+    Skipping duplicate title: Allspring Closed-End Funds Declare Monthly and Qua...
+Processing: https://www.stockwatch.com/News/Item/U-z9660735-U!NKOSF-20260224/U/NKOSF
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9660735-U!NKOSF-20260224/U/NKOSF
+    Article is fresh (-32.2m ago): 2026-02-24 18:33:00
+    Title: Labrador Gold Announces Voting Results of the 2026...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-CG95079-U!AD-20260224/U/AD
+Fetching URL: https://www.stockwatch.com/News/Item/U-CG95079-U!AD-20260224/U/AD
+    Article is fresh (-19.2m ago): 2026-02-24 18:20:00
+    Skipping duplicate title: TDS and Array to present at Raymond James 47th Ann...
+Processing: https://www.stockwatch.com/News/Item/U-C8039-U!DNN-20260224/U/DNN
+Fetching URL: https://www.stockwatch.com/News/Item/U-C8039-U!DNN-20260224/U/DNN
+    Article is fresh (-2.1m ago): 2026-02-24 18:03:00
+    Skipping duplicate title: Denison Announces Final Investment Decision for th...
+Processing: https://www.stockwatch.com/News/Item/U-DC91668-U!ERH-20260224/U/ERH
+Fetching URL: https://www.stockwatch.com/News/Item/U-DC91668-U!ERH-20260224/U/ERH
+    Article is fresh (-0.1m ago): 2026-02-24 18:01:00
+    Skipping duplicate title: Allspring Closed-End Funds Declare Monthly and Qua...
+Processing: https://www.stockwatch.com/News/Item/U-NY94909-U!HCKT-20260224/U/HCKT
+Fetching URL: https://www.stockwatch.com/News/Item/U-NY94909-U!HCKT-20260224/U/HCKT
+    Article is fresh (-32.0m ago): 2026-02-24 18:33:00
+    Title: Exiger Named to The Hackett Group's 2026 "50 to Kn...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-b20260224491177-U!RGA-20260224/U/RGA
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260224491177-U!RGA-20260224/U/RGA
+    Article is fresh (-22.0m ago): 2026-02-24 18:23:00
+    Title: Reinsurance Group of America Announces Pricing of ...
+  -> Found 1 insights
+Fetching URLs from page: https://www.investing.com/news/latest-news
+Fetching URL: https://www.investing.com/news/latest-news
+Primed session for: https://www.investing.com (status: 200)
+Found 250 URLs to process for Investing.com
+Processing: https://www.investing.com/news/stock-market-news/china-has-not-yet-received-any-nvidia-h200-chips-us-official-said-4522567
+Fetching URL: https://www.investing.com/news/stock-market-news/china-has-not-yet-received-any-nvidia-h200-chips-us-official-said-4522567
+    Skipping old article (2.3h old): 2026-02-24 15:44:00
+Processing: https://www.investing.com/news/stock-market-news/brazil-judge-overrules-decisions-suspending-changes-to-meal-vouchersystem-4523089
+Fetching URL: https://www.investing.com/news/stock-market-news/brazil-judge-overrules-decisions-suspending-changes-to-meal-vouchersystem-4523089
+    Article is fresh (-46.8m ago): 2026-02-24 18:48:00
+    Title: Brazil judge overrules decisions suspending change...
+    Skipping: Content length (964 chars) is below minimum of 1000 (Possible paywall stub)
+Processing: https://www.investing.com/news/insider-trading-news/figma-reed-andrew-phillips-buys-fig-stock-worth-365-million-93CH-4523061
+Fetching URL: https://www.investing.com/news/insider-trading-news/figma-reed-andrew-phillips-buys-fig-stock-worth-365-million-93CH-4523061
+    Article is fresh (-1.8m ago): 2026-02-24 18:03:00
+    Title: Figma: Reed Andrew Phillips buys FIG stock worth $...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/stock-market-news/hp-warns-us-trade-regulations-memory-chip-costs-to-weigh-on-annual-forecasts-4522805
+Fetching URL: https://www.investing.com/news/stock-market-news/hp-warns-us-trade-regulations-memory-chip-costs-to-weigh-on-annual-forecasts-4522805
+    Skipping old article (1.6h old): 2026-02-24 16:24:00
+Processing: https://www.investing.com/news/pro/arcosa-to-sell-marine-products-unit-to-wynnchurch-for-450-million-432SI-4523068
+Fetching URL: https://www.investing.com/news/pro/arcosa-to-sell-marine-products-unit-to-wynnchurch-for-450-million-432SI-4523068
+    Article is fresh (-11.7m ago): 2026-02-24 18:13:00
+    Title: Arcosa to sell marine products unit to Wynnchurch ...
+    Skipping: Content length (0 chars) is below minimum of 1000 (Possible paywall stub)
+Processing: https://www.investing.com/news/stock-market-news/sp-upgrades-herbalife-rating-on-stronger-operations-93CH-4523063
+Fetching URL: https://www.investing.com/news/stock-market-news/sp-upgrades-herbalife-rating-on-stronger-operations-93CH-4523063
+    Article is fresh (-5.6m ago): 2026-02-24 18:07:00
+    Title: S&P upgrades Herbalife rating on stronger operatio...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/stock-market-news/us-judge-dismisses-xai-tradesecrets-lawsuit-against-rival-openai-for-now-4522543
+Fetching URL: https://www.investing.com/news/stock-market-news/us-judge-dismisses-xai-tradesecrets-lawsuit-against-rival-openai-for-now-4522543
+    Skipping old article (2.7h old): 2026-02-24 15:18:00
+Processing: https://www.investing.com/news/stock-market-news/prices-investors-will-pay-for-tariff-refund-claims-surge-after-supreme-court-decision-4523086
+Fetching URL: https://www.investing.com/news/stock-market-news/prices-investors-will-pay-for-tariff-refund-claims-surge-after-supreme-court-decision-4523086
+    Article is fresh (-38.6m ago): 2026-02-24 18:40:00
+    Title: Prices investors will pay for tariff refund claims...
+  -> Found 1 insights
+Processing: https://www.investing.com/equities/ge-vernova-llc
+Fetching URL: https://www.investing.com/equities/ge-vernova-llc
+    Warning: Date extraction failed despite configuration.
+    Title: GE Vernova LLC (GEV)...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/stock-market-news/western-digital-rating-upgraded-by-sp-on-debt-reduction-93CH-4523058
+Fetching URL: https://www.investing.com/news/stock-market-news/western-digital-rating-upgraded-by-sp-on-debt-reduction-93CH-4523058
+    Article is fresh (0.5m ago): 2026-02-24 18:01:00
+    Title: Western Digital rating upgraded by S&P on debt red...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/stock-market-news/nikkei-set-to-breach-60000-milestone-by-mid2027-on-earnings-growth-foreign-inflows-reuters-poll-4523069
+Fetching URL: https://www.investing.com/news/stock-market-news/nikkei-set-to-breach-60000-milestone-by-mid2027-on-earnings-growth-foreign-inflows-reuters-poll-4523069
+    Article is fresh (-9.4m ago): 2026-02-24 18:11:00
+    Title: Nikkei set to breach 60,000 milestone by mid-2027 ...
+  -> Found 1 insights
+Filtering insights with minimum score: 90
+Sending email with 1 top insights...
+Email sent to tray14@hotmail.com
+Sending 1 unique tickers to Watchlist API...
+DEBUG: Webhook Payload: {"symbols": ["WDC"]}
+DEBUG: Webhook Response Code: 200
+DEBUG: Webhook Success: Successfully sent tickers. Response: {'ok': True, 'added': ['WDC'], 'alreadyExisted': [], 'watchlist': ['AAL', 'AGL', 'AITX', 'ALC', 'ALLO', 'AMC', 'AMPH', 'AMRZ', 'AS', 'BAC', 'BKR', 'BMRN', 'CAVA', 'CCCC', 'CE', 'CEO', 'CGNT', 'CHAC', 'CLNN', 'CLVT', 'CNP', 'CTRE', 'CWH', 'DEA', 'DNN', 'DOCN', 'ECG', 'EGO', 'ELAN', 'ELVR', 'EPS', 'EVRG', 'F', 'FIS', 'FLYW', 'FTW', 'GIB', 'GMED', 'HG', 'HIMS', 'HRMY', 'HSIC', 'IBRX', 'INTC', 'IOVA', 'JAKK', 'JAZZ', 'KDP', 'KO', 'LRMR', 'LTC', 'LUMN', 'MDIA', 'MELI', 'NABL', 'NIVF', 'NOG', 'NSCLC', 'NWPX', 'OFIX', 'OPEN', 'PFE', 'PMTS', 'PPC', 'PYPL', 'RAAQ', 'RIVN', 'RKT', 'SEGG', 'SHC', 'SIBN', 'SOFI', 'SPXC', 'SUPN', 'TH', 'TIRX', 'TMDX', 'TOST', 'TOVX', 'TREX', 'TRNR', 'TXNM', 'UFI', 'UFPT', 'VNDA', 'VVX', 'WAA', 'WDC', 'XMTR', 'XXII', 'YETI', 'ZETA']}
+Job completed.
+Job finished at Tue Feb 24 06:01:36 PM CST 2026

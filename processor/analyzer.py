@@ -110,10 +110,25 @@ class Analyzer:
                 
                 break
 
-        # 1. VaderSentiment analysis (General Tone)
-        sentiment_scores = self.sia.polarity_scores(text)
-        vader_score = sentiment_scores['compound']  # -1.0 to 1.0
-        logging.info(f"VADER Score: {vader_score}")
+        # 1. VaderSentiment analysis (General Tone) - Sentence Level Averaging
+        # Split by common sentence terminators (. ! ?)
+        sentences = re.split(r'(?<=[.!?]) +', text.replace('\n', ' '))
+        
+        sent_scores = []
+        for s in sentences:
+            if s.strip():
+                # Get compound score for each sentence
+                score = self.sia.polarity_scores(s)['compound']
+                sent_scores.append(score)
+        
+        if sent_scores:
+            vader_score = sum(sent_scores) / len(sent_scores)
+        else:
+            # Fallback if no valid sentences found
+            sentiment_scores = self.sia.polarity_scores(text)
+            vader_score = sentiment_scores['compound']
+
+        logging.info(f"VADER Average Score: {vader_score:.3f} (over {len(sent_scores)} sentences)")
         
         # 2. Keyword Matching with enhancements
         text_lower = text.lower()

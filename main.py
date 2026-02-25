@@ -190,13 +190,17 @@ def main():
                 state_manager.mark_processed(url)
 
     if all_insights:
-        # Get threshold from config (default 75)
+        # Get threshold from config (default 75 for score, 0.5 for sentiment)
         min_score = sites_config.get('email_min_score', 75)
+        min_sentiment = sites_config.get('email_min_sentiment', 0.5)
             
-        print(f"Filtering insights with minimum score: {min_score}")
+        print(f"Filtering insights with minimum score: {min_score} and minimum sentiment logic: {min_sentiment}")
         
-        # Filter insights
-        filtered_insights = [i for i in all_insights if abs(i['likelihood_score']) >= min_score]
+        # Filter insights - Must meet BOTH criteria
+        filtered_insights = [
+            i for i in all_insights 
+            if abs(i['likelihood_score']) >= min_score and abs(i.get('sentiment_score', 0)) >= min_sentiment
+        ]
         
         # Sort all findings by magnitude of score
         filtered_insights.sort(key=lambda x: abs(x['likelihood_score']), reverse=True)
