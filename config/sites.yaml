@@ -39,3 +39,14 @@ sites:
     title_selector: "h1"
     date_regex: 'Published (\d{2}/\d{2}/\d{4}, \d{2}:\d{2} [AP]M)'
     date_format: "%m/%d/%Y, %I:%M %p"
+
+  - name: "Yahoo Finance"
+    url: "https://finance.yahoo.com/topic/stock-market-news/"
+    type: "yahoo_news"
+    max_urls: 250
+    max_chars: 3500
+    min_chars: 1000
+    content_selector: "div.caas-body p, p"
+    title_selector: "h1"
+    paywall_selector: ".paywall, .premium-content"
+

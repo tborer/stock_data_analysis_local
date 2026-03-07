@@ -140,6 +140,74 @@ class Parser:
         
         return None
 
+    def extract_yahoo_news_links(self, soup, base_url):
+        """Extracts unique news links from Yahoo Finance that have positive ticker stock price movements."""
+        links = []
+        if not soup:
+            return links
+        
+        # Yahoo Finance news items can be sections or list items
+        tiles = soup.find_all('section', {'data-testid': 'storyitem'}) + soup.find_all('li', class_='stream-item')
+        
+        for tile in tiles:
+            # Look for the anchor tag holding the actual news link
+            link_elem = tile.find('a', class_='subtle-link') or tile.find('a', class_='js-content-viewer') or tile.find('a')
+            if not link_elem or 'href' not in link_elem.attrs:
+                continue
+                
+            href = link_elem['href']
+            
+            # Check for stock ticker symbol
+            ticker_elem = tile.find('a', class_='ticker') or tile.find('span', class_='ticker-wrapper') or tile.find('div', class_='ticker-wrapper')
+            if not ticker_elem:
+                # No stock symbol associated, skip since we want stock-specific news
+                continue
+                
+            # Check the age of the news article, skip if "days ago"
+            pub_elem = tile.find('div', class_='publishing')
+            if pub_elem:
+                pub_text = pub_elem.get_text(strip=True).lower()
+                if 'd ago' in pub_text or 'days ago' in pub_text:
+                    continue
+            
+            # Extract price change and ensure it is positive
+            # Yahoo often uses fin-streamer for live quotes, with various classes or data-fields. It might also use bg-positive / bg-negative classes.
+            price_change = tile.find('fin-streamer', {'data-field': 'regularMarketChangePercent'})
+            if not price_change:
+                price_change = tile.find('fin-streamer', {'data-field': 'regularMarketChange'})
+                
+            change_text = price_change.get_text(strip=True) if price_change else ""
+            
+            # If we don't find it via fin-streamer, check for specific classes containing the text
+            if not change_text:
+                positive_badge = tile.find(class_=lambda c: c and ('bg-positive' in c or 'fin-pos' in c or 'Fin(c-pos)' in c))
+                negative_badge = tile.find(class_=lambda c: c and ('bg-negative' in c or 'fin-neg' in c or 'Fin(c-neg)' in c))
+                if negative_badge:
+                    continue # It's negative
+                elif positive_badge:
+                    # Proceed, it's definitely positive
+                    pass
+                else:
+                    # Try to just find a span that contains a % sign within the ticker wrapper context
+                    percent_spans = tile.find_all('span', string=lambda t: t and '%' in t)
+                    for ps in percent_spans:
+                        if '-' in ps.get_text():
+                            change_text = ps.get_text()
+                            break
+                        elif '+' in ps.get_text() or any(char.isdigit() for char in ps.get_text()):
+                            change_text = ps.get_text()
+                            break
+
+            # If the change text contains a minus sign, it's negative movement, so skip
+            if change_text and '-' in change_text:
+                continue
+                
+            # If we reached here, the ticker is positive (or we couldn't parse the negative movement, cautiously include)
+            full_url = urljoin(base_url, href)
+            links.append(full_url)
+            
+        return list(set(links))
+
     def extract_links(self, soup, base_url):
         """Extracts all links from the soup, resolving relative URLs."""
         links = []

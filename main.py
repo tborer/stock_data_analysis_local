@@ -71,6 +71,15 @@ def main():
                             target_urls.append(link)
                     else:
                         target_urls.append(link)
+        elif site_type == 'yahoo_news':
+            print(f"Fetching Yahoo Finance News URLs from: {start_url}")
+            html = fetcher.fetch(start_url)
+            if html:
+                soup = parser.parse(html)
+                # target_urls are strictly those with a positive ticker change based on Yahoo layout
+                target_urls = parser.extract_yahoo_news_links(soup, start_url)
+                # Apply configured max limit
+                target_urls = target_urls[:max_urls]
         else:
             target_urls = [start_url]
             
