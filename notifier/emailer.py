@@ -62,40 +62,88 @@ class Emailer:
     def format_results(self, pos_insights, neg_insights):
         if not pos_insights and not neg_insights:
             return "No high-value insights found."
+            
+        import datetime
+        from email.utils import formatdate
         
-        greeting = "<p>Hello financial trader,<br>Here is your analysis report for today.</p>"
-        html = greeting + "<h2>Stock Analysis Insights</h2>"
+        # Start the wrapper
+        html = """
+        <div style="background-color: #050505; padding: 24px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;">
+          <!-- Header / Intro -->
+          <div style="text-align: center; margin-bottom: 24px;">
+            <h2 style="color: #ffffff; margin: 0; font-size: 20px;">Hourly Alpha Report</h2>
+            <p style="color: #64748b; font-size: 12px; margin-top: 4px;">Live Signal Feed</p>
+          </div>
+        """
         
+        def build_card(insight, is_positive):
+            score = insight.get('likelihood_score', 0)
+            ticker = insight.get('ticker', 'UNKNOWN')
+            company = insight.get('company', '')
+            snippet = insight.get('snippet', '')
+            source_url = insight.get('source_url', '#')
+            
+            # Remove ticker bracket notation from snippet if present: " [NYSE: AAPL]"
+            import re
+            clean_snippet = re.sub(r'\s*\[.*?\]$', '', snippet).strip()
+            
+            # Determine styling based on sentiment
+            if is_positive:
+                bg_color = "#101e1a" # ~ rgba(16, 185, 129, 0.1) on #0f1115
+                border_color = "rgba(16, 185, 129, 0.2)"
+                badge_bg = "rgba(16, 185, 129, 0.1)"
+                badge_text = "#34d399"
+                badge_label = "↗ BULLISH SIGNAL"
+                link_color = "#34d399"
+            else:
+                bg_color = "#26141a" # ~ rgba(244, 63, 94, 0.1) on #0f1115
+                border_color = "rgba(244, 63, 94, 0.2)"
+                badge_bg = "rgba(244, 63, 94, 0.1)"
+                badge_text = "#fb7185"
+                badge_label = "↘ BEARISH ALERT"
+                link_color = "#fb7185"
+                
+            # Time formatted nicely (e.g. 09:31 AM EST) - using local time for now
+            time_str = datetime.datetime.now().strftime("%I:%M %p")
+            
+            card_html = f"""
+          <div style="background-color: #0f1115; border: 1px solid {border_color}; border-radius: 8px; padding: 16px; margin-bottom: 16px;">
+            <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom: 12px;">
+              <tr>
+                <td align="left" valign="top">
+                  <span style="display: inline-block; background-color: {badge_bg}; color: {badge_text}; font-size: 12px; font-weight: 600; padding: 4px 8px; border-radius: 4px; text-transform: uppercase;">
+                    {badge_label}
+                  </span>
+                </td>
+                <td align="right" valign="top" style="font-family: 'Courier New', monospace; font-size: 12px; color: #64748b; text-align: right;">
+                  Impact Score: <strong style="color: #e2e8f0;">{abs(score):.0f}/100</strong><br/>
+                  {time_str}
+                </td>
+              </tr>
+            </table>
+            <div style="font-size: 16px; color: #e2e8f0; margin-bottom: 6px;">
+              <strong style="color: #ffffff;">${ticker}</strong> {company}
+            </div>
+            <div style="font-size: 13px; color: #94a3b8; line-height: 1.5; margin-bottom: 12px;">
+              {clean_snippet}
+            </div>
+            <a href="{source_url}" style="color: {link_color}; font-size: 12px; text-decoration: none; font-weight: bold;">
+              Read Full Source →
+            </a>
+          </div>
+            """
+            return card_html
+            
         if pos_insights:
-            html += "<h3 style='color:green;'>Positive Impacts</h3>"
-            html += "<table border='1' cellspacing='0' cellpadding='5'>"
-            html += "<tr><th>Score</th><th>Sentiment</th><th>Snippet</th></tr>"
             for insight in pos_insights:
-                score = insight.get('likelihood_score', 0)
-                color = "green"
-                html += f"<tr>"
-                html += f"<td style='color:{color};'><b>{score:.1f}</b></td>"
-                html += f"<td>{insight.get('sentiment_score', 0):.2f}</td>"
-                snippet = insight.get('snippet', '')
-                source_url = insight.get('source_url', '#')
-                html += f"<td>{snippet}<br><br><a href='{source_url}'>Check it out</a></td>"
-                html += "</tr>"
-            html += "</table><br><br>"
-            
+                html += build_card(insight, is_positive=True)
+                
         if neg_insights:
-            html += "<h3 style='color:red;'>Negative Impacts</h3>"
-            html += "<table border='1' cellspacing='0' cellpadding='5'>"
-            html += "<tr><th>Score</th><th>Sentiment</th><th>Snippet</th></tr>"
             for insight in neg_insights:
-                score = insight.get('likelihood_score', 0)
-                color = "red"
-                html += f"<tr>"
-                html += f"<td style='color:{color};'><b>{score:.1f}</b></td>"
-                html += f"<td>{insight.get('sentiment_score', 0):.2f}</td>"
-                snippet = insight.get('snippet', '')
-                source_url = insight.get('source_url', '#')
-                html += f"<td>{snippet}<br><br><a href='{source_url}'>Check it out</a></td>"
-                html += "</tr>"
-            html += "</table>"
-            
+                html += build_card(insight, is_positive=False)
+                
+        html += """
+        </div>
+        """
+        
         return html
