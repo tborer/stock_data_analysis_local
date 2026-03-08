@@ -199,35 +199,47 @@ def main():
                 state_manager.mark_processed(url)
 
     if all_insights:
-        # Get threshold from config (default 75 for score, 0.5 for sentiment)
-        min_score = sites_config.get('email_min_score', 75)
-        min_sentiment = sites_config.get('email_min_sentiment', 0.5)
+        # Get threshold from config
+        min_pos_score = sites_config.get('email_min_score', 75)
+        min_pos_sentiment = sites_config.get('email_min_sentiment', 0.5)
+        max_neg_score = sites_config.get('email_max_negative_score', 25)
+        max_neg_sentiment = sites_config.get('email_max_negative_sentiment', -0.5)
             
-        print(f"Filtering insights with minimum score: {min_score} and minimum sentiment logic: {min_sentiment}")
+        print(f"Filtering positive insights: score >= {min_pos_score}, sentiment >= {min_pos_sentiment}")
+        print(f"Filtering negative insights: score <= {max_neg_score}, sentiment <= {max_neg_sentiment}")
         
-        # Filter insights - Must meet BOTH criteria
-        filtered_insights = [
+        positive_insights = [
             i for i in all_insights 
-            if abs(i['likelihood_score']) >= min_score and abs(i.get('sentiment_score', 0)) >= min_sentiment
+            if i['likelihood_score'] >= min_pos_score and i.get('sentiment_score', 0) >= min_pos_sentiment
         ]
         
-        # Sort all findings by magnitude of score
-        filtered_insights.sort(key=lambda x: abs(x['likelihood_score']), reverse=True)
-        top_insights = filtered_insights[:50] # Limit email size
+        negative_insights = [
+            i for i in all_insights 
+            if i['likelihood_score'] <= max_neg_score and i.get('sentiment_score', 0) <= max_neg_sentiment
+        ]
         
-        if not top_insights:
-            print(f"No insights met the minimum score threshold of {min_score}")
+        # Sort positive by magnitude descending
+        positive_insights.sort(key=lambda x: x['likelihood_score'], reverse=True)
+        # Sort negative by magnitude ascending (lowest score is worst)
+        negative_insights.sort(key=lambda x: x['likelihood_score'])
+        
+        top_pos_insights = positive_insights[:50] # Limit email size
+        top_neg_insights = negative_insights[:50]
+        
+        if not top_pos_insights and not top_neg_insights:
+            print(f"No insights met the thresholds.")
         else:
             # 1. Send Email (if enabled)
             if settings.enable_insights_email:
-                print(f"Sending email with {len(top_insights)} top insights...")
+                total_items = len(top_pos_insights) + len(top_neg_insights)
+                print(f"Sending email with {total_items} insights ({len(top_pos_insights)} pos, {len(top_neg_insights)} neg)...")
 
                 # Format explicitly for better readability with metadata
-                body = emailer.format_results(top_insights)
+                body = emailer.format_results(top_pos_insights, top_neg_insights)
 
                 # Subject with Date
                 date_str = datetime.datetime.now().strftime("%B %d, %Y")
-                subject = f"Stock Analysis Report for {date_str} - {len(top_insights)} Items"
+                subject = f"Stock Analysis Report for {date_str} - {total_items} Items"
                 emailer.send_email(subject, body)
             else:
                 print("Insights email is disabled. Skipping.")
@@ -235,7 +247,8 @@ def main():
             # 2. Watchlist API Integration (if enabled)
             if settings.enable_watchlist_api:
                 tickers_to_send = set()
-                for insight in top_insights:
+                # ONLY SEND POSITIVE INSIGHTS TO THE WATCHLIST
+                for insight in top_pos_insights:
                     ticker = insight.get('ticker')
                     if ticker:
                         tickers_to_send.add(ticker)
@@ -256,7 +269,7 @@ def main():
                             )
                             emailer.send_email(error_subject, error_body)
                 else:
-                    print("No tickers found in top insights to send.")
+                    print("No positive tickers found in top insights to send.")
             else:
                 print("Watchlist API integration is disabled. Skipping.")
     else:

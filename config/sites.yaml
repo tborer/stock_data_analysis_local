@@ -1,5 +1,7 @@
 email_min_score: 85
 email_min_sentiment: 0.60
+email_max_negative_score: 25
+email_max_negative_sentiment: -0.60
 
 sites:
   - name: "BusinessWire"

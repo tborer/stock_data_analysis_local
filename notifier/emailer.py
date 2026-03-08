@@ -59,25 +59,43 @@ class Emailer:
         except Exception as e:
             print(f"Failed to send email: {e}")
 
-    def format_results(self, insights):
-        if not insights:
+    def format_results(self, pos_insights, neg_insights):
+        if not pos_insights and not neg_insights:
             return "No high-value insights found."
         
-        greeting = "<p>Hello financial trader,<br>Are you ready to make some $$$ tday?</p>"
+        greeting = "<p>Hello financial trader,<br>Here is your analysis report for today.</p>"
         html = greeting + "<h2>Stock Analysis Insights</h2>"
-        html += "<table border='1' cellspacing='0' cellpadding='5'>"
-        html += "<tr><th>Score</th><th>Sentiment</th><th>Snippet</th></tr>"
         
-        for insight in insights:
-            score = insight.get('likelihood_score', 0)
-            color = "green" if score > 0 else "red"
-            html += f"<tr>"
-            html += f"<td style='color:{color};'><b>{score:.1f}</b></td>"
-            html += f"<td>{insight.get('sentiment_score', 0):.2f}</td>"
-            snippet = insight.get('snippet', '')
-            source_url = insight.get('source_url', '#')
-            html += f"<td>{snippet}<br><br><a href='{source_url}'>Check it out</a></td>"
-            html += "</tr>"
-        
-        html += "</table>"
+        if pos_insights:
+            html += "<h3 style='color:green;'>Positive Impacts</h3>"
+            html += "<table border='1' cellspacing='0' cellpadding='5'>"
+            html += "<tr><th>Score</th><th>Sentiment</th><th>Snippet</th></tr>"
+            for insight in pos_insights:
+                score = insight.get('likelihood_score', 0)
+                color = "green"
+                html += f"<tr>"
+                html += f"<td style='color:{color};'><b>{score:.1f}</b></td>"
+                html += f"<td>{insight.get('sentiment_score', 0):.2f}</td>"
+                snippet = insight.get('snippet', '')
+                source_url = insight.get('source_url', '#')
+                html += f"<td>{snippet}<br><br><a href='{source_url}'>Check it out</a></td>"
+                html += "</tr>"
+            html += "</table><br><br>"
+            
+        if neg_insights:
+            html += "<h3 style='color:red;'>Negative Impacts</h3>"
+            html += "<table border='1' cellspacing='0' cellpadding='5'>"
+            html += "<tr><th>Score</th><th>Sentiment</th><th>Snippet</th></tr>"
+            for insight in neg_insights:
+                score = insight.get('likelihood_score', 0)
+                color = "red"
+                html += f"<tr>"
+                html += f"<td style='color:{color};'><b>{score:.1f}</b></td>"
+                html += f"<td>{insight.get('sentiment_score', 0):.2f}</td>"
+                snippet = insight.get('snippet', '')
+                source_url = insight.get('source_url', '#')
+                html += f"<td>{snippet}<br><br><a href='{source_url}'>Check it out</a></td>"
+                html += "</tr>"
+            html += "</table>"
+            
         return html

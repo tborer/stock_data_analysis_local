@@ -488,3 +488,35 @@ negative_keywords:
     weight: 0.8
   - name: "Below the consensus estimate"
     weight: 0.8
+  - name: "Chapter 11"
+    weight: 1.0
+  - name: "Criminal probe"
+    weight: 1.0
+  - name: "Revenue warning"
+    weight: 1.0
+  - name: "Fraud charges"
+    weight: 1.0
+  - name: "Lowered expectations"
+    weight: 0.8
+  - name: "Missed estimates"
+    weight: 0.9
+  - name: "Disappointing quarter"
+    weight: 0.8
+  - name: "Dividend suspension"
+    weight: 1.0
+  - name: "Dividend cut"
+    weight: 0.9
+  - name: "Production halt"
+    weight: 0.9
+  - name: "Slashed guidance"
+    weight: 0.9
+  - name: "Slowing growth"
+    weight: 0.8
+  - name: "Worse than expected"
+    weight: 0.9
+  - name: "Warning signs"
+    weight: 0.7
+  - name: "Downgraded to sell"
+    weight: 0.9
+  - name: "Liquidity crisis"
+    weight: 1.0

@@ -5,43 +5,61 @@ def verify():
     # Mock config
     sites_config = {
         'email_min_score': 75,
-        'email_min_sentiment': 0.5
+        'email_min_sentiment': 0.5,
+        'email_max_negative_score': 25,
+        'email_max_negative_sentiment': -0.5
     }
     
     # Mock insights
     all_insights = [
-        {'likelihood_score': 80, 'sentiment_score': 0.6, 'snippet': 'High score, High sentiment (KEEP)'},
-        {'likelihood_score': -90, 'sentiment_score': -0.7, 'snippet': 'High negative score, High negative sentiment (KEEP)'},
+        {'likelihood_score': 80, 'sentiment_score': 0.6, 'snippet': 'High score, High sentiment (KEEP POS)'},
+        {'likelihood_score': 20, 'sentiment_score': -0.7, 'snippet': 'Low score, High negative sentiment (KEEP NEG)'},
         {'likelihood_score': 80, 'sentiment_score': 0.2, 'snippet': 'High score, Low sentiment (DROP)'},
-        {'likelihood_score': 50, 'sentiment_score': 0.8, 'snippet': 'Low score, High sentiment (DROP)'},
-        {'likelihood_score': 75, 'sentiment_score': 0.5, 'snippet': 'Boundary score, Boundary sentiment (KEEP)'}
+        {'likelihood_score': 50, 'sentiment_score': -0.8, 'snippet': 'Mid score, High negative sentiment (DROP)'},
+        {'likelihood_score': 75, 'sentiment_score': 0.5, 'snippet': 'Boundary score, Boundary sentiment (KEEP POS)'},
+        {'likelihood_score': 25, 'sentiment_score': -0.5, 'snippet': 'Boundary score neg, Boundary sentiment neg (KEEP NEG)'}
     ]
     
     # Logic from main.py
-    min_score = sites_config.get('email_min_score', 75)
-    min_sentiment = sites_config.get('email_min_sentiment', 0.5)
+    min_pos_score = sites_config.get('email_min_score', 75)
+    min_pos_sentiment = sites_config.get('email_min_sentiment', 0.5)
+    max_neg_score = sites_config.get('email_max_negative_score', 25)
+    max_neg_sentiment = sites_config.get('email_max_negative_sentiment', -0.5)
     
-    print(f"Thresholds: score={min_score}, sentiment={min_sentiment}")
+    print(f"Pos Thresholds: score>={min_pos_score}, sentiment>={min_pos_sentiment}")
+    print(f"Neg Thresholds: score<={max_neg_score}, sentiment<={max_neg_sentiment}")
     
-    filtered_insights = [
+    positive_insights = [
         i for i in all_insights 
-        if abs(i['likelihood_score']) >= min_score and abs(i.get('sentiment_score', 0)) >= min_sentiment
+        if i['likelihood_score'] >= min_pos_score and i.get('sentiment_score', 0) >= min_pos_sentiment
+    ]
+    
+    negative_insights = [
+        i for i in all_insights 
+        if i['likelihood_score'] <= max_neg_score and i.get('sentiment_score', 0) <= max_neg_sentiment
     ]
     
     print(f"Total insights: {len(all_insights)}")
-    print(f"Filtered insights: {len(filtered_insights)}")
+    print(f"Filtered POS insights: {len(positive_insights)}")
+    print(f"Filtered NEG insights: {len(negative_insights)}")
     
-    for i in filtered_insights:
-        print(f"  Kept: Score={i['likelihood_score']}, Sentiment={i.get('sentiment_score', 0)}")
+    for i in positive_insights:
+        print(f"  POS Kept: Score={i['likelihood_score']}, Sentiment={i.get('sentiment_score', 0)}")
+        
+    for i in negative_insights:
+        print(f"  NEG Kept: Score={i['likelihood_score']}, Sentiment={i.get('sentiment_score', 0)}")
     
     # Assertions
-    # Should keep exactly 3 items
-    assert len(filtered_insights) == 3
+    assert len(positive_insights) == 2
+    assert len(negative_insights) == 2
     
-    # Check that the items we kept have the right properties
-    for i in filtered_insights:
-        assert abs(i['likelihood_score']) >= 75
-        assert abs(i.get('sentiment_score', 0)) >= 0.5
+    for i in positive_insights:
+        assert i['likelihood_score'] >= 75
+        assert i.get('sentiment_score', 0) >= 0.5
+        
+    for i in negative_insights:
+        assert i['likelihood_score'] <= 25
+        assert i.get('sentiment_score', 0) <= -0.5
         
     print("Verification Passed!")
 
