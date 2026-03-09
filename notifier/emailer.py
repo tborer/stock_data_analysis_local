@@ -71,15 +71,22 @@ class Emailer:
         <div style="background-color: #050505; padding: 24px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;">
           <!-- Header / Intro -->
           <div style="text-align: center; margin-bottom: 24px;">
-            <h2 style="color: #ffffff; margin: 0; font-size: 20px;">Hourly Alpha Report</h2>
+            <h2 style="color: #ffffff; margin: 0; font-size: 20px;">Hourly Trade Report</h2>
             <p style="color: #64748b; font-size: 12px; margin-top: 4px;">Live Signal Feed</p>
           </div>
         """
         
         def build_card(insight, is_positive):
             score = insight.get('likelihood_score', 0)
-            ticker = insight.get('ticker', 'UNKNOWN')
+            
+            ticker = insight.get('ticker', '')
+            if ticker is None or str(ticker).strip().lower() in ['none', 'unknown']:
+                ticker = ''
+                
             company = insight.get('company', '')
+            if company is None or str(company).strip().lower() in ['none', 'unknown']:
+                company = ''
+                
             snippet = insight.get('snippet', '')
             source_url = insight.get('source_url', '#')
             
@@ -106,6 +113,16 @@ class Emailer:
             # Time formatted nicely (e.g. 09:31 AM EST) - using local time for now
             time_str = datetime.datetime.now().strftime("%I:%M %p")
             
+            header_text = ""
+            if ticker and company:
+                header_text = f'<strong style="color: #ffffff;">${ticker}</strong> {company}'
+            elif ticker:
+                header_text = f'<strong style="color: #ffffff;">${ticker}</strong>'
+            elif company:
+                header_text = f'{company}'
+                
+            header_html = f'<div style="font-size: 16px; color: #e2e8f0; margin-bottom: 6px;">{header_text}</div>' if header_text else ''
+            
             card_html = f"""
           <div style="background-color: #0f1115; border: 1px solid {border_color}; border-radius: 8px; padding: 16px; margin-bottom: 16px;">
             <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom: 12px;">
@@ -121,9 +138,7 @@ class Emailer:
                 </td>
               </tr>
             </table>
-            <div style="font-size: 16px; color: #e2e8f0; margin-bottom: 6px;">
-              <strong style="color: #ffffff;">${ticker}</strong> {company}
-            </div>
+            {header_html}
             <div style="font-size: 13px; color: #94a3b8; line-height: 1.5; margin-bottom: 12px;">
               {clean_snippet}
             </div>

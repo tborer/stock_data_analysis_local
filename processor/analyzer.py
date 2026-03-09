@@ -44,6 +44,10 @@ class Analyzer:
         import re
         
         # 0. Clean Text
+        # Capture URL if present in encapsulation format: ++{URL} content++,
+        url_match = re.search(r'^\+\+\{([^}]+)\}', text)
+        url = url_match.group(1) if url_match else None
+        
         # Strip encapsulation format: ++{URL} content++,
         # Remove leading ++{...} prefix (URL metadata) and trailing ++,
         text = re.sub(r'^\+\+\{[^}]*\}\s*', '', text)
@@ -55,23 +59,32 @@ class Analyzer:
         exchange = None
         company = None
         
-        # Define patterns for ticker extraction
-        # Heuristic: Priority to explicit exchanges, then generic parens
-        exchange_patterns = [
-            (r'(?:NYSE|New York Stock Exchange)\s*:\s*([A-Z]+)', 'NYSE'),
-            (r'(?:NASDAQ|Nasdaq)\s*:\s*([A-Z]+)', 'NASDAQ'),
-            (r'(?:TSX|Toronto Stock Exchange)\s*:\s*([A-Z]+)', 'TSX'),
-            (r'(?:LSE|London Stock Exchange|LN)\s*:\s*([A-Z]+)', 'LN'),
-            (r'(?:SIX)\s*:\s*([A-Z]+)', 'SIX'), # Added from user example "SIX: RO"
-            (r'\(([A-Z]{3,5})\)', 'NA') # Generic Fallback
-        ]
-        
-        for pattern_str, ex_name in exchange_patterns:
-            pattern = re.compile(pattern_str)
-            match = pattern.search(text)
-            if match:
-                ticker = match.group(1).strip()
-                exchange = ex_name
+        # Custom extraction for StockWatch using URL
+        if url and 'stockwatch.com' in url.lower():
+            # Example: https://www.stockwatch.com/News/Item/U-by1144152-U!SPTY-20260309/U/SPTY
+            sw_match = re.search(r'U!([A-Za-z0-9.\-]+)-\d{8}', url)
+            if sw_match:
+                ticker = sw_match.group(1)
+                exchange = "NA" # Default for extracted symbols
+
+        if not ticker:
+            # Define patterns for ticker extraction
+            # Heuristic: Priority to explicit exchanges, then generic parens
+            exchange_patterns = [
+                (r'(?:NYSE|New York Stock Exchange)\s*:\s*([A-Z]+)', 'NYSE'),
+                (r'(?:NASDAQ|Nasdaq)\s*:\s*([A-Z]+)', 'NASDAQ'),
+                (r'(?:TSX|Toronto Stock Exchange)\s*:\s*([A-Z]+)', 'TSX'),
+                (r'(?:LSE|London Stock Exchange|LN)\s*:\s*([A-Z]+)', 'LN'),
+                (r'(?:SIX)\s*:\s*([A-Z]+)', 'SIX'), # Added from user example "SIX: RO"
+                (r'\(([A-Z]{3,5})\)', 'NA') # Generic Fallback
+            ]
+            
+            for pattern_str, ex_name in exchange_patterns:
+                pattern = re.compile(pattern_str)
+                match = pattern.search(text)
+                if match:
+                    ticker = match.group(1).strip()
+                    exchange = ex_name
                 
                 # Attempt to extract Company Name
                 # Look at the text immediately preceding the match start
