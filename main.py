@@ -86,7 +86,10 @@ def main():
         print(f"Found {len(target_urls)} URLs to process for {site_name}")
 
         for url in target_urls:
-            if state_manager.is_processed(url):
+            # We must be careful skipping a multi_story_page based on the single URL.
+            # For a multi_story_page, the URL is always the same, but the stories change.
+            # So we only skip single page URLs.
+            if site_type != 'multi_story_page' and state_manager.is_processed(url):
                 # print(f"Skipping: {url}") # Verbose
                 continue
 
@@ -95,50 +98,6 @@ def main():
             if html:
                 soup = parser.parse(html)
                 
-                # Default fallback selector if not specified
-                selector = site.get('content_selector') or 'p' 
-                text = parser.extract_text(soup, selector)
-                
-                # Extract Title
-                title_selector = site.get('title_selector')
-                title = parser.extract_title(soup, title_selector)
-                
-                # Extract and Filter by Date
-                date_regex = site.get('date_regex')
-                date_format = site.get('date_format')
-                article_date = parser.extract_date(soup, date_regex, date_format, url)
-                
-                if article_date:
-                    import datetime
-                    from dateutil import tz
-                    
-                    # Determine current time
-                    now = datetime.datetime.now()
-                    
-                    # Handle timezone awareness
-                    if article_date.tzinfo:
-                        # If article date is aware, make now aware (assume local/system time if not specified, 
-                        # but ideally compare in UTC)
-                        # dateutil parser often returns aware datetimes if TZ abbr is found.
-                        # datetime.now() returns naive local time.
-                        # conversion:
-                        now = datetime.datetime.now(tz=tz.tzlocal())
-                        
-                    # Calculate difference
-                    time_diff = now - article_date
-                    
-                    # Filter: Skip if older than 1 hour (3600 seconds)
-                    # Use total_seconds() to handle timedelta
-                    if time_diff.total_seconds() > 3600:
-                        print(f"    Skipping old article ({time_diff.total_seconds()/3600:.1f}h old): {article_date}")
-                        state_manager.mark_processed(url)
-                        continue
-                    else:
-                        print(f"    Article is fresh ({time_diff.total_seconds()/60:.1f}m ago): {article_date}")
-                else:
-                    if date_regex:
-                        print("    Warning: Date extraction failed despite configuration.")
-
                 # Paywall CSS selector check
                 paywall_selector = site.get('paywall_selector')
                 if paywall_selector and parser.has_paywall(soup, paywall_selector):
@@ -146,28 +105,136 @@ def main():
                     state_manager.mark_processed(url)
                     continue
 
-                # Title Extraction & De-duplication
-                if title:
-                    norm_title = " ".join(title.lower().split())
-                    if norm_title in seen_titles:
-                        print(f"    Skipping duplicate title: {title[:50]}...")
+                if site_type == 'multi_story_page':
+                    container_selector = site.get('container_selector')
+                    title_selector = site.get('title_selector')
+                    content_selector = site.get('content_selector')
+                    
+                    stories = parser.extract_multiple_stories(soup, container_selector, title_selector, content_selector)
+                    print(f"  -> Extracted {len(stories)} stories from page.")
+                    
+                    for story in stories:
+                        title = story['title']
+                        text = story['content']
+                        
+                        # Generate a pseudo-url to track deduplication of these sub-stories
+                        import re
+                        slugifier = re.sub(r'[^a-z0-9]+', '-', title.lower()).strip('-')
+                        pseudo_url = f"{url}#{slugifier}"
+                        
+                        if state_manager.is_processed(pseudo_url):
+                            print(f"    Skipping already processed story: {title[:50]}...")
+                            continue
+                            
+                        # Deduplicate by exact title in current run
+                        norm_title = " ".join(title.lower().split())
+                        if norm_title in seen_titles:
+                            # print(f"    Skipping duplicate title: {title[:50]}...")
+                            state_manager.mark_processed(pseudo_url)
+                            continue
+                        seen_titles.add(norm_title)
+                        
+                        print(f"    Story: {title[:50]}...")
+                        
+                        min_chars = site.get('min_chars', 0)
+                        if len(text) < min_chars:
+                            print(f"    Skipping: Content length ({len(text)} chars) is below minimum of {min_chars}")
+                            state_manager.mark_processed(pseudo_url)
+                            continue
+
+                        full_text = f"{title}\n\n{text}"
+                        max_chars = site.get('max_chars', 3000)
+                        formatted_text = parser.format_for_analysis(full_text, url, max_chars=max_chars)
+                        
+                        if formatted_text:
+                            insights = analyzer.analyze([formatted_text])
+                            significant_insights = [i for i in insights if abs(i['likelihood_score']) > 0]
+                            
+                            if significant_insights:
+                                print(f"  -> Found {len(significant_insights)} insights for story")
+                                for i in significant_insights:
+                                    i['source_url'] = url # Keep original URL for the email
+                                    i['site_name'] = site_name
+                                    
+                                    snippet_hash = hash(i.get('snippet', ''))
+                                    if snippet_hash not in seen_snippets:
+                                        seen_snippets.add(snippet_hash)
+                                        all_insights.append(i)
+                                        
+                        # Mark this sub-story as processed
+                        state_manager.mark_processed(pseudo_url)
+                    
+                    # Also mark the parent URL as processed so we know we hit it today
+                    # But we'll ignore this check at the top of the loop for multi_story_page anyway.
+                    state_manager.mark_processed(url)
+                    
+                else:
+                    # Original single page processing logic
+                    selector = site.get('content_selector') or 'p' 
+                    text = parser.extract_text(soup, selector)
+                    
+                    # Extract Title
+                    title_selector = site.get('title_selector')
+                    title = parser.extract_title(soup, title_selector)
+                    
+                    # Extract and Filter by Date
+                    date_regex = site.get('date_regex')
+                    date_format = site.get('date_format')
+                    article_date = parser.extract_date(soup, date_regex, date_format, url)
+                    
+                    if article_date:
+                        import datetime
+                        from dateutil import tz
+                        
+                        # Determine current time
+                        now = datetime.datetime.now()
+                        
+                        # Handle timezone awareness
+                        if article_date.tzinfo:
+                            # If article date is aware, make now aware (assume local/system time if not specified, 
+                            # but ideally compare in UTC)
+                            # dateutil parser often returns aware datetimes if TZ abbr is found.
+                            # datetime.now() returns naive local time.
+                            # conversion:
+                            now = datetime.datetime.now(tz=tz.tzlocal())
+                            
+                        # Calculate difference
+                        time_diff = now - article_date
+                        
+                        # Filter: Skip if older than 1 hour (3600 seconds)
+                        # Use total_seconds() to handle timedelta
+                        if time_diff.total_seconds() > 3600:
+                            print(f"    Skipping old article ({time_diff.total_seconds()/3600:.1f}h old): {article_date}")
+                            state_manager.mark_processed(url)
+                            continue
+                        else:
+                            print(f"    Article is fresh ({time_diff.total_seconds()/60:.1f}m ago): {article_date}")
+                    else:
+                        if date_regex:
+                            print("    Warning: Date extraction failed despite configuration.")
+
+                    # Title Extraction & De-duplication
+                    if title:
+                        norm_title = " ".join(title.lower().split())
+                        if norm_title in seen_titles:
+                            print(f"    Skipping duplicate title: {title[:50]}...")
+                            state_manager.mark_processed(url)
+                            continue
+                        seen_titles.add(norm_title)
+                        
+                    print(f"    Title: {title[:50]}..." if title else "    No title found")
+                    
+                    # Check text length before scraping
+                    # Typical paywall stubs are under 500-1000 characters
+                    min_chars = site.get('min_chars', 0)
+                    if len(text) < min_chars:
+                        print(f"    Skipping: Content length ({len(text)} chars) is below minimum of {min_chars} (Possible paywall stub)")
                         state_manager.mark_processed(url)
                         continue
-                    seen_titles.add(norm_title)
                     
-                print(f"    Title: {title[:50]}..." if title else "    No title found")
-                
-                # Check text length before scraping
-                # Typical paywall stubs are under 500-1000 characters
-                min_chars = site.get('min_chars', 0)
-                if len(text) < min_chars:
-                    print(f"    Skipping: Content length ({len(text)} chars) is below minimum of {min_chars} (Possible paywall stub)")
-                    state_manager.mark_processed(url)
-                    continue
-                
-                # Format text using legacy encapsulation
-                # Prepend title to the text for analysis context
-                full_text = f"{title}\n\n{text}" if title else text
+                    # Format text using legacy encapsulation
+                    # Prepend title to the text for analysis context
+                    full_text = f"{title}\n\n{text}" if title else text
                 
                 max_chars = site.get('max_chars', 3000)
                 formatted_text = parser.format_for_analysis(full_text, url, max_chars=max_chars)

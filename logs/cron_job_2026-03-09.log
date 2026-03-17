@@ -6600,3 +6600,170 @@ Filtering negative insights: score <= 25, sentiment <= -0.6
 No insights met the thresholds.
 Job completed.
 Job finished at Mon Mar  9 05:02:48 PM CDT 2026
+Starting job at Mon Mar  9 06:00:01 PM CDT 2026
+ERROR:root:Error analyzing text: 'NoneType' object has no attribute 'start'
+ERROR:root:Error analyzing text: 'NoneType' object has no attribute 'start'
+ERROR:root:Error analyzing text: 'NoneType' object has no attribute 'start'
+ERROR:root:Error analyzing text: 'NoneType' object has no attribute 'start'
+Starting Stock Data Analysis Job...
+StateManager using local file.
+Fetching URLs from sitemap: https://bw-prod-sitemap.s3.us-east-1.amazonaws.com/webdmz1.vaprod.businesswire.com/home/2026-03-09.xml.gz
+Parsing sitemap: https://bw-prod-sitemap.s3.us-east-1.amazonaws.com/webdmz1.vaprod.businesswire.com/home/2026-03-09.xml.gz
+Found 250 URLs to process for BusinessWire
+Processing: http://www.businesswire.com/news/home/20260309351903/en/Distribution-Solutions-Group-Announces-Acquisition-of-Eastern-Valve-Control-Specialties
+Fetching URL: https://www.businesswire.com/news/home/20260309351903/en/Distribution-Solutions-Group-Announces-Acquisition-of-Eastern-Valve-Control-Specialties
+Primed session for: https://www.businesswire.com (status: 200)
+    Skipping old article (18.0h old): 2026-03-09 00:00:00
+Fetching URLs from page: https://www.stockwatch.com/News/Search?hours=24&region=U
+Fetching URL: https://www.stockwatch.com/News/Search?hours=24&region=U
+Primed session for: https://www.stockwatch.com (status: 200)
+Found 200 URLs to process for StockWatch
+Processing: https://www.stockwatch.com/News/Item/U-b20260309351903-U!DSGR-20260309/U/DSGR
+Fetching URL: https://www.stockwatch.com/News/Item/U-b20260309351903-U!DSGR-20260309/U/DSGR
+    Article is fresh (-29.8m ago): 2026-03-09 18:30:00
+    Title: Distribution Solutions Group Announces Acquisition...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9668796-U!ARQ-20260309/U/ARQ
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9668796-U!ARQ-20260309/U/ARQ
+    Article is fresh (-38.8m ago): 2026-03-09 18:39:00
+    Title: Arq Reports Fourth Quarter and Full Year 2025 Resu...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-TO05747-U!MPVD-20260309/U/MPVD
+Fetching URL: https://www.stockwatch.com/News/Item/U-TO05747-U!MPVD-20260309/U/MPVD
+    Article is fresh (0.3m ago): 2026-03-09 18:00:00
+    Title: Mountain Province Diamonds Announces Guidance for ...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9668765-U!PAC-20260309/U/PAC
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9668765-U!PAC-20260309/U/PAC
+    Article is fresh (-9.7m ago): 2026-03-09 18:10:00
+    Title: Grupo Aeroportuario del Pacifico Announces Annual ...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-DC06159-U!LWAY-20260309/U/LWAY
+Fetching URL: https://www.stockwatch.com/News/Item/U-DC06159-U!LWAY-20260309/U/LWAY
+    Article is fresh (-39.7m ago): 2026-03-09 18:40:00
+    Title: Lifeway Foods® to Report Fourth Quarter and Full Y...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-z9668770-U!WALRF-20260309/U/WALRF
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9668770-U!WALRF-20260309/U/WALRF
+    Article is fresh (-17.6m ago): 2026-03-09 18:18:00
+    Title: MegaWatt Announces Proposed Consolidation of Share...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-s0154246-U!-20260309/U/
+Fetching URL: https://www.stockwatch.com/News/Item/U-s0154246-U!-20260309/U/
+Error fetching https://www.stockwatch.com/News/Item/U-s0154246-U!-20260309/U/: HTTP Error 404: Not Found
+Processing: https://www.stockwatch.com/News/Item/U-C4393-U!MPVD-20260309/U/MPVD
+Fetching URL: https://www.stockwatch.com/News/Item/U-C4393-U!MPVD-20260309/U/MPVD
+    Article is fresh (0.4m ago): 2026-03-09 18:00:00
+    Skipping duplicate title: Mountain Province Diamonds Announces Guidance for ...
+Processing: https://www.stockwatch.com/News/Item/U-z9668808-U!MAXXF-20260309/U/MAXXF
+Fetching URL: https://www.stockwatch.com/News/Item/U-z9668808-U!MAXXF-20260309/U/MAXXF
+    Article is fresh (-48.6m ago): 2026-03-09 18:49:00
+    Title: MAX Power Announces $20 Million Brokered Offering...
+  -> Found 1 insights
+Processing: https://www.stockwatch.com/News/Item/U-C9091-U!GSRFF-20260309/U/GSRFF
+Fetching URL: https://www.stockwatch.com/News/Item/U-C9091-U!GSRFF-20260309/U/GSRFF
+    Article is fresh (-14.5m ago): 2026-03-09 18:15:00
+    Title: Golden Shield Announces Non-Brokered Private Place...
+  -> Found 1 insights
+Fetching URLs from page: https://www.investing.com/news/latest-news
+Fetching URL: https://www.investing.com/news/latest-news
+Primed session for: https://www.investing.com (status: 200)
+Found 250 URLs to process for Investing.com
+Processing: https://www.investing.com/news/stock-market-news/beta-technologies-speeds-up-development-of-military-cargo-drone-wins-faa-grants-4550787
+Fetching URL: https://www.investing.com/news/stock-market-news/beta-technologies-speeds-up-development-of-military-cargo-drone-wins-faa-grants-4550787
+    Article is fresh (10.7m ago): 2026-03-09 17:50:00
+    Title: Beta Technologies speeds up development of militar...
+Processing: https://www.investing.com/news/pro/distribution-solutions-group-acquires-eastern-valve--control-specialties-432SI-4550818
+Fetching URL: https://www.investing.com/news/pro/distribution-solutions-group-acquires-eastern-valve--control-specialties-432SI-4550818
+    Article is fresh (-31.3m ago): 2026-03-09 18:32:00
+    Title: Distribution Solutions Group acquires Eastern Valv...
+    Skipping: Content length (0 chars) is below minimum of 1000 (Possible paywall stub)
+Processing: https://www.investing.com/news/politics-news/trump-doj-improperly-installed-new-jersey-prosecutors-judge-rules-4550832
+Fetching URL: https://www.investing.com/news/politics-news/trump-doj-improperly-installed-new-jersey-prosecutors-judge-rules-4550832
+    Article is fresh (-36.2m ago): 2026-03-09 18:37:00
+    Title: Trump DOJ improperly installed New Jersey prosecut...
+Processing: https://www.investing.com/news/stock-market-news/joby-aviation-stock-jumps-on-white-house-pilot-program-win-93CH-4550784
+Fetching URL: https://www.investing.com/news/stock-market-news/joby-aviation-stock-jumps-on-white-house-pilot-program-win-93CH-4550784
+    Article is fresh (9.8m ago): 2026-03-09 17:51:00
+    Title: Joby Aviation stock jumps on White House pilot pro...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/commodities-news/venezuela-acting-government-sends-mining-reform-bill-to-legislature-4550816
+Fetching URL: https://www.investing.com/news/commodities-news/venezuela-acting-government-sends-mining-reform-bill-to-legislature-4550816
+    Article is fresh (-27.1m ago): 2026-03-09 18:28:00
+    Title: Venezuela acting government sends mining reform bi...
+Processing: https://www.investing.com/news/stock-market-news/lockheed-martin-wins-761-million-in-us-defense-contracts-93CH-4550788
+Fetching URL: https://www.investing.com/news/stock-market-news/lockheed-martin-wins-761-million-in-us-defense-contracts-93CH-4550788
+    Article is fresh (6.9m ago): 2026-03-09 17:54:00
+    Title: Lockheed Martin wins $761 million in U.S. defense ...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/insider-trading-news/biglari-holdings-lion-fund-lp-buys-999k-in-shares-93CH-4550836
+Fetching URL: https://www.investing.com/news/insider-trading-news/biglari-holdings-lion-fund-lp-buys-999k-in-shares-93CH-4550836
+    Article is fresh (-51.1m ago): 2026-03-09 18:52:00
+    Title: Biglari Holdings lion fund L.P. buys $999k in shar...
+  -> Found 1 insights
+Processing: https://www.investing.com/news/earnings/repay-holdings-shares-jump-6-on-strong-q4-results-upbeat-2026-outlook-93CH-4550702
+Fetching URL: https://www.investing.com/news/earnings/repay-holdings-shares-jump-6-on-strong-q4-results-upbeat-2026-outlook-93CH-4550702
+    Article is fresh (50.0m ago): 2026-03-09 17:11:00
+    Title: Repay Holdings shares jump 6% on strong Q4 results...
+Processing: https://www.investing.com/news/commodities-news/trump-says-us-is-waiving-certain-oilrelated-sanctions-to-ensure-supply-4550831
+Fetching URL: https://www.investing.com/news/commodities-news/trump-says-us-is-waiving-certain-oilrelated-sanctions-to-ensure-supply-4550831
+    Article is fresh (-38.9m ago): 2026-03-09 18:40:00
+    Title: Trump says US is waiving certain oil-related sanct...
+    Skipping: Content length (721 chars) is below minimum of 1000 (Possible paywall stub)
+ERROR:root:Error analyzing text: 'NoneType' object has no attribute 'start'
+ERROR:root:Error analyzing text: 'NoneType' object has no attribute 'start'
+Processing: https://www.investing.com/news/economy-news/fed-chair-powell-held-13-calls-with-us-lawmakers-in-week-after-doj-probe-disclosure-4550766
+Fetching URL: https://www.investing.com/news/economy-news/fed-chair-powell-held-13-calls-with-us-lawmakers-in-week-after-doj-probe-disclosure-4550766
+    Article is fresh (20.1m ago): 2026-03-09 17:41:00
+    Title: Fed Chair Powell held 13 calls with US lawmakers i...
+Fetching Yahoo Finance News URLs from: https://finance.yahoo.com/topic/stock-market-news/
+Fetching URL: https://finance.yahoo.com/topic/stock-market-news/
+Primed session for: https://finance.yahoo.com (status: 200)
+Found 48 URLs to process for Yahoo Finance
+Processing: https://finance.yahoo.com/news/3-reasons-avoid-gbci-1-214916695.html
+Fetching URL: https://finance.yahoo.com/news/3-reasons-avoid-gbci-1-214916695.html
+    Title: Yahoo Finance...
+Processing: https://finance.yahoo.com/news/ceo-greg-abel-just-bought-185736567.html
+Fetching URL: https://finance.yahoo.com/news/ceo-greg-abel-just-bought-185736567.html
+    Skipping duplicate title: Yahoo Finance...
+Processing: https://finance.yahoo.com/news/hims-hers-stock-challenging-50-194524152.html
+Fetching URL: https://finance.yahoo.com/news/hims-hers-stock-challenging-50-194524152.html
+    Skipping duplicate title: Yahoo Finance...
+Processing: https://finance.yahoo.com/news/spotting-winners-mister-car-wash-222416781.html
+Fetching URL: https://finance.yahoo.com/news/spotting-winners-mister-car-wash-222416781.html
+    Skipping duplicate title: Yahoo Finance...
+Processing: https://finance.yahoo.com/news/q4-earnings-highlights-seagate-nasdaq-221416783.html
+Fetching URL: https://finance.yahoo.com/news/q4-earnings-highlights-seagate-nasdaq-221416783.html
+    Skipping duplicate title: Yahoo Finance...
+Processing: https://finance.yahoo.com/news/palantir-stock-forecast-pltr-heading-193225339.html
+Fetching URL: https://finance.yahoo.com/news/palantir-stock-forecast-pltr-heading-193225339.html
+    Skipping duplicate title: Yahoo Finance...
+Processing: https://finance.yahoo.com/news/large-format-grocery-general-merchandise-220916994.html
+Fetching URL: https://finance.yahoo.com/news/large-format-grocery-general-merchandise-220916994.html
+    Skipping duplicate title: Yahoo Finance...
+Processing: https://finance.yahoo.com/news/modern-fast-food-stocks-q4-223416566.html
+Fetching URL: https://finance.yahoo.com/news/modern-fast-food-stocks-q4-223416566.html
+    Skipping duplicate title: Yahoo Finance...
+Processing: https://finance.yahoo.com/news/beverages-alcohol-tobacco-stocks-q4-221916225.html
+Fetching URL: https://finance.yahoo.com/news/beverages-alcohol-tobacco-stocks-q4-221916225.html
+    Skipping duplicate title: Yahoo Finance...
+Processing: https://finance.yahoo.com/news/q4-earnings-highs-lows-azz-222916643.html
+Fetching URL: https://finance.yahoo.com/news/q4-earnings-highs-lows-azz-222916643.html
+    Skipping duplicate title: Yahoo Finance...
+Processing: https://finance.yahoo.com/news/engineered-components-systems-stocks-q4-220416656.html
+Fetching URL: https://finance.yahoo.com/news/engineered-components-systems-stocks-q4-220416656.html
+    Skipping duplicate title: Yahoo Finance...
+Processing: https://finance.yahoo.com/news/amd-amd-stock-know-223916422.html
+Fetching URL: https://finance.yahoo.com/news/amd-amd-stock-know-223916422.html
+    Skipping duplicate title: Yahoo Finance...
+Processing: https://finance.yahoo.com/news/years-defense-stock-rally-largely-210251249.html
+Fetching URL: https://finance.yahoo.com/news/years-defense-stock-rally-largely-210251249.html
+    Skipping duplicate title: Yahoo Finance...
+Processing: https://finance.yahoo.com/news/heres-much-traders-expect-oracle-210347139.html
+Fetching URL: https://finance.yahoo.com/news/heres-much-traders-expect-oracle-210347139.html
+    Skipping duplicate title: Yahoo Finance...
+Filtering positive insights: score >= 85, sentiment >= 0.6
+Filtering negative insights: score <= 25, sentiment <= -0.6
+No insights met the thresholds.
+Job completed.
+Job finished at Mon Mar  9 06:01:54 PM CDT 2026

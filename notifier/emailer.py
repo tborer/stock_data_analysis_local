@@ -158,6 +158,17 @@ class Emailer:
                 html += build_card(insight, is_positive=False)
                 
         html += """
+          <div style="margin-top: 24px; padding-top: 20px; border-top: 1px solid #1e293b; text-align: center;">
+            <div style="color: #64748b; font-size: 11px; line-height: 1.5; margin-bottom: 20px; text-align: left;">
+              <p style="margin: 0 0 8px 0;">These insights should be used as part of a well balanced research and analysis effort. They should not be taken solely as indication of changes and investments made based on only this information.</p>
+              <p style="margin: 0;">The data sources we use are subject to change and as such, we may have to make adjustments to continue to use the data.</p>
+            </div>
+            <div>
+              <a href="mailto:?subject=Check%20out%20this%20Stock%20Analysis%20Report" style="display: inline-block; color: #94a3b8; font-size: 12px; text-decoration: none; margin: 0 12px; font-weight: bold; text-transform: uppercase; letter-spacing: 0.5px;">Share with a Friend</a>
+              <span style="color: #334155; margin: 0;">|</span>
+              <a href="https://billing.stripe.com/p/login/9AQ15k2zx5kMgaA9AA" style="display: inline-block; color: #94a3b8; font-size: 12px; text-decoration: none; margin: 0 12px; font-weight: bold; text-transform: uppercase; letter-spacing: 0.5px;">Manage Your Account</a>
+            </div>
+          </div>
         </div>
         """
         

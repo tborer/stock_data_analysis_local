@@ -52,3 +52,13 @@ sites:
     title_selector: "h1"
     paywall_selector: ".paywall, .premium-content"
 
+  - name: "Briefing.com Story Stocks"
+    url: "https://www.briefing.com/Inv/content/StoryStocks/default.htm"
+    type: "multi_story_page"
+    container_selector: "div.story-row-no-hover"
+    title_selector: ".colTitle"
+    content_selector: "p, ul"
+    max_urls: 50
+    max_chars: 3500
+    min_chars: 200
+

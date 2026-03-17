@@ -289,3 +289,46 @@ class Parser:
                 print(f"Error checking paywall selector '{selector}': {e}")
                 
         return False
+
+    def extract_multiple_stories(self, soup, container_selector, title_selector, content_selector):
+        """Extracts multiple independent stories from a single page."""
+        stories = []
+        if not soup or not container_selector:
+            return stories
+            
+        containers = soup.select(container_selector)
+        for container in containers:
+            # Title
+            title = ""
+            if title_selector:
+                title_elem = container.select_one(title_selector)
+                if title_elem:
+                    title = title_elem.get_text(strip=True)
+            
+            # If no title could be found via selector, try generic headers
+            if not title:
+                header = container.find(['h1', 'h2', 'h3', 'h4', 'h5'])
+                if header:
+                    title = header.get_text(strip=True)
+                    
+            # Skip if we can't find a title at all, it's likely not a real story container
+            if not title:
+                continue
+                
+            # Content
+            content = ""
+            if content_selector:
+                # content_selector can be a comma separated list
+                content_elems = container.select(content_selector)
+                content = " ".join([e.get_text(separator=' ', strip=True) for e in content_elems])
+            else:
+                paragraphs = container.find_all('p')
+                content = " ".join([p.get_text(separator=' ', strip=True) for p in paragraphs])
+                
+            stories.append({
+                'title': title,
+                'content': content
+            })
+            
+        return stories
+

@@ -86,42 +86,42 @@ class Analyzer:
                     ticker = match.group(1).strip()
                     exchange = ex_name
                 
-                # Attempt to extract Company Name
-                # Look at the text immediately preceding the match start
-                # We want consecutive capitalized words.
-                match_start = match.start()
-                preceding_text = text[:match_start].strip()
-                
-                # Split by non-word chars (keeping spaces) to analyze words
-                # Working backwards:
-                words = preceding_text.split()
-                company_words = []
-                for w in reversed(words):
-                    # Clean punctuation first
-                    clean_w = w.strip("(),.")
+                    # Attempt to extract Company Name
+                    # Look at the text immediately preceding the match start
+                    # We want consecutive capitalized words.
+                    match_start = match.start()
+                    preceding_text = text[:match_start].strip()
                     
-                    if not clean_w:
-                        continue
-
-                    # Check if word starts with uppercase (and isn't just a tiny stop word if we want to be strict, but mainly check Case)
-                    if clean_w[0].isupper():
-                        # If we have existing words and this is a Capitalized word, add it
-                        company_words.insert(0, clean_w)
-                    elif clean_w.lower() in ['inc', 'ltd', 'corp', 'group', 'holdings'] and not company_words:
-                         # Allow these suffix words even if lowercase in some sloppy text, but usually they are Cap.
-                         pass 
-                    else:
-                        # Stop if we hit a lowercase word (likely "announced", "that", "the")
-                        # Exception: "of" in "Bank of America"
-                        if clean_w.lower() == 'of' and company_words:
-                            company_words.insert(0, w) # keep original w for "of"
+                    # Split by non-word chars (keeping spaces) to analyze words
+                    # Working backwards:
+                    words = preceding_text.split()
+                    company_words = []
+                    for w in reversed(words):
+                        # Clean punctuation first
+                        clean_w = w.strip("(),.")
+                        
+                        if not clean_w:
                             continue
-                        break
-                
-                if company_words:
-                    company = " ".join(company_words)
-                
-                break
+
+                        # Check if word starts with uppercase (and isn't just a tiny stop word if we want to be strict, but mainly check Case)
+                        if clean_w[0].isupper():
+                            # If we have existing words and this is a Capitalized word, add it
+                            company_words.insert(0, clean_w)
+                        elif clean_w.lower() in ['inc', 'ltd', 'corp', 'group', 'holdings'] and not company_words:
+                             # Allow these suffix words even if lowercase in some sloppy text, but usually they are Cap.
+                             pass 
+                        else:
+                            # Stop if we hit a lowercase word (likely "announced", "that", "the")
+                            # Exception: "of" in "Bank of America"
+                            if clean_w.lower() == 'of' and company_words:
+                                company_words.insert(0, w) # keep original w for "of"
+                                continue
+                            break
+                    
+                    if company_words:
+                        company = " ".join(company_words)
+                    
+                    break
 
         # 1. VaderSentiment analysis (General Tone) - Sentence Level Averaging
         # Split by common sentence terminators (. ! ?)
