@@ -62,7 +62,18 @@ sites:
     max_chars: 3500
     min_chars: 200
 
-    #prnewswire.com
+  - name: "PRNewswire"
+    url: "https://www.prnewswire.com/news-releases/news-releases-list/?page=1&pagesize=100"
+    type: "page"
+    max_urls: 150
+    max_chars: 3500
+    min_chars: 1000
+    include_filters:
+      - "/news-releases/"
+    content_selector: ".release-body"
+    title_selector: "h1"
+    date_regex: '([A-Za-z]{3} \d{1,2}, \d{4}, \d{2}:\d{2} ET)'
+    date_format: "%b %d, %Y, %H:%M ET"
     #https://www.investors.com/tag/all-news-and-stock-ideas/
     #https://www.reuters.com/markets/us/
 
