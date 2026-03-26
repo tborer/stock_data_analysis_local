@@ -7,12 +7,13 @@ class Emailer:
     def __init__(self):
         self.sender = settings.email_sender
         self.password = settings.email_password
-        self.recipient = settings.email_recipient
+        self.recipients = settings.email_recipients
+        self.bcc = settings.email_bcc
         self.smtp_server = settings.smtp_server
         self.smtp_port = settings.smtp_port
 
     def send_email(self, subject, body):
-        if not self.sender or not self.password or not self.recipient:
+        if not self.sender or not self.password or (not self.recipients and not self.bcc):
             print("Email configuration missing. Skipping email.")
             return
 
@@ -24,7 +25,10 @@ class Emailer:
             msg = MIMEMultipart('alternative')
             msg['Subject'] = subject
             msg['From'] = f"Stock Analyzer <{self.sender}>"
-            msg['To'] = self.recipient
+            if self.recipients:
+                msg['To'] = ", ".join(self.recipients)
+            if self.bcc:
+                msg['Bcc'] = ", ".join(self.bcc)
             msg['Date'] = formatdate(localtime=True)
             msg['Message-ID'] = make_msgid()
 
@@ -53,9 +57,11 @@ class Emailer:
                 server.starttls()
             server.login(self.sender, self.password)
             text = msg.as_string()
-            server.sendmail(self.sender, self.recipient, text)
+            
+            all_recipients = self.recipients + self.bcc
+            server.sendmail(self.sender, all_recipients, text)
             server.quit()
-            print(f"Email sent to {self.recipient}")
+            print(f"Email sent to To: {self.recipients}, Bcc: {self.bcc}")
         except Exception as e:
             print(f"Failed to send email: {e}")
 

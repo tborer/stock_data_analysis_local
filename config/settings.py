@@ -9,7 +9,13 @@ class Settings:
     def __init__(self):
         self.email_sender = os.getenv("EMAIL_SENDER")
         self.email_password = os.getenv("EMAIL_PASSWORD")
-        self.email_recipient = os.getenv("EMAIL_RECIPIENT")
+        
+        recipient_str = os.getenv("EMAIL_RECIPIENT", "")
+        self.email_recipients = [r.strip() for r in recipient_str.split(',')] if recipient_str else []
+        
+        bcc_str = os.getenv("EMAIL_BCC", "")
+        self.email_bcc = [b.strip() for b in bcc_str.split(',')] if bcc_str else []
+        
         self.smtp_server = os.getenv("SMTP_SERVER", "smtp.gmail.com")
         self.smtp_port = int(os.getenv("SMTP_PORT", 587))
         
