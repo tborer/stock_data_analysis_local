@@ -76,5 +76,9 @@ sites:
     date_format: "%b %d, %Y, %H:%M ET"
     #https://www.investors.com/tag/all-news-and-stock-ideas/
     #https://www.reuters.com/markets/us/
+    #SEC EDGAR Database has free filings and reports
+    #stockanalysis.com has free financial statements
+    #public registers annual reports has free data
+    #SEC financial statement data for free
 
 
